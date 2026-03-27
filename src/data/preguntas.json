@@ -12,7 +12,7 @@
       "Priorizar la historia de las ideas y las normas morales por encima de las acciones de los individuos y los condicionantes económicos."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Ander-Egg explica que el Trabajo Social no es un hecho aislado, sino que está en una relación dialéctica con su contexto socio-político (pág. 19-22)."
+    "justificacion": "Ander-Egg sostiene que los fenómenos sociales no existen aislados. Afirma que las prácticas sociales están condicionadas por situaciones contextuales, pero a su vez pueden influir en ellas para producir cambios o mantener la realidad. Centrarse solo en un aspecto sin su contexto global es una forma de alienación[cite: 192, 193, 201]."
   },
   {
     "id": "002",
@@ -27,7 +27,7 @@
       "La limitación de la intervención social exclusivamente a la reforma de las costumbres y la moral individual del proletariado."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Richmond establece que el diagnóstico es un proceso investigativo para definir la situación social del cliente, superando la etapa intuitiva (págs. 170-171)."
+    "justificacion": "Mary Richmond fue la primera en proclamar que las buenas intenciones y el sentido común no bastan. Su obra 'Social Diagnosis' representa el primer intento de sistematización profesional, estableciendo que el diagnóstico es un proceso investigativo que busca una definición exacta de la situación social y personalidad del cliente[cite: 144, 170, 184]."
   },
   {
     "id": "003",
@@ -42,7 +42,7 @@
       "El enfoque cualitativo utiliza solo hipótesis estadísticas de nulidad, a diferencia del cuantitativo que emplea supuestos teóricos."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "El autor señala que en investigaciones cualitativas la hipótesis suele ser el resultado del estudio o se refina durante el mismo, a diferencia del rigor previo del enfoque cuantitativo (pág. 146-147)."
+    "justificacion": "El texto aclara que, aunque las hipótesis son fundamentales en el diseño, en el enfoque cualitativo estas no se establecen rígidamente al inicio, sino que pueden surgir de la observación, la experiencia y el proceso mismo de recolección de datos para ser refinadas[cite: 1070, 1071, 1073]."
   },
   {
     "id": "004",
@@ -57,7 +57,7 @@
       "Cuando se logra validar la teoría emergente mediante una encuesta cuantitativa de alcance nacional."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "La saturación ocurre cuando la inclusión de nuevos datos no añade nada nuevo a la comprensión de las categorías desarrolladas (pág. 93)."
+    "justificacion": "La saturación teórica se define como el criterio que determina el fin del muestreo teórico. Se alcanza cuando la información nueva ya no contribuye al desarrollo de las propiedades de las categorías de análisis, lo que indica que la categoría está conceptualmente completa[cite: 1621, 1641, 1646]."
   },
   {
     "id": "005",
@@ -72,7 +72,7 @@
       "La eliminación de las barreras de clase gracias a la homogeneización democrática de la cultura de masas."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Horkheimer y Adorno sostienen que la razón se desvía hacia una lógica de eficiencia técnica que domina la naturaleza y al hombre (pág. 56-57)."
+    "justificacion": "Horkheimer y Adorno critican que la razón se ha desviado hacia una racionalidad técnica y calculadora. Esto convierte al conocimiento en poder y a la naturaleza y al hombre en simples objetos de control para el aprovechamiento económico, lo que llaman 'barbarie'[cite: 2176, 2181, 2182]."
   },
   {
     "id": "006",
@@ -87,7 +87,7 @@
       "El 'Yo' y el 'Mí' se fusionan permanentemente en un estado estático que impide la innovación individual y el cambio social."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "El 'Me' es el conjunto de actitudes organizadas de los otros que el individuo asume, mientras que el 'I' es la reacción del individuo a esas actitudes (pág. 1-3)."
+    "justificacion": "Mead define al 'me' como la serie de actitudes organizadas de los otros que adopta el individuo, siendo el cauce de manifestación del 'I'. El 'I' es el elemento activo e innovador, pero su adaptación es mediada por el 'me', que ejerce el control social[cite: 3595, 3596, 3609, 3610]."
   },
   {
     "id": "007",
@@ -102,7 +102,7 @@
       "El desmantelamiento del Estado centralizado para favorecer el libre mercado absoluto promovido por los manchesterianos."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Ander-Egg describe las leyes sociales de Bismarck como un mecanismo de control social para frenar al socialismo (pág. 120-122)."
+    "justificacion": "Ander-Egg explica que la seguridad social fue promovida por un gobierno conservador como un 'antídoto contrarrevolucionario'. El objetivo de Bismarck no era el cambio estructural, sino el estímulo del bienestar obrero para contener las revueltas y consolidar el orden establecido[cite: 137, 138]."
   },
   {
     "id": "008",
@@ -117,7 +117,7 @@
       "Que la intervención debe centrarse únicamente en los objetos materiales que rodean al sujeto en su entorno inmediato."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Los hechos sociales consisten en maneras de obrar, pensar y sentir, exteriores al individuo, y que poseen una fuerza coercitiva en virtud de la cual se le imponen (pág. 30-35)."
+    "justificacion": "Según Durkheim, la regla fundamental es considerar los hechos sociales como cosas, lo que exige que el sociólogo o trabajador social se desprenda de nociones vulgares y analice el fenómeno desde fuera, basándose en datos objetivos y coactivos que no dependen de la voluntad del observador."
   },
   {
     "id": "009",
@@ -132,7 +132,7 @@
       "Es un dogma ideológico que el trabajador social debe imponer al sujeto para lograr el cambio social esperado."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "El modelo articula la teoría con la práctica, permitiendo al profesional abordar la realidad de forma estructurada (pág. 4-6)."
+    "justificacion": "El modelo se presenta como un esquema de referencia que articula teoría y práctica. A diferencia del método (que es el camino general), el modelo ofrece una estructura específica de interpretación y actuación basada en un marco teórico determinado (psicodinámico, sistémico, etc.)."
   },
   {
     "id": "010",
@@ -147,7 +147,7 @@
       "La subordinación de las ciencias sociales a las ciencias exactas para garantizar la validez del diagnóstico."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Reconoce que la salud y la enfermedad son procesos condicionados por la estructura social y la historia de los sujetos (pág. 1)."
+    "justificacion": "El texto resalta que el paradigma biosocial reconoce la naturaleza social de la práctica científica y argumenta que los hechos empíricos de salud no pueden entenderse aislados de la estructura social y los valores de los agentes."
   },
   {
     "id": "011",
@@ -162,7 +162,7 @@
       "Razonamiento Dialéctico; su limitación es la imposibilidad de llegar a una síntesis entre tesis y antítesis."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "La inducción parte de casos particulares; por muchos que sean, no se puede asegurar lógicamente que el próximo caso será igual (pág. 182-185)."
+    "justificacion": "Dávila Newman explica que el razonamiento inductivo parte de lo particular a lo general. Es fundamental en la investigación social para descubrir patrones, pero lógicamente no permite una generalización totalitaria, ya que un solo caso discordante podría invalidar la conclusión general."
   },
   {
     "id": "012",
@@ -177,7 +177,7 @@
       "El registro documental exhaustivo de las carencias del sujeto para fines puramente académicos."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "La intervención busca la autonomía del sujeto, no solo la resolución de un problema inmediato (pág. 4)."
+    "justificacion": "La metodología en Trabajo Social se define como un proceso de transformación mutua. No se trata solo de aplicar pasos, sino de incidir en los cambios sociales y en la autonomía de los sujetos para que sean agentes de su propio cambio."
   },
   {
     "id": "013",
@@ -192,7 +192,7 @@
       "Cuando el fenómeno no produce ningún tipo de daño económico a las instituciones."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Un hecho social es normal cuando se observa en la mayoría de los individuos de una especie social en la misma fase de su evolución (pág. 70-75)."
+    "justificacion": "Durkheim argumenta que un hecho social es normal para un tipo social determinado, en una fase determinada de su desarrollo, cuando se produce en el promedio de las sociedades de esa especie. Sorprendentemente, considera que un nivel de delito es normal porque es inherente a las condiciones de toda vida social y ayuda a definir la conciencia colectiva."
   },
   {
     "id": "014",
@@ -207,7 +207,7 @@
       "La fusión del estructuralismo con el existencialismo sartreano para priorizar la libertad individual sobre la norma social."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Fue una alternativa intelectual que estabilizó el pensamiento ante el voluntarismo revolucionario de la época (pág. 166-167)."
+    "justificacion": "El texto señala que Lévi-Strauss reconvirtió el funcionalismo (de imagen capitalista-imperialista) en estructuralismo para hacerlo 'vendible' en una Francia que buscaba autonomía de EE.UU., presentándolo como una opción que cuestionaba el voluntarismo de los movimientos críticos de la época."
   },
   {
     "id": "015",
@@ -222,7 +222,7 @@
       "Como una división técnica donde lo cualitativo solo se aplica a la enfermería y lo cuantitativo a la medicina clínica."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "El autor aboga por la complementariedad: lo cuantitativo mide hechos, lo cualitativo interpreta sentidos (pág. 9)."
+    "justificacion": "Los autores concluyen que hecho y significado son dimensiones ortogonales que descifran la realidad. Parafraseando a Ortega y Gasset, afirman que la única perspectiva errónea es la perspectiva única, abogando por la complementariedad para entender la singularidad humana."
   },
   {
     "id": "016",
@@ -237,7 +237,7 @@
       "Que el orden social debe basarse en la fe religiosa para garantizar la cohesión de los hechos observables."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Se limita a lo real y verificable, rechazando abstracciones que no pueden ser probadas por la experiencia (pág. 34)."
+    "justificacion": "El positivismo, según el texto, se caracteriza por el rechazo a la metafísica. Propone que la ciencia debe estudiar lo real, lo fenoménico y lo verificable, buscando leyes constantes en lugar de esencias o causas primeras."
   },
   {
     "id": "017",
@@ -252,7 +252,7 @@
       "Limitar el marco teórico para que el investigador no tenga que consultar fuentes bibliográficas adicionales."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Es un puente entre la teoría y la realidad empírica (pág. 125)."
+    "justificacion": "Espinoza Freire define la hipótesis como un eslabón entre la teoría y la investigación empírica. Su función es ofrecer una explicación provisional que orienta el proceso investigativo, permitiendo probar si las suposiciones son apoyadas por los hechos."
   },
   {
     "id": "018",
@@ -267,7 +267,7 @@
       "Para impedir que otros investigadores puedan replicar el estudio en contextos diferentes."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Permite enfocar la investigación en una parcela manejable de la realidad (pág. 103)."
+    "justificacion": "El planteamiento del problema debe ser preciso. La delimitación permite que el estudio sea factible dentro de los recursos disponibles y garantiza que el análisis sea profundo sobre un objeto de estudio claramente identificado, en lugar de intentar abarcar una realidad inabarcable."
   },
   {
     "id": "019",
@@ -282,97 +282,7 @@
       "La perspectiva EMIC es exclusiva de las ciencias naturales y la ETIC de las ciencias sociales."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Busca entender la cultura desde dentro de la comunidad estudiada (pág. 1)."
-  },
-  {
-    "id": "020",
-    "eje": "Historia",
-    "tema": "Reconceptualizacion del Trabajo Social en America Latina",
-    "lectura_origen": "Historia del Trabajo Social / Boris Lima",
-    "pregunta": "Cual fue el planteamiento central del movimiento de Reconceptualizacion del Trabajo Social latinoamericano en las decadas de 1960 y 1970?",
-    "opciones": [
-      "Adoptar el modelo anglosajón de casework como metodo unico de intervencion profesional.",
-      "Cuestionar el caracter asistencialista y acritico del Trabajo Social tradicional, proponiendo una practica comprometida con la transformacion social y la liberacion de los sectores oprimidos.",
-      "Separar definitivamente el Trabajo Social de las ciencias sociales para consolidarlo como disciplina tecnica neutral.",
-      "Priorizar la formacion academica sobre la intervencion directa con comunidades populares."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "La Reconceptualizacion busco superar el asistencialismo y el trasplante acritico de modelos externos, articulando el Trabajo Social con proyectos de transformacion social (pag. 45-50)."
-  },
-  {
-    "id": "021",
-    "eje": "Metodología",
-    "tema": "Triangulacion en la investigacion social",
-    "lectura_origen": "Metodologia de la investigacion social / Hernandez Sampieri",
-    "pregunta": "En el diseño de una investigacion mixta sobre exclusion social, una investigadora decide combinar encuestas estadisticas con entrevistas en profundidad y analisis documental. Que estrategia metodologica describe esta decision?",
-    "opciones": [
-      "Saturacion teorica, porque se busca el punto en que los datos no aportan informacion nueva.",
-      "Triangulacion metodologica, porque se usan multiples fuentes y metodos para contrastar y validar los hallazgos desde distintas perspectivas.",
-      "Muestreo teorico, porque la seleccion de informantes sigue criterios conceptuales predefinidos.",
-      "Reduccion fenomenologica, porque se suspende el juicio previo del investigador ante las evidencias."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "La triangulacion metodologica consiste en combinar diferentes metodos y fuentes para obtener una comprension mas completa y validada del fenomeno estudiado (pag. 557-559)."
-  },
-  {
-    "id": "022",
-    "eje": "Teoría",
-    "tema": "Capital Social y redes de reciprocidad",
-    "lectura_origen": "El Capital Social / Pierre Bourdieu",
-    "pregunta": "Bourdieu define el capital social como el conjunto de recursos vinculados a la posesion de una red durable de relaciones. En el marco del Trabajo Social comunitario, que implicacion tiene este concepto para el analisis de la pobreza urbana?",
-    "opciones": [
-      "La pobreza es exclusivamente resultado de la carencia de capital economico, por lo que el capital social carece de valor explicativo.",
-      "El capital social demuestra que el acceso a recursos no depende solo del ingreso individual, sino tambien de las redes de pertenencia, lo que explica desigualdades invisibles entre grupos con ingresos similares.",
-      "Las redes comunitarias solo refuerzan el clientelismo politico y no constituyen un recurso genuino.",
-      "El capital social es un concepto aplicable unicamente a elites economicas que acceden a mercados internacionales."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "Bourdieu muestra que las redes de relaciones constituyen un capital diferenciado que reproduce o mitiga la desigualdad mas alla del ingreso monetario (pag. 248-249)."
-  },
-  {
-    "id": "023",
-    "eje": "Historia",
-    "tema": "Trabajo Social y derechos humanos",
-    "lectura_origen": "Trabajo Social y derechos humanos / Nelia Tello Peon",
-    "pregunta": "Por que la perspectiva de derechos humanos representa una ruptura con el enfoque de necesidades en la practica historica del Trabajo Social?",
-    "opciones": [
-      "Porque los derechos humanos son exclusivamente competencia del derecho penal y no de las disciplinas sociales.",
-      "Porque el enfoque de necesidades patologiza al sujeto y legitima la intervencion tutelar, mientras que el enfoque de derechos reconoce al sujeto como titular activo de garantias exigibles al Estado.",
-      "Porque la perspectiva de derechos elimina la intervencion directa del Trabajo Social, relegandola a un rol exclusivamente juridico.",
-      "Porque ambos enfoques son equivalentes: identificar necesidades es sinonimo de garantizar derechos."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "El enfoque de derechos desplaza la logica de la caridad y la tutela hacia la ciudadania plena y la exigibilidad de garantias (pag. 12-15)."
-  },
-  {
-    "id": "024",
-    "eje": "Metodología",
-    "tema": "La Observacion Participante como tecnica cualitativa",
-    "lectura_origen": "El trabajo de campo etnografico / Rosana Guber",
-    "pregunta": "En la observacion participante, cual es la tension metodologica fundamental que enfrenta el investigador y como se resuelve en la practica etnografica?",
-    "opciones": [
-      "La tension entre muestreo probabilistico y muestreo intencional, que se resuelve aumentando el tamaño de la muestra.",
-      "La tension entre participar (implicarse en la vida cotidiana) y observar (mantener distancia analitica), que se gestiona mediante la reflexividad constante y el registro sistematico en el diario de campo.",
-      "La tension entre usar cuestionarios estructurados y entrevistas abiertas, que se resuelve aplicando primero el cuestionario y luego la entrevista.",
-      "La tension entre el tiempo asignado y los recursos financieros, que se supera reduciendo el periodo de trabajo de campo."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "La observacion participante exige gestionar la doble posicion insider/outsider mediante reflexividad y registro sistematico para mantener el rigor analitico (pag. 53-56)."
-  },
-  {
-    "id": "025",
-    "eje": "Teoría",
-    "tema": "Fenomenologia y mundo de la vida",
-    "lectura_origen": "La construccion social de la realidad / Berger y Luckmann",
-    "pregunta": "Berger y Luckmann retoman el concepto husserliano de mundo de la vida (Lebenswelt) para fundamentar su sociologia del conocimiento. Como Schutz caracteriza este mundo de la vida y que implicaciones tiene para la investigacion en Trabajo Social?",
-    "opciones": [
-      "Es el sistema normativo impuesto por el Estado que regula las interacciones sociales y define el conocimiento legitimo.",
-      "Es la realidad cotidiana dada por sentado, intersubjetivamente compartida, desde la cual los actores le atribuyen significados a sus acciones; su comprension exige metodos que capturen el sentido subjetivo de los fenomenos sociales.",
-      "Equivale a la infraestructura economica marxista que determina las formas de conciencia colectiva.",
-      "Es irrelevante para la investigacion cientifica porque no puede ser operacionalizado en variables medibles."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "Schutz describe el Lebenswelt como la realidad intersubjetiva dada por sentado, fundamento de todo conocimiento social, orientando al Trabajo Social hacia metodos comprensivos/interpretativos (pag. 37-40)."
+    "justificacion": "Basándose en el texto, la perspectiva EMIC (asociada a menudo a lo cualitativo) prioriza el punto de vista de los participantes, sus significados y cultura, mientras que la ETIC utiliza los marcos conceptuales y teorías del observador externo."
   },
   {
     "id": "026",
@@ -387,7 +297,7 @@
       "La dependencia de la observación empírica directa sobre la especulación teórica."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Separa lo que está unido y simplifica lo que es complejo, impidiendo ver el tejido social global (pág. 14-15)."
+    "justificacion": "Para Morin, la simplicidad pone orden en el universo mediante la separación (disyunción) y la unificación de lo diverso (reducción). Esto fragmenta la realidad, impidiendo ver que lo complejo es un tejido de constituyentes heterogéneos inseparablemente asociados."
   },
   {
     "id": "027",
@@ -402,7 +312,7 @@
       "La etnografía virtual no posee 'campo' de estudio, ya que las interacciones en Internet son consideradas irreales o simulacros."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "El campo es la red de interacciones sociales, sin importar la copresencia física (pág. 68)."
+    "justificacion": "Los autores señalan que Internet genera nuevos espacios de socialidad (cibercultura). El investigador ya no se desplaza solo físicamente, sino que se inserta en redes de comunicación donde la interacción simbólica construye el campo de estudio, superando la limitación del espacio físico."
   },
   {
     "id": "028",
@@ -417,7 +327,7 @@
       "La posibilidad de clasificar los datos en categorías mutuamente excluyentes únicamente."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Permite decir que un valor es el doble o el triple que otro (pág. 245-246)."
+    "justificacion": "Según Orlandoni, la escala de razón tiene todas las propiedades de las anteriores (identidad, magnitud y distancia) más el cero absoluto. En el ingreso, $0$ pesos significa ausencia de ingreso, lo que permite decir que alguien gana 'el doble' que otro, algo que no se puede hacer en escalas de intervalo como la temperatura en °C."
   },
   {
     "id": "029",
@@ -432,7 +342,7 @@
       "Estudio Retrospectivo y de Cohorte."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Describe el estado de una población en un punto específico del tiempo (pág. 36)."
+    "justificacion": "Müggenburg y Pérez definen los estudios transversales como aquellos que recolectan datos en un solo momento (una 'fotografía' del fenómeno). Es observacional porque el investigador no interviene ni manipula el factor de estudio, solo registra lo que ocurre naturalmente."
   },
   {
     "id": "030",
@@ -447,7 +357,7 @@
       "En la jerarquización rígida de las partes para mantener la estabilidad del todo social."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Como en un holograma, el punto más pequeño contiene casi la totalidad de la información del objeto representado (pág. 100)."
+    "justificacion": "El principio holográmico trasciende el reduccionismo y el holismo. Morin pone como ejemplo la célula: cada célula contiene la totalidad del código genético del organismo. En lo social, el individuo es una parte de la sociedad, pero la cultura de esa sociedad (el todo) está presente en cada individuo."
   },
   {
     "id": "031",
@@ -462,7 +372,7 @@
       "Podrá transformar sus datos nominales a razón mediante una simple suma aritmética."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Solo clasifica y diferencia; no permite cálculos aritméticos (pág. 5)."
+    "justificacion": "Coronado resalta que las escalas son acumulativas. La nominal es la base y solo posee la propiedad de identidad (igualdad o diferencia). Por tanto, no admite orden, sumas ni proporciones; estadísticamente solo se puede determinar la categoría más frecuente (moda)."
   },
   {
     "id": "032",
@@ -477,7 +387,7 @@
       "La negación de la existencia de lo sagrado para consolidar un laicismo absoluto en la sociología."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Pasa de ver el hecho social como 'cosa' externa a verlo como un ideal social compartido (pág. 1)."
+    "justificacion": "El autor sostiene que no hay una antítesis, sino una evolución. En su etapa final, Durkheim no solo ve al hecho social como algo externo y coactivo, sino como un fenómeno de conciencia colectiva donde los ideales y las representaciones otorgan sentido y dinamismo a la sociedad."
   },
   {
     "id": "033",
@@ -492,7 +402,7 @@
       "El aislamiento de la disciplina frente a otras ciencias sociales para proteger su autonomía técnica."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Es una construcción social basada en la interacción de estos elementos (pág. 11-13)."
+    "justificacion": "La autora define la especificidad como una construcción social. Se constituye a partir de la interacción de elementos como el objeto (el 'qué'), los sujetos (el 'quién'), los métodos (el 'cómo') y la intencionalidad (el 'para qué'), todos condicionados por la realidad histórica."
   },
   {
     "id": "034",
@@ -507,7 +417,7 @@
       "Que el investigador debe elegir ambos para garantizar que el proyecto sea aprobado por los comités de ética."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Usar ambos simultáneamente resta fuerza y coherencia lógica al diseño de investigación (pág. 225)."
+    "justificacion": "Tello argumenta que cada componente responde a lógicas distintas. Mientras la pregunta abre el campo de conocimiento hacia lo desconocido, la hipótesis lo cierra para contrastar una suposición. Su uso simultáneo a menudo delata una falta de definición en el eje epistemológico del investigador."
   },
   {
     "id": "035",
@@ -522,7 +432,7 @@
       "No existe diferencia, ambos términos se refieren al proceso de transcribir entrevistas de forma literal."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Reconstruye los datos fragmentados en la codificación abierta para formar un eje explicativo (pág. 3)."
+    "justificacion": "Según el texto, la codificación abierta es la primera etapa de ruptura del texto para identificar conceptos. La axial es un proceso de síntesis donde se reagrupan esos datos para formar un eje que explique las relaciones, condiciones y consecuencias del fenómeno estudiado."
   },
   {
     "id": "036",
@@ -537,7 +447,7 @@
       "Sustituir el Trabajo Social por la Ciencia Política para obtener mayor relevancia gubernamental."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "La formación debe permitir incidir en el bienestar regional desde una base propia (pág. 165)."
+    "justificacion": "El libro enfatiza que la identidad disciplinar es una construcción permanente. Los programas académicos deben servir como espacios de reflexión que permitan a los trabajadores sociales no solo ejecutar acciones, sino generar teoría desde su propia realidad regional para mejorar la calidad de vida."
   },
   {
     "id": "037",
@@ -552,7 +462,7 @@
       "Cuando el investigador ha logrado confirmar todas sus prenociones personales sobre el tema."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "El tamaño de la muestra no se define 'a priori', sino por la densidad de las categorías (pág. 1)."
+    "justificacion": "El muestreo teórico es circular y se guía por la teoría emergente. La recolección termina cuando se llega a la saturación teórica, es decir, cuando la información es redundante y las categorías están conceptualmente completas."
   },
   {
     "id": "038",
@@ -567,7 +477,7 @@
       "La eliminación total de los servicios públicos de salud en favor de la iniciativa privada."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "El sujeto pasa de receptor pasivo a agente de cambio (pág. 192)."
+    "justificacion": "Ander-Egg destaca que la promoción social implica una ruptura con el asistencialismo paternalista; se deja de ver al sujeto como un receptor pasivo para convertirlo en un agente de cambio mediante la organización y capacitación."
   },
   {
     "id": "039",
@@ -582,7 +492,7 @@
       "Su negativa a utilizar la estadística como herramienta de diagnóstico social."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Se cuestionó que los modelos importados servían para adaptar al individuo a un sistema injusto (pág. 210-215)."
+    "justificacion": "El movimiento cuestionó que los modelos importados de EE.UU. servían para adaptar al individuo al sistema, sin cuestionar las causas estructurales del subdesarrollo y la injusticia en América Latina."
   },
   {
     "id": "040",
@@ -597,7 +507,7 @@
       "La prohibición de estudiar autores europeos para enfocarse solo en la realidad nacional."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Llevó a la reforma de planes de estudio para dar un sustento crítico y científico a la carrera (pág. 55-60)."
+    "justificacion": "El contexto del 68 y la posterior Reconceptualización llevaron a que en la UNAM se reformaran los planes de estudio, buscando dotar a la disciplina de un sustento teórico-metodológico más sólido y crítico."
   },
   {
     "id": "041",
@@ -612,7 +522,7 @@
       "Como el marco jurídico que regula la actuación de los servidores públicos."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Es la delimitación que el profesional hace de la realidad para poder actuar (pág. 11)."
+    "justificacion": "Para Valero, el objeto no es la persona ni el problema 'en bruto', sino la delimitación que el profesional hace de la realidad para poder intervenir sobre ella."
   },
   {
     "id": "042",
@@ -627,7 +537,7 @@
       "Diseñaron las políticas de salud pública del gobierno juarista."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Son el antecedente pretécnico de la ayuda social en México (pág. 39)."
+    "justificacion": "La autora sitúa a la beneficencia y las organizaciones religiosas como antecedentes donde la ayuda era intuitiva y moral, marcando el punto de partida que luego sería superado por la profesionalización."
   },
   {
     "id": "043",
@@ -642,7 +552,7 @@
       "La dirección financiera de las instituciones hospitalarias."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Aporta la visión del contexto familiar y social al equipo médico (pág. 10)."
+    "justificacion": "La especificidad en salud radica en entender al paciente en su contexto familiar y social, algo que el diagnóstico social sistematizado permite aportar al equipo multidisciplinario."
   },
   {
     "id": "044",
@@ -657,7 +567,7 @@
       "No ha evolucionado; el sujeto sigue siendo el mismo desde el siglo XIX."
     ],
     "respuesta_correcta": 0,
-    "justificacion": "Implica reconocer su inserción en estructuras colectivas y su dignidad (pág. 5-7)."
+    "justificacion": "La transición hacia el concepto de 'sujeto social' implica reconocer su dignidad, su autonomía y su inserción en estructuras colectivas que influyen en su situación."
   },
   {
     "id": "045",
@@ -672,7 +582,7 @@
       "La falta de uniformes institucionales para los trabajadores sociales."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "La gestión por resultados no debe anular la comprensión profunda de lo humano (pág. 165)."
+    "justificacion": "El autor advierte que la gestión por resultados y la eficiencia administrativa no deben sustituir el compromiso social y la comprensión profunda de las problemáticas humanas."
   },
   {
     "id": "046",
@@ -687,7 +597,7 @@
       "Es el rechazo total a la cultura occidental en favor de la cultura local."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Favorece intervenciones respetuosas con la identidad de los grupos (pág. 165)."
+    "justificacion": "La interculturalidad permite un diálogo simétrico entre el profesional y los sujetos, evitando el colonialismo intelectual y favoreciendo intervenciones respetuosas con la identidad de cada grupo."
   },
   {
     "id": "047",
@@ -702,7 +612,7 @@
       "Debe priorizar la publicación de libros sobre la atención directa a la población."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "La sistematización genera conocimiento nuevo desde la realidad profesional (pág. 165)."
+    "justificacion": "El texto enfatiza que la sistematización de la práctica es la vía primordial para que el Trabajo Social aporte al campo de las ciencias sociales, dejando de ser solo una disciplina técnica."
   },
   {
     "id": "048",
@@ -717,7 +627,7 @@
       "Porque sustituye a la lucha de clases como único motor de la historia."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Permite entender cómo las estructuras patriarcales atraviesan los problemas sociales (pág. 165)."
+    "justificacion": "La perspectiva de género no es un tema aparte, sino un lente analítico que permite entender cómo las estructuras patriarcales atraviesan los problemas sociales y las subjetividades de los usuarios."
   },
   {
     "id": "049",
@@ -732,7 +642,7 @@
       "En la falsación de todas las teorías existentes mediante un experimento controlado."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Es una inferencia a la mejor explicación, fundamental para el descubrimiento científico (pág. 180)."
+    "justificacion": "La abducción es fundamental para el descubrimiento. Ante un fenómeno que no encaja en las teorías previas, el investigador propone una hipótesis creativa que podría explicarlo, orientando así el inicio de una nueva indagación."
   },
   {
     "id": "050",
@@ -747,7 +657,7 @@
       "Evitar la necesidad de realizar un diagnóstico previo."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Permite adaptar estrategias exitosas previas a nuevos contextos (pág. 180)."
+    "justificacion": "La analogía permite aprender de experiencias previas. Si una estrategia funcionó en un contexto similar, se pueden adaptar ciertos elementos, siempre reconociendo la particularidad del nuevo caso."
   },
   {
     "id": "051",
@@ -757,12 +667,12 @@
     "pregunta": "Si un investigador de posgrado plantea un estudio exploratorio-cualitativo pero incluye una hipótesis estadística de nulidad, ¿cuál es el error de coherencia según Tello?",
     "opciones": [
       "Un error gramatical por usar términos técnicos innecesarios.",
-      "Una contradicción epistemológica, pues los estudios exploratorios buscan abrir sentidos (pregunta), mientras que la hipótesis estadística busca verificar resultados.",
+      "Una contradicción epistemológica, pues los estudios exploratorios buscan abrir sentidos (pregunta), mientras que la hipótesis estadística busca cerrar y verificar resultados.",
       "Un acierto, porque entre más elementos tenga el proyecto, mayor es su validez.",
       "Una falta de recursos económicos para procesar la hipótesis."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Tello enfatiza que la pregunta y la hipótesis pertenecen a ejes epistemológicos distintos; mezclarlas sin un diseño mixto justificado debilita la fuerza lógica del proyecto (pág. 225-226)."
+    "justificacion": "Tello enfatiza que cada 'eje' (pregunta o hipótesis) responde a una lógica distinta. Mezclarlas sin una justificación de diseño mixto coherente debilita el rigor del proyecto."
   },
   {
     "id": "052",
@@ -777,25 +687,70 @@
       "¿Por qué existe la injusticia social en América Latina?"
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Un problema bien planteado debe especificar el qué, quiénes, dónde y cuándo para asegurar la viabilidad del estudio (pág. 103-104)."
+    "justificacion": "Un problema bien planteado debe especificar el qué, quiénes, dónde y cuándo. La opción B delimita el fenómeno (becas), la población (niños escuela X), el lugar y el tiempo."
   },
   {
     "id": "053",
+    "eje": "Metodología",
+    "tema": "Variables en la Hipótesis",
+    "lectura_origen": "La hipótesis en la investigación / Espinoza Freire",
+    "pregunta": "En la hipótesis: 'A mayor nivel de participación comunitaria, menor es el índice de deserción en los programas sociales', ¿cuál es la variable independiente?",
+    "opciones": [
+      "El índice de deserción.",
+      "La participación comunitaria.",
+      "Los programas sociales.",
+      "El trabajador social encargado."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "La variable independiente es la causa o factor que influye en el resultado. Aquí, se supone que la participación es la que provoca cambios en la deserción (variable dependiente)."
+  },
+  {
+    "id": "054",
+    "eje": "Metodología",
+    "tema": "Justificación de la investigación",
+    "lectura_origen": "El problema de investigación / Espinoza Freire",
+    "pregunta": "¿Qué aspecto de la justificación se refiere a la utilidad práctica de los resultados para resolver una problemática social concreta?",
+    "opciones": [
+      "Valor teórico.",
+      "Implicaciones prácticas o sociales.",
+      "Relevancia metodológica.",
+      "Conveniencia personal."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "La justificación social o práctica explica cómo la investigación ayudará a transformar una realidad o beneficiar a un grupo humano específico."
+  },
+  {
+    "id": "055",
+    "eje": "Metodología",
+    "tema": "Objetivos de Investigación",
+    "lectura_origen": "El problema de investigación / Espinoza Freire",
+    "pregunta": "En un proyecto de investigación, ¿cuál es la relación correcta entre los objetivos específicos y el objetivo general?",
+    "opciones": [
+      "Los objetivos específicos son tareas administrativas ajenas al objetivo general.",
+      "Los objetivos específicos son los pasos o dimensiones menores que, al cumplirse, permiten alcanzar el objetivo general.",
+      "El objetivo general debe ser más fácil de cumplir que los específicos.",
+      "No existe relación; se redactan para llenar espacio en el protocolo."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Los específicos desglosan la complejidad del general, asegurando que se cubran todas las partes necesarias para responder a la pregunta de investigación."
+  },
+  {
+    "id": "056",
     "eje": "Metodología",
     "tema": "Estado del Arte vs. Marco Teórico",
     "lectura_origen": "El estado del arte en la investigación / Ragnhild Guevara Patiño",
     "pregunta": "¿Cuál es la diferencia fundamental entre el 'Estado del Arte' y el 'Marco Teórico' según Guevara Patiño?",
     "opciones": [
       "El estado del arte es una lista de libros y el marco teórico es un resumen de un solo autor.",
-      "El estado del arte analiza las investigaciones recientes para saber qué se ha hecho sobre el tema, mientras que el marco teórico define los conceptos que sustentarán el análisis del investigador.",
+      "El estado del arte analiza las investigaciones recientes para saber qué se ha hecho sobre el tema, mientras que el marco teórico define los conceptos y teorías que sustentarán el análisis del investigador.",
       "Son lo mismo y pueden usarse indistintamente en una tesis de maestría.",
       "El estado del arte es para investigaciones cualitativas y el marco teórico para cuantitativas."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "El estado del arte permite conocer la frontera del conocimiento y evitar repeticiones, mientras que el marco teórico ofrece el lente conceptual para interpretar los datos propios (pág. 166)."
+    "justificacion": "El estado del arte ubica al investigador en la frontera del conocimiento (el 'qué se sabe'), mientras que el marco teórico le da las herramientas conceptuales para interpretar su propio objeto (el 'desde dónde miro')."
   },
   {
-    "id": "054",
+    "id": "057",
     "eje": "Metodología",
     "tema": "Fases del Estado del Arte",
     "lectura_origen": "El estado del arte en la investigación / Ragnhild Guevara Patiño",
@@ -807,29 +762,134 @@
       "La aplicación de encuestas a la población objeto de estudio."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "La fase heurística es la etapa técnica de búsqueda y hallazgo de la bibliografía pertinente para el mapeo (pág. 170)."
+    "justificacion": "La fase heurística es la etapa de búsqueda y hallazgo de información (del griego *heuriskein*: encontrar), esencial para mapear la producción científica previa."
   },
   {
-    "id": "055",
+    "id": "058",
+    "eje": "Metodología",
+    "tema": "Finalidad del Estado del Arte",
+    "lectura_origen": "El estado del arte en la investigación / Ragnhild Guevara Patiño",
+    "pregunta": "¿Qué significa que el estado del arte busque evitar la 'reinvención de la rueda' en la ciencia?",
+    "opciones": [
+      "Que el investigador no debe usar transporte público para sus entrevistas.",
+      "Que el investigador debe conocer lo que ya se ha descubierto para no repetir estudios que ya dieron resultados concluyentes, permitiendo que la ciencia avance.",
+      "Que se deben usar solo teorías modernas del siglo XXI.",
+      "Que no se permite citar a autores clásicos como Marx o Durkheim."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Saber qué se ha hecho permite al investigador proponer algo nuevo, identificar qué falta por investigar y dar un paso más allá en el conocimiento acumulado."
+  },
+  {
+    "id": "059",
+    "eje": "Metodología",
+    "tema": "Interpretación en el Estado del Arte",
+    "lectura_origen": "El estado del arte en la investigación / Ragnhild Guevara Patiño",
+    "pregunta": "La autora afirma que el estado del arte es un proceso hermenéutico. Esto implica que:",
+    "opciones": [
+      "Es un proceso puramente estadístico de conteo de citas.",
+      "Requiere que el investigador interprete y otorgue sentido a los textos consultados, encontrando relaciones no evidentes entre diferentes estudios.",
+      "El investigador debe copiar y pegar los resúmenes de los artículos encontrados.",
+      "Solo se puede realizar con textos escritos en idiomas sagrados."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "La hermenéutica es la ciencia de la interpretación. Un buen estado del arte no es un resumen, sino una lectura crítica que conecta autores y tendencias para construir un panorama coherente."
+  },
+  {
+    "id": "060",
     "eje": "Metodología",
     "tema": "Triangulación Metodológica",
     "lectura_origen": "Los paradigmas cuantitativos y cualitativos / Coello Valdés et al.",
     "pregunta": "¿Qué se busca lograr al aplicar la 'triangulación de métodos' en una investigación sobre violencia familiar?",
     "opciones": [
       "Entrevistar exactamente a tres personas para que haya democracia en los resultados.",
-      "Combinar datos cuantitativos con cualitativos para obtener una visión más completa y validada de la realidad.",
+      "Combinar datos cuantitativos (como estadísticas de denuncias) con cualitativos (entrevistas a profundidad) para obtener una visión más completa y validada de la realidad.",
       "Demostrar que el método cuantitativo es superior al cualitativo.",
       "Dividir a la familia en tres grupos de estudio distintos."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "La triangulación permite compensar las debilidades de un método con las fortalezas del otro, aumentando la validez y profundidad (pág. 140)."
+    "justificacion": "La triangulación permite compensar las debilidades de un método con las fortalezas del otro, aumentando la validez y profundidad de los hallazgos."
   },
   {
-    "id": "056",
+    "id": "061",
+    "eje": "Metodología",
+    "tema": "Diseños Mixtos",
+    "lectura_origen": "Los paradigmas cuantitativos y cualitativos / Coello Valdés et al.",
+    "pregunta": "En un diseño mixto de tipo 'explicativo secuencial', ¿cuál es el orden lógico del proceso?",
+    "opciones": [
+      "Se recolectan datos cualitativos primero y luego los cuantitativos para confirmarlos.",
+      "Se recolectan y analizan primero datos cuantitativos, y luego se usan datos cualitativos para ayudar a explicar o profundizar en los resultados numéricos obtenidos.",
+      "Se realizan ambos al mismo tiempo sin ninguna relación entre ellos.",
+      "Solo se usa el diseño mixto si el investigador no sabe usar estadística."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Lo secuencial implica orden. En este tipo de diseño, los números dan el panorama general y las palabras (cualitativo) explican el 'porqué' de esos números."
+  },
+  {
+    "id": "062",
+    "eje": "Metodología",
+    "tema": "Validez en lo cualitativo",
+    "lectura_origen": "Investigación cualitativa versus cuantitativa / González López y Ruiz Hernández",
+    "pregunta": "A diferencia de la 'validez externa' (generalización) de lo cuantitativo, ¿cuál es el criterio de rigor que suele buscar la investigación cualitativa?",
+    "opciones": [
+      "La representatividad estadística de la muestra.",
+      "La transferibilidad: la posibilidad de que los hallazgos tengan sentido o aplicación en contextos similares bajo un análisis profundo.",
+      "La ausencia total de la voz del investigador.",
+      "El uso de software que garantice que no hubo intervención humana."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "En lo cualitativo no se busca generalizar a toda la población, sino comprender el fenómeno de forma que la teoría generada pueda iluminar situaciones parecidas (transferibilidad)."
+  },
+  {
+    "id": "063",
+    "eje": "Metodología",
+    "tema": "Muestreo en diseños cualitativos",
+    "lectura_origen": "Tipos de estudio en el enfoque cuantitativo / Müggenburg y Pérez",
+    "pregunta": "En un estudio observacional descriptivo sobre la adherencia al tratamiento, ¿cuál es la principal limitación respecto a la causalidad?",
+    "opciones": [
+      "Que no se pueden usar números.",
+      "Que al no haber manipulación de variables ni grupo control, solo se pueden establecer asociaciones o descripciones, pero no probar una relación causa-efecto definitiva.",
+      "Que el investigador se vuelve amigo de los sujetos.",
+      "Que los resultados solo sirven para un día."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Para probar causalidad se requiere, por lo general, un diseño experimental. Lo descriptivo se limita a decir 'qué pasa' y 'cómo pasa', no a probar que X causa necesariamente Y."
+  },
+  {
+    "id": "064",
+    "eje": "Metodología",
+    "tema": "Estudios Longitudinales",
+    "lectura_origen": "Tipos de estudio en el enfoque cuantitativo / Müggenburg y Pérez",
+    "pregunta": "¿En qué situación un Trabajador Social elegiría un estudio longitudinal de seguimiento (panel)?",
+    "opciones": [
+      "Para conocer la opinión de la gente sobre un evento que ocurrió hoy.",
+      "Para observar cómo evoluciona la calidad de vida de un grupo de familias a lo largo de 5 años tras una intervención de vivienda.",
+      "Para comparar a dos grupos diferentes en un solo momento del tiempo.",
+      "Para analizar documentos históricos del siglo XIX."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Lo longitudinal implica el paso del tiempo. Permite ver cambios, procesos y evoluciones en los mismos sujetos a través de varias mediciones."
+  },
+  {
+    "id": "065",
+    "eje": "Metodología",
+    "tema": "Enfoque Epistemológico en Salud",
+    "lectura_origen": "Los paradigmas cuantitativos y cualitativos / Coello Valdés et al.",
+    "pregunta": "El paradigma biosocial en salud sostiene que el proceso salud-enfermedad es:",
+    "opciones": [
+      "Un evento puramente biológico que ocurre en el cuerpo del individuo.",
+      "Una construcción histórica y social donde las condiciones de vida, el trabajo y la cultura son tan importantes como el virus o la bacteria.",
+      "Una responsabilidad exclusiva del paciente por sus malos hábitos.",
+      "Un castigo divino que no puede ser estudiado por la ciencia."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Este paradigma es la base de la medicina social y el Trabajo Social en salud, reconociendo que la enfermedad tiene raíces en la estructura social."
+  },
+  {
+    "id": "066",
     "eje": "Metodología",
     "tema": "Aplicación de la Moda",
     "lectura_origen": "Escalas de medición en Estadística / Orlandoni Merli",
-    "pregunta": "Si en un diagnóstico social se recaban datos sobre la 'Religión' de los habitantes (Católica, Protestante, Judía, Ninguna), ¿cuál es la medida de tendencia central adecuada?",
+    "pregunta": "Si en un diagnóstico social se recaban datos sobre la 'Religión' de los habitantes (Católica, Protestante, Judía, Ninguna), ¿cuál es la medida de tendencia central adecuada para resumir este dato?",
     "opciones": [
       "La Media aritmética.",
       "La Mediana.",
@@ -837,217 +897,67 @@
       "La Desviación Estándar."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "La religión es una variable nominal (identidad). Solo se puede reportar la categoría con mayor frecuencia o moda (pág. 245)."
-  },
-  {
-    "id": "057",
-    "eje": "Metodología",
-    "tema": "Escala de Razón",
-    "lectura_origen": "Escalas de medición en Estadística / Orlandoni Merli",
-    "pregunta": "¿Cuál es la característica principal del 'Cero' en una escala de Ingresos Mensuales (Razón)?",
-    "opciones": [
-      "Es un punto arbitrario que no significa ausencia de dinero.",
-      "Es un cero absoluto que indica la ausencia total de la propiedad medida (no hay ingreso).",
-      "Es un número imaginario para facilitar el cálculo.",
-      "No existe el cero en la escala de razón."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "A diferencia de las escalas de intervalo, el cero en la escala de razón es absoluto, lo que permite realizar comparaciones de proporcionalidad (pág. 246)."
-  },
-  {
-    "id": "058",
-    "eje": "Metodología",
-    "tema": "Codificación Selectiva",
-    "lectura_origen": "La codificación y categorización en la teoría fundamentada / Vives Varela",
-    "pregunta": "En la etapa final de la Teoría Fundamentada, ¿cuál es el propósito de la 'codificación selectiva'?",
-    "opciones": [
-      "Elegir las entrevistas que mejor se ven para el reporte.",
-      "Identificar la 'categoría central' que integra y explica todas las demás categorías para generar teoría.",
-      "Borrar los datos que contradicen la hipótesis.",
-      "Seleccionar a los participantes con mayor nivel educativo."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "Es el proceso de integración de las categorías alrededor de un núcleo central que explica el fenómeno estudiado (pág. 3)."
-  },
-  {
-    "id": "059",
-    "eje": "Metodología",
-    "tema": "Diagnóstico Social",
-    "lectura_origen": "Modelos de intervención / Castro y Chávez",
-    "pregunta": "En el Trabajo Social, ¿cuál es la diferencia fundamental entre un diagnóstico social y un diagnóstico clínico médico?",
-    "opciones": [
-      "El diagnóstico social es menos importante.",
-      "El clínico se centra en la patología biológica, mientras que el social analiza al sujeto en relación con su entorno y estructura familiar/laboral.",
-      "El diagnóstico social no requiere entrevistas.",
-      "El diagnóstico clínico es gratuito y el social tiene costo."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "El diagnóstico social es situacional y relacional, buscando comprender la problemática en su contexto global (pág. 5)."
-  },
-  {
-    "id": "060",
-    "eje": "Metodología",
-    "tema": "Comités de Ética",
-    "lectura_origen": "Ética de la investigación social / Robert T. Hall",
-    "pregunta": "¿Cuál es la función principal de un Comité de Ética en Investigación (CEI)?",
-    "opciones": [
-      "Asegurar la buena ortografía.",
-      "Proteger los derechos y el bienestar de los participantes, minimizando riesgos.",
-      "Aprobar el presupuesto financiero.",
-      "Publicar resultados en revistas."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "Los CEI evalúan que el diseño del estudio respete la dignidad de las personas y cumpla con principios bioéticos (pág. 12)."
-  },
-  {
-    "id": "061",
-    "eje": "Teoría",
-    "tema": "Plusvalía",
-    "lectura_origen": "Resumen de El Capital / Seda-Irizarry",
-    "pregunta": "¿De dónde proviene la plusvalía según Marx?",
-    "opciones": [
-      "Del intercambio caro en el mercado.",
-      "De la maquinaria avanzada.",
-      "Del trabajo excedente no remunerado del obrero.",
-      "Del ahorro de materias primas."
-    ],
-    "respuesta_correcta": 2,
-    "justificacion": "La plusvalía es el valor creado por la fuerza de trabajo que excede el costo de su propio mantenimiento (salario) y que el capitalista se apropia (pág. 3)."
-  },
-  {
-    "id": "062",
-    "eje": "Teoría",
-    "tema": "Fetichismo de la Mercancía",
-    "lectura_origen": "Resumen de El Capital / Seda-Irizarry",
-    "pregunta": "¿En qué consiste el 'fetichismo de la mercancía'?",
-    "opciones": [
-      "Adoración religiosa de objetos.",
-      "Que las relaciones sociales entre personas aparecen como relaciones materiales entre cosas (precios).",
-      "Invención de marcas famosas.",
-      "Deseo de comprar cosas innecesarias."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "Oculta el carácter social del trabajo, haciendo que las relaciones de explotación parezcan simples intercambios objetivos de mercado (pág. 2)."
-  },
-  {
-    "id": "063",
-    "eje": "Teoría",
-    "tema": "Estructura y Superestructura",
-    "lectura_origen": "Resumen de El Capital / Seda-Irizarry",
-    "pregunta": "En la teoría de Marx, ¿qué conforma la 'Estructura' o base económica?",
-    "opciones": [
-      "Leyes y religión.",
-      "Fuerzas productivas y relaciones de producción.",
-      "Ideas filosóficas.",
-      "Edificios de la ciudad."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "La base económica determina, en última instancia, las formas jurídicas y políticas de la sociedad (pág. 4)."
-  },
-  {
-    "id": "064",
-    "eje": "Teoría",
-    "tema": "Acción Social (Weber)",
-    "lectura_origen": "La acción social en la teoría sociológica / Bruno Lutz",
-    "pregunta": "¿Qué define a la acción como 'social' para Weber?",
-    "opciones": [
-      "Respuesta refleja física.",
-      "Sentido subjetivo referido a la conducta de otros.",
-      "Observación por 10 personas.",
-      "Sanción estatal."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "La acción es social cuando el sentido mentado por el actor está orientado por la conducta de los demás (pág. 2)."
-  },
-  {
-    "id": "065",
-    "eje": "Teoría",
-    "tema": "El Self en el Interaccionismo",
-    "lectura_origen": "La teoría social del interaccionismo simbólico / Carabaña y Lamo",
-    "pregunta": "Para G. H. Mead, el 'self' (mismo) surge a través de:",
-    "opciones": [
-      "La introspección solitaria.",
-      "La capacidad de verse a sí mismo desde la perspectiva de los otros en la interacción.",
-      "La maduración cerebral a los 21 años.",
-      "La obediencia a las leyes."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "El individuo adopta las actitudes de los otros hacia sí mismo, constituyéndose como objeto social (pág. 2)."
-  },
-  {
-    "id": "066",
-    "eje": "Teoría",
-    "tema": "Industria Cultural",
-    "lectura_origen": "La escuela de Frankfurt / Ybélice Briceño Linares",
-    "pregunta": "¿Por qué la Escuela de Frankfurt critica la 'Industria Cultural'?",
-    "opciones": [
-      "Ofrece cultura gratuita.",
-      "Produce bienes estandarizados que pasivizan a las masas e impiden el pensamiento crítico.",
-      "Promueve arte revolucionario.",
-      "Es económicamente ineficiente."
-    ],
-    "respuesta_correcta": 1,
-    "justificacion": "Convierte la cultura en mercancía de consumo fácil para mantener el orden social establecido (pág. 58)."
+    "justificacion": "La religión es una variable nominal. No se pueden sumar ni ordenar jerárquicamente. Lo único que se puede reportar es cuál es la categoría que más se repite (la moda)."
   },
   {
     "id": "067",
-    "eje": "Teoría",
-    "tema": "Principio de Recursividad",
-    "lectura_origen": "Introducción al pensamiento complejo / Edgar Morin",
-    "pregunta": "En el pensamiento complejo de Morin, ¿qué establece el 'principio de recursividad'?",
+    "eje": "Metodología",
+    "tema": "Aplicación de la Mediana",
+    "lectura_origen": "Escalas de medición en Estadística / Orlandoni Merli",
+    "pregunta": "Usted mide el 'Nivel de Satisfacción' de un servicio (Muy insatisfecho a Muy satisfecho). ¿Por qué la Mediana es más apropiada que la Media para este caso?",
     "opciones": [
-      "El pasado siempre vuelve igual.",
-      "Los productos y efectos son, al mismo tiempo, causas y productores de aquello que los produce.",
-      "Los sistemas tienden a la destrucción.",
-      "Repetir un experimento mil veces."
+      "Porque los datos son de nivel ordinal y la mediana representa el valor central que divide a la muestra, sin asumir que las distancias entre 'satisfecho' e 'insatisfecho' son iguales numéricamente.",
+      "Porque la media es solo para personas con estudios de doctorado.",
+      "Porque la mediana siempre da el resultado que el investigador quiere.",
+      "Porque no se pueden usar computadoras para calcular la media en variables ordinales."
     ],
-    "respuesta_correcta": 1,
-    "justificacion": "Rompe la causalidad lineal; por ejemplo, el individuo hace la sociedad y la sociedad hace al individuo (pág. 100)."
+    "respuesta_correcta": 0,
+    "justificacion": "En variables ordinales sabemos que una categoría es 'más' que otra, pero no 'cuánto más'. La media requiere intervalos iguales, por lo que la mediana es la medida de centro más robusta aquí."
   },
   {
     "id": "068",
-    "eje": "Teoría",
-    "tema": "Mundo de la Vida",
-    "lectura_origen": "Los principios de la fenomenología / Hernán Inverso",
-    "pregunta": "Desde la fenomenología, ¿qué es el 'Mundo de la Vida' (Lebenswelt)?",
+    "eje": "Metodología",
+    "tema": "Escala de Intervalo",
+    "lectura_origen": "Escalas de medición en Estadística / Orlandoni Merli",
+    "pregunta": "¿Cuál es la característica principal del 'Cero' en una escala de temperatura Celsius (Intervalo) comparada con una de Peso (Razón)?",
     "opciones": [
-      "El mundo descrito por la física.",
-      "El horizonte de experiencias cotidianas y sentidos previos a la reflexión científica.",
-      "Un planeta con vida inteligente.",
-      "Recuerdos de la infancia."
+      "En Celsius, el $0^{\\circ}C$ significa ausencia total de calor, igual que el $0$ kg significa ausencia de peso.",
+      "En Celsius, el $0^{\\circ}C$ es un punto arbitrario (congelación del agua) que no implica ausencia de la propiedad medida, mientras que en el peso, el cero es absoluto.",
+      "Ambos ceros son imaginarios.",
+      "La escala de intervalo no tiene número cero."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Es el mundo de la experiencia inmediata donde se constituye el sentido originario de las cosas (pág. 350)."
+    "justificacion": "Esta es la distinción técnica clave: el cero relativo vs. el cero absoluto. En Trabajo Social, el ingreso es razón (0 pesos es nada), pero el coeficiente intelectual es intervalo (un CI de 0 no significa ausencia total de mente)."
   },
   {
     "id": "069",
-    "eje": "Teoría",
-    "tema": "Estado Positivo",
-    "lectura_origen": "El positivismo y el positivismo jurídico / Guamán Chacha et al.",
-    "pregunta": "Según Comte, ¿cuál es el estado final y superior de la humanidad?",
+    "eje": "Metodología",
+    "tema": "Validez de Instrumentos",
+    "lectura_origen": "Escalas de medición. Paradigmas / Coronado Padilla",
+    "pregunta": "Un instrumento de medición es 'confiable' cuando:",
     "opciones": [
-      "Estado Teológico.",
-      "Estado Positivo (Científico) basado en leyes universales observadas.",
-      "Estado Metafísico.",
-      "Estado de Anarquía."
+      "Mide exactamente lo que el investigador dice que mide.",
+      "Produce resultados consistentes y coherentes al aplicarse repetidas veces al mismo objeto en condiciones similares.",
+      "Es muy barato de aplicar.",
+      "Ha sido aprobado por una autoridad política."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "En este estado, el hombre renuncia a buscar el origen de las cosas y se limita a descubrir sus leyes (pág. 266)."
+    "justificacion": "La confiabilidad es estabilidad. Si una báscula da un peso diferente cada minuto sin que el objeto cambie, no es confiable. La validez, en cambio, es que mida lo que debe medir."
   },
   {
     "id": "070",
-    "eje": "Historia",
-    "tema": "Reconceptualización",
-    "lectura_origen": "Historia del Trabajo Social / Ezequiel Ander-Egg",
-    "pregunta": "¿Cuál fue el objetivo central del movimiento de Reconceptualización en América Latina?",
+    "eje": "Metodología",
+    "tema": "Codificación Selectiva",
+    "lectura_origen": "La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton",
+    "pregunta": "En la etapa final de la Teoría Fundamentada, ¿cuál es el propósito de la 'codificación selectiva'?",
     "opciones": [
-      "Aumentar los salarios de los trabajadores.",
-      "Superar el modelo asistencialista y tecnocrático para construir un Trabajo Social crítico y comprometido con la transformación social.",
-      "Traducir más libros de Mary Richmond.",
-      "Eliminar el uso de la estadística en los diagnósticos."
+      "Elegir las entrevistas que mejor se ven para el reporte final.",
+      "Identificar la 'categoría central' que integra y explica todas las demás categorías, permitiendo la construcción de la teoría emergente.",
+      "Borrar los datos que contradicen la hipótesis del investigador.",
+      "Seleccionar solo a los participantes que tienen mayor nivel educativo."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Buscaba la ruptura con los modelos impuestos por el funcionalismo norteamericano (pág. 210)."
+    "justificacion": "La codificación selectiva es el proceso de integración. Se busca el núcleo o corazón de los datos que explica el fenómeno de manera global."
   },
   {
     "id": "071",

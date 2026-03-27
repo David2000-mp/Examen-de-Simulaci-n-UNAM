@@ -1,11 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import flashcardsActiveRecall from "../data/flashcardsActiveRecall";
+import flashcardsPersonalizadas from "../data/flashcardsPersonalizadas";
 import guiaData from "../data/guia.json";
 
-const AXES = ["Todos", "Historia", "Metodología", "Teoría Social"];
+const AXES = ["Todos", "Historia", "Metodología", "Teoría", "Teoría Social"];
 const ACTIVE_RECALL_STORAGE_KEY = "flashcards:active-recall:mastered:v1";
 const MODES = [
   { id: "active-recall", label: "Active Recall" },
+  { id: "personalizadas", label: "Errores guía" },
   { id: "conceptos", label: "Conceptos" }
 ];
 
@@ -33,7 +35,13 @@ export default function Flashcards() {
   const [flipped, setFlipped] = useState(false);
   const [isRandom, setIsRandom] = useState(false);
   const isActiveRecall = studyMode === "active-recall";
-  const sourceData = studyMode === "active-recall" ? flashcardsActiveRecall : guiaData;
+  const isPersonalized = studyMode === "personalizadas";
+  const sourceData =
+    studyMode === "active-recall"
+      ? flashcardsActiveRecall
+      : studyMode === "personalizadas"
+        ? flashcardsPersonalizadas
+        : guiaData;
   const [order, setOrder] = useState(() => sourceData.map((_, i) => i));
 
   const filtered = useMemo(() => {
@@ -163,7 +171,13 @@ export default function Flashcards() {
 
   const handleMode = (mode) => {
     setStudyMode(mode);
-    setOrder((mode === "active-recall" ? flashcardsActiveRecall : guiaData).map((_, i) => i));
+    const nextSource =
+      mode === "active-recall"
+        ? flashcardsActiveRecall
+        : mode === "personalizadas"
+          ? flashcardsPersonalizadas
+          : guiaData;
+    setOrder(nextSource.map((_, i) => i));
     setAxisFilter("Todos");
     setIndex(0);
     setFlipped(false);
@@ -203,16 +217,21 @@ export default function Flashcards() {
 
   const { concept } = current;
   const isCurrentMastered = isActiveRecall ? Boolean(masteredById[concept.id]) : false;
+  const usesPromptFormat = isActiveRecall || isPersonalized;
   const axisColors = AXIS_COLOR[concept.eje] || { bg: "bg-brand-700", text: "text-white" };
 
   return (
     <main className="container-shell space-y-5">
       <header className="motion-rise motion-stagger rounded-2xl bg-brand-900 p-6 text-white shadow-xl" style={{ "--motion-index": 0 }}>
-        <h1 className="font-serif text-2xl">Flashcards — {studyMode === "active-recall" ? "Active Recall" : "100 Conceptos"}</h1>
+        <h1 className="font-serif text-2xl">
+          Flashcards — {studyMode === "active-recall" ? "Active Recall" : studyMode === "personalizadas" ? "Errores personalizados" : "100 Conceptos"}
+        </h1>
         <p className="mt-1 text-sm text-brand-100">
           {studyMode === "active-recall"
             ? "Las tres areas ya estan reescritas como evocacion directa, inversion y tarjetas derivadas de alertas de examen."
-            : "Voltea cada tarjeta para ver la síntesis, referencia y alerta de examen."}
+            : studyMode === "personalizadas"
+              ? "Repasa tus errores recientes en formato de flashcards con respuesta correcta y justificación."
+              : "Voltea cada tarjeta para ver la síntesis, referencia y alerta de examen."}
         </p>
         {studyMode === "active-recall" && (
           <p className="mt-2 text-xs text-brand-200">
@@ -349,10 +368,10 @@ export default function Flashcards() {
             <span className={`mb-4 rounded-lg px-3 py-1 text-xs font-bold ${axisColors.bg} ${axisColors.text}`}>
               {concept.eje} · #{concept.sourceId ?? concept.id}
             </span>
-            {studyMode === "active-recall" ? (
+            {usesPromptFormat ? (
               <>
                 <p className="mb-2 rounded-full bg-brand-50 px-2 py-1 text-[11px] font-semibold uppercase tracking-wide text-brand-700">
-                  {concept.kind === "direct" ? "Directa" : concept.kind === "inverse" ? "Inversa" : "Alerta"}
+                  {isPersonalized ? "Error" : concept.kind === "direct" ? "Directa" : concept.kind === "inverse" ? "Inversa" : "Alerta"}
                 </p>
                 <h2 className="text-center text-xl font-semibold leading-relaxed text-brand-900">{concept.prompt}</h2>
               </>
@@ -370,13 +389,15 @@ export default function Flashcards() {
             <span className={`mb-3 w-fit rounded-lg px-3 py-1 text-xs font-bold ${axisColors.bg} ${axisColors.text}`}>
               {concept.eje} · #{concept.sourceId ?? concept.id}
             </span>
-            {studyMode === "active-recall" ? (
+            {usesPromptFormat ? (
               <>
                 <h3 className="mb-3 font-serif text-lg">{concept.answer}</h3>
                 {concept.note ? (
                   <div className="mb-3 rounded-lg bg-brand-800 p-3">
-                    <p className="text-xs font-bold uppercase tracking-wide text-brand-300">Precisión</p>
-                    <p className="mt-1 text-sm leading-relaxed text-brand-100">{concept.note}</p>
+                    <p className="text-xs font-bold uppercase tracking-wide text-brand-300">
+                      {isPersonalized ? "Detalle" : "Precisión"}
+                    </p>
+                    <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-brand-100">{concept.note}</p>
                   </div>
                 ) : null}
               </>
