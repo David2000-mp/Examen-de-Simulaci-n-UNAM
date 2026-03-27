@@ -15,7 +15,7 @@
     "sourceId": 2,
     "kind": "error-review",
     "titulo": "Justicia en la Investigación",
-    "prompt": "Segúnn el Informe Belmont (citado por Hall), el principio de 'Justicia' en la investigación exige:",
+    "prompt": "Según el Informe Belmont (citado por Hall), el principio de 'Justicia' en la investigación exige:",
     "answer": "Que la selección de los sujetos sea equitativa, evitando que poblaciones vulnerables carguen con los riesgos de la investigación mientras que los beneficios son para grupos privilegiados.",
     "note": "Tu respuesta: Que todos los participantes reciban el mismo sueldo.\n\nJustificación: La justicia distributiva en ciencia implica que los beneficios y las cargas del conocimiento se repartan de manera justa en la sociedad.\n\nLectura sugerida: Ética de la investigación social / Robert T. Hall"
   },
@@ -267,7 +267,7 @@
     "titulo": "Niveles de Medición en Investigación",
     "prompt": "Un investigador de Trabajo Social utiliza una escala de 'Razón' para medir los ingresos mensuales de un grupo de familias. ¿Cuál es la propiedad del sistema numérico que distingue a esta escala de la de 'Intervalo'?",
     "answer": "La posesión de un 'cero absoluto' que indica la ausencia total de la propiedad medida, permitiendo realizar comparaciones de proporcionalidad.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Segúnn Orlandoni, la escala de razón tiene todas las propiedades de las anteriores (identidad, magnitud y distancia) más el cero absoluto. En el ingreso, $0$ pesos significa ausencia de ingreso, lo que permite decir que alguien gana 'el doble' que otro, algo que no se puede hacer en escalas de intervalo como la temperatura en Â°C.\n\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Según Orlandoni, la escala de razón tiene todas las propiedades de las anteriores (identidad, magnitud y distancia) más el cero absoluto. En el ingreso, $0$ pesos significa ausencia de ingreso, lo que permite decir que alguien gana 'el doble' que otro, algo que no se puede hacer en escalas de intervalo como la temperatura en Â°C.\n\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
   },
   {
     "id": "GP-028",
@@ -297,7 +297,7 @@
     "titulo": "Proceso de Codificación en Teoría Fundamentada",
     "prompt": "En el análisis de datos bajo la Teoría Fundamentada, ¿qué distingue a la 'codificación axial' de la 'codificación abierta'?",
     "answer": "La codificación abierta fragmenta los datos en conceptos, mientras que la axial establece conexiones entre las categorías y sus subcategorías para reconstruir el fenómeno.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Segúnn el texto, la codificación abierta es la primera etapa de ruptura del texto para identificar conceptos. La axial es un proceso de síntesis donde se reagrupan esos datos para formar un eje que explique las relaciones, condiciones y consecuencias del fenómeno estudiado.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Según el texto, la codificación abierta es la primera etapa de ruptura del texto para identificar conceptos. La axial es un proceso de síntesis donde se reagrupan esos datos para formar un eje que explique las relaciones, condiciones y consecuencias del fenómeno estudiado.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
   },
   {
     "id": "GP-031",
@@ -325,7 +325,7 @@
     "sourceId": 33,
     "kind": "error-review",
     "titulo": "Formulación de la hipótesis en investigación científica",
-    "prompt": "Segúnn el análisis de Amaiquema, Vera y Zumba, ¿cuál es la diferencia procedimental en el uso de hipótesis entre el enfoque cuantitativo y el cualitativo?",
+    "prompt": "Según el análisis de Amaiquema, Vera y Zumba, ¿cuál es la diferencia procedimental en el uso de hipótesis entre el enfoque cuantitativo y el cualitativo?",
     "answer": "En el enfoque cuantitativo se establecen antes de recolectar datos para ser contrastadas, mientras que en el cualitativo suelen emerger y refinarse durante el proceso de investigación.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: El texto aclara que, aunque las hipótesis son fundamentales en el diseño, en el enfoque cualitativo estas no se establecen rígidamente al inicio, sino que pueden surgir de la observación, la experiencia y el proceso mismo de recolección de datos para ser refinadas[cite: 1070, 1071, 1073].\n\nLectura sugerida: Enfoques para la formulación de la hipótesis / Amaiquema et al."
   },
@@ -565,7 +565,7 @@
     "sourceId": 57,
     "kind": "error-review",
     "titulo": "Tarjeta 57",
-    "prompt": "Segúnn Immanuel Wallerstein, ¿qué es el \"Sistema-Mundo\"?",
+    "prompt": "Según Immanuel Wallerstein, ¿qué es el \"Sistema-Mundo\"?",
     "answer": "Es una unidad de análisis que divide al mundo en Centro, Periferia y Semiperiferia, donde existe una división internacional del trabajo que beneficia al centro mediante la explotación de recursos y mano de obra de la periferia.",
     "note": ""
   },
@@ -775,7 +775,7 @@
     "sourceId": 78,
     "kind": "error-review",
     "titulo": "Tarjeta 78",
-    "prompt": "Segúnn Marcela Lagarde, ¿qué son los \"cautiverios\" de las mujeres?",
+    "prompt": "Según Marcela Lagarde, ¿qué son los \"cautiverios\" de las mujeres?",
     "answer": "Son categorías analíticas que explican la opresión de las mujeres en el patriarcado (madresposas, monjas, putas, presas, locas), donde su vida se define por el servicio a otros y la privación de autonomía.",
     "note": ""
   },
@@ -865,7 +865,7 @@
     "sourceId": 87,
     "kind": "error-review",
     "titulo": "Tarjeta 87",
-    "prompt": "Segúnn T.H. Marshall, ¿cuáles son las tres etapas de la ciudadanía?",
+    "prompt": "Según T.H. Marshall, ¿cuáles son las tres etapas de la ciudadanía?",
     "answer": "Ciudadanía civil (derechos individuales/libertad), ciudadanía política (derecho al voto/participación) y ciudadanía social (derecho al bienestar económico y seguridad).",
     "note": ""
   },
@@ -1405,7 +1405,7 @@
     "sourceId": 151,
     "kind": "error-review",
     "titulo": "Especificidad y Campo Profesional",
-    "prompt": "Segúnn Valero Chávez, la especificidad profesional no se agota en el saber hacer (técnica). ¿Cuál es la dimensión que dota al Trabajo Social de su carácter de disciplina social en conflicto?",
+    "prompt": "Según Valero Chávez, la especificidad profesional no se agota en el saber hacer (técnica). ¿Cuál es la dimensión que dota al Trabajo Social de su carácter de disciplina social en conflicto?",
     "answer": "La dimensión ético-política, que implica una toma de postura ante la desigualdad y el proyecto de sociedad que se busca construir.",
     "note": "Justificación: La identidad profesional es un proceso histórico-social donde la intención política de transformación es el eje articulador de la técnica (pág. 11-13).\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez"
   },
@@ -1495,7 +1495,7 @@
     "sourceId": 160,
     "kind": "error-review",
     "titulo": "Especificidad y Objeto en México",
-    "prompt": "Segúnn Aída Valero, ¿por qué el 'Objeto de Intervención' no es una entidad dada en la realidad?",
+    "prompt": "Según Aída Valero, ¿por qué el 'Objeto de Intervención' no es una entidad dada en la realidad?",
     "answer": "Porque es una construcción teórica que el profesional realiza al delimitar una problemática bajo un marco conceptual y una intencionalidad específica.",
     "note": "ID original: H-005\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Porque los problemas sociales son invisibles a simple vista.\n2. Porque es una construcción teórica que el profesional realiza al delimitar una problemática bajo un marco conceptual y una intencionalidad específica.\n3. Porque el objeto cambia cada vez que el Estado cambia de gobierno.\n4. Porque solo el usuario puede definir cuál es su objeto de necesidad.\n\nJustificación: La especificidad profesional se construye en la medida en que el TS conceptualiza la realidad para poder intervenir en ella (pág. 13)."
   },
