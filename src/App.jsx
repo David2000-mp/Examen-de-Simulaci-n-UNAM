@@ -1,4 +1,5 @@
 import { NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Home from "./pages/Home";
 import Exam from "./pages/Exam";
 import Results from "./pages/Results";
@@ -76,6 +77,7 @@ export default function App() {
     <div className="min-h-screen bg-paper text-ink">
       <Navbar />
       <AnimatedRoutes />
+      <Analytics />
     </div>
   );
 }
