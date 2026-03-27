@@ -1,8 +1,9 @@
-import { NavLink, Navigate, Route, Routes } from "react-router-dom";
+import { NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Exam from "./pages/Exam";
 import Results from "./pages/Results";
 import GuiaEstudio from "./pages/GuiaEstudio";
+import Flashcards from "./pages/Flashcards";
 
 function Navbar() {
   return (
@@ -37,7 +38,36 @@ function Navbar() {
       >
         Guía de Estudio
       </NavLink>
+      <NavLink
+        to="/flashcards"
+        className={({ isActive }) =>
+          `rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+            isActive
+              ? "bg-brand-700 text-white"
+              : "text-brand-200 hover:bg-brand-800 hover:text-white"
+          }`
+        }
+        aria-label="Abrir flashcards"
+      >
+        Flashcards
+      </NavLink>
     </nav>
+  );
+}
+
+function AnimatedRoutes() {
+  const location = useLocation();
+  return (
+    <div key={location.pathname} className="page-enter">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/exam" element={<Exam />} />
+        <Route path="/results" element={<Results />} />
+        <Route path="/guia" element={<GuiaEstudio />} />
+        <Route path="/flashcards" element={<Flashcards />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </div>
   );
 }
 
@@ -45,13 +75,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-paper text-ink">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/exam" element={<Exam />} />
-        <Route path="/results" element={<Results />} />
-        <Route path="/guia" element={<GuiaEstudio />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
+      <AnimatedRoutes />
     </div>
   );
 }

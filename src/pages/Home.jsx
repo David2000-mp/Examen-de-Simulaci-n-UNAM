@@ -75,6 +75,28 @@ export default function Home() {
               </span>
             ))}
           </div>
+          {(() => {
+            try {
+              const raw = localStorage.getItem("guia:revisados");
+              const count = raw ? JSON.parse(raw).length : 0;
+              if (count === 0) return null;
+              return (
+                <div className="mt-3 flex items-center gap-3">
+                  <span className="text-xs text-slate-600">
+                    Guía: <strong className="text-brand-800">{count}/100</strong> conceptos revisados
+                  </span>
+                  <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-200">
+                    <div
+                      className="h-full rounded-full bg-brand-500 transition-all"
+                      style={{ width: `${count}%` }}
+                    />
+                  </div>
+                </div>
+              );
+            } catch {
+              return null;
+            }
+          })()}
         </div>
       )}
 

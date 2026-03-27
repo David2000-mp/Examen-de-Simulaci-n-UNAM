@@ -1,6 +1,22 @@
-import RadarByAxis from "./charts/RadarByAxis";
+import { lazy, Suspense, useState } from "react";
+const RadarByAxis = lazy(() => import("./charts/RadarByAxis"));
 
 export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadGuide }) {
+  const [shareLabel, setShareLabel] = useState("Compartir");
+
+  const handleShare = () => {
+    const { overall, axisScores } = stats;
+    const text = `Obtuve ${overall}% en el Simulacro UNAM Trabajo Social 🎓\nHistoria: ${axisScores.Historia}% · Metodología: ${axisScores["Metodología"]}% · Teoría Social: ${axisScores["Teoría"]}%`;
+    if (window.navigator.share) {
+      window.navigator.share({ title: "Mi resultado UNAM-TS", text }).catch(() => {});
+    } else {
+      window.navigator.clipboard.writeText(text).then(() => {
+        setShareLabel("¡Copiado!");
+        window.setTimeout(() => setShareLabel("Compartir"), 2000);
+      });
+    }
+  };
+
   if (!stats) {
     return null;
   }
@@ -50,6 +66,14 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
           </button>
           <button
             type="button"
+            onClick={handleShare}
+            aria-label="Compartir o copiar resultado al portapapeles"
+            className="rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
+          >
+            {shareLabel}
+          </button>
+          <button
+            type="button"
             onClick={onRestart}
             className="rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
           >
@@ -69,7 +93,9 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
 
       <div>
         <h3 className="mb-2 text-sm font-bold uppercase tracking-wide text-brand-800">Visualizacion por eje</h3>
-        <RadarByAxis axisScores={stats.axisScores} />
+        <Suspense fallback={<div className="h-72 animate-pulse rounded-xl bg-slate-100" />}>
+          <RadarByAxis axisScores={stats.axisScores} />
+        </Suspense>
       </div>
 
       <div className="space-y-3 rounded-xl border border-brand-200 bg-brand-50/70 p-4">
