@@ -12,8 +12,8 @@ export default defineConfig({
         name: "Simulador de examen de maestria de gatisifu",
         short_name: "gatisifu",
         description: "Simulador de examen de maestria de gatisifu",
-        theme_color: "#0f4c5c",
-        background_color: "#f4f7f5",
+        theme_color: "#001562",
+        background_color: "#f5f7fc",
         display: "standalone",
         start_url: "/",
         icons: [

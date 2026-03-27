@@ -8,8 +8,8 @@
 
 body {
   @apply m-0 font-sans bg-paper text-ink;
-  background-image: radial-gradient(circle at 10% 20%, #e6efe9 0%, transparent 35%),
-    radial-gradient(circle at 90% 10%, #f4ddd7 0%, transparent 30%);
+  background-image: radial-gradient(circle at 10% 20%, #d3ddf4 0%, transparent 35%),
+    radial-gradient(circle at 90% 10%, #eef2fb 0%, transparent 30%);
 }
 
 :where(
@@ -21,7 +21,7 @@ body {
   [role="button"],
   [tabindex]:not([tabindex="-1"])
 ):focus-visible {
-  outline: 3px solid #d1495b;
+  outline: 3px solid #c9a84c;
   outline-offset: 2px;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.95);
 }
