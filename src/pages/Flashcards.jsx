@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import flashcardsActiveRecall from "../data/flashcardsActiveRecall";
 import flashcardsPersonalizadas from "../data/flashcardsPersonalizadas";
 import guiaData from "../data/guia.json";
 
 const AXES = ["Todos", "Historia", "Metodología", "Teoría", "Teoría Social"];
 const ACTIVE_RECALL_STORAGE_KEY = "flashcards:active-recall:mastered:v1";
+const PERSONALIZADAS_STORAGE_KEY = "flashcards:personalizadas:mastered:v1";
 const MODES = [
   { id: "active-recall", label: "Active Recall" },
   { id: "personalizadas", label: "Aprendizaje en equipo" },
@@ -43,6 +44,11 @@ export default function Flashcards() {
         ? flashcardsPersonalizadas
         : guiaData;
   const [order, setOrder] = useState(() => sourceData.map((_, i) => i));
+  const [masteredPersonalizadasById, setMasteredPersonalizadasById] = useState({});
+  const [queue, setQueue] = useState([]);
+  const [queueIdx, setQueueIdx] = useState(0);
+  const masteredPersonalizadasRef = useRef({});
+  masteredPersonalizadasRef.current = masteredPersonalizadasById;
 
   const filtered = useMemo(() => {
     const baseRows = sourceData.map((item, i) => ({ concept: item, originalIdx: i }));
@@ -59,7 +65,11 @@ export default function Flashcards() {
   }, [filtered, isRandom, order]);
 
   const safeIndex = Math.min(index, orderedFiltered.length - 1);
-  const current = orderedFiltered[safeIndex];
+  const current = isPersonalized
+    ? (queue.length > 0 && queueIdx < queue.length
+        ? { concept: flashcardsPersonalizadas[queue[queueIdx]], originalIdx: queue[queueIdx] }
+        : null)
+    : orderedFiltered[safeIndex];
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -87,6 +97,43 @@ export default function Flashcards() {
   }, [masteredById]);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const raw = window.localStorage.getItem(PERSONALIZADAS_STORAGE_KEY);
+      if (!raw) return;
+      const ids = JSON.parse(raw);
+      if (!Array.isArray(ids)) return;
+      const mapped = ids.reduce((acc, id) => {
+        if (typeof id === "string") acc[id] = true;
+        return acc;
+      }, {});
+      setMasteredPersonalizadasById(mapped);
+    } catch {
+      setMasteredPersonalizadasById({});
+    }
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const ids = Object.keys(masteredPersonalizadasById).filter((id) => masteredPersonalizadasById[id]);
+    window.localStorage.setItem(PERSONALIZADAS_STORAGE_KEY, JSON.stringify(ids));
+  }, [masteredPersonalizadasById]);
+
+  useEffect(() => {
+    if (!isPersonalized) return;
+    const masteredSet = new Set(
+      Object.keys(masteredPersonalizadasRef.current).filter((id) => masteredPersonalizadasRef.current[id])
+    );
+    const newQueue = orderedFiltered
+      .filter(({ concept }) => !masteredSet.has(concept.id))
+      .map(({ originalIdx }) => originalIdx);
+    setQueue(newQueue);
+    setQueueIdx(0);
+    setFlipped(false);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isPersonalized, orderedFiltered]);
+
+  useEffect(() => {
     const handler = (e) => {
       const target = e.target;
       if (
@@ -98,11 +145,17 @@ export default function Flashcards() {
       }
 
       if (e.key === "ArrowRight") {
-        setIndex((i) => Math.min(orderedFiltered.length - 1, i + 1));
+        if (isPersonalized) {
+          setQueueIdx((i) => i + 1);
+        } else {
+          setIndex((i) => Math.min(orderedFiltered.length - 1, i + 1));
+        }
         setFlipped(false);
       } else if (e.key === "ArrowLeft") {
-        setIndex((i) => Math.max(0, i - 1));
-        setFlipped(false);
+        if (!isPersonalized) {
+          setIndex((i) => Math.max(0, i - 1));
+          setFlipped(false);
+        }
       } else if (e.key === " " || e.key === "Enter") {
         e.preventDefault();
         setFlipped((f) => !f);
@@ -115,7 +168,7 @@ export default function Flashcards() {
 
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [orderedFiltered.length, isActiveRecall, current]);
+  }, [orderedFiltered.length, isActiveRecall, isPersonalized, current]);
 
   const activeRecallMetrics = useMemo(() => {
     const byAxis = {
@@ -163,9 +216,45 @@ export default function Flashcards() {
     setMasteredById({});
   };
 
+  const handleDifficult = () => {
+    if (queueIdx >= queue.length) return;
+    const newQueue = [...queue];
+    const cardIdx = newQueue.splice(queueIdx, 1)[0];
+    const insertPos = Math.min(queueIdx + 4, newQueue.length);
+    newQueue.splice(insertPos, 0, cardIdx);
+    setQueue(newQueue);
+    setFlipped(false);
+  };
+
+  const handleNormal = () => {
+    setQueueIdx((i) => i + 1);
+    setFlipped(false);
+  };
+
+  const handleMasteredPersonalizadas = () => {
+    if (queueIdx >= queue.length) return;
+    const cardIdx = queue[queueIdx];
+    const cardId = flashcardsPersonalizadas[cardIdx]?.id;
+    if (!cardId) return;
+    setMasteredPersonalizadasById((prev) => ({ ...prev, [cardId]: true }));
+    const newQueue = [...queue];
+    newQueue.splice(queueIdx, 1);
+    setQueue(newQueue);
+    setFlipped(false);
+  };
+
+  const resetPersonalizadasMastery = () => {
+    setMasteredPersonalizadasById({});
+    const newQueue = orderedFiltered.map(({ originalIdx }) => originalIdx);
+    setQueue(newQueue);
+    setQueueIdx(0);
+    setFlipped(false);
+  };
+
   const handleAxis = (axis) => {
     setAxisFilter(axis);
     setIndex(0);
+    setQueueIdx(0);
     setFlipped(false);
   };
 
@@ -180,6 +269,7 @@ export default function Flashcards() {
     setOrder(nextSource.map((_, i) => i));
     setAxisFilter("Todos");
     setIndex(0);
+    setQueueIdx(0);
     setFlipped(false);
     setIsRandom(false);
   };
@@ -207,7 +297,55 @@ export default function Flashcards() {
     setFlipped(false);
   };
 
+  const personalizedMasteredCount = Object.keys(masteredPersonalizadasById).filter(
+    (id) => masteredPersonalizadasById[id]
+  ).length;
+
   if (!current) {
+    if (isPersonalized) {
+      const deckEmpty = orderedFiltered.length === 0;
+      return (
+        <main className="container-shell space-y-5">
+          <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-8 text-center">
+            {deckEmpty ? (
+              <p className="text-lg font-semibold text-slate-700">No hay tarjetas para este filtro.</p>
+            ) : (
+              <>
+                <p className="text-2xl font-bold text-emerald-800">¡Mazo completado!</p>
+                <p className="mt-2 text-sm text-emerald-600">
+                  {personalizedMasteredCount > 0
+                    ? `Dominaste ${personalizedMasteredCount} tarjeta${personalizedMasteredCount !== 1 ? "s" : ""}.`
+                    : "Revisaste todas las tarjetas del mazo."}
+                </p>
+                <button
+                  type="button"
+                  onClick={resetPersonalizadasMastery}
+                  className="mt-5 rounded-xl bg-brand-700 px-6 py-2.5 text-sm font-semibold text-white"
+                >
+                  Reiniciar y repetir
+                </button>
+              </>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {MODES.map((mode) => (
+              <button
+                key={mode.id}
+                type="button"
+                onClick={() => handleMode(mode.id)}
+                className={`motion-lift motion-press rounded-full px-3 py-1 text-xs font-semibold transition ${
+                  studyMode === mode.id
+                    ? "bg-brand-700 text-white"
+                    : "border border-brand-300 bg-white text-brand-900 hover:bg-brand-50"
+                }`}
+              >
+                {mode.label}
+              </button>
+            ))}
+          </div>
+        </main>
+      );
+    }
     return (
       <main className="container-shell">
         <p className="text-sm text-slate-500">No hay tarjetas para este filtro.</p>
@@ -284,6 +422,32 @@ export default function Flashcards() {
         </section>
       )}
 
+      {isPersonalized && (
+        <section className="motion-rise motion-stagger space-y-3 rounded-2xl border border-brand-200 bg-white p-4 shadow-sm" style={{ "--motion-index": 1 }}>
+          <div className="flex flex-wrap items-center gap-3">
+            <p className="text-sm font-semibold text-brand-900">
+              Dominadas: {personalizedMasteredCount}
+            </p>
+            <p className="text-xs text-slate-500">
+              En mazo: {Math.max(0, queue.length - queueIdx)} restantes
+            </p>
+            <button
+              type="button"
+              onClick={resetPersonalizadasMastery}
+              className="motion-lift motion-press ml-auto rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50"
+            >
+              Reiniciar dominadas
+            </button>
+          </div>
+          <div className="h-2 w-full overflow-hidden rounded-full bg-brand-100">
+            <div
+              className="h-full rounded-full bg-emerald-500 transition-all"
+              style={{ width: `${orderedFiltered.length ? Math.round((personalizedMasteredCount / orderedFiltered.length) * 100) : 0}%` }}
+            />
+          </div>
+        </section>
+      )}
+
       <div className="flex flex-wrap gap-2">
         {MODES.map((mode) => (
           <button
@@ -335,8 +499,18 @@ export default function Flashcards() {
 
       {/* Counter */}
       <p className="text-center text-sm text-slate-500">
-        Tarjeta <strong className="text-brand-900">{safeIndex + 1}</strong> de{" "}
-        <strong className="text-brand-900">{orderedFiltered.length}</strong>
+        {isPersonalized ? (
+          <>
+            Tarjeta{" "}
+            <strong className="text-brand-900">{Math.min(queueIdx + 1, queue.length || 1)}</strong>{" "}
+            de <strong className="text-brand-900">{queue.length}</strong>
+          </>
+        ) : (
+          <>
+            Tarjeta <strong className="text-brand-900">{safeIndex + 1}</strong> de{" "}
+            <strong className="text-brand-900">{orderedFiltered.length}</strong>
+          </>
+        )}
         {axisFilter !== "Todos" && <span className="ml-1 text-slate-400">· {axisFilter}</span>}
         {isActiveRecall && (
           <span className="ml-1 text-slate-400">· {isCurrentMastered ? "Dominada" : "Pendiente"}</span>
@@ -400,6 +574,34 @@ export default function Flashcards() {
                     <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-brand-100">{concept.note}</p>
                   </div>
                 ) : null}
+                {isPersonalized && (
+                  <div
+                    className="mt-4 flex justify-center gap-2"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); handleDifficult(); }}
+                      className="rounded-xl bg-rose-600 px-4 py-2 text-sm font-semibold text-white hover:bg-rose-700"
+                    >
+                      Difícil
+                    </button>
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); handleNormal(); }}
+                      className="rounded-xl bg-slate-600 px-4 py-2 text-sm font-semibold text-white hover:bg-slate-700"
+                    >
+                      Normal
+                    </button>
+                    <button
+                      type="button"
+                      onClick={(e) => { e.stopPropagation(); handleMasteredPersonalizadas(); }}
+                      className="rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
+                    >
+                      Ya me la sé ✓
+                    </button>
+                  </div>
+                )}
               </>
             ) : (
               <>
@@ -428,22 +630,26 @@ export default function Flashcards() {
               </>
             )}
 
-            <p className="mt-auto text-center text-xs text-brand-400">Pulsa para voltear</p>
+            <p className="mt-auto text-center text-xs text-brand-400">
+              {isPersonalized ? "Pulsa una opción" : "Pulsa para voltear"}
+            </p>
           </div>
         </div>
       </div>
 
       {/* Navigation */}
       <div className="flex items-center justify-center gap-3">
-        <button
-          type="button"
-          onClick={handlePrev}
-          disabled={safeIndex === 0}
-          aria-label="Tarjeta anterior"
-          className="motion-lift motion-press rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
-        >
-          ← Anterior
-        </button>
+        {!isPersonalized && (
+          <button
+            type="button"
+            onClick={handlePrev}
+            disabled={safeIndex === 0}
+            aria-label="Tarjeta anterior"
+            className="motion-lift motion-press rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
+          >
+            ← Anterior
+          </button>
+        )}
         <button
           type="button"
           onClick={handleFlip}
@@ -464,15 +670,17 @@ export default function Flashcards() {
             {isCurrentMastered ? "Dominada ✓" : "Marcar dominada"}
           </button>
         )}
-        <button
-          type="button"
-          onClick={handleNext}
-          disabled={safeIndex === orderedFiltered.length - 1}
-          aria-label="Tarjeta siguiente"
-          className="motion-lift motion-press rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
-        >
-          Siguiente →
-        </button>
+        {!isPersonalized && (
+          <button
+            type="button"
+            onClick={handleNext}
+            disabled={safeIndex === orderedFiltered.length - 1}
+            aria-label="Tarjeta siguiente"
+            className="motion-lift motion-press rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
+          >
+            Siguiente →
+          </button>
+        )}
       </div>
     </main>
   );
