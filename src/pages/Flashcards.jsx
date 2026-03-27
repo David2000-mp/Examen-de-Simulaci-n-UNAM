@@ -35,6 +35,8 @@ export default function Flashcards() {
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [isRandom, setIsRandom] = useState(false);
+  const [showSearch, setShowSearch] = useState(false);
+  const [searchId, setSearchId] = useState("");
   const isActiveRecall = studyMode === "active-recall";
   const isPersonalized = studyMode === "personalizadas";
   const sourceData =
@@ -249,6 +251,17 @@ export default function Flashcards() {
     setQueue(newQueue);
     setQueueIdx(0);
     setFlipped(false);
+  };
+
+  const handleGoToCard = (cardId) => {
+    if (!cardId.trim()) return;
+    const foundIdx = orderedFiltered.findIndex(({ concept }) => concept.id === cardId);
+    if (foundIdx >= 0) {
+      setIndex(foundIdx);
+      setFlipped(false);
+      setShowSearch(false);
+      setSearchId("");
+    }
   };
 
   const handleAxis = (axis) => {
@@ -484,6 +497,14 @@ export default function Flashcards() {
         <div className="ml-auto flex gap-2">
           <button
             type="button"
+            onClick={() => setShowSearch(!showSearch)}
+            className="motion-lift motion-press rounded-full border border-slate-300 bg-white px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50"
+            aria-label="Buscar tarjeta por ID"
+          >
+            🔍 Buscar
+          </button>
+          <button
+            type="button"
             onClick={isRandom ? handleSequential : handleShuffle}
             className={`motion-lift motion-press rounded-full px-3 py-1 text-xs font-semibold transition ${
               isRandom
@@ -496,6 +517,31 @@ export default function Flashcards() {
           </button>
         </div>
       </div>
+
+      {showSearch && (
+        <div className="motion-rise motion-stagger rounded-2xl border border-brand-300 bg-brand-50 p-4" style={{ "--motion-index": 2 }}>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-brand-700">Ir a una tarjeta específica</p>
+          <div className="flex gap-2">
+            <input
+              type="text"
+              placeholder="Escribe ID (ej: GP-001, AR-050)..."
+              value={searchId}
+              onChange={(e) => setSearchId(e.target.value.toUpperCase())}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleGoToCard(searchId);
+              }}
+              className="flex-1 rounded-lg border border-brand-300 bg-white px-3 py-2 text-sm text-brand-900 placeholder:text-brand-400 focus:border-brand-700 focus:outline-none"
+            />
+            <button
+              type="button"
+              onClick={() => handleGoToCard(searchId)}
+              className="rounded-lg bg-brand-700 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-800"
+            >
+              Ir
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Counter */}
       <p className="text-center text-sm text-slate-500">
