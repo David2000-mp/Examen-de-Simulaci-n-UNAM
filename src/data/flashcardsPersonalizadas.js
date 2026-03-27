@@ -47,7 +47,7 @@
     "titulo": "Saturación teórica en la Teoría Fundamentada",
     "prompt": "Dentro del método de la Teoría Fundamentada (TF), ¿cuál de las siguientes situaciones describe correctamente el alcance de la 'saturación teórica'?",
     "answer": "Cuando los datos recopilados dejan de aportar propiedades, dimensiones o relaciones nuevas que permitan expandir las categorías de análisis emergentes.",
-    "note": "Tu respuesta: Cuando se logra validar la teoría emergente mediante una encuesta cuantitativa de alcance nacional.\n\nJustificación: La saturación teórica se define como el criterio que determina el fin del muestreo teórico. Se alcanza cuando la información nueva ya no contribuye al desarrollo de las propiedades de las categorías de análisis, lo que indica que la categoría está conceptualmente completa[cite: 1621, 1641, 1646].\n\nLectura sugerida: La saturación teórica en la teoría fundamentada / Ardila y Rueda"
+    "note": "Tu respuesta: Cuando se logra validar la teoría emergente mediante una encuesta cuantitativa de alcance nacional.\n\nJustificación: La saturación teórica se define como el criterio que determina el fin del muestreo teórico. Se alcanza cuando la información nueva ya no contribuye al desarrollo de las propiedades de las categorías de análisis, lo que indica que la categoría está conceptualmente completa.\n\nLectura sugerida: La saturación teórica en la teoría fundamentada / Ardila y Rueda"
   },
   {
     "id": "GP-006",
@@ -327,7 +327,7 @@
     "titulo": "Formulación de la hipótesis en investigación científica",
     "prompt": "Según el análisis de Amaiquema, Vera y Zumba, ¿cuál es la diferencia procedimental en el uso de hipótesis entre el enfoque cuantitativo y el cualitativo?",
     "answer": "En el enfoque cuantitativo se establecen antes de recolectar datos para ser contrastadas, mientras que en el cualitativo suelen emerger y refinarse durante el proceso de investigación.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: El texto aclara que, aunque las hipótesis son fundamentales en el diseño, en el enfoque cualitativo estas no se establecen rígidamente al inicio, sino que pueden surgir de la observación, la experiencia y el proceso mismo de recolección de datos para ser refinadas[cite: 1070, 1071, 1073].\n\nLectura sugerida: Enfoques para la formulación de la hipótesis / Amaiquema et al."
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: El texto aclara que, aunque las hipótesis son fundamentales en el diseño, en el enfoque cualitativo estas no se establecen rígidamente al inicio, sino que pueden surgir de la observación, la experiencia y el proceso mismo de recolección de datos para ser refinadas.\n\nLectura sugerida: Enfoques para la formulación de la hipótesis / Amaiquema et al."
   },
   {
     "id": "GP-034",
