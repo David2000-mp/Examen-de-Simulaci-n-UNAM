@@ -18,6 +18,10 @@ export default function Examen({ engine }) {
   const unansweredCount = state.questions.filter((q) => state.answers[q.id] === undefined).length;
   const markedCount = Object.values(state.marked).filter(Boolean).length;
 
+  const secondsLeft = state.endAt ? Math.max(0, Math.floor((state.endAt - Date.now()) / 1000)) : null;
+  const isUrgent = secondsLeft !== null && secondsLeft < 600;
+  const isCritical = secondsLeft !== null && secondsLeft < 120;
+
   const handleFinishClick = () => setShowConfirm(true);
   const handleConfirmFinish = () => { setShowConfirm(false); finishExam(); };
   const handleCancelFinish = () => setShowConfirm(false);
@@ -81,7 +85,16 @@ export default function Examen({ engine }) {
             Pregunta {state.currentIndex + 1} de {state.questions.length}
           </p>
         </div>
-        <div aria-live="polite" className="rounded-lg bg-brand-900 px-3 py-2 text-sm font-bold text-white">
+        <div
+          aria-live="polite"
+          className={`rounded-lg px-3 py-2 text-sm font-bold text-white transition-colors ${
+            isCritical
+              ? "bg-rose-600 animate-pulse"
+              : isUrgent
+              ? "bg-amber-600"
+              : "bg-brand-900"
+          }`}
+        >
           {state.endAt ? `⏱ ${time}` : `Pregunta ${state.currentIndex + 1}/${state.questions.length}`}
         </div>
       </header>

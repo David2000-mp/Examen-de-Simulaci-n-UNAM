@@ -1,6 +1,102 @@
 import { lazy, Suspense, useState } from "react";
 const RadarByAxis = lazy(() => import("./charts/RadarByAxis"));
 
+function ReviewPanel({ questions, answers }) {
+  const [open, setOpen] = useState(false);
+  const [expandedId, setExpandedId] = useState(null);
+
+  const toggleExpand = (id) => setExpandedId((prev) => (prev === id ? null : id));
+
+  return (
+    <div className="rounded-xl border border-brand-200 overflow-hidden">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        className="flex w-full items-center justify-between bg-brand-50 px-4 py-3 text-left"
+        aria-expanded={open}
+      >
+        <span className="font-semibold text-brand-900 text-sm">
+          Revisión completa de respuestas
+          <span className="ml-2 rounded-full bg-brand-200 px-2 py-0.5 text-xs text-brand-800">
+            {questions.length} preguntas
+          </span>
+        </span>
+        <span className="text-brand-600 text-lg" aria-hidden="true">{open ? "▲" : "▼"}</span>
+      </button>
+
+      {open && (
+        <div className="divide-y divide-slate-100 bg-white">
+          {questions.map((q) => {
+            const userIdx = answers[q.id];
+            const correct = userIdx === q.respuesta_correcta;
+            const unanswered = userIdx === undefined || userIdx === null;
+            const isExpanded = expandedId === q.id;
+
+            return (
+              <div key={q.id}>
+                <button
+                  type="button"
+                  onClick={() => !correct && toggleExpand(q.id)}
+                  className={`flex w-full items-start gap-3 px-4 py-3 text-left transition ${
+                    !correct ? "hover:bg-slate-50 cursor-pointer" : "cursor-default"
+                  }`}
+                  aria-expanded={!correct ? isExpanded : undefined}
+                >
+                  <span
+                    className={`mt-0.5 shrink-0 rounded-full w-5 h-5 flex items-center justify-center text-xs font-bold ${
+                      unanswered
+                        ? "bg-slate-200 text-slate-600"
+                        : correct
+                        ? "bg-emerald-100 text-emerald-700"
+                        : "bg-rose-100 text-rose-700"
+                    }`}
+                    aria-label={unanswered ? "Sin responder" : correct ? "Correcta" : "Incorrecta"}
+                  >
+                    {unanswered ? "—" : correct ? "✓" : "✗"}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="text-xs text-slate-400">{q.eje} · {q.tema}</p>
+                    <p className={`text-sm mt-0.5 ${correct ? "text-slate-700" : "font-medium text-ink"}`}>
+                      {q.pregunta}
+                    </p>
+                  </div>
+                  {!correct && (
+                    <span className="shrink-0 text-xs text-slate-400 mt-0.5" aria-hidden="true">
+                      {isExpanded ? "▲" : "▼"}
+                    </span>
+                  )}
+                </button>
+
+                {!correct && isExpanded && (
+                  <div className="border-t border-slate-100 bg-slate-50 px-4 pb-4 pt-3 space-y-2">
+                    {!unanswered && (
+                      <div className="rounded-lg border border-rose-200 bg-rose-50 p-3">
+                        <p className="text-xs font-bold uppercase tracking-wide text-rose-700">Tu respuesta</p>
+                        <p className="mt-1 text-sm text-rose-900">{q.opciones[userIdx]}</p>
+                      </div>
+                    )}
+                    <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3">
+                      <p className="text-xs font-bold uppercase tracking-wide text-emerald-700">Respuesta correcta</p>
+                      <p className="mt-1 text-sm text-emerald-900">{q.opciones[q.respuesta_correcta]}</p>
+                    </div>
+                    {q.justificacion && (
+                      <div className="rounded-lg border border-amber-200 bg-amber-50 p-3">
+                        <p className="text-xs font-bold uppercase tracking-wide text-amber-800">Justificación</p>
+                        <p className="mt-1 text-sm text-amber-900">{q.justificacion}</p>
+                        <p className="mt-1 text-xs text-amber-700">📖 {q.lectura_origen}</p>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
+
 export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadGuide }) {
   const [shareLabel, setShareLabel] = useState("Compartir");
 
@@ -210,6 +306,10 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
           </p>
         )}
       </div>
+
+      {stats.questions?.length > 0 && (
+        <ReviewPanel questions={stats.questions} answers={stats.answers} />
+      )}
 
     </section>
   );

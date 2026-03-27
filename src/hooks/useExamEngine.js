@@ -301,7 +301,9 @@ export function useExamEngine(allQuestions = []) {
       recommendations: getPriorityReadings(base.errors, base.axisScores),
       erroresDetallados: detailed,
       trainingAvailable: detailed.items.length > 0,
-      progress: state.progress
+      progress: state.progress,
+      questions: state.questions,
+      answers: state.answers
     };
   }, [state.questions, state.answers, state.status, state.erroresDetallados, state.progress]);
 
