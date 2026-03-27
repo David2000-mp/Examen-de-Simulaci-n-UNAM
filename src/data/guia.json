@@ -1,0 +1,902 @@
+[
+    {
+        "id":  1,
+        "titulo":  "Concepto de Trabajo Social Moderno",
+        "eje":  "Historia",
+        "conceptoCentral":  "Definición y consolidación del Trabajo Social como disciplina científica en el siglo XX.",
+        "sintesisDidactica":  "El Trabajo Social moderno surge como disciplina científica fundamentada en **metodologías sistematizadas**, **teorías sociales** y **práctica profesional** integrada. Representa la transformación de acciones caritativas en intervenciones profesionales con bases conceptuales sólidas, marcando la transición entre asistencialismo y profesionalización.",
+        "referenciaPagina":  "Ander-Egg, págs. 19, 39",
+        "alertaExamen":  "Distinguir entre caridad tradicional y Trabajo Social profesional; identificar componentes clave de su consolidación disciplinaria."
+    },
+    {
+        "id":  2,
+        "titulo":  "Antecedentes Históricos del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Raíces históricas del Trabajo Social en movimientos de reforma social y filantropía organizada.",
+        "sintesisDidactica":  "Los antecedentes del Trabajo Social se encuentran en **movimientos de reforma social europea**, **iniciativas filantrópicas** y **organizaciones de beneficencia** del siglo XIX. Aída Valero documenta cómo estas iniciativas pionerizaron **métodos de intervención social** que posteriormente fueron sistematizados.",
+        "referenciaPagina":  "Aída Valero, págs. 5-7",
+        "alertaExamen":  "Conocer períodos previos a la profesionalización; diferenciar entre caridad medieval y reforma social moderna."
+    },
+    {
+        "id":  3,
+        "titulo":  "Evolución de la Profesión en América Latina",
+        "eje":  "Historia",
+        "conceptoCentral":  "Proceso de implantación y adaptación del Trabajo Social profesional en contextos latinoamericanos.",
+        "sintesisDidactica":  "La profesionalización del Trabajo Social en Latinoamérica requirió **adaptación contextual**, **diálogo interdisciplinar** y **reinterpretación de modelos europeos**. Este proceso no fue lineal; implicó confrontación entre modelos importados y realidades sociales locales, generando identidades profesionales propias.",
+        "referenciaPagina":  "Aída Valero, págs. 10, 11, 13",
+        "alertaExamen":  "Relacionar contextos globales con desarrollos regionales; evitar eurocentrismo en análisis histórico."
+    },
+    {
+        "id":  4,
+        "titulo":  "Fundamentos Teóricos Iniciales del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Bases conceptuales que sustentaron la estructuración disciplinaria inicial del Trabajo Social.",
+        "sintesisDidactica":  "Los fundamentos teóricos iniciales combinaban **teoría sociológica**, **psicología social** y **filosofía del servicio**. Ander-Egg sistematiza cómo estas corrientes convergen para crear un **corpus teórico coherente** que justifica la intervención profesional sistemática.",
+        "referenciaPagina":  "Ander-Egg, pág. 39",
+        "alertaExamen":  "Identificar influencias filosóficas y científicas; conectar con contexto intelectual del período."
+    },
+    {
+        "id":  5,
+        "titulo":  "Rol Social del Trabajador Social en Contextos Históricos",
+        "eje":  "Historia",
+        "conceptoCentral":  "Funciones y posicionamientos del Trabajo Social en diferentes períodos históricos.",
+        "sintesisDidactica":  "El rol del trabajador social ha transitado desde **roles asistenciales** hacia **roles transformadores** y **roles críticos**. Cada período histórico impuso demandas específicas: adaptación en crisis sociales, intermediación en conflictos, movilización en luchas de derechos.",
+        "referenciaPagina":  "Aída Valero, págs. 39, 55",
+        "alertaExamen":  "Analizar cambios de rol según contexto histórico-político; evitar visiones reduccionistas."
+    },
+    {
+        "id":  6,
+        "titulo":  "Institucionalización del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Procesos de formalización institucional y reconocimiento profesional del Trabajo Social.",
+        "sintesisDidactica":  "La institucionalización implicó **creación de escuelas profesionales**, **regulación estatal**, **códigos de ética** y **espacios formales de intervención**. Este proceso consolidó el Trabajo Social como profesión regulada con **estándares de formación** y **marcos de actuación definidos**.",
+        "referenciaPagina":  "Ander-Egg, págs. 133, 170-171",
+        "alertaExamen":  "Relacionar institucionalización con profesionalización; conocer hitos de reconocimiento legal."
+    },
+    {
+        "id":  7,
+        "titulo":  "Escuelas Históricas del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Corrientes y escuelas que históricamente han estructurado el pensamiento en Trabajo Social.",
+        "sintesisDidactica":  "Las escuelas históricas incluyen **Trabajo Social de Casos**, **Trabajo Social de Grupo** y **Trabajo Social Comunitario**. Cada escuela aportó **metodologías específicas**, **marcos conceptuales** y **niveles de intervención** distintos, consolidando una disciplina multimétodo.",
+        "referenciaPagina":  "Ander-Egg, págs. 192, 210-215",
+        "alertaExamen":  "Describir características de cada escuela; identificar su evolución histórica."
+    },
+    {
+        "id":  8,
+        "titulo":  "Transformaciones Sociales que Impulsaron el Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Cambios históricos en estructuras sociales que generaron demanda de intervención profesional.",
+        "sintesisDidactica":  "**Industrialización**, **urbanización**, **migración masiva** y **problemáticas de pobreza urbana** generaron demandas de intervención que trascendían capacidades caritativas. El Trabajo Social emergió como respuesta profesional a **nuevas cuestiones sociales** derivadas de transformaciones económico-estructurales.",
+        "referenciaPagina":  "Valero, págs. 5-7",
+        "alertaExamen":  "Conectar cambios históricos macrosociales con génesis disciplinaria."
+    },
+    {
+        "id":  9,
+        "titulo":  "Conceptualizaciones Tempranas de \"Lo Social\"",
+        "eje":  "Historia",
+        "conceptoCentral":  "Interpretaciones iniciales sobre la naturaleza de lo social y su relevancia para la intervención.",
+        "sintesisDidactica":  "Las conceptualizaciones tempranas enfatizaban **lo social como problema**, como **cuestión** a resolver mediante **acción sistemática**. Valero documenta cómo estas interpretaciones evolucionaron desde visiones **patológicas** hacia comprensiones más **estructurales** y **dinámicas** de procesos sociales.",
+        "referenciaPagina":  "Aída Valero, págs. 10, 11",
+        "alertaExamen":  "Comprender giro conceptual sobre \"lo social\"; evitar reduccionismo asistencialista."
+    },
+    {
+        "id":  10,
+        "titulo":  "Diálogos Interdisciplinarios en Construcción Histórica",
+        "eje":  "Historia",
+        "conceptoCentral":  "Intercambios con otras disciplinas que enriquecieron la construcción histórica del Trabajo Social.",
+        "sintesisDidactica":  "El Trabajo Social dialogó constantemente con **sociología**, **psicología**, **antropología** y **filosofía**. Estos diálogos generaron **enriquecimiento conceptual**, **legitimación académica** y **sofisticación metodológica**, permitiendo que la disciplina trascendiera el empirismo pragmático.",
+        "referenciaPagina":  "Ander-Egg, pág. 39",
+        "alertaExamen":  "Identificar influencias disciplinarias; reconocer interdisciplinariedad como característica constitutiva."
+    },
+    {
+        "id":  11,
+        "titulo":  "Corrientes Críticas en la Historia del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Movimientos que cuestionaron y reorientaron la teoría y práctica del Trabajo Social.",
+        "sintesisDidactica":  "Corrientes críticas surgieron denunciando **reproducción de desigualdades**, **adaptacionismo** e **individualismo en intervención**. Estas corrientes promovieron **lectura política** de problemas sociales, **empoderamiento** y énfasis en **transformación estructural** sobre ajuste individual.",
+        "referenciaPagina":  "Vilchez Pirela, pág. 165",
+        "alertaExamen":  "Diferenciar entre Trabajo Social tradicional y Trabajo Social crítico; comprender debates."
+    },
+    {
+        "id":  12,
+        "titulo":  "Consolidación de Identidades Profesionales",
+        "eje":  "Historia",
+        "conceptoCentral":  "Proceso de conformación de identidades profesionales específicas en Trabajo Social.",
+        "sintesisDidactica":  "Las identidades profesionales se consolidaron mediante **formación sistematizada**, **producción teórica**, **códigos éticos** y **campos de práctica específicos**. Esta consolidación permitió que trabajadores sociales desarrollaran **autonomía profesional**, **reconocimiento social** e **inserción laboral especializada**.",
+        "referenciaPagina":  "Ander-Egg, págs. 170-171",
+        "alertaExamen":  "Relacionar identidad profesional con legitimidad disciplinaria."
+    },
+    {
+        "id":  13,
+        "titulo":  "Contextos Políticos de Surgimiento Disciplinario",
+        "eje":  "Historia",
+        "conceptoCentral":  "Marcos político-históricos en que emergió y se desarrolló el Trabajo Social.",
+        "sintesisDidactica":  "El Trabajo Social surgió en contextos de **reforma social**, **movimientos obreros**, **demandas democráticas** y **construcción de estados modernos**. Estos contextos políticos influyeron profundamente en **orientaciones de la profesión**, **demandas sociales** y **espacios de intervención**.",
+        "referenciaPagina":  "Valero, págs. 5-7, 39",
+        "alertaExamen":  "Analizar determinaciones políticas en profesión; evitar naturalización de la disciplina."
+    },
+    {
+        "id":  14,
+        "titulo":  "Formación Profesional: Evolución Histórica",
+        "eje":  "Historia",
+        "conceptoCentral":  "Transformaciones en estructuras, contenidos y métodos de formación profesional del Trabajador Social.",
+        "sintesisDidactica":  "La formación evolucionó desde **aprendizaje empírico** junto a mentores, hacia **programas académicos formales**, **currículos estructurados** y **integración universitaria**. Esta evolución reflejó maduración disciplinaria y creciente **reconocimiento académico**.",
+        "referenciaPagina":  "Ander-Egg, págs. 210-215",
+        "alertaExamen":  "Conectar calidad formativa con efectividad profesional."
+    },
+    {
+        "id":  15,
+        "titulo":  "Aportes de Pioneros en Construcción Teórica",
+        "eje":  "Historia",
+        "conceptoCentral":  "Contribuciones específicas de figuras fundacionales al corpus teórico del Trabajo Social.",
+        "sintesisDidactica":  "Pioneros aportaron **metodologías innovadoras**, **marcos conceptuales nuevos** y **modelos de intervención**. Sus contribuciones sistematizaban experiencias acumuladas, generando **teoría desde práctica** y estableciendo **fundamentos que perduraron**.",
+        "referenciaPagina":  "Aída Valero, págs. 10, 11, 13",
+        "alertaExamen":  "Identificar autores y aportes específicos; reconocer su vigencia o superación."
+    },
+    {
+        "id":  16,
+        "titulo":  "Influencias Europeas en Trabajo Social Latinoamericano",
+        "eje":  "Historia",
+        "conceptoCentral":  "Dinámicas de transferencia y adaptación de modelos europeos en contextos latinoamericanos.",
+        "sintesisDidactica":  "Modelos europeos fueron **importados pero reinterpretados**, generando **hibridaciones conceptuales**. Este proceso de adaptación no fue pasivo; implicó **crítica activa**, **rechazo selectivo** y **síntesis innovadora** que produjo identidades profesionales propias.",
+        "referenciaPagina":  "Valero, págs. 10, 11",
+        "alertaExamen":  "Evitar determinismo europeo; reconocer agencia creativa latinoamericana."
+    },
+    {
+        "id":  17,
+        "titulo":  "Demandas Sociales como Motor Histórico del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Forma en que necesidades y problemas sociales específicos impulsaron profesionalización.",
+        "sintesisDidactica":  "**Problemáticas de vivienda**, **desempleo**, **marginalidad urbana** y **vulnerabilidad social** generaron demandas concretas que el Trabajo Social debía atender. Estas demandas fueron **catalizadores de profesionalización**, forzando **desarrollo metodológico** y **teorización constante**.",
+        "referenciaPagina":  "Ander-Egg, pág. 133",
+        "alertaExamen":  "Conectar problemas históricos con soluciones profesionales; entender lógica de emergencia."
+    },
+    {
+        "id":  18,
+        "titulo":  "Legitimación Social del Trabajo Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Procesos mediante los cuales Trabajo Social logró reconocimiento y legitimidad social.",
+        "sintesisDidactica":  "La legitimación operó através de **demostraciones de efectividad**, **generación de conocimiento**, **alianzas con instituciones** y **reconocimiento de actores sociales**. Este proceso fue conflictivo: enfrentó resistencias de élites, resistencias de movimientos radicales y desafíos permanentes de legitimidad.",
+        "referenciaPagina":  "Ander-Egg, págs. 39, 170-171",
+        "alertaExamen":  "Distinguir legitimidad técnica de legitimidad social; reconocer controversias."
+    },
+    {
+        "id":  19,
+        "titulo":  "Paradigmas Históricos de Intervención Social",
+        "eje":  "Historia",
+        "conceptoCentral":  "Marcos conceptuales que históricamente han organizado la intervención social profesional.",
+        "sintesisDidactica":  "Paradigmas han transitado desde **paradigma asistencial** hacia **paradigma reparador** y **paradigma emancipador**. Cada paradigma define **objetivos distintos**, **metodologías específicas** y **relaciones diferentes** con poblaciones intervenidas.",
+        "referenciaPagina":  "Vilchez Pirela, pág. 165",
+        "alertaExamen":  "Caracterizar cada paradigma; evaluar implicaciones en intervención."
+    },
+    {
+        "id":  20,
+        "titulo":  "Perspectivas Futuras: Desafíos Históricos Pendientes",
+        "eje":  "Historia",
+        "conceptoCentral":  "Cuestiones históricamente irresueltas que representan desafíos contemporáneos para la disciplina.",
+        "sintesisDidactica":  "Desafíos pendientes incluyen **equidad en acceso a servicios**, **superación de reproducción de desigualdades**, **articulación entre práctica y teoría**, **reconocimiento de saberes populares** y **construcción de práctica verdaderamente participativa**.",
+        "referenciaPagina":  "Aída Valero, págs. 55, 39",
+        "alertaExamen":  "Reflexionar críticamente sobre presente disciplinario; conectar historia con proyección futura."
+    },
+    {
+        "id":  21,
+        "titulo":  "Definición y Alcance de la Metodología en Trabajo Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Marco conceptual que define metodología como sistema de procedimientos, técnicas y herramientas para intervención.",
+        "sintesisDidactica":  "La metodología en Trabajo Social constituye **sistema organizado** de procedimientos fundamentados en **teoría social**, orientados hacia **objetivos de cambio**. Integra **métodos de diagnóstico**, **estrategias de intervención** y **niveles de análisis** (individual, grupal, comunitario, institucional).",
+        "referenciaPagina":  "Coello/González, págs. 138, 139",
+        "alertaExamen":  "Distinguir metodología de técnicas; comprender su carácter integrador."
+    },
+    {
+        "id":  22,
+        "titulo":  "Investigación Social como Fundamento Metodológico",
+        "eje":  "Metodología",
+        "conceptoCentral":  "La investigación como base para construcción metodológica y sistematización de práctica.",
+        "sintesisDidactica":  "La investigación social permite **conocimiento sistemático** de realidades, **fundamentación teórica** de intervenciones y **evaluación de prácticas**. Constituye **proceso cíclico** donde investigación informa intervención, e intervención genera material para investigación.",
+        "referenciaPagina":  "Dávila Newman, págs. 180-182",
+        "alertaExamen":  "Conectar investigación con intervención; reconocer investigación como metodología."
+    },
+    {
+        "id":  23,
+        "titulo":  "Métodos Cualitativos en Intervención Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Aproximaciones metodológicas cualitativas para comprensión profunda de fenómenos sociales.",
+        "sintesisDidactica":  "Métodos cualitativos enfatizan **comprensión de significados**, **interpretación de experiencias**, **análisis contextual** y **captura de complejidad**. Incluyen **observación participante**, **entrevista profunda**, **grupos focales** y **análisis narrativo** que permiten captura de dimensiones ocultas.",
+        "referenciaPagina":  "Müggenburg/Pérez, págs. 36-37",
+        "alertaExamen":  "Diferenciar enfoques cualitativos; argumentar cuándo son pertinentes."
+    },
+    {
+        "id":  24,
+        "titulo":  "Métodos Cuantitativos en Intervención Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Aproximaciones metodológicas cuantitativas para análisis de magnitudes y correlaciones en lo social.",
+        "sintesisDidactica":  "Métodos cuantitativos permiten **cuantificación de fenómenos**, **análisis estadístico**, **identificación de patrones** y **generalización de hallazgos**. Utilizan **instrumentos estandarizados**, **recolección sistemática de datos** y **análisis numérico** para comprensión de proporciones y distribuciones.",
+        "referenciaPagina":  "Coello/González, págs. 138, 139, 140",
+        "alertaExamen":  "Comprender limitaciones y fortalezas; evitar cientificismo."
+    },
+    {
+        "id":  25,
+        "titulo":  "Enfoque Mixto o Triangulación Metodológica",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Integración estratégica de metodologías cualitativas y cuantitativas para comprensión integral.",
+        "sintesisDidactica":  "Enfoque mixto combina **fortalezas de métodos cualitativos** con **rigor de métodos cuantitativos**, permitiendo **validación cruzada** de hallazgos y **comprensión multidimensional**. Requiere **diseño intencional** de articulación entre métodos para evitar yuxtaposición superficial.",
+        "referenciaPagina":  "Dávila Newman, págs. 180-182",
+        "alertaExamen":  "Argumentar pertinencia de triangulación; diseñar articulación metodológica."
+    },
+    {
+        "id":  26,
+        "titulo":  "Diagnóstico Social: Definición y Componentes",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Proceso sistemático de obtención de información para comprensión de situaciones antes de intervención.",
+        "sintesisDidactica":  "El diagnóstico social constituye **proceso analítico** que recoge **información relevante**, **identifica problemas**, **caracteriza recursos** y **define fortalezas**. Integra perspectivas de **actores involucrados**, **contextos macrosociales** y **dinámicas históricas** para construir comprensión fundamentada.",
+        "referenciaPagina":  "Coello/González, págs. 1, 138, 139",
+        "alertaExamen":  "Diferenciar diagnóstico de simple descripción; enfatizar carácter analítico."
+    },
+    {
+        "id":  27,
+        "titulo":  "Fases del Diagnóstico Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Etapas secuenciales que estructuran construcción sistemática del diagnóstico.",
+        "sintesisDidactica":  "Fases incluyen **exploración preliminar**, **recolección intensiva de datos**, **análisis e interpretación**, **triangulación de fuentes** y **comunicación de resultados**. Cada fase requiere **deliberación metodológica**, **sistematización cuidadosa** y **validación con participantes**.",
+        "referenciaPagina":  "Espinoza Freire, págs. 103, 125",
+        "alertaExamen":  "Describir cada fase; comprender sus interdependencias."
+    },
+    {
+        "id":  28,
+        "titulo":  "Técnicas de Recolección de Información",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Herramientas específicas para obtención sistemática de datos en diagnóstico.",
+        "sintesisDidactica":  "Técnicas incluyen **entrevistas** (estructuradas, semiestructuradas, libres), **observación** (directa, participante, experimental), **grupos focales**, **encuestas** y **análisis de documentos**. Cada técnica posee **fortalezas específicas**, **limitaciones** y **contextos de pertinencia** que deben evaluarse estratégicamente.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166",
+        "alertaExamen":  "Seleccionar técnicas según contexto; justificar elecciones metodológicas."
+    },
+    {
+        "id":  29,
+        "titulo":  "Validez y Confiabilidad en Diagnóstico",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Criterios de calidad que garantizan rigor y robustez de procesos diagnósticos.",
+        "sintesisDidactica":  "**Validez** asegura que se mida lo que intenta medirse; **confiabilidad** garantiza consistencia de mediciones. En investigación social se emplean estrategias como **triangulación**, **validación con participantes**, **análisis de credibilidad** y **acuerdos entre observadores** para asegurar calidad diagnóstica.",
+        "referenciaPagina":  "Müggenburg/Pérez, págs. 36-37",
+        "alertaExamen":  "Aplicar criterios de calidad; reconocer limitaciones de conocimiento social."
+    },
+    {
+        "id":  30,
+        "titulo":  "Análisis de Problemas Sociales",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos de descomposición e interpretación de problemáticas complejas.",
+        "sintesisDidactica":  "Análisis de problemas requiere **identificación de dimensiones**, **reconstrucción de causas**, **caracterización de afectados**, **mapeo de actores** y **evaluación de recursos existentes**. Evita **culpabilización de víctimas**, **reduccionismo causal** y **individualismo patologizante** para adoptar perspectivas **holísticas** y **estructurales**.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166, 170",
+        "alertaExamen":  "Aplicar pensamiento crítico; evitar análisis superficiales o sesgados."
+    },
+    {
+        "id":  31,
+        "titulo":  "Gestión del Conocimiento en Práctica Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos de producción, sistematización y transferencia de conocimiento en contextos de intervención.",
+        "sintesisDidactica":  "La gestión del conocimiento en Trabajo Social incluye **documentación de experiencias**, **sistematización de prácticas**, **generación de aprendizajes** y **difusión de resultados**. Permite transformar experiencias acumuladas en **saber profesional transferible**, contribuyendo a **mejor formación** de futuras generaciones.",
+        "referenciaPagina":  "César Tello, págs. 225-226",
+        "alertaExamen":  "Comprender valor de sistematización; aplicar en contextos propios."
+    },
+    {
+        "id":  32,
+        "titulo":  "Planificación de Intervenciones Sociales",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Construcción sistemática de planes de acción orientados hacia objetivos de cambio.",
+        "sintesisDidactica":  "La planificación integra **objetivos claramente definidos**, **estrategias coherentes**, **actividades secuenciadas**, **recursos identificados** y **cronogramas realistas**. Requiere **participación de actores**, **flexibilidad** para ajustes según contexto emergente, y **vinculación** entre diagnóstico, plan y evaluación.",
+        "referenciaPagina":  "Coello/González, págs. 138, 139, 140",
+        "alertaExamen":  "Diferenciar entre plan rígido y plan flexible; enfatizar participación."
+    },
+    {
+        "id":  33,
+        "titulo":  "Métodos de Planificación en Trabajo Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Enfoques distintos para construcción de planes según contextos y objetivos.",
+        "sintesisDidactica":  "Métodos incluyen **planificación participativa**, **planificación estratégica**, **planificación situacional** y **planificación desde capacidades locales**. Cada método privilegia distintas **dimensiones de análisis**, **niveles de participación** y **tipos de decisiones** que deben ser seleccionados según pertinencia contextual.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166, 170",
+        "alertaExamen":  "Caracterizar cada método; argumentar elecciones metodológicas."
+    },
+    {
+        "id":  34,
+        "titulo":  "Establecimiento de Objetivos en Intervención",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Construcción de metas claras que orienten toda intervención social.",
+        "sintesisDidactica":  "Objetivos deben ser **específicos**, **medibles**, **alcanzables**, **relevantes** y **delimitados temporalmente**. Deben distinguir entre **objetivos de proceso** (relacionados con dinámicas de intervención), **objetivos de producto** (resultados inmediatos) y **objetivos de impacto** (cambios estructurales duraderos).",
+        "referenciaPagina":  "Espinoza Freire, págs. 103, 125, 128",
+        "alertaExamen":  "Formular objetivos rigurosos; evaluar su coherencia con diagnóstico."
+    },
+    {
+        "id":  35,
+        "titulo":  "Gestión de Recursos en Intervención Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Administración estratégica de recursos (económicos, humanos, materiales) para maximizar efectividad.",
+        "sintesisDidactica":  "Gestión de recursos requiere **inventario de disponibilidades**, **asignación estratégica**, **optimización de usos** y **rendición de cuentas**. Implica **creatividad** para maximizar recursos limitados, **movilización de potencialidades locales** y **acceso a fondos externos** mediante **propuestas competitivas**.",
+        "referenciaPagina":  "Coello/González, págs. 138, 139, 140, 1",
+        "alertaExamen":  "Aplicar pensamiento estratégico; evaluar eficiencia y efectividad."
+    },
+    {
+        "id":  36,
+        "titulo":  "Indicadores de Proceso y Resultado",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Parámetros específicos que permiten monitoreo y evaluación de intervenciones.",
+        "sintesisDidactica":  "**Indicadores de proceso** informan sobre desarrollo de actividades previstas; **indicadores de resultado** miden cambios en poblaciones o contextos. Deben ser **relevantes**, **verificables**, **cuantificables cuando sea posible** y **construidos participativamente** para asegurar legitimidad y utilidad.",
+        "referenciaPagina":  "Vives/Ardila, págs. 93, 3-4",
+        "alertaExamen":  "Formular indicadores rigurosos; evitar mediciones superficiales."
+    },
+    {
+        "id":  37,
+        "titulo":  "Evaluación de Intervenciones Sociales",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos sistemáticos para determinar eficacia, eficiencia e impacto de acciones.",
+        "sintesisDidactica":  "Evaluación constituye **proceso crítico reflexivo**, no simple medición. Incluye **evaluación diagnóstica** (línea base), **evaluación de proceso** (monitoreo), **evaluación de resultado** (logros) y **evaluación de impacto** (cambios duraderos). Cada tipo responde a **preguntas específicas** y requiere **metodologías apropiadas**.",
+        "referenciaPagina":  "Orlandoni/Coronado, págs. 245-246, 1",
+        "alertaExamen":  "Diferenciar tipos de evaluación; aplicar rigor metodológico."
+    },
+    {
+        "id":  38,
+        "titulo":  "Sistematización de Experiencias",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodología para producción de conocimiento desde ordenamiento reflexivo de experiencias.",
+        "sintesisDidactica":  "La sistematización transforma **experiencias acumuladas** en **saber explícito** mediante procesos de **ordenamiento**, **reflexión crítica**, **interpretación** y **extrapolación**. Genera **productos comunicables** (documentos, publicaciones, eventos) que permiten aprendizaje colectivo y mejora continua.",
+        "referenciaPagina":  "César Tello, págs. 225-226",
+        "alertaExamen":  "Comprender diferencia entre experiencia y sistematización; aplicar críticamente."
+    },
+    {
+        "id":  39,
+        "titulo":  "Enfoque de Derechos en Metodología",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Integración de perspectiva de respeto y promoción de derechos humanos en toda intervención.",
+        "sintesisDidactica":  "Enfoque de derechos fundamenta intervención en **dignidad humana**, **reconocimiento de titularidad**, **exigibilidad de derechos** y **responsabilidades estatales**. Transforma relación trabajador social-usuario de **relación asistencialista** a **relación de reconocimiento mutuo** y **empoderamiento**.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166, 170",
+        "alertaExamen":  "Aplicar enfoque de derechos consistentemente; evaluar implicaciones."
+    },
+    {
+        "id":  40,
+        "titulo":  "Trabajo Social de Casos Individual",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodología centrada en intervención con personas individuales y sus situaciones específicas.",
+        "sintesisDidactica":  "Trabajo Social de Casos constituye **relación profesional personalizada** para atender situaciones particulares. Incluye **construcción de relación de ayuda**, **diagnóstico individual-contextual**, **planificación de acciones** y **seguimiento continuado**. Reconoce **singularidad de cada persona** sin perder **comprensión de determinantes sociales**.",
+        "referenciaPagina":  "Hall, págs. 12, 18, 20",
+        "alertaExamen":  "Evitar patologización individual; conectar con contextos macro."
+    },
+    {
+        "id":  41,
+        "titulo":  "Relación de Ayuda Profesional",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Vínculo profesional diferenciado que caracteriza interacción trabajador social-usuario.",
+        "sintesisDidactica":  "Relación de ayuda se fundamenta en **respeto**, **confidencialidad**, **autenticidad** y **orientación hacia autonomía**. No es amistad ni relación horizontal despreocupada; implica **claridad de roles**, **límites profesionales**, **manejo de transferencias** y búsqueda de **empoderamiento** del usuario.",
+        "referenciaPagina":  "Vives/Ardila, págs. 3-4, 1",
+        "alertaExamen":  "Comprender naturaleza profesional; diferenciar de otras relaciones."
+    },
+    {
+        "id":  42,
+        "titulo":  "Trabajo Social Grupal",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodología que aprovecha dinámicas de grupo para procesos educativos y transformadores.",
+        "sintesisDidactica":  "Trabajo Social Grupal utiliza **potencial educativo del grupo**, **dinámicas de interacción**, **identificación colectiva** y **apoyo mutuo** para trabajo sobre cuestiones comunes. Grupos sirven tanto para **educación** como para **movilización**, facilitando procesos que trascienden intervención individual.",
+        "referenciaPagina":  "Castro/Chávez, págs. 15, 18",
+        "alertaExamen":  "Comprender potencial; evitar reducir grupo a suma de individuos."
+    },
+    {
+        "id":  43,
+        "titulo":  "Dinámicas de Grupo como Herramienta Metodológica",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Técnicas específicas que aprovechan dinámicas de interacción grupal para objetivos educativos.",
+        "sintesisDidactica":  "Dinámicas incluyen **juegos educativos**, **dramatizaciones**, **actividades colaborativas**, **análisis colectivo** y **procesos de reflexión compartida**. Permiten **crear ambiente de confianza**, **profundizar aprendizajes**, **generar sentidos nuevos** y **fortalecer vínculos comunitarios**.",
+        "referenciaPagina":  "Hall, págs. 12, 18, 20",
+        "alertaExamen":  "Aplicar dinámicas con intencionalidad; evaluar logros educativos."
+    },
+    {
+        "id":  44,
+        "titulo":  "Trabajo Social Comunitario",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodología que interviene en nivel comunitario para procesos de fortalecimiento colectivo.",
+        "sintesisDidactica":  "Trabajo Social Comunitario enfatiza **organización comunitaria**, **participación activa**, **movilización de recursos locales** y **transformación de contextos**. Parte de comprensión de comunidad como **sujeto colectivo** con capacidades y potencialidades, no como receptora pasiva.",
+        "referenciaPagina":  "Castro/Chávez, págs. 15, 18",
+        "alertaExamen":  "Evitar asistencialismo; promover protagonismo comunitario."
+    },
+    {
+        "id":  45,
+        "titulo":  "Educación Popular como Metodología",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Enfoque pedagógico que vincula educación con procesos de transformación social.",
+        "sintesisDidactica":  "Educación Popular rechaza **transmisión vertical** de conocimientos; propone **construcción dialógica**, **problematización de realidad**, **generación de conciencia crítica** y **propulsión de cambio**. Reconoce a educandos como **sujetos activos**, **portadores de saber** y **protagonistas de transformación**.",
+        "referenciaPagina":  "Martín Castro, pág. 167",
+        "alertaExamen":  "Aplicar educación popular coherentemente; evitar manipulación disfrazada."
+    },
+    {
+        "id":  46,
+        "titulo":  "Participación Social como Metodología",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Involucramiento activo de beneficiarios en construcción y ejecución de intervenciones.",
+        "sintesisDidactica":  "Participación implica **poder real de decisión**, **acceso a información**, **capacidad de influir** en procesos que les afectan. No es simple \"consulta decorativa\"; requiere **redistribución de poder**, **respeto genuino** a saberes de comunidades y **transformación de relaciones tradicionales** de intervención.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166, 170",
+        "alertaExamen":  "Evaluar nivel de participación; criticar participacionismo superficial."
+    },
+    {
+        "id":  47,
+        "titulo":  "Empoderamiento como Proceso Metodológico",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Construcción metodológica dirigida a fortalecimiento de capacidades y autonomía.",
+        "sintesisDidactica":  "Empoderamiento constituye proceso donde individuos/comunidades aumentan **control sobre sus vidas**, **acceso a recursos**, **capacidad de decisión** y **protagonismo**. No es otorgado verticalmente; emerge de procesos **reflexivos**, **organizacionales** y **políticos** donde sujetos desarrollan conciencia y poder.",
+        "referenciaPagina":  "Ruiz Méndez, pág. 80",
+        "alertaExamen":  "Evitar retórica vacía; evaluar cambios reales en poder y autonomía."
+    },
+    {
+        "id":  48,
+        "titulo":  "Trabajo en Red e Intersectoralidad",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Coordinación estratégica entre instituciones y actores para amplificar efectos de intervenciones.",
+        "sintesisDidactica":  "Trabajo en red implica **identificación de aliados**, **clarificación de roles**, **comunicación constante**, **articulación de acciones** sin perder autonomía institucional. Intersectoralidad requiere que intervenciones sociales **transciendan** campo específico, articulando con **educación**, **salud**, **vivienda**, **empleo** para abordaje integral.",
+        "referenciaPagina":  "Coello/González, págs. 138, 139, 140",
+        "alertaExamen":  "Evaluar calidad de coordinación; evitar fragmentación."
+    },
+    {
+        "id":  49,
+        "titulo":  "Mediación y Resolución de Conflictos",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodologías para abordaje constructivo de conflictos en contextos de intervención.",
+        "sintesisDidactica":  "Mediación constituye **tercería neutral** que facilita comunicación y acuerdo entre partes en conflicto. Requiere **empatía hacia ambos**, **neutralidad vigilante**, **generación de opciones creativas** y **búsqueda** de soluciones **mutuamente satisfactorias** más que victoria de uno sobre otro.",
+        "referenciaPagina":  "Orlandoni/Coronado, págs. 245-246, 1",
+        "alertaExamen":  "Comprender mediación; diferenciar de imposición de soluciones."
+    },
+    {
+        "id":  50,
+        "titulo":  "Vulnerabilidad y Riesgo Social: Conceptualización",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Marcos conceptuales para comprensión de situaciones de fragilidad y exposición a daños.",
+        "sintesisDidactica":  "**Vulnerabilidad** refiere a **fragilidad en capacidades** para enfrentar riesgos; **riesgo social** denota **probabilidad de daño** a partir de exposición. Comprensión integrada reconoce que vulnerabilidad no es característica individual sino resultado de **dinámicas económicas**, **exclusión estructural** y **falta de protecciones sociales**.",
+        "referenciaPagina":  "Espinoza Freire, págs. 103, 125, 128",
+        "alertaExamen":  "Evitar culpabilización; conectar con determinantes macrosociales."
+    },
+    {
+        "id":  51,
+        "titulo":  "Abordaje de Situaciones de Crisis",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodologías para intervención en momentos de ruptura o desestabilización aguda.",
+        "sintesisDidactica":  "Intervención en crisis requiere **respuesta rápida**, **contención emocional**, **estabilización inmediata** y **activación de recursos**. No busca resolver problemas de fondo (para eso requiere intervención posterior) sino **aliviar sufrimiento agudo**, **restaurar acceso a funcionalidades básicas** y **preparar para recuperación.",
+        "referenciaPagina":  "Dávila Newman, págs. 180-182",
+        "alertaExamen":  "Comprender diferencia entre intervención en crisis y terapia; evaluar tiempos."
+    },
+    {
+        "id":  52,
+        "titulo":  "Abordaje de Trauma Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Metodologías para intervención ante daños psicosociales derivados de exposición a violencia u otros eventos traumatizantes.",
+        "sintesisDidactica":  "Abordaje de trauma requiere **reconocimiento del daño**, **seguridad emocional**, **procesos de recuperación gradual** y **prevención de retraumatización**. Trabajo Social contribuye mediante **intervención psicosocial**, **movilización de recursos comunitarios**, **denuncia de injusticias** y **promoción de justicia**.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166, 170",
+        "alertaExamen":  "Integrar dimensión psicosocial; reconocer justicia como componente terapéutico."
+    },
+    {
+        "id":  53,
+        "titulo":  "Metodología Participativa en Investigación Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Enfoques investigativos que integran participación activa de sujetos como coinvestigadores.",
+        "sintesisDidactica":  "Investigación participativa reconoce **saber de comunidades**, **genera conocimiento colectivo** y **propulsa transformación simultáneamente** a investigación. Rechaza **investigador neutral** para asumir **investigación como acción transformadora**, donde conocimiento es **herramienta de emancipación**.",
+        "referenciaPagina":  "Dávila Newman, págs. 180-182",
+        "alertaExamen":  "Evaluar balance entre rigor investigativo y transformación social."
+    },
+    {
+        "id":  54,
+        "titulo":  "Métodos Visuales en Intervención Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Aprovechamiento de lenguajes visuales como herramientas metodológicas para comprensión y transformación.",
+        "sintesisDidactica":  "Métodos visuales incluyen **fotografía participativa**, **mapeo visual**, **cine comunitario**, **artes plásticas** y otros. Permiten **expresión de quienes tienen dificultad con palabra escrita**, **captura de realidades complejas**, **generación de conciencia** mediante lenguaje emotivo-sensorial.",
+        "referenciaPagina":  "Müggenburg/Pérez, págs. 36-37",
+        "alertaExamen":  "Integrar metodologías creativas; valorar expresiones no verbales."
+    },
+    {
+        "id":  55,
+        "titulo":  "Ética en Práctica Metodológica",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Principios y dilemas éticos inherentes a toda intervención social profesional.",
+        "sintesisDidactica":  "Ética en práctica requiere **confidencialidad**, **consentimiento informado**, **respeto a autonomía**, **justicia distributiva**, **transparencia** y **responsabilidad**. Implica enfrentar **dilemas complejos** sin soluciones simples, requiriendo **deliberación constante**, **consulta con colegas** y **capacidad de tolerar complejidad**.",
+        "referenciaPagina":  "Vives/Ardila, págs. 93, 3-4, 1",
+        "alertaExamen":  "Analizar dilemas ético-metodológicos; argumentar posiciones."
+    },
+    {
+        "id":  56,
+        "titulo":  "Sistematización de Aprendizajes",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos para extracción de saber desde experiencias vividas en intervención.",
+        "sintesisDidactica":  "Sistematización de aprendizajes constituye **proceso reflexivo** sobre \"qué pasó y por qué\", permitiendo **construcción de teoría desde práctica**. Genera **productos comunicables** útiles para **autoformación continua**, **mejora de prácticas** y **contribución al acervo disciplinario**.",
+        "referenciaPagina":  "César Tello, págs. 225-226",
+        "alertaExamen":  "Aplicar sistematización en contextos propios; valorar aprendizajes."
+    },
+    {
+        "id":  57,
+        "titulo":  "Monitoreo Continuado de Intervenciones",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Mecanismos de seguimiento permanente para captar desviaciones y ajustar curso de intervenciones.",
+        "sintesisDidactica":  "Monitoreo requiere **recolección continua** de información, **análisis frecuente**, **comparación con línea base**, **comunicación de hallazgos** y **retroalimentación para ajustes**. Permite **detección temprana** de problemas, **aprovechamiento de oportunidades** emergentes y **mejora iterativa**.",
+        "referenciaPagina":  "Orlandoni/Coronado, págs. 245-246, 1",
+        "alertaExamen":  "Diseñar sistemas de monitoreo funcionales; evitar burocracia estéril."
+    },
+    {
+        "id":  58,
+        "titulo":  "Institucionalización de Prácticas Exitosas",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos para consolidación de intervenciones efectivas en estructuras permanentes.",
+        "sintesisDidactica":  "Institucionalización implica **documentación rigurosa** de prácticas exitosas, **capacitación de personal**, **adaptación a marcos institucionales**, **asignación presupuestaria** y **generación de políticas**. Permite **sostenibilidad** más allá de iniciativas personales y **expansión** de beneficios a mayor escala.",
+        "referenciaPagina":  "Coello/González, págs. 138, 139, 140, 1",
+        "alertaExamen":  "Evaluar factibilidad de institucionalización; reconocer riesgos de burocratización."
+    },
+    {
+        "id":  59,
+        "titulo":  "Transferencia de Conocimiento en Trabajo Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Mecanismos para comunicación y adopción de conocimiento nuevo en contextos de intervención.",
+        "sintesisDidactica":  "Transferencia de conocimiento no es transmisión vertical sino **proceso de construcción colectiva**. Requiere **adaptación a contextos locales**, **respeto a saberes previos**, **aprendizaje mutuo** y **transformación del conocimiento** en tanto circula. Incluye **capacitación**, **documentación**, **redes de aprendizaje**.",
+        "referenciaPagina":  "César Tello, págs. 225-226",
+        "alertaExamen":  "Evitar receta descontextualizada; promover adaptación creativa."
+    },
+    {
+        "id":  60,
+        "titulo":  "Evaluación Participativa",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos evaluativos donde beneficiarios son actores principales en valoración de resultados.",
+        "sintesisDidactica":  "Evaluación participativa rechaza experto solitario; propone **construcción conjunta** de criterios, **involucramiento en recolección de datos**, **análisis colectivo** de hallazgos y **decisiones compartidas** sobre reorientaciones. Reconoce que **quienes viven la intervención** tienen perspectivas cruciales.",
+        "referenciaPagina":  "Guevara Patiño, págs. 165, 166, 170",
+        "alertaExamen":  "Evaluar autenticidad de participación; evitar tokenismo."
+    },
+    {
+        "id":  61,
+        "titulo":  "Métodos Fenomenológicos en Trabajo Social",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Enfoques que privilegian comprensión de significados y experiencias vividas de actores.",
+        "sintesisDidactica":  "Métodos fenomenológicos enfatizan **perspectiva de primer orden** (cómo viven experiencias sujetos), **interpretación de significados**, **estructura de vivencias** y **génesis de sentidos**. Permiten **capturar experiencias complejas** que métodos cuantitativos no pueden, incluyendo dimensiones **emocionales**, **existenciales**, **simbólicas**.",
+        "referenciaPagina":  "Dávila Newman, págs. 180-182",
+        "alertaExamen":  "Comprender fenomenología; aplicar rigorosamente."
+    },
+    {
+        "id":  62,
+        "titulo":  "Métodos de Análisis Textual",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procedimientos sistemáticos para análisis de contenido en documentos, narrativas e historias.",
+        "sintesisDidactica":  "Análisis textual incluye **análisis de contenido temático**, **análisis narrativo**, **análisis de discurso** y **análisis hermenéutico**. Permiten **identificar patrones**, **descodificar significados implícitos**, **análisis crítico de poder en lenguaje** y **reconstrucción de realidades desde cómo se cuentan**.",
+        "referenciaPagina":  "Müggenburg/Pérez, págs. 36-37",
+        "alertaExamen":  "Aplicar rigor en análisis; evitar interpretaciones superficiales."
+    },
+    {
+        "id":  63,
+        "titulo":  "Métodos de Historias de Vida",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Aproximación que captura trayectorias vitales como material para comprensión social.",
+        "sintesisDidactica":  "Historias de vida permiten **captura de singularidad personal**, **identificación de patrones sociales** en lo individual, **comprensión de procesos históricos** desde experiencias vividas. Recurren a **narrativas longitudinales**, **reconstrucción reflexiva** y **análisis de cómo lo personal es político**.",
+        "referenciaPagina":  "Vives/Ardila, págs. 93, 3-4, 1",
+        "alertaExamen":  "Conectar singular con estructural; evitar psicologismo."
+    },
+    {
+        "id":  64,
+        "titulo":  "Enfoque Ecosistémico en Intervención",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Perspectiva que analiza situaciones como resultado de interacción entre persona y contextos múltiples.",
+        "sintesisDidactica":  "Enfoque ecosistémico rechaza **dicotomía individuo-ambiente**; propone **interacción constante** donde cambios en uno afectan otro. Analiza **múltiples niveles** (individual, familiar, comunitario, institucional, estructural) y sus **influencias recíprocas**, permitiendo intervenciones más **integradas** y **efectivas**.",
+        "referenciaPagina":  "Hall, págs. 12, 18, 20",
+        "alertaExamen":  "Aplicar pensamiento sistémico; evaluar múltiples niveles."
+    },
+    {
+        "id":  65,
+        "titulo":  "Autoevaluación de Prácticas Profesionales",
+        "eje":  "Metodología",
+        "conceptoCentral":  "Procesos reflexivos de trabajadores sociales sobre su propia práctica.",
+        "sintesisDidactica":  "Autoevaluación constituye **herramienta de desarrollo profesional**, permitiendo **identificación de fortalezas**, **reconocimiento de limitaciones**, **corrección de errores** y **mejora continua**. Requiere **honestidad**, **disposición al cambio**, **apertura al feedback** y **compromiso con excelencia profesional**.",
+        "referenciaPagina":  "Orlandoni/Coronado, págs. 245-246, 1",
+        "alertaExamen":  "Promover reflexión crítica; evitar autoflagelación improductiva."
+    },
+    {
+        "id":  66,
+        "titulo":  "Definición de Teoría Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Marco conceptual que busca comprensión sistemática de fenómenos, estructuras y dinámicas sociales.",
+        "sintesisDidactica":  "Teoría Social constituye **sistema de conceptos**, **proposiciones** y **explicaciones** sobre cómo funcionan sociedades. No es **simple descripción** sino **interpretación fundamentada** que permite **predicción**, **explicación causal** y **guía para acción informada**. Teoría y práctica se alimentan mutuamente.",
+        "referenciaPagina":  "Seda-Irizarry, págs. 2, 3",
+        "alertaExamen":  "Distinguir teoría de descripción; comprender teoría como herramienta."
+    },
+    {
+        "id":  67,
+        "titulo":  "Funciones de la Teoría Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Aportes y contribuciones que teoría social proporciona a comprensión y acción.",
+        "sintesisDidactica":  "Funciones incluyen **explicación de fenómenos** (¿por qué ocurren?), **predicción de trayectorias** (¿qué vendrá?), **identificación de patrones** (¿cuál es estructura?), **guía para intervención** (¿cómo actuar?) y **crítica de injusticias** (¿qué está mal?). Teoría no es abstracta; es **poder hermenéutico** y **poder transformador**.",
+        "referenciaPagina":  "Seda-Irizarry, págs. 4, 5",
+        "alertaExamen":  "Conectar teoría con aplicabilidad; valorar teoria crítica."
+    },
+    {
+        "id":  68,
+        "titulo":  "Conceptos Fundamentales en Teoría Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Categorías generales que permiten análisis sistemático de lo social.",
+        "sintesisDidactica":  "Conceptos incluyen **estructura** (patrones duraderos), **agencia** (capacidad activa de sujetos), **poder** (capacidades de imponer voluntades), **legitimidad** (justificación de ordenamientos), **cambio** (transformaciones temporales), **desigualdad** (distribuciones asimétricas). Estos conceptos permiten **articulación coherente** de reflexiones sobre sociedades.",
+        "referenciaPagina":  "Durkheim/Vázquez, págs. 31, 100, 1",
+        "alertaExamen":  "Aplicar conceptos en análisis concretos; comprender interrelaciones."
+    },
+    {
+        "id":  69,
+        "titulo":  "Equilibrio vs. Cambio en Teoría Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Tensión fundamental en teoría social sobre si sociedades tienden al equilibrio o al cambio.",
+        "sintesisDidactica":  "Perspectivas de **equilibrio** enfatizan **estabilidad**, **mecanismos de integración**, **reproducción de ordenamientos**. Perspectivas de **cambio** enfatizan **conflicto**, **contradicciones**, **potencial transformador**. Comprensión integrada reconoce que sociedades combinan mecanismos de **reproducción** con potenciales de **transformación**.",
+        "referenciaPagina":  "Weber/Lutz, págs. 2, 3",
+        "alertaExamen":  "Evitar determinismo estructural o voluntarismo ingenuo."
+    },
+    {
+        "id":  70,
+        "titulo":  "Determinismo Estructural y Libertad de Acción",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Dilema teórico sobre grado en que estructuras limitan o permiten libertad humana.",
+        "sintesisDidactica":  "**Determinismo extremo** reduce actores a autómatas; **libertinaje extremo** ignora constricciones estructurales. Perspectivas sofisticadas proponen que **estructuras habilitan y constriñen**, que hombres y mujeres actúan **dentro de marcos de posibilidades** y que **transformaciones ocurren** cuando actores revisan esos marcos.",
+        "referenciaPagina":  "Carabaña/Lamo, págs. 2, 3, 4",
+        "alertaExamen":  "Aplicar comprensión matizada; evitar reduccionismos opuestos."
+    },
+    {
+        "id":  71,
+        "titulo":  "Reproducción Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Procesos mediante los cuales sistemas sociales mantienen estructura y desigualdades a través del tiempo.",
+        "sintesisDidactica":  "Reproducción social opera mediante **socialización**, **instituciones educativas**, **control cultural**, **sanciones** y **hegemonía ideológica**. Hace que **lo establecido parezca natural**, **normaliza desigualdades**, **transmite privilegios generacionalmente**. Comprensión de reproducción es clave para identificar donde intervenciones pueden disrumpir.",
+        "referenciaPagina":  "Durkheim/Vázquez, págs. 31, 100",
+        "alertaExamen":  "Comprender mecanismos de reproducción; evaluar posibilidades de disrupción."
+    },
+    {
+        "id":  72,
+        "titulo":  "Transformación Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Procesos de cambio en estructuras, prácticas e instituciones sociales.",
+        "sintesisDidactica":  "Transformación puede ser **gradual e incremental**, **revolucionaria y abrupta** o **combinaciones** de ambas. Requiere **sujetos colectivos**, **crisis de legitimidad**, **construcción de alternativas** y **capacidad de imponer nuevos ordenamientos**. Trabajo Social participa en transformaciones mediante **concienciatización**, **fortalecimiento colectivo** y **denuncia**.",
+        "referenciaPagina":  "Seda-Irizarry, págs. 2, 3, 4",
+        "alertaExamen":  "Analizar cambios sociales; identificar actores y mecanismos de transformación."
+    },
+    {
+        "id":  73,
+        "titulo":  "Racionalidad Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Formas en que actores toman decisiones y actúan en contextos sociales.",
+        "sintesisDidactica":  "Racionalidad no es solo **cálculo instrumental**; incluye **racionalidad valor-orientada** (actuación conforme a valores), **racionalidad tradicional** (actuación conforme a costumbre) y **racionalidad afectiva** (actuación motivada por emociones). Comprensión ampliada de racionalidad permite mejor análisis de comportamientos aparentemente \"irracionales\".",
+        "referenciaPagina":  "Weber/Lutz, págs. 2, 3",
+        "alertaExamen":  "Evitar eurocentralismo en concepción de racionalidad; valorar múltiples formas."
+    },
+    {
+        "id":  74,
+        "titulo":  "Legitimidad Política y Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Justificaciones mediante las cuales ordenamientos sociales se presentan como válidos y son aceptados.",
+        "sintesisDidactica":  "Legitimidad puede fundamentarse en **tradición**, **carisma**, **legalidad formal**, **desempeño efectivo** o **valores compartidos**. Sin legitimidad, sistemas requieren **represión abierta** para mantenerse. Pérdida de legitimidad precede cambios sociales profundos. Trabajo Social participa en procesos de **delegitimación** de ordenamientos injustos.",
+        "referenciaPagina":  "Carabaña/Lamo, págs. 2, 3, 4",
+        "alertaExamen":  "Analizar fundamentos de legitimidad; identificar crisis legitimatorias."
+    },
+    {
+        "id":  75,
+        "titulo":  "Poder en Forma de Dominación y Autoridad",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Distinción entre poder ejercido como dominación y poder ejercido como autoridad legítima.",
+        "sintesisDidactica":  "**Dominación** implica imposición sin consentimiento, requiriendo represión u obediencia temerosa. **Autoridad legítima** es aceptada voluntariamente porque se la considera válida. Distinción es crucial: sistemas dependientes de dominación pura son frágiles; sistemas con autoridad legitimada son estables pero potencialmente injustos.",
+        "referenciaPagina":  "Weber/Lutz, págs. 2, 3",
+        "alertaExamen":  "Analizar tipos de poder en contextos específicos; evaluar legitimidad."
+    },
+    {
+        "id":  76,
+        "titulo":  "Desigualdad Social: Naturaleza y Origenes",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Explicaciones teóricas sobre por qué existen desigualdades y cómo se originan.",
+        "sintesisDidactica":  "Explicaciones varían desde **teorías funcionalistas** (desigualdad es necesaria para motivación) hasta **teorías críticas** (desigualdad es fruto de explotación). Perspectivas sofisticadas reconocen que desigualdades tienen **múltiples orígenes** (económicos, culturales, políticos, históricos) y que su **reproducción requiere trabajo constante**.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Evitar naturalizaciones; reconocer carácter histórico de desigualdades."
+    },
+    {
+        "id":  77,
+        "titulo":  "Sistemas de Estratificación Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Estructuras de ordenamiento jerárquico en las que poblaciones ocupan posiciones distintas.",
+        "sintesisDidactica":  "Sistemas de estratificación pueden basarse en **clase** (relación con medios de producción), **estatus** (prestigio social), **poder** (capacidad decisoria) o **combinaciones**. Sistemas estratificados crean **experiencias de vida distintas**, **oportunidades desiguales** y **construcción** de identidades diferenciadas.",
+        "referenciaPagina":  "Durkheim/Vázquez, págs. 31, 100, 1",
+        "alertaExamen":  "Analizar cómo estratificación afecta experiencias; reconocer interseccionalidades."
+    },
+    {
+        "id":  78,
+        "titulo":  "Clases Sociales",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Agrupamientos de personas que comparten posición similar en relación a producción económica.",
+        "sintesisDidactica":  "Teoría marxista enfatiza **relación con medios de producción**; teorías weberianas enfatizan **ingresos, patrimonio, educación**. Clases no son solo **categorías estadísticas** sino **actores políticos potenciales** con intereses comunes. Comprensión de clases es esencial para Trabajo Social pues **clases determinan** oportunidades y limitaciones de poblaciones con que trabaja.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Evitar determinismo de clase; comprender intersecciones con otros ejes."
+    },
+    {
+        "id":  79,
+        "titulo":  "Capital Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Redes de relaciones y normas de reciprocidad que permiten cooperación y acceso a recursos.",
+        "sintesisDidactica":  "Capital social incluye **confianza**, **redes de participación**, **normas cívicas** y **capacidad cooperativa**. Comunidades con alto capital social tienen mejor capacidad para resolver problemas colectivos. Trabajo Social contribuye a **fortalecimiento de capital social**, reconociendo que acceso a recursos no es solo individual sino **mediado por pertenencias sociales**.",
+        "referenciaPagina":  "Morin, págs. 14-15, 72",
+        "alertaExamen":  "Valorar capital social sin romantizar; reconocer exclusiones que puede perpetuar."
+    },
+    {
+        "id":  80,
+        "titulo":  "Socialización: Teoría y Procesos",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Procesos mediante los cuales individuos aprenden normas, valores y comportamientos sociales.",
+        "sintesisDidactica":  "Socialización no termina en infancia; es **proceso permanente** de **aprendizaje cultural**, **desarrollo de roles**, **internalización de valores**. Ocurre en **familia**, **educación**, **pares**, **medios**, **trabajo**. Trabajo Social interviene en procesos de socialización, especialmente cuando quiere promover **valores emancipadores** o **cambios de perspectivas**.",
+        "referenciaPagina":  "Durkheim/Vázquez, págs. 31, 100",
+        "alertaExamen":  "Comprender socialización como proceso continuo; evaluar posibilidades de resocialización."
+    },
+    {
+        "id":  81,
+        "titulo":  "Cultura como Sistema Simbólico",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Conjunto de significados, símbolos y prácticas que dan sentido a vida social.",
+        "sintesisDidactica":  "Cultura es **sistema de códigos** que permite **comunicación**, **interpretación compartida**, **transmisión intergeneracional**. No es **monolítica**; contiene **conflictos**, **reinterpretaciones**, **creatividades constantes**. Trabajo Social debe **comprender** cultura de poblaciones sin **esencializarla**, reconociendo espacios de **resistencia cultural** y **construcción de alternativas**.",
+        "referenciaPagina":  "Morin, págs. 14-15, 72, 86",
+        "alertaExamen":  "Evitar reduccionismos culturalistas; conectar con poder y recursos materiales."
+    },
+    {
+        "id":  82,
+        "titulo":  "Identidad Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Proceso permanente de construcción de sentido de sí mismo en relación a otros y contextos.",
+        "sintesisDidactica":  "Identidad es **construcción social**, no **esencia fija**; emerge de **interacciones**, **pertenencias**, **reconocimientos** y **rechazo de otros**. Individuos portan **múltiples identidades** (clase, género, etnia, nación) que se **activan contextualmente**. Trabajo Social trabaja con identidades reconociendo tanto **potencial emancipador** como **riesgos de encierro**.",
+        "referenciaPagina":  "Seda-Irizarry, págs. 2, 3, 4, 5",
+        "alertaExamen":  "Aplicar interseccionalidad; evitar esencializaciones."
+    },
+    {
+        "id":  83,
+        "titulo":  "Género como Categoría Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Sistema de significaciones y relaciones de poder que separa y jerarquiza personas según sexo.",
+        "sintesisDidactica":  "Género no es **biología** sino **construcción social** que produce **desigualdades estructurales**. Incluye **división de trabajo**, **acceso diferencial** a poder y recursos, **violencias específicas**, **patrones de crianza**. Análisis de género es **imperativo** para Trabajo Social que atienda poblaciones donde género es **eje de opresión**.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Aplicar análisis de género; evitar naturalización."
+    },
+    {
+        "id":  84,
+        "titulo":  "Etnicidad y Procesos de Racialización",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Construcción social de diferencias étnicas y procesos mediante los cuales se crean categorías raciales.",
+        "sintesisDidactica":  "Etnicidad refiere a **pertenencia a grupos** con **cultura compartida**, **historia común**, **territorio**. Racialización es **proceso** mediante el cual diferencias culturales se transforman en **diferencias \"naturales\"** que justifican **jerarquías** y **explotación**. Trabajo Social debe comprender tanto **fortaleza de identidades étnicas** como **violencia de racismo estructural**.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Historicizar raza; reconocer que es construcción sin base biológica."
+    },
+    {
+        "id":  85,
+        "titulo":  "Complejidad y Pensamiento Complejo",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Marco teórico que entiende realidad social como **compleja, no lineal, multidimensional**.",
+        "sintesisDidactica":  "Pensamiento complejo rechaza **reduccionismo**, **causalidad lineal**, **determinismos**. Propone que fenómenos sociales emergen de **interacciones múltiples**, tienen **propiedades emergentes** no reductibles a partes, presentan **incertidumbre irreducible**. Requiere **pensamiento no-lineal**, **tolerancia a paradoja**, **respeto a complejidad**.",
+        "referenciaPagina":  "Morin, págs. 86, 100, 101",
+        "alertaExamen":  "Aplicar pensamiento complejo; evitar oversimplifications."
+    },
+    {
+        "id":  86,
+        "titulo":  "Interdisciplinariedad Teórica",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Diálogo entre disciplinas que enriquece comprensión de fenómenos sociales.",
+        "sintesisDidactica":  "Trabajo Social es disciplina **inherentemente interdisciplinaria**, dialogando con **sociología**, **psicología**, **antropología**, **política**, **economía**. Este diálogo no es **simple suma** sino **síntesis creativa** que produce nuevas comprensiones. Interdisciplinariedad es **fortaleza constitutiva**, no debilidad.",
+        "referenciaPagina":  "Seda-Irizarry, págs. 4, 5",
+        "alertaExamen":  "Integrar perspectivas múltiples; evitar fragmentación disciplinaria."
+    },
+    {
+        "id":  87,
+        "titulo":  "Fenomenología Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Enfoque que estudia cómo experiencias vividas constituyen realidad social.",
+        "sintesisDidactica":  "Fenomenología social parte de **pregunta por significados**, **cómo actores experimentan mundo**, **qué estructuras de vivencia**. Rechaza **determinismo estructural**: estructuras existen porque actores las **viven, reproducen, contestan permanentemente**. Aporta **herramientas de comprensión** de experiencias concretas de poblaciones.",
+        "referenciaPagina":  "Inverso/Husserl/Marion/Henry, págs. 349, 350, 351",
+        "alertaExamen":  "Conectar experiencia vivida con estructuras; evitar individualismo."
+    },
+    {
+        "id":  88,
+        "titulo":  "Crítica del Positivismo en Teoría Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Argumentación teórica sobre limitaciones de enfoque positivista para comprensión de lo social.",
+        "sintesisDidactica":  "Positivismo pretende que **lo social funciona como naturaleza**, con **leyes universales**, **causalidad mecánica**. Crítica señala que **actores dan significados**, que **contexto es irreducible**, que **humanos son reflexivos**. Propone que ciencia social debe ser **hermenéutica** (interpretativa) además de **explicativa**, reconociendo especificidad de objeto de estudio.",
+        "referenciaPagina":  "Morin, págs. 72, 86",
+        "alertaExamen":  "Comprender crítica sin rechazar rigor; buscar balance metodológico."
+    },
+    {
+        "id":  89,
+        "titulo":  "Crítica de la Razón Moderna",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Cuestionamiento de presupuestos de modernidad que fundamentan pensamiento social occidental.",
+        "sintesisDidactica":  "Crítica de razón moderna cuestiona **fe en progreso lineal**, **eurocentrismo**, **separación sujeto-objeto**, **dominio de naturaleza**. Escuelas de Frankfurt, poscolonial y otras proponen que modernidad produce tanto **emancipación** como **nuevas formas de dominación**. Trabajo Social beneficia de esta **perspectiva crítica**.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Aplicar crítica reflexivamente; evitar rechazo ingenuo de modernidad."
+    },
+    {
+        "id":  90,
+        "titulo":  "Comunitarismo vs. Individualismo",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Debate teórico sobre si primacía debe estar en individuo o comunidad.",
+        "sintesisDidactica":  "Individualismo enfatiza **autonomía personal**, **derechos individuales**, **responsabilidad propia**. Comunitarismo enfatiza **interdependencia**, **bienes comunes**, **responsabilidad colectiva**. Trabajo Social necesita **balance**: reconocer individuos con derechos y capacidades, pero también **seres sociales** cuyo bienestar está **ligado a comunidad**.",
+        "referenciaPagina":  "Carabaña/Lamo, págs. 2, 3, 4",
+        "alertaExamen":  "Buscar síntesis; evitar extremos."
+    },
+    {
+        "id":  91,
+        "titulo":  "Teoría Crítica y Emancipación",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Enfoque teórico que vincula crítica a estructuras injustas con proyecto emancipador.",
+        "sintesisDidactica":  "Teoría crítica no se conforma con **descripción o explicación neutral**; busca **identificar injusticias**, **exponer contradicciones**, **señalar posibilidades de transformación**. Propone que mejor comprensión debe llevar a **acción transformadora**. Trabajo Social crítico se alimenta de estas perspectivas.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Aplicar crítica sin imposición; respetando autonomía de afectados."
+    },
+    {
+        "id":  92,
+        "titulo":  "Democracia y Participación Política",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Formas de organización política y grados de involucramiento de ciudadanía en decisiones colectivas.",
+        "sintesisDidactica":  "Democracia va más allá de **elecciones periódicas**; requiere **participación activa**, **acceso a información**, **capacidad incidente** en decisiones, **respeto a minorías**. Trabajo Social participa en procesos de **fortalecimiento democrático**, **educación cívica** y **construcción de poder ciudadano**.",
+        "referenciaPagina":  "Flecha, págs. 167, 1",
+        "alertaExamen":  "Valorar democracia sustantiva; cuestionar democracia meramente formal."
+    },
+    {
+        "id":  93,
+        "titulo":  "Conflicto Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Desacuerdos y enfrentamientos entre grupos con intereses contrapuestos.",
+        "sintesisDidactica":  "Conflicto es **inherente a vida social**, no **patología**. Puede ser destructivo (perpetúa violencia, profundiza heridas) o constructivo (cataliza reconocimiento de diferencias, propulsa transformaciones). Trabajo Social trabaja con conflictos buscando canalizarlos hacia **formas constructivas** de resolución.",
+        "referenciaPagina":  "Durkheim/Vázquez, págs. 31, 100, 1",
+        "alertaExamen":  "Reconocer conflicto sin romantizarlo; evaluar potenciales transformadores."
+    },
+    {
+        "id":  94,
+        "titulo":  "Ciudadanía y Derechos Sociales",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Estatus de pertenencia a comunidad política y conjunto de derechos que conlleva.",
+        "sintesisDidactica":  "Ciudadanía incluye **derechos civiles** (libertad, propiedad), **derechos políticos** (participación), **derechos sociales** (educación, salud, vivienda). Expansión de ciudadanía ha sido **proceso luchas**, no **benigno regalo**. Trabajo Social participa en **exigibilidad de derechos**, **construcción de ciudadanía activa**.",
+        "referenciaPagina":  "Flecha, págs. 167, 1",
+        "alertaExamen":  "Conectar ciudadanía formal con sustancia; evaluar acceso real."
+    },
+    {
+        "id":  95,
+        "titulo":  "Justicia Social",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Concepto normativo de cómo deben distribuirse beneficios y cargas en sociedad.",
+        "sintesisDidactica":  "Concepciones de justicia varían: **igualitarismo** busca igualdad; **libertarianismo** enfatiza libertad; **teorías de capacidades** buscan que todos puedan desarrollar capacidades. Trabajo Social está **fundamentalmente comprometido** con justicia social, buscando **reducir desigualdades**, **reconocer dignidad**, **acceso equitativo** a bienes sociales.",
+        "referenciaPagina":  "Guamán/Comte, págs. 266, 267, 268",
+        "alertaExamen":  "Articular concepto de justicia en intervención; evaluar implicaciones prácticas."
+    },
+    {
+        "id":  96,
+        "titulo":  "Equidad vs. Igualdad",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Distinción entre tratar a todos igual versus dar a cada quien lo que necesita.",
+        "sintesisDidactica":  "**Igualdad formal** (trato igual) puede perpetuar desigualdades cuando hay diferencias de partida. **Equidad** propone ajustes según necesidades para lograr **resultados justos**. Trabajo Social muchas veces debe abogar por **medidas diferenciadas**, **recursos específicos** para poblaciones en desventaja.",
+        "referenciaPagina":  "Flecha, págs. 167, 1",
+        "alertaExamen":  "Aplicar concepto de equidad; argumentar medidas diferenciadoras."
+    },
+    {
+        "id":  97,
+        "titulo":  "Reconocimiento y Redistribución",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Dos dimensiones de justicia social: reconocimiento de dignidad y distribución equitativa de recursos.",
+        "sintesisDidactica":  "Justicia requiere tanto **redistribución** (derrotar pobreza, acceso equitativo) como **reconocimiento** (respetar diferencias, eliminar estigma). La una sin la otra genera injusticia: redistribución sin reconocimiento reproduce dominación; reconocimiento sin redistribución perpetúa pobreza. Trabajo Social debe buscar ambas.",
+        "referenciaPagina":  "Guamán/Comte, págs. 266, 267, 268",
+        "alertaExamen":  "Integrar ambas dimensiones; evaluar políticas según ambos criterios."
+    },
+    {
+        "id":  98,
+        "titulo":  "Vulnerabilidad como Condición Teórica",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Reconocimiento de que vulnerabilidad no es característica individual sino condición humana/social.",
+        "sintesisDidactica":  "Todos somos **vulnerables** a circunstancias: enfermedad, muerte, dependencia. Algunas poblaciones tienen **vulnerabilidades amplificadas** por exclusión estructural. Teorizar vulnerabilidad como condición (no patología) cambia enfoque: en lugar de \"ayudar vulnerables\", se trata de **reordenamientos** que **protejan a todos**, reduciendo vulnerabilidades diferenciales.",
+        "referenciaPagina":  "Inverso/Husserl/Marion/Henry, págs. 349, 350, 351",
+        "alertaExamen":  "Aplicar conceptualizacion de vulnerabilidad críticamente; evitar estigma."
+    },
+    {
+        "id":  99,
+        "titulo":  "Justicia Transicional",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Procesos de reconocimiento de daños pasados y construcción de paz después de conflictos.",
+        "sintesisDidactica":  "Justicia transicional combina **reconocimiento de víctimas**, **rendición de cuentas**, **reparaciones**, **garantías de no repetición**. No busca \"resolver\" conflictos sino construir base para convivencia. Trabajo Social participa en **apoyo psicosocial**, **acompañamiento de víctimas**, **construcción de memoria colectiva**.",
+        "referenciaPagina":  "Frankfurt/Briceño, págs. 56, 57, 58, 60",
+        "alertaExamen":  "Comprender multidimensionalidad; evaluar políticas según estos criterios."
+    },
+    {
+        "id":  100,
+        "titulo":  "Responsabilidad Social Profesional",
+        "eje":  "Teoría Social",
+        "conceptoCentral":  "Compromiso ético-político de profesionales Trabajo Social con transformación social.",
+        "sintesisDidactica":  "Responsabilidad social trasciende **deberes técnicos** para incluir **compromiso con justicia**, **denuncia de injusticias**, **construcción de alternativas**, **rendición de cuentas** a comunidades. Trabajo Social no es profesión neutral: está **constitutivamente** comprometida con bienestar de poblaciones vulneradas. Esta responsabilidad es tanto **oportunidad** cuanto **desafío permanente**.",
+        "referenciaPagina":  "Seda-Irizarry, págs. 2, 3, 4, 5",
+        "alertaExamen":  "Reflexionar sobre valores profesionales; comprometerse genuinamente con responsabilidad social."
+    }
+]
