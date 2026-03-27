@@ -3,6 +3,7 @@ import flashcardsActiveRecall from "../data/flashcardsActiveRecall";
 import guiaData from "../data/guia.json";
 
 const AXES = ["Todos", "Historia", "Metodología", "Teoría Social"];
+const ACTIVE_RECALL_STORAGE_KEY = "flashcards:active-recall:mastered:v1";
 const MODES = [
   { id: "active-recall", label: "Active Recall" },
   { id: "conceptos", label: "Conceptos" }
@@ -26,10 +27,12 @@ function renderBold(text) {
 
 export default function Flashcards() {
   const [studyMode, setStudyMode] = useState("active-recall");
+  const [masteredById, setMasteredById] = useState({});
   const [axisFilter, setAxisFilter] = useState("Todos");
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [isRandom, setIsRandom] = useState(false);
+  const isActiveRecall = studyMode === "active-recall";
   const sourceData = studyMode === "active-recall" ? flashcardsActiveRecall : guiaData;
   const [order, setOrder] = useState(() => sourceData.map((_, i) => i));
 
@@ -51,6 +54,31 @@ export default function Flashcards() {
   const current = orderedFiltered[safeIndex];
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const raw = window.localStorage.getItem(ACTIVE_RECALL_STORAGE_KEY);
+      if (!raw) return;
+      const ids = JSON.parse(raw);
+      if (!Array.isArray(ids)) return;
+
+      const mapped = ids.reduce((acc, id) => {
+        if (typeof id === "string") acc[id] = true;
+        return acc;
+      }, {});
+
+      setMasteredById(mapped);
+    } catch {
+      setMasteredById({});
+    }
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const ids = Object.keys(masteredById).filter((id) => masteredById[id]);
+    window.localStorage.setItem(ACTIVE_RECALL_STORAGE_KEY, JSON.stringify(ids));
+  }, [masteredById]);
+
+  useEffect(() => {
     const handler = (e) => {
       const target = e.target;
       if (
@@ -70,12 +98,62 @@ export default function Flashcards() {
       } else if (e.key === " " || e.key === "Enter") {
         e.preventDefault();
         setFlipped((f) => !f);
+      } else if (isActiveRecall && (e.key === "m" || e.key === "M")) {
+        const currentId = current?.concept?.id;
+        if (!currentId) return;
+        setMasteredById((prev) => ({ ...prev, [currentId]: !prev[currentId] }));
       }
     };
 
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [orderedFiltered.length]);
+  }, [orderedFiltered.length, isActiveRecall, current]);
+
+  const activeRecallMetrics = useMemo(() => {
+    const byAxis = {
+      Historia: { total: 0, mastered: 0 },
+      "Metodología": { total: 0, mastered: 0 },
+      "Teoría Social": { total: 0, mastered: 0 },
+    };
+
+    let total = 0;
+    let mastered = 0;
+
+    flashcardsActiveRecall.forEach((card) => {
+      total += 1;
+      if (byAxis[card.eje]) byAxis[card.eje].total += 1;
+
+      if (masteredById[card.id]) {
+        mastered += 1;
+        if (byAxis[card.eje]) byAxis[card.eje].mastered += 1;
+      }
+    });
+
+    const filteredTotal = orderedFiltered.length;
+    const filteredMastered = isActiveRecall
+      ? orderedFiltered.reduce((acc, row) => acc + (masteredById[row.concept.id] ? 1 : 0), 0)
+      : 0;
+
+    return {
+      total,
+      mastered,
+      pct: total ? Math.round((mastered / total) * 100) : 0,
+      filteredTotal,
+      filteredMastered,
+      filteredPct: filteredTotal ? Math.round((filteredMastered / filteredTotal) * 100) : 0,
+      byAxis,
+    };
+  }, [masteredById, orderedFiltered, isActiveRecall]);
+
+  const toggleCurrentMastered = () => {
+    if (!isActiveRecall || !current?.concept?.id) return;
+    const currentId = current.concept.id;
+    setMasteredById((prev) => ({ ...prev, [currentId]: !prev[currentId] }));
+  };
+
+  const resetMastery = () => {
+    setMasteredById({});
+  };
 
   const handleAxis = (axis) => {
     setAxisFilter(axis);
@@ -124,6 +202,7 @@ export default function Flashcards() {
   }
 
   const { concept } = current;
+  const isCurrentMastered = isActiveRecall ? Boolean(masteredById[concept.id]) : false;
   const axisColors = AXIS_COLOR[concept.eje] || { bg: "bg-brand-700", text: "text-white" };
 
   return (
@@ -132,15 +211,59 @@ export default function Flashcards() {
         <h1 className="font-serif text-2xl">Flashcards — {studyMode === "active-recall" ? "Active Recall" : "100 Conceptos"}</h1>
         <p className="mt-1 text-sm text-brand-100">
           {studyMode === "active-recall"
-            ? "Historia ya esta reescrita como evocacion directa, inversion y tarjetas derivadas de alertas de examen."
+            ? "Las tres areas ya estan reescritas como evocacion directa, inversion y tarjetas derivadas de alertas de examen."
             : "Voltea cada tarjeta para ver la síntesis, referencia y alerta de examen."}
         </p>
         {studyMode === "active-recall" && (
           <p className="mt-2 text-xs text-brand-200">
-            Implementacion inicial: bloque Historia completo. Metodología y Teoría Social siguen en preparacion.
+            Cobertura completa: Historia, Metodología y Teoría Social.
           </p>
         )}
       </header>
+
+      {isActiveRecall && (
+        <section className="space-y-3 rounded-2xl border border-brand-200 bg-white p-4 shadow-sm">
+          <div className="flex flex-wrap items-center gap-3">
+            <p className="text-sm font-semibold text-brand-900">
+              Dominadas: {activeRecallMetrics.mastered}/{activeRecallMetrics.total} ({activeRecallMetrics.pct}%)
+            </p>
+            <p className="text-xs text-slate-500">
+              Filtro actual: {activeRecallMetrics.filteredMastered}/{activeRecallMetrics.filteredTotal} ({activeRecallMetrics.filteredPct}%)
+            </p>
+            <button
+              type="button"
+              onClick={resetMastery}
+              className="ml-auto rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50"
+            >
+              Reiniciar progreso
+            </button>
+          </div>
+
+          <div className="h-2 w-full overflow-hidden rounded-full bg-brand-100">
+            <div
+              className="h-full rounded-full bg-brand-700 transition-all"
+              style={{ width: `${activeRecallMetrics.pct}%` }}
+            />
+          </div>
+
+          <div className="grid gap-2 sm:grid-cols-3">
+            {Object.entries(activeRecallMetrics.byAxis).map(([axis, stats]) => {
+              const pct = stats.total ? Math.round((stats.mastered / stats.total) * 100) : 0;
+              return (
+                <div key={axis} className="rounded-xl border border-slate-200 bg-slate-50 p-3">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">{axis}</p>
+                  <p className="mt-1 text-sm font-bold text-brand-900">
+                    {stats.mastered}/{stats.total} ({pct}%)
+                  </p>
+                  <div className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-slate-200">
+                    <div className="h-full rounded-full bg-brand-700" style={{ width: `${pct}%` }} />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       <div className="flex flex-wrap gap-2">
         {MODES.map((mode) => (
@@ -196,6 +319,9 @@ export default function Flashcards() {
         Tarjeta <strong className="text-brand-900">{safeIndex + 1}</strong> de{" "}
         <strong className="text-brand-900">{orderedFiltered.length}</strong>
         {axisFilter !== "Todos" && <span className="ml-1 text-slate-400">· {axisFilter}</span>}
+        {isActiveRecall && (
+          <span className="ml-1 text-slate-400">· {isCurrentMastered ? "Dominada" : "Pendiente"}</span>
+        )}
       </p>
 
       {/* Flashcard */}
@@ -305,6 +431,18 @@ export default function Flashcards() {
         >
           Voltear
         </button>
+        {isActiveRecall && (
+          <button
+            type="button"
+            onClick={toggleCurrentMastered}
+            className={`rounded-xl px-5 py-2.5 text-sm font-semibold text-white ${
+              isCurrentMastered ? "bg-emerald-600" : "bg-slate-700"
+            }`}
+            aria-label={isCurrentMastered ? "Marcar como pendiente" : "Marcar como dominada"}
+          >
+            {isCurrentMastered ? "Dominada ✓" : "Marcar dominada"}
+          </button>
+        )}
         <button
           type="button"
           onClick={handleNext}
