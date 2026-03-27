@@ -1,5 +1,4 @@
 import { useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
 import guiaData from "../data/guia.json";
 
 const STORAGE_KEY = "guia:revisados";
@@ -41,7 +40,6 @@ function renderBold(text) {
 }
 
 export default function GuiaEstudio() {
-  const navigate = useNavigate();
   const [query, setQuery] = useState("");
   const [axisFilter, setAxisFilter] = useState("Todos");
   const [expanded, setExpanded] = useState(new Set());
@@ -101,14 +99,6 @@ export default function GuiaEstudio() {
   return (
     <main className="container-shell space-y-5">
       <header className="rounded-2xl bg-brand-900 p-6 text-white shadow-xl">
-        <button
-          type="button"
-          onClick={() => navigate("/")}
-          className="mb-3 text-xs font-semibold uppercase tracking-widest text-brand-200 hover:text-white"
-          aria-label="Volver al inicio"
-        >
-          ← Inicio
-        </button>
         <h1 className="font-serif text-2xl">Guía de Estudio — 100 Conceptos Clave</h1>
         <p className="mt-1 text-sm text-brand-100">
           Historia · Metodología · Teoría Social
