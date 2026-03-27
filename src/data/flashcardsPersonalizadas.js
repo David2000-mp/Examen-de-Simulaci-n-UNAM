@@ -498,6 +498,956 @@ const flashcardsPersonalizadas = [
     "prompt": "La Teoría Fundamentada se basa en un diseño circular. ¿Qué implica esto para el proceso de recolección y análisis?",
     "answer": "Que la recolección de datos y el análisis ocurren simultáneamente; lo que se analiza en una entrevista guía la búsqueda de información en la siguiente.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: A diferencia del modelo lineal cuantitativo (recolectar todo y luego analizar), en la TF el análisis empieza desde el primer dato y orienta el resto del muestreo.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
+  },
+  {
+    "id": "GP-051",
+    "eje": "Teoría",
+    "sourceId": 51,
+    "kind": "error-review",
+    "titulo": "Tarjeta 51",
+    "prompt": "¿Qué es la \"Colonialidad del Poder\" según Aníbal Quijano?",
+    "answer": "Es una estructura de dominación que persiste tras el fin del colonialismo jurídico, basada en la clasificación racial de la población mundial como eje fundamental del poder capitalista y la subjetividad moderna.",
+    "note": ""
+  },
+  {
+    "id": "GP-052",
+    "eje": "Historia",
+    "sourceId": 52,
+    "kind": "error-review",
+    "titulo": "Tarjeta 52",
+    "prompt": "¿Qué importancia tiene el Artículo 123 de la Constitución de 1917 para el Trabajo Social en México?",
+    "answer": "Estableció los derechos laborales (jornada de 8 horas, seguridad social, protección al trabajo femenino e infantil), creando el marco legal que dio origen a las primeras áreas de intervención del Trabajo Social industrial y de seguridad social.",
+    "note": ""
+  },
+  {
+    "id": "GP-053",
+    "eje": "Metodología",
+    "sourceId": 53,
+    "kind": "error-review",
+    "titulo": "Tarjeta 53",
+    "prompt": "¿Qué diferencia hay entre una \"investigación exploratoria\" y una \"explicativa\"?",
+    "answer": "La exploratoria busca familiarizarse con un tema poco estudiado para identificar conceptos; la explicativa busca establecer las causas o por qué ocurre un fenómeno social específico.",
+    "note": ""
+  },
+  {
+    "id": "GP-054",
+    "eje": "Teoría",
+    "sourceId": 54,
+    "kind": "error-review",
+    "titulo": "Tarjeta 54",
+    "prompt": "¿En qué consiste el \"Enfoque de Capacidades\" de Amartya Sen?",
+    "answer": "Propone que el desarrollo y el bienestar deben medirse por las libertades reales (capacidades) que tienen las personas para elegir el tipo de vida que valoran, más allá del simple ingreso económico.",
+    "note": ""
+  },
+  {
+    "id": "GP-055",
+    "eje": "Historia",
+    "sourceId": 55,
+    "kind": "error-review",
+    "titulo": "Tarjeta 55",
+    "prompt": "¿Qué caracterizó al periodo de la \"Asistencia Social\" en México durante el Cardenismo (1934-1940)?",
+    "answer": "La creación de instituciones estatales sólidas como la Secretaría de Asistencia Pública, que buscaba integrar la asistencia como un derecho social vinculado al proyecto de nación y la justicia distributiva.",
+    "note": ""
+  },
+  {
+    "id": "GP-056",
+    "eje": "Metodología",
+    "sourceId": 56,
+    "kind": "error-review",
+    "titulo": "Tarjeta 56",
+    "prompt": "¿Qué es la \"saturación teórica\" en la investigación cualitativa?",
+    "answer": "Es el punto en la recolección de datos donde la nueva información ya no aporta hallazgos adicionales o nuevas dimensiones a las categorías de análisis ya desarrolladas.",
+    "note": ""
+  },
+  {
+    "id": "GP-057",
+    "eje": "Teoría",
+    "sourceId": 57,
+    "kind": "error-review",
+    "titulo": "Tarjeta 57",
+    "prompt": "Según Immanuel Wallerstein, ¿qué es el \"Sistema-Mundo\"?",
+    "answer": "Es una unidad de análisis que divide al mundo en Centro, Periferia y Semiperiferia, donde existe una división internacional del trabajo que beneficia al centro mediante la explotación de recursos y mano de obra de la periferia.",
+    "note": ""
+  },
+  {
+    "id": "GP-058",
+    "eje": "Historia",
+    "sourceId": 58,
+    "kind": "error-review",
+    "titulo": "Tarjeta 58",
+    "prompt": "¿Cuál fue el papel de la Iglesia Católica en los orígenes del Trabajo Social en México?",
+    "answer": "A través de la Doctrina Social de la Iglesia y las \"Damas de la Caridad\", fundó las primeras escuelas de formación (como la Escuela de Servicio Social de la Acción Católica) con un enfoque preventivo y moralizante.",
+    "note": ""
+  },
+  {
+    "id": "GP-059",
+    "eje": "Metodología",
+    "sourceId": 59,
+    "kind": "error-review",
+    "titulo": "Tarjeta 59",
+    "prompt": "¿Qué es el \"consentimiento informado\" en la ética de la investigación social?",
+    "answer": "Es el proceso mediante el cual se informa voluntariamente al participante sobre los objetivos, riesgos, beneficios y el manejo de su información, asegurando su derecho a retirarse en cualquier momento.",
+    "note": ""
+  },
+  {
+    "id": "GP-060",
+    "eje": "Teoría",
+    "sourceId": 60,
+    "kind": "error-review",
+    "titulo": "Tarjeta 60",
+    "prompt": "¿Qué es la \"Acumulación por Desposesión\" de David Harvey?",
+    "answer": "Es el uso de métodos no económicos (privatización de bienes públicos, despojo de tierras, patentes sobre la vida) para rescatar el sistema capitalista cuando la acumulación tradicional por explotación laboral se estanca.",
+    "note": ""
+  },
+  {
+    "id": "GP-061",
+    "eje": "Historia",
+    "sourceId": 61,
+    "kind": "error-review",
+    "titulo": "Tarjeta 61",
+    "prompt": "¿Qué impacto tuvo el movimiento estudiantil de 1968 en el Trabajo Social mexicano?",
+    "answer": "Impulsó la politización de estudiantes y docentes, acelerando el proceso de Reconceptualización y el cuestionamiento del papel del trabajador social como \"apaciguador\" de las demandas populares.",
+    "note": ""
+  },
+  {
+    "id": "GP-062",
+    "eje": "Metodología",
+    "sourceId": 62,
+    "kind": "error-review",
+    "titulo": "Tarjeta 62",
+    "prompt": "¿Cuál es la utilidad del \"Método Delphi\" en la planificación social?",
+    "answer": "Es una técnica de consulta a expertos de forma anónima y sistemática para alcanzar un consenso sobre tendencias futuras o la viabilidad de soluciones a problemas sociales complejos.",
+    "note": ""
+  },
+  {
+    "id": "GP-063",
+    "eje": "Teoría",
+    "sourceId": 63,
+    "kind": "error-review",
+    "titulo": "Tarjeta 63",
+    "prompt": "¿Qué postula Judith Butler sobre la \"performatividad del género\"?",
+    "answer": "Que el género no es una esencia biológica ni una identidad fija, sino un conjunto de actos repetidos (normas sociales) que producen la ilusión de una naturaleza masculina o femenina.",
+    "note": ""
+  },
+  {
+    "id": "GP-064",
+    "eje": "Historia",
+    "sourceId": 64,
+    "kind": "error-review",
+    "titulo": "Tarjeta 64",
+    "prompt": "¿Qué fue la \"Ley de Pobres\" (Poor Law) de 1834 en Inglaterra?",
+    "answer": "Una reforma legislativa que endureció las condiciones de asistencia, obligando a los pobres a vivir en \"workhouses\" (casas de trabajo) bajo condiciones precarias para desincentivar la dependencia del Estado.",
+    "note": ""
+  },
+  {
+    "id": "GP-065",
+    "eje": "Metodología",
+    "sourceId": 65,
+    "kind": "error-review",
+    "titulo": "Tarjeta 65",
+    "prompt": "¿En qué consiste el \"Análisis de Contenido\" cualitativo?",
+    "answer": "En una técnica de interpretación de textos (entrevistas, documentos, medios) que busca identificar patrones, temas recurrentes y significados latentes mediante la codificación sistemática.",
+    "note": ""
+  },
+  {
+    "id": "GP-066",
+    "eje": "Teoría",
+    "sourceId": 66,
+    "kind": "error-review",
+    "titulo": "Tarjeta 66",
+    "prompt": "¿Qué define al \"Estado de Excepción\" según Giorgio Agamben?",
+    "answer": "Es el espacio legal en el cual se suspende el derecho para proteger al Estado, convirtiendo la excepción en la regla y dejando al individuo en una condición de vulnerabilidad absoluta frente al poder soberano.",
+    "note": ""
+  },
+  {
+    "id": "GP-067",
+    "eje": "Historia",
+    "sourceId": 67,
+    "kind": "error-review",
+    "titulo": "Tarjeta 67",
+    "prompt": "¿Quién fue Mary Ellen Richmond y por qué se dice que \"descubrió\" el caso social?",
+    "answer": "Porque fue la primera en formalizar que los problemas sociales no eran solo fallas morales, sino el resultado de factores sociales y psicológicos que podían ser estudiados y tratados científicamente.",
+    "note": ""
+  },
+  {
+    "id": "GP-068",
+    "eje": "Metodología",
+    "sourceId": 68,
+    "kind": "error-review",
+    "titulo": "Tarjeta 68",
+    "prompt": "¿Qué es la \"Validez de Constructo\" en una investigación?",
+    "answer": "Es el grado en que un instrumento (como un cuestionario o escala) mide realmente el concepto teórico o la variable que pretende medir y no otra cosa.",
+    "note": ""
+  },
+  {
+    "id": "GP-069",
+    "eje": "Teoría",
+    "sourceId": 69,
+    "kind": "error-review",
+    "titulo": "Tarjeta 69",
+    "prompt": "¿A qué se refiere el concepto de \"Necropolítica\" de Achille Mbembe?",
+    "answer": "Es el uso del poder político y social para dictar quién puede vivir y quién debe morir, creando \"mundos de muerte\" donde vastas poblaciones son consideradas desechables.",
+    "note": ""
+  },
+  {
+    "id": "GP-070",
+    "eje": "Historia",
+    "sourceId": 70,
+    "kind": "error-review",
+    "titulo": "Tarjeta 70",
+    "prompt": "¿Cuál es la relevancia de la Escuela Nacional de Trabajo Social (ENTS) de la UNAM?",
+    "answer": "Es el centro de referencia académica más importante de México para la disciplina, liderando la investigación teórica, la actualización de modelos de intervención y la formación crítica desde 1933 (originalmente como carrera en Derecho).",
+    "note": ""
+  },
+  {
+    "id": "GP-071",
+    "eje": "Metodología",
+    "sourceId": 71,
+    "kind": "error-review",
+    "titulo": "Tarjeta 71",
+    "prompt": "¿Qué diferencia hay entre \"Población\" y \"Muestra\"?",
+    "answer": "La población es el conjunto total de individuos que comparten una característica; la muestra es el subconjunto representativo de esa población sobre el cual se realiza efectivamente la investigación.",
+    "note": ""
+  },
+  {
+    "id": "GP-072",
+    "eje": "Teoría",
+    "sourceId": 72,
+    "kind": "error-review",
+    "titulo": "Tarjeta 72",
+    "prompt": "¿Qué es el \"Estructuralismo\" en las ciencias sociales?",
+    "answer": "Una corriente que sostiene que los fenómenos sociales deben entenderse a través de las estructuras invisibles (normas, lenguaje, mitos) que determinan el comportamiento individual, más allá de la voluntad del sujeto.",
+    "note": ""
+  },
+  {
+    "id": "GP-073",
+    "eje": "Historia",
+    "sourceId": 73,
+    "kind": "error-review",
+    "titulo": "Tarjeta 73",
+    "prompt": "¿Qué impacto tuvo el Neoliberalismo en el Trabajo Social latinoamericano de los años 90?",
+    "answer": "Provocó la focalización de las políticas sociales (solo para los más pobres), la privatización de servicios y la burocratización de la intervención, reduciendo el margen de acción de los profesionales.",
+    "note": ""
+  },
+  {
+    "id": "GP-074",
+    "eje": "Metodología",
+    "sourceId": 74,
+    "kind": "error-review",
+    "titulo": "Tarjeta 74",
+    "prompt": "¿Qué es un \"Diseño Cuasi-experimental\"?",
+    "answer": "Es un diseño de investigación que busca probar una relación de causa-efecto pero que carece de una asignación aleatoria de los participantes a los grupos de control y experimental.",
+    "note": ""
+  },
+  {
+    "id": "GP-075",
+    "eje": "Teoría",
+    "sourceId": 75,
+    "kind": "error-review",
+    "titulo": "Tarjeta 75",
+    "prompt": "¿Qué postula la \"Teoría de la Dependencia\"?",
+    "answer": "Que el subdesarrollo de los países latinoamericanos no es una etapa previa al desarrollo, sino una consecuencia directa del desarrollo de los países centrales que extraen riqueza de la periferia.",
+    "note": ""
+  },
+  {
+    "id": "GP-076",
+    "eje": "Metodología",
+    "sourceId": 76,
+    "kind": "error-review",
+    "titulo": "Tarjeta 76",
+    "prompt": "¿En qué consiste la técnica de \"Relato de Vida\" (Life Story) y cómo se diferencia de la \"Historia de Vida\"?",
+    "answer": "El relato de vida es la narración biográfica tal como la cuenta el sujeto; la historia de vida incluye ese relato más otros documentos (archivos, testimonios de terceros) para contrastar y completar la biografía.",
+    "note": ""
+  },
+  {
+    "id": "GP-077",
+    "eje": "Historia",
+    "sourceId": 77,
+    "kind": "error-review",
+    "titulo": "Tarjeta 77",
+    "prompt": "¿Cuál fue el objetivo central de la creación del Sistema Nacional para el Desarrollo Integral de la Familia (DIF) en 1977?",
+    "answer": "Fusionar organismos previos (IMPI y ANPI) para centralizar la asistencia social pública, enfocándose en la protección de la infancia y el fortalecimiento de la unidad familiar como base de la sociedad.",
+    "note": ""
+  },
+  {
+    "id": "GP-078",
+    "eje": "Teoría",
+    "sourceId": 78,
+    "kind": "error-review",
+    "titulo": "Tarjeta 78",
+    "prompt": "Según Marcela Lagarde, ¿qué son los \"cautiverios\" de las mujeres?",
+    "answer": "Son categorías analíticas que explican la opresión de las mujeres en el patriarcado (madresposas, monjas, putas, presas, locas), donde su vida se define por el servicio a otros y la privación de autonomía.",
+    "note": ""
+  },
+  {
+    "id": "GP-079",
+    "eje": "Metodología",
+    "sourceId": 79,
+    "kind": "error-review",
+    "titulo": "Tarjeta 79",
+    "prompt": "¿Qué implica el \"Secreto Profesional\" en el ejercicio del Trabajo Social?",
+    "answer": "Es el deber ético y legal de no revelar la información confidencial confiada por el usuario durante la intervención, salvo en situaciones donde exista un riesgo vital para el sujeto o terceros.",
+    "note": ""
+  },
+  {
+    "id": "GP-080",
+    "eje": "Historia",
+    "sourceId": 80,
+    "kind": "error-review",
+    "titulo": "Tarjeta 80",
+    "prompt": "¿Qué caracterizó a la Beneficencia Pública durante el Porfiriato en México?",
+    "answer": "Una transición de la caridad eclesiástica a una asistencia controlada por el Estado, con un enfoque higienista y de control social para \"modernizar\" la imagen del país ante el exterior.",
+    "note": ""
+  },
+  {
+    "id": "GP-081",
+    "eje": "Teoría",
+    "sourceId": 81,
+    "kind": "error-review",
+    "titulo": "Tarjeta 81",
+    "prompt": "¿Qué define al \"Espacio Público\" según Hannah Arendt?",
+    "answer": "Es el ámbito de la libertad y la acción política donde los ciudadanos se muestran ante los demás a través del discurso y la labor común, diferenciándose radicalmente del ámbito privado de la necesidad económica.",
+    "note": ""
+  },
+  {
+    "id": "GP-082",
+    "eje": "Metodología",
+    "sourceId": 82,
+    "kind": "error-review",
+    "titulo": "Tarjeta 82",
+    "prompt": "¿Cuál es la función del \"Diario de Campo\" como herramienta metodológica?",
+    "answer": "Es un instrumento de registro sistemático donde el profesional anota observaciones, reflexiones, impresiones y datos relevantes del proceso de intervención, facilitando la autoevaluación y el análisis posterior.",
+    "note": ""
+  },
+  {
+    "id": "GP-083",
+    "eje": "Historia",
+    "sourceId": 83,
+    "kind": "error-review",
+    "titulo": "Tarjeta 83",
+    "prompt": "¿Por qué los años 40 se consideran la \"Edad de Oro\" de la institucionalización del Trabajo Social médico en México?",
+    "answer": "Debido a la creación de los grandes Institutos Nacionales de Salud y el Hospital Infantil de México, donde el TS se volvió indispensable para el modelo de atención médica especializada.",
+    "note": ""
+  },
+  {
+    "id": "GP-084",
+    "eje": "Teoría",
+    "sourceId": 84,
+    "kind": "error-review",
+    "titulo": "Tarjeta 84",
+    "prompt": "¿Qué es la \"colonialidad del saber\" en el pensamiento decolonial?",
+    "answer": "Es el predominio de las formas de conocimiento eurocéntricas que invisibilizan o descalifican los saberes ancestrales, populares y locales de los pueblos colonizados.",
+    "note": ""
+  },
+  {
+    "id": "GP-085",
+    "eje": "Metodología",
+    "sourceId": 85,
+    "kind": "error-review",
+    "titulo": "Tarjeta 85",
+    "prompt": "¿En qué consiste la \"Evaluación Ex-ante\" de un programa social?",
+    "answer": "Es el análisis que se realiza antes de la ejecución para determinar la viabilidad, pertinencia y coherencia del diseño del proyecto frente al problema que busca resolver.",
+    "note": ""
+  },
+  {
+    "id": "GP-086",
+    "eje": "Historia",
+    "sourceId": 86,
+    "kind": "error-review",
+    "titulo": "Tarjeta 86",
+    "prompt": "¿Cuál es el vínculo entre los movimientos sociales y el surgimiento de nuevas áreas de intervención en Trabajo Social?",
+    "answer": "Los movimientos (feministas, de derechos humanos, ambientales) visibilizan nuevas necesidades que el Estado y la academia terminan institucionalizando como campos profesionales (TS forense, ambiental, de género).",
+    "note": ""
+  },
+  {
+    "id": "GP-087",
+    "eje": "Teoría",
+    "sourceId": 87,
+    "kind": "error-review",
+    "titulo": "Tarjeta 87",
+    "prompt": "Según T.H. Marshall, ¿cuáles son las tres etapas de la ciudadanía?",
+    "answer": "Ciudadanía civil (derechos individuales/libertad), ciudadanía política (derecho al voto/participación) y ciudadanía social (derecho al bienestar económico y seguridad).",
+    "note": ""
+  },
+  {
+    "id": "GP-088",
+    "eje": "Metodología",
+    "sourceId": 88,
+    "kind": "error-review",
+    "titulo": "Tarjeta 88",
+    "prompt": "¿Qué es la \"Matriz de Marco Lógico\" (MML)?",
+    "answer": "Es una herramienta de planificación estratégica que organiza de forma coherente los fines, propósitos, componentes y actividades de un proyecto, incluyendo indicadores, medios de verificación y supuestos.",
+    "note": ""
+  },
+  {
+    "id": "GP-089",
+    "eje": "Historia",
+    "sourceId": 89,
+    "kind": "error-review",
+    "titulo": "Tarjeta 89",
+    "prompt": "¿Qué significó la \"Crisis de la Deuda\" de 1982 para la política social en México?",
+    "answer": "El fin del modelo de sustitución de importaciones y el inicio del ajuste estructural, lo que llevó al recorte del gasto público y al tránsito hacia políticas sociales focalizadas y compensatorias.",
+    "note": ""
+  },
+  {
+    "id": "GP-090",
+    "eje": "Teoría",
+    "sourceId": 90,
+    "kind": "error-review",
+    "titulo": "Tarjeta 90",
+    "prompt": "¿Qué es la \"precarización laboral\" según Guy Standing?",
+    "answer": "Es la emergencia del \"precariado\", una clase caracterizada por la falta de seguridad en el empleo, ausencia de identidad profesional y la pérdida de derechos sociales vinculados al trabajo estable.",
+    "note": ""
+  },
+  {
+    "id": "GP-091",
+    "eje": "Metodología",
+    "sourceId": 91,
+    "kind": "error-review",
+    "titulo": "Tarjeta 91",
+    "prompt": "¿Qué postula el paradigma \"Socio-crítico\" en la investigación social?",
+    "answer": "Que el conocimiento no es neutral, sino que debe servir para la emancipación y transformación de las estructuras de dominación, vinculando siempre la teoría con la praxis.",
+    "note": ""
+  },
+  {
+    "id": "GP-092",
+    "eje": "Historia",
+    "sourceId": 92,
+    "kind": "error-review",
+    "titulo": "Tarjeta 92",
+    "prompt": "¿Cuál fue la relevancia de la Primera Conferencia Panamericana de Servicio Social (Chile, 1945)?",
+    "answer": "Fue el primer gran esfuerzo por unificar criterios profesionales en el continente, promoviendo la creación de escuelas y la definición de estándares técnicos para la región.",
+    "note": ""
+  },
+  {
+    "id": "GP-093",
+    "eje": "Teoría",
+    "sourceId": 93,
+    "kind": "error-review",
+    "titulo": "Tarjeta 93",
+    "prompt": "¿En qué consiste el concepto de \"alienación\" en el trabajo moderno según la Escuela de Frankfurt?",
+    "answer": "Es la pérdida de sentido y autonomía del sujeto en la sociedad industrial, donde la tecnología y el consumo se convierten en formas de control que anulan el pensamiento crítico.",
+    "note": ""
+  },
+  {
+    "id": "GP-094",
+    "eje": "Metodología",
+    "sourceId": 94,
+    "kind": "error-review",
+    "titulo": "Tarjeta 94",
+    "prompt": "¿Qué caracteriza a la \"Entrevista a Profundidad\"?",
+    "answer": "Es un encuentro cara a cara reiterado entre investigador e informante, que busca comprender las perspectivas que tienen los informantes respecto a sus vidas, experiencias o situaciones.",
+    "note": ""
+  },
+  {
+    "id": "GP-095",
+    "eje": "Historia",
+    "sourceId": 95,
+    "kind": "error-review",
+    "titulo": "Tarjeta 95",
+    "prompt": "¿Cuál es la función del Perito Trabajador Social en el sistema de justicia actual?",
+    "answer": "Aportar una opinión técnica especializada mediante el dictamen pericial social para que el juez comprenda el contexto socio-familiar y las condiciones de vida de las partes involucradas.",
+    "note": ""
+  },
+  {
+    "id": "GP-096",
+    "eje": "Teoría",
+    "sourceId": 96,
+    "kind": "error-review",
+    "titulo": "Tarjeta 96",
+    "prompt": "¿Qué es la \"Gubernamentalidad\" en Foucault?",
+    "answer": "Es el conjunto de instituciones, procedimientos y tácticas que permiten ejercer el poder sobre la población a través de la gestión de la conducta y la administración de la vida.",
+    "note": ""
+  },
+  {
+    "id": "GP-097",
+    "eje": "Metodología",
+    "sourceId": 97,
+    "kind": "error-review",
+    "titulo": "Tarjeta 97",
+    "prompt": "¿Cuál es la diferencia entre \"Sistematización\" y \"Recopilación de información\"?",
+    "answer": "La recopilación solo acumula datos; la sistematización es un proceso crítico que reflexiona sobre la práctica para extraer aprendizajes teóricos y mejorar intervenciones futuras.",
+    "note": ""
+  },
+  {
+    "id": "GP-098",
+    "eje": "Historia",
+    "sourceId": 98,
+    "kind": "error-review",
+    "titulo": "Tarjeta 98",
+    "prompt": "¿Qué importancia tiene la Ley General de Desarrollo Social (2004) en México?",
+    "answer": "Estableció el marco legal para los derechos sociales, creó el CONEVAL para medir la pobreza y definió el desarrollo social como un derecho, no como una dádiva.",
+    "note": ""
+  },
+  {
+    "id": "GP-099",
+    "eje": "Teoría",
+    "sourceId": 99,
+    "kind": "error-review",
+    "titulo": "Tarjeta 99",
+    "prompt": "¿Qué se entiende por \"Sujeto de la Intervención\" en el Trabajo Social contemporáneo?",
+    "answer": "Es un actor con voz y capacidad de agencia que participa activamente en el proceso de cambio, rompiendo con la visión tradicional del usuario como un \"objeto\" pasivo de ayuda.",
+    "note": ""
+  },
+  {
+    "id": "GP-100",
+    "eje": "Metodología",
+    "sourceId": 100,
+    "kind": "error-review",
+    "titulo": "Tarjeta 100",
+    "prompt": "¿Qué es la \"Praxis\" en el contexto profesional?",
+    "answer": "Es la unión indisoluble de la teoría y la práctica; es la acción reflexiva que transforma la realidad social basándose en un conocimiento científico y un compromiso ético.",
+    "note": ""
+  },
+  {
+    "id": "GP-101",
+    "eje": "Historia",
+    "sourceId": 101,
+    "kind": "error-review",
+    "titulo": "La Cuestión Social",
+    "prompt": "¿Qué concepto define al conjunto de contradicciones sociales y económicas generadas por la Revolución Industrial que dan origen al Trabajo Social?",
+    "answer": "La Cuestión Social. Es el desfase entre la riqueza producida y la miseria de los obreros que obliga al Estado a intervenir.",
+    "note": "Referencia: 25\nAlerta: No es un problema natural, es un producto del sistema socioeconómico."
+  },
+  {
+    "id": "GP-102",
+    "eje": "Historia",
+    "sourceId": 102,
+    "kind": "error-review",
+    "titulo": "Jane Addams",
+    "prompt": "¿Quién fundó la Hull House y representa la vertiente de reforma social y comunitaria (Settlements) en los inicios del TS?",
+    "answer": "Jane Addams. Se enfocó en vivir en los barrios (asentamientos) y cambiar leyes de vivienda y trabajo.",
+    "note": "Referencia: 145\nAlerta: Figura clave de la vertiente sociopolítica y comunitaria frente al enfoque individual de Richmond."
+  },
+  {
+    "id": "GP-103",
+    "eje": "Historia",
+    "sourceId": 103,
+    "kind": "error-review",
+    "titulo": "Asistencialismo",
+    "prompt": "¿Cómo se denomina a la práctica de otorgar ayuda inmediata sin atacar las causas estructurales del problema?",
+    "answer": "Asistencialismo. Es la ayuda parche que genera dependencia en lugar de autonomía o promoción social.",
+    "note": "Referencia: 42\nAlerta: Se diferencia del Trabajo Social Crítico por no buscar la transformación del sujeto."
+  },
+  {
+    "id": "GP-104",
+    "eje": "Historia",
+    "sourceId": 104,
+    "kind": "error-review",
+    "titulo": "Código de Ética Profesional",
+    "prompt": "¿Cuál es el documento normativo que establece los principios y valores obligatorios para el ejercicio profesional?",
+    "answer": "Código de Ética. Es el manual de conducta que rige el secreto profesional y la protección del usuario.",
+    "note": "Referencia: 120\nAlerta: Fundamental para resolver dilemas éticos en casos prácticos."
+  },
+  {
+    "id": "GP-105",
+    "eje": "Historia",
+    "sourceId": 105,
+    "kind": "error-review",
+    "titulo": "Gerencia Social (Neoliberalismo)",
+    "prompt": "¿Qué proceso histórico de los años 90 obligó al TS a pasar de un enfoque de bienestar a uno de eficiencia y gestión de recursos?",
+    "answer": "Neoliberalismo / Globalización. Transformó al TS en un gestor de recursos limitados bajo criterios de costo-beneficio.",
+    "note": "Referencia: 170\nAlerta: Contexto del surgimiento de la focalización del gasto público."
+  },
+  {
+    "id": "GP-106",
+    "eje": "Historia",
+    "sourceId": 106,
+    "kind": "error-review",
+    "titulo": "Empoderamiento (Empowerment)",
+    "prompt": "¿Qué modelo busca que el sujeto recupere el control de su vida mediante la toma de conciencia y el uso de recursos propios?",
+    "answer": "Empoderamiento. Proceso para pasar de ser un sujeto asistido a un sujeto autogestivo y con agencia.",
+    "note": "Referencia: 175\nAlerta: Concepto central en el enfoque de capacidades y autonomía."
+  },
+  {
+    "id": "GP-107",
+    "eje": "Metodología",
+    "sourceId": 107,
+    "kind": "error-review",
+    "titulo": "Operacionalización de Variables",
+    "prompt": "¿Cómo se llama el proceso de transformar un concepto abstracto (ej. Pobreza) en indicadores medibles (ej. Ingreso)?",
+    "answer": "Operacionalización. Consiste en bajar la teoría a dimensiones e indicadores empíricos.",
+    "note": "Referencia: 115\nAlerta: Paso crítico para garantizar la validez en el paradigma cuantitativo."
+  },
+  {
+    "id": "GP-108",
+    "eje": "Metodología",
+    "sourceId": 108,
+    "kind": "error-review",
+    "titulo": "Observación No Participante",
+    "prompt": "¿Qué técnica permite registrar un fenómeno en su entorno natural sin que el investigador intervenga en la acción?",
+    "answer": "Observación No Participante. Captar la realidad desde fuera para no sesgar el comportamiento de los sujetos.",
+    "note": "Referencia: 45\nAlerta: Útil cuando se busca neutralidad absoluta en el campo."
+  },
+  {
+    "id": "GP-109",
+    "eje": "Metodología",
+    "sourceId": 109,
+    "kind": "error-review",
+    "titulo": "Muestra Probabilística",
+    "prompt": "¿Qué tipo de muestra permite que todos los sujetos tengan la misma probabilidad de ser elegidos, permitiendo generalizar resultados?",
+    "answer": "Muestra Probabilística. Es la base de la estadística inferencial y el rigor cuantitativo.",
+    "note": "Referencia: 190\nAlerta: Recuerda: Si es aleatoria, es generalizable."
+  },
+  {
+    "id": "GP-110",
+    "eje": "Metodología",
+    "sourceId": 110,
+    "kind": "error-review",
+    "titulo": "Diario de Campo",
+    "prompt": "¿Qué herramienta técnica utiliza el TS para registrar impresiones, diálogos y hechos relevantes durante la jornada diaria?",
+    "answer": "Diario de Campo. Es el instrumento de reflexión y memoria técnica por excelencia del trabajo de campo.",
+    "note": "Referencia: 10\nAlerta: Es la fuente primaria para la posterior sistematización."
+  },
+  {
+    "id": "GP-111",
+    "eje": "Metodología",
+    "sourceId": 111,
+    "kind": "error-review",
+    "titulo": "Entrevista Semi-estructurada",
+    "prompt": "¿Cómo se define la entrevista que usa una guía de temas pero permite al entrevistador repreguntar y al sujeto profundizar libremente?",
+    "answer": "Entrevista Semi-estructurada. Un equilibrio entre la estructura de un guion y la flexibilidad del relato.",
+    "note": "Referencia: 15\nAlerta: Es la más utilizada en Trabajo Social Cualitativo."
+  },
+  {
+    "id": "GP-112",
+    "eje": "Metodología",
+    "sourceId": 112,
+    "kind": "error-review",
+    "titulo": "Grupo Focal (Focus Group)",
+    "prompt": "¿Qué técnica cualitativa reúne a un grupo pequeño para discutir un tema y observar sus consensos y contradicciones grupales?",
+    "answer": "Grupo Focal. Prioriza la interacción grupal sobre la respuesta individual.",
+    "note": "Referencia: 102\nAlerta: No es una entrevista colectiva, es un análisis de interacción social."
+  },
+  {
+    "id": "GP-113",
+    "eje": "Metodología",
+    "sourceId": 113,
+    "kind": "error-review",
+    "titulo": "Variable Independiente",
+    "prompt": "¿Qué nombre recibe la variable que el investigador manipula para observar qué efecto produce en otra (causa)?",
+    "answer": "Variable Independiente. Es el factor causal o antecedente en una hipótesis.",
+    "note": "Referencia: 130\nAlerta: En la relación X causa Y, X es siempre la independiente."
+  },
+  {
+    "id": "GP-114",
+    "eje": "Metodología",
+    "sourceId": 114,
+    "kind": "error-review",
+    "titulo": "Validez de Contenido",
+    "prompt": "¿A qué criterio responde un instrumento cuando sus preguntas cubren realmente todas las dimensiones del tema que pretende medir?",
+    "answer": "Validez de Contenido. Garantiza que no se dejen fuera aspectos esenciales del fenómeno.",
+    "note": "Referencia: 2\nAlerta: Suele validarse mediante juicio de expertos."
+  },
+  {
+    "id": "GP-115",
+    "eje": "Metodología",
+    "sourceId": 115,
+    "kind": "error-review",
+    "titulo": "IAP (Investigación-Acción Participativa)",
+    "prompt": "¿Qué método busca generar conocimiento a la par que transforma la realidad, involucrando a los sujetos como investigadores activos?",
+    "answer": "IAP. Rompe la relación sujeto/objeto para investigar con la comunidad.",
+    "note": "Referencia: 230\nAlerta: Principal referente: Orlando Fals Borda."
+  },
+  {
+    "id": "GP-116",
+    "eje": "Metodología",
+    "sourceId": 116,
+    "kind": "error-review",
+    "titulo": "Estudio Longitudinal",
+    "prompt": "¿Qué tipo de estudio mide a un mismo grupo de personas en diferentes puntos del tiempo (ej. años 1, 3 y 5)?",
+    "answer": "Estudio Longitudinal. Permite observar la evolución y cambios a largo plazo en una población.",
+    "note": "Referencia: 38\nAlerta: Ideal para evaluar el impacto de programas sociales sostenidos."
+  },
+  {
+    "id": "GP-117",
+    "eje": "Metodología",
+    "sourceId": 117,
+    "kind": "error-review",
+    "titulo": "Sesgo de Medición",
+    "prompt": "¿Cómo se denomina al error sistemático que ocurre cuando un instrumento de medición falla siempre en la misma dirección?",
+    "answer": "Sesgo de Medición. Afecta la validez del dato al dar una imagen distorsionada de la realidad.",
+    "note": "Referencia: 3\nAlerta: A diferencia del error aleatorio, el sesgo es previsible y corregible."
+  },
+  {
+    "id": "GP-118",
+    "eje": "Teoría",
+    "sourceId": 118,
+    "kind": "error-review",
+    "titulo": "Biopolítica",
+    "prompt": "¿Qué concepto de Foucault describe el poder que se ejerce sobre los cuerpos para gestionar la salud, natalidad y vida de la población?",
+    "answer": "Biopolítica / Biopoder. El paso de hacer morir a hacer vivir y regular la especie humana.",
+    "note": "Referencia: 60\nAlerta: Se relaciona con el control administrativo de los cuerpos en instituciones."
+  },
+  {
+    "id": "GP-119",
+    "eje": "Teoría",
+    "sourceId": 119,
+    "kind": "error-review",
+    "titulo": "Habitus",
+    "prompt": "¿Cómo define Bourdieu al conjunto de disposiciones internas (modos de actuar y pensar) adquiridos según nuestra clase social?",
+    "answer": "Habitus. Es la estructura social incorporada; lo que nos hace actuar de forma natural en nuestro entorno.",
+    "note": "Referencia: 10\nAlerta: Es el puente entre la estructura social y la acción individual."
+  },
+  {
+    "id": "GP-120",
+    "eje": "Teoría",
+    "sourceId": 120,
+    "kind": "error-review",
+    "titulo": "Capital Cultural",
+    "prompt": "¿A qué tipo de capital se refiere Bourdieu cuando habla del conocimiento, títulos académicos y refinamiento que posee una persona?",
+    "answer": "Capital Cultural. Recurso simbólico que otorga ventajas de clase más allá del dinero.",
+    "note": "Referencia: 12\nAlerta: Clave para entender la reproducción de la desigualdad en el sistema educativo."
+  },
+  {
+    "id": "GP-121",
+    "eje": "Teoría",
+    "sourceId": 121,
+    "kind": "error-review",
+    "titulo": "Campo (Bourdieu)",
+    "prompt": "¿Cómo denomina Bourdieu a los espacios sociales de lucha (ej. médico, político) donde los actores compiten por recursos específicos?",
+    "answer": "Campo. Un microcosmos social con sus propias reglas y jerarquías de poder.",
+    "note": "Referencia: 15\nAlerta: En cada campo se juega por un capital diferente."
+  },
+  {
+    "id": "GP-122",
+    "eje": "Teoría",
+    "sourceId": 122,
+    "kind": "error-review",
+    "titulo": "Esquema AGIL",
+    "prompt": "¿Cuál es el modelo de Parsons que define las 4 funciones básicas (Adaptación, Metas, Integración y Latencia) de todo sistema?",
+    "answer": "Esquema AGIL. Marco del Funcionalismo para explicar cómo la sociedad mantiene el equilibrio.",
+    "note": "Referencia: 45\nAlerta: Se asocia a la estabilidad y orden social."
+  },
+  {
+    "id": "GP-123",
+    "eje": "Teoría",
+    "sourceId": 123,
+    "kind": "error-review",
+    "titulo": "Estigma (Goffman)",
+    "prompt": "¿Qué concepto describe el proceso por el cual la sociedad desacredita a un individuo debido a un atributo considerado anormal?",
+    "answer": "Estigma. Marca social que daña la identidad y condiciona negativamente la interacción.",
+    "note": "Referencia: 8\nAlerta: Vital en TS para entender la exclusión de personas con discapacidad o ex-presos."
+  },
+  {
+    "id": "GP-124",
+    "eje": "Teoría",
+    "sourceId": 124,
+    "kind": "error-review",
+    "titulo": "Modernidad Líquida",
+    "prompt": "¿Cómo denomina Bauman a la etapa actual caracterizada por la fragilidad de los vínculos, la incertidumbre y el cambio constante?",
+    "answer": "Modernidad Líquida. Sociedad donde las instituciones sólidas se derriten y el consumo es central.",
+    "note": "Referencia: 1\nAlerta: Explica la precariedad de las redes de apoyo social contemporáneas."
+  },
+  {
+    "id": "GP-125",
+    "eje": "Teoría",
+    "sourceId": 125,
+    "kind": "error-review",
+    "titulo": "Acción Comunicativa",
+    "prompt": "¿Qué propuesta de Habermas sostiene que el entendimiento mutuo mediante el diálogo es la base para una sociedad democrática?",
+    "answer": "Acción Comunicativa. Buscar consensos racionales libres de coacción y poder.",
+    "note": "Referencia: 65\nAlerta: Fundamento de la ética discursiva y la participación ciudadana."
+  },
+  {
+    "id": "GP-126",
+    "eje": "Teoría",
+    "sourceId": 126,
+    "kind": "error-review",
+    "titulo": "Colonialidad del Poder",
+    "prompt": "¿Qué perspectiva analiza cómo la jerarquía racial y cultural impuesta por el colonialismo sigue dominando el saber actual?",
+    "answer": "Colonialidad del Poder. Perspectiva crítica que busca descolonizar el pensamiento y la práctica social.",
+    "note": "Referencia: 80\nAlerta: Aníbal Quijano es el autor principal. Clave para el TS Latinoamericano."
+  },
+  {
+    "id": "GP-127",
+    "eje": "Teoría",
+    "sourceId": 127,
+    "kind": "error-review",
+    "titulo": "Dominación Tradicional",
+    "prompt": "¿Qué tipo de dominación weberiana se basa en la creencia en la santidad de las normas y poderes señoriales del pasado?",
+    "answer": "Dominación Tradicional. Se obedece por costumbre o herencia (ej. patriarcado o monarquías).",
+    "note": "Referencia: 4\nAlerta: A diferencia de la legal-racional, no se basa en leyes escritas modernas."
+  },
+  {
+    "id": "GP-128",
+    "eje": "Teoría",
+    "sourceId": 128,
+    "kind": "error-review",
+    "titulo": "Construccionismo Social",
+    "prompt": "¿Qué teoría sostiene que la realidad no es algo externo dado, sino un producto creado y mantenido por las interacciones humanas?",
+    "answer": "Construccionismo Social (Berger y Luckmann). La realidad es una construcción social compartida.",
+    "note": "Referencia: 355\nAlerta: Implica que si la realidad es construida, también puede ser transformada."
+  },
+  {
+    "id": "GP-129",
+    "eje": "Teoría",
+    "sourceId": 129,
+    "kind": "error-review",
+    "titulo": "Solidaridad Orgánica",
+    "prompt": "¿En qué tipo de solidaridad de Durkheim los individuos se necesitan mutuamente debido a la alta división del trabajo y especialización?",
+    "answer": "Solidaridad Orgánica. Característica de sociedades modernas e industriales.",
+    "note": "Referencia: 101\nAlerta: Se basa en la interdependencia, no en la semejanza."
+  },
+  {
+    "id": "GP-130",
+    "eje": "Teoría",
+    "sourceId": 130,
+    "kind": "error-review",
+    "titulo": "Bucle Recursivo",
+    "prompt": "¿Qué principio de Morin explica que los individuos producen la sociedad, pero la sociedad también produce a los individuos?",
+    "answer": "Principio de Bucle Recursivo. Rompe la causalidad lineal; el efecto retroactúa sobre la causa.",
+    "note": "Referencia: 105\nAlerta: Base del pensamiento complejo para evitar reduccionismos."
+  },
+  {
+    "id": "GP-141",
+    "eje": "Historia",
+    "sourceId": 141,
+    "kind": "error-review",
+    "titulo": "Dialéctica y Crítica a la Historiografía Tradicional",
+    "prompt": "De acuerdo con Ander-Egg, las historias del Trabajo Social que se limitan a una crónica de precursores cometen un error epistemológico de alienación. ¿Cuál es la implicación de esta postura para el análisis de la profesionalización?",
+    "answer": "Que la disciplina es una variable dependiente de la dinámica de reproducción del capital y del control estatal de la lucha de clases, lo que invalida cualquier historia internista.",
+    "note": "Justificación: Ander-Egg sostiene que el TS no nace de la buena voluntad aislada, sino que es un mecanismo condicionado por situaciones contextuales globales y contradicciones de clase (pág. 19-22).\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg"
+  },
+  {
+    "id": "GP-142",
+    "eje": "Teoría",
+    "sourceId": 142,
+    "kind": "error-review",
+    "titulo": "Fetichismo y Relaciones Sociales en Marx",
+    "prompt": "Desde la síntesis de Marx realizada por Seda-Irizarry, el fetichismo de la mercancía no es una simple ilusión mental del consumidor, sino una condición objetiva de la sociedad capitalista. ¿Por qué este concepto es nodal para el diagnóstico social?",
+    "answer": "Porque revela que bajo el capitalismo, las relaciones entre personas toman la forma fantasmagórica de relaciones entre cosas, ocultando la explotación como una propiedad natural de los precios.",
+    "note": "Justificación: El fetichismo oculta el carácter social del trabajo, haciendo que la dominación parezca un intercambio técnico de mercancías, lo cual es vital para entender la enajenación del sujeto (pág. 2).\nLectura sugerida: Resumen de El Capital / Seda-Irizarry"
+  },
+  {
+    "id": "GP-143",
+    "eje": "Metodología",
+    "sourceId": 143,
+    "kind": "error-review",
+    "titulo": "Eje Epistemológico: Pregunta vs. Hipótesis",
+    "prompt": "Tello argumenta que la presencia simultánea de una pregunta abierta y una hipótesis cerrada en un mismo diseño delata una inconsistencia en el eje epistemológico del investigador. ¿Cuál es el núcleo de esta crítica?",
+    "answer": "Que la hipótesis presupone una respuesta que clausura la apertura necesaria para el descubrimiento de sentidos que busca la pregunta en enfoques comprensivos.",
+    "note": "Justificación: Tello destaca que cada componente responde a lógicas distintas (verificación vs. descubrimiento) y su mezcla sin rigor resta fuerza epistemológica al proyecto (pág. 225-226).\nLectura sugerida: El objeto de estudio en ciencias sociales / César Tello"
+  },
+  {
+    "id": "GP-144",
+    "eje": "Teoría",
+    "sourceId": 144,
+    "kind": "error-review",
+    "titulo": "Evolución del Hecho Social en Durkheim",
+    "prompt": "Analizando la evolución de Durkheim, Vázquez Gutiérrez señala una ruptura matizada entre Las reglas y Las formas elementales. ¿Cómo se redefine la coacción social en su etapa tardía?",
+    "answer": "La coacción deja de ser meramente morfológica y exterior para convertirse en una adhesión interna a representaciones colectivas y mundos de idealidad.",
+    "note": "Justificación: Durkheim evoluciona de una visión de lo social como cosa externa a una visión donde la fuerza moral y simbólica de la sociedad habita en el interior del individuo (pág. 1-2).\nLectura sugerida: La concepción de hecho social en Durkheim / Juan Pablo Vázquez"
+  },
+  {
+    "id": "GP-145",
+    "eje": "Metodología",
+    "sourceId": 145,
+    "kind": "error-review",
+    "titulo": "Saturación Teórica y Muestreo en TF",
+    "prompt": "En el método de la Teoría Fundamentada, la saturación teórica no se define por el número de sujetos, sino por el desarrollo de las categorías. ¿Cuál es la implicación lógica del muestreo teórico en este proceso?",
+    "answer": "Que los criterios de inclusión de nuevos sujetos son determinados por las necesidades emergentes de la teoría que se está construyendo, no por un diseño previo.",
+    "note": "Justificación: El muestreo teórico es circular y busca datos que desafíen o completen las propiedades de las categorías hasta que no surja nada nuevo (pág. 93-95).\nLectura sugerida: La saturación teórica en la teoría fundamentada / Ardila y Rueda"
+  },
+  {
+    "id": "GP-146",
+    "eje": "Teoría",
+    "sourceId": 146,
+    "kind": "error-review",
+    "titulo": "Razón Instrumental y Teoría Crítica",
+    "prompt": "Horkheimer y Adorno sostienen que la Ilustración ha degenerado en un nuevo mito. Desde la perspectiva de la Escuela de Frankfurt, ¿cuál es la paradoja de la razón instrumental en las políticas sociales modernas?",
+    "answer": "Que el progreso técnico, diseñado para liberar al hombre de la naturaleza, termina convirtiendo al ser humano en un objeto de control, cálculo y dominio administrativo.",
+    "note": "Justificación: La crítica se centra en cómo la racionalidad técnica se vuelve un fin en sí misma, subordinando los fines éticos al control eficiente de la población (pág. 56-57).\nLectura sugerida: La escuela de Frankfurt / Ybélice Briceño Linares"
+  },
+  {
+    "id": "GP-147",
+    "eje": "Metodología",
+    "sourceId": 147,
+    "kind": "error-review",
+    "titulo": "Niveles de Medición y Rigor Estadístico",
+    "prompt": "Si un trabajador social aplica una escala Likert para medir Actitud ante la violencia (Totalmente en desacuerdo a Totalmente de acuerdo), ¿cuál es el debate técnico sobre el uso de la Media aritmética en este caso?",
+    "answer": "Que es metodológicamente cuestionable, ya que la escala es ordinal y la media asume erróneamente que las distancias entre de acuerdo y en desacuerdo son idénticas y cuantificables.",
+    "note": "Justificación: Orlandoni aclara que la escala ordinal solo establece orden. Tratarla como intervalo (usando la media) es una práctica común pero lógicamente incorrecta sin una transformación previa (pág. 245-246).\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
+  },
+  {
+    "id": "GP-148",
+    "eje": "Metodología",
+    "sourceId": 148,
+    "kind": "error-review",
+    "titulo": "Razonamiento Inductivo vs. Deductivo",
+    "prompt": "Dávila Newman señala que el razonamiento deductivo es de naturaleza analítica. ¿Cuál es la consecuencia lógica de esto en el proceso de verificación de hipótesis?",
+    "answer": "Que la conclusión obtenida no puede ir más allá de lo que ya estaba contenido en las premisas generales, limitándose a confirmar o aplicar la ley.",
+    "note": "Justificación: La deducción no amplía el contenido del conocimiento; su valor reside en la seguridad de que, si las premisas son ciertas, la conclusión es necesariamente verdadera (pág. 181-182).\nLectura sugerida: El razonamiento inductivo y deductivo / Gladys Dávila Newman"
+  },
+  {
+    "id": "GP-149",
+    "eje": "Metodología",
+    "sourceId": 149,
+    "kind": "error-review",
+    "titulo": "Diagnóstico Social Situacional",
+    "prompt": "A diferencia de un diagnóstico médico centrado en la patología, un diagnóstico social sistémico debe aplicar el principio de Equifinalidad. ¿Qué implica esto para la intervención en Trabajo Social?",
+    "answer": "Que el mismo resultado (bienestar familiar) puede alcanzarse a partir de diferentes condiciones iniciales y por distintos caminos de intervención.",
+    "note": "Justificación: La equifinalidad es una propiedad de los sistemas abiertos; permite al profesional ser flexible y creativo, reconociendo que no hay una sola receta para el cambio social (pág. 15-16).\nLectura sugerida: Modelos de intervención / Castro y Chávez"
+  },
+  {
+    "id": "GP-150",
+    "eje": "Teoría",
+    "sourceId": 150,
+    "kind": "error-review",
+    "titulo": "Principio Dialógico de la Complejidad",
+    "prompt": "Morin propone el principio dialógico como superación del binarismo tradicional. ¿Cómo se aplica este principio al análisis de la contradicción entre Orden y Desorden en la sociedad?",
+    "answer": "Entendiendo que el orden y el desorden son términos antagonistas pero que colaboran y se necesitan mutuamente para producir la organización y el cambio.",
+    "note": "Justificación: La dialógica permite mantener la dualidad en el seno de la unidad. En los sistemas complejos, la estabilidad nace del juego constante entre fuerzas contradictorias (pág. 100).\nLectura sugerida: Introducción al pensamiento complejo / Edgar Morin"
+  },
+  {
+    "id": "GP-151",
+    "eje": "Historia",
+    "sourceId": 151,
+    "kind": "error-review",
+    "titulo": "Especificidad y Campo Profesional",
+    "prompt": "Según Valero Chávez, la especificidad profesional no se agota en el saber hacer (técnica). ¿Cuál es la dimensión que dota al Trabajo Social de su carácter de disciplina social en conflicto?",
+    "answer": "La dimensión ético-política, que implica una toma de postura ante la desigualdad y el proyecto de sociedad que se busca construir.",
+    "note": "Justificación: La identidad profesional es un proceso histórico-social donde la intención política de transformación es el eje articulador de la técnica (pág. 11-13).\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez"
+  },
+  {
+    "id": "GP-152",
+    "eje": "Metodología",
+    "sourceId": 152,
+    "kind": "error-review",
+    "titulo": "Estado del Arte como Indagación de Nuevos Sentidos",
+    "prompt": "Guevara Patiño critica la visión del Estado del Arte como un simple inventario bibliográfico. ¿Qué acción hermenéutica lo convierte en una verdadera investigación de segundo nivel?",
+    "answer": "La capacidad de identificar no solo lo que se ha dicho, sino los silencios, las tensiones teóricas y los vacíos que permiten fundar una nueva mirada sobre el objeto.",
+    "note": "Justificación: El estado del arte es un proceso interpretativo que busca trascender la descripción para situar al investigador en la frontera crítica del conocimiento (pág. 165-166).\nLectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño"
+  },
+  {
+    "id": "GP-153",
+    "eje": "Teoría",
+    "sourceId": 153,
+    "kind": "error-review",
+    "titulo": "Intersubjetividad e Interaccionismo Simbólico",
+    "prompt": "En la teoría de G. H. Mead, el lenguaje no es solo comunicación, sino el mecanismo constitutivo de la mente. ¿Cuál es la implicación de esto para la noción del Self?",
+    "answer": "Que el Self es una construcción social que solo emerge cuando el individuo puede tomar la actitud del otro hacia sí mismo mediante símbolos compartidos.",
+    "note": "Justificación: Para Mead, el espíritu y el self son procesos sociales. La capacidad de verse a uno mismo como objeto (Mí) es el resultado de la interacción simbólica (pág. 2-3).\nLectura sugerida: La teoría social del interaccionismo simbólico / Carabaña y Lamo de Espinosa"
+  },
+  {
+    "id": "GP-154",
+    "eje": "Metodología",
+    "sourceId": 154,
+    "kind": "error-review",
+    "titulo": "Diferenciación ETIC/EMIC en Etnografía",
+    "prompt": "Desde el enfoque ortogonal que proponen los autores, ¿por qué un diagnóstico en salud que ignore la perspectiva EMIC puede considerarse iatrogénico en lo social?",
+    "answer": "Porque al aplicar solo categorías externas (Etic), invalida el sistema de creencias y significados del paciente, provocando resistencia o abandono del tratamiento por falta de pertinencia cultural.",
+    "note": "Justificación: Ignorar el sentido que el sujeto da a su proceso salud-enfermedad es un error de diagnóstico que deshumaniza la intervención (pág. 9).\nLectura sugerida: Investigación cualitativa versus cuantitativa / González López y Ruiz Hernández"
+  },
+  {
+    "id": "GP-155",
+    "eje": "Teoría",
+    "sourceId": 155,
+    "kind": "error-review",
+    "titulo": "Fenomenología de la Donación y el Acontecimiento",
+    "prompt": "Al analizar la fenomenología de Jean-Luc Marion, se habla del acontecimiento como un fenómeno que no puede ser previsto por la teoría. ¿Cuál es el desafío de esta postura para la programación social rígida?",
+    "answer": "Que existen fenómenos (como la crisis o el trauma) que saturan la conciencia y desbordan cualquier categoría técnica previa, exigiendo una escucha que no intente encasillar el hecho.",
+    "note": "Justificación: El fenómeno saturado desborda el concepto. Esto obliga al profesional a reconocer los límites de sus manuales ante la radicalidad de la experiencia humana (pág. 350-351).\nLectura sugerida: Los principios de la fenomenología / Hernán Inverso"
   }
 ];
 
