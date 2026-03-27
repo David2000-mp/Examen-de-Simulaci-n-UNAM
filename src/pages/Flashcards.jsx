@@ -207,7 +207,7 @@ export default function Flashcards() {
 
   return (
     <main className="container-shell space-y-5">
-      <header className="rounded-2xl bg-brand-900 p-6 text-white shadow-xl">
+      <header className="motion-rise motion-stagger rounded-2xl bg-brand-900 p-6 text-white shadow-xl" style={{ "--motion-index": 0 }}>
         <h1 className="font-serif text-2xl">Flashcards — {studyMode === "active-recall" ? "Active Recall" : "100 Conceptos"}</h1>
         <p className="mt-1 text-sm text-brand-100">
           {studyMode === "active-recall"
@@ -222,7 +222,7 @@ export default function Flashcards() {
       </header>
 
       {isActiveRecall && (
-        <section className="space-y-3 rounded-2xl border border-brand-200 bg-white p-4 shadow-sm">
+        <section className="motion-rise motion-stagger space-y-3 rounded-2xl border border-brand-200 bg-white p-4 shadow-sm" style={{ "--motion-index": 1 }}>
           <div className="flex flex-wrap items-center gap-3">
             <p className="text-sm font-semibold text-brand-900">
               Dominadas: {activeRecallMetrics.mastered}/{activeRecallMetrics.total} ({activeRecallMetrics.pct}%)
@@ -233,7 +233,7 @@ export default function Flashcards() {
             <button
               type="button"
               onClick={resetMastery}
-              className="ml-auto rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50"
+              className="motion-lift motion-press ml-auto rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50"
             >
               Reiniciar progreso
             </button>
@@ -271,7 +271,7 @@ export default function Flashcards() {
             key={mode.id}
             type="button"
             onClick={() => handleMode(mode.id)}
-            className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+            className={`motion-lift motion-press rounded-full px-3 py-1 text-xs font-semibold transition ${
               studyMode === mode.id
                 ? "bg-brand-700 text-white"
                 : "border border-brand-300 bg-white text-brand-900 hover:bg-brand-50"
@@ -289,7 +289,7 @@ export default function Flashcards() {
             key={axis}
             type="button"
             onClick={() => handleAxis(axis)}
-            className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+            className={`motion-lift motion-press rounded-full px-3 py-1 text-xs font-semibold transition ${
               axisFilter === axis
                 ? "bg-brand-700 text-white"
                 : "border border-brand-300 bg-brand-50 text-brand-900 hover:bg-brand-100"
@@ -302,7 +302,7 @@ export default function Flashcards() {
           <button
             type="button"
             onClick={isRandom ? handleSequential : handleShuffle}
-            className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+            className={`motion-lift motion-press rounded-full px-3 py-1 text-xs font-semibold transition ${
               isRandom
                 ? "bg-amber-500 text-white"
                 : "border border-slate-300 bg-white text-slate-700 hover:bg-slate-50"
@@ -419,14 +419,14 @@ export default function Flashcards() {
           onClick={handlePrev}
           disabled={safeIndex === 0}
           aria-label="Tarjeta anterior"
-          className="rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
+          className="motion-lift motion-press rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
         >
           ← Anterior
         </button>
         <button
           type="button"
           onClick={handleFlip}
-          className="rounded-xl bg-brand-700 px-5 py-2.5 text-sm font-semibold text-white"
+          className="motion-lift motion-press rounded-xl bg-brand-700 px-5 py-2.5 text-sm font-semibold text-white"
           aria-label="Voltear tarjeta"
         >
           Voltear
@@ -448,7 +448,7 @@ export default function Flashcards() {
           onClick={handleNext}
           disabled={safeIndex === orderedFiltered.length - 1}
           aria-label="Tarjeta siguiente"
-          className="rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
+          className="motion-lift motion-press rounded-xl border border-slate-300 px-5 py-2.5 text-sm font-semibold disabled:opacity-40"
         >
           Siguiente →
         </button>

@@ -8,7 +8,7 @@ function ReviewPanel({ questions, answers }) {
   const toggleExpand = (id) => setExpandedId((prev) => (prev === id ? null : id));
 
   return (
-    <div className="rounded-xl border border-brand-200 overflow-hidden">
+    <div className="motion-fade-scale rounded-xl border border-brand-200 overflow-hidden">
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
@@ -25,7 +25,7 @@ function ReviewPanel({ questions, answers }) {
       </button>
 
       {open && (
-        <div className="divide-y divide-slate-100 bg-white">
+        <div className="motion-rise divide-y divide-slate-100 bg-white">
           {questions.map((q) => {
             const userIdx = answers[q.id];
             const correct = userIdx === q.respuesta_correcta;
@@ -129,7 +129,7 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
   });
 
   return (
-    <section className="space-y-5 rounded-2xl bg-white/90 p-4 shadow-lg ring-1 ring-brand-100 sm:p-6">
+    <section className="motion-fade-scale space-y-5 rounded-2xl bg-white/90 p-4 shadow-lg ring-1 ring-brand-100 sm:p-6">
       <header>
         <h2 className="font-serif text-2xl text-brand-900">Resultados del intento</h2>
         <p className="mt-1 text-sm text-slate-600">Porcentaje global de aciertos: <strong>{stats.overall}%</strong></p>
@@ -147,7 +147,7 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
             onClick={onRetryErrors}
             disabled={!stats.trainingAvailable}
             aria-label="Reintentar solamente las preguntas incorrectas"
-            className="rounded-lg bg-brand-700 px-3 py-1.5 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
+            className="motion-lift motion-press rounded-lg bg-brand-700 px-3 py-1.5 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
           >
             Reintentar errores
           </button>
@@ -156,7 +156,7 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
             onClick={onDownloadGuide}
             disabled={!orderedErrors.length}
             aria-label="Descargar guia de estudio personalizada en formato Markdown"
-            className="rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
+            className="motion-lift motion-press rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
           >
             Descargar Guía (.md)
           </button>
@@ -164,14 +164,14 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
             type="button"
             onClick={handleShare}
             aria-label="Compartir o copiar resultado al portapapeles"
-            className="rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
+            className="motion-lift motion-press rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
           >
             {shareLabel}
           </button>
           <button
             type="button"
             onClick={onRestart}
-            className="rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
+            className="motion-lift motion-press rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
           >
             Reiniciar simulador
           </button>
@@ -180,7 +180,7 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
 
       <div className="grid gap-3 sm:grid-cols-3">
         {Object.entries(stats.axisScores).map(([axis, score]) => (
-          <article key={axis} className="rounded-xl bg-brand-50 p-3 ring-1 ring-brand-100">
+          <article key={axis} className="motion-rise rounded-xl bg-brand-50 p-3 ring-1 ring-brand-100">
             <p className="text-sm font-semibold text-brand-900">{axis}</p>
             <p className="text-2xl font-bold text-brand-800">{score}%</p>
           </article>

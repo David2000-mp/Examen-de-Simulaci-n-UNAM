@@ -4,6 +4,11 @@
 
 :root {
   color-scheme: light;
+  --motion-fast: 180ms;
+  --motion-medium: 320ms;
+  --motion-slow: 520ms;
+  --motion-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 body {
@@ -30,10 +35,72 @@ body {
   @apply mx-auto w-full max-w-4xl px-4 py-6 sm:px-6;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to   { opacity: 1; transform: translateY(0); }
+@keyframes routeIn {
+  from { opacity: 0; transform: translateY(14px) scale(0.985); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
 }
+
+@keyframes riseIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeScaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.25); }
+  50% { box-shadow: 0 0 0 10px rgba(201, 168, 76, 0); }
+}
+
 .page-enter {
-  animation: fadeIn 0.18s ease-out;
+  animation: routeIn var(--motion-medium) var(--motion-ease-out);
+}
+
+.motion-rise {
+  animation: riseIn var(--motion-medium) var(--motion-ease-out) both;
+}
+
+.motion-fade-scale {
+  animation: fadeScaleIn var(--motion-medium) var(--motion-ease-out) both;
+}
+
+.motion-stagger {
+  animation-delay: calc(var(--motion-index, 0) * 70ms);
+}
+
+.motion-lift {
+  transition: transform var(--motion-fast) var(--motion-ease-out), box-shadow var(--motion-fast) var(--motion-ease-out), background-color var(--motion-fast) var(--motion-ease-out), color var(--motion-fast) var(--motion-ease-out);
+}
+
+.motion-lift:hover {
+  transform: translateY(-2px);
+}
+
+.motion-press {
+  transition: transform var(--motion-fast) var(--motion-ease-bounce);
+}
+
+.motion-press:active {
+  transform: scale(0.97);
+}
+
+.motion-glow {
+  animation: glowPulse 1.6s ease-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .motion-lift:hover,
+  .motion-press:active {
+    transform: none !important;
+  }
 }

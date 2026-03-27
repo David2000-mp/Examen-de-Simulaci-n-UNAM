@@ -28,7 +28,7 @@ export default function Results() {
   };
 
   return (
-    <main className="container-shell">
+    <main className="container-shell motion-rise motion-stagger" style={{ "--motion-index": 0 }}>
       <Dashboard
         stats={engine.stats}
         onRestart={handleRestart}

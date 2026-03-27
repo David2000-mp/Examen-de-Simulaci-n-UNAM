@@ -15,7 +15,7 @@ function Navbar() {
         to="/"
         end
         className={({ isActive }) =>
-          `rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+          `motion-lift motion-press rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
             isActive
               ? "bg-brand-700 text-white"
               : "text-brand-200 hover:bg-brand-800 hover:text-white"
@@ -28,7 +28,7 @@ function Navbar() {
       <NavLink
         to="/guia"
         className={({ isActive }) =>
-          `rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+          `motion-lift motion-press rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
             isActive
               ? "bg-brand-700 text-white"
               : "text-brand-200 hover:bg-brand-800 hover:text-white"
@@ -41,7 +41,7 @@ function Navbar() {
       <NavLink
         to="/flashcards"
         className={({ isActive }) =>
-          `rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
+          `motion-lift motion-press rounded-lg px-3 py-1.5 text-sm font-semibold transition ${
             isActive
               ? "bg-brand-700 text-white"
               : "text-brand-200 hover:bg-brand-800 hover:text-white"
@@ -58,7 +58,7 @@ function Navbar() {
 function AnimatedRoutes() {
   const location = useLocation();
   return (
-    <div key={location.pathname} className="page-enter">
+    <div key={location.pathname} className="page-enter motion-fade-scale">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/exam" element={<Exam />} />

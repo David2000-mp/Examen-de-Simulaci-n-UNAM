@@ -98,7 +98,7 @@ export default function GuiaEstudio() {
 
   return (
     <main className="container-shell space-y-5">
-      <header className="rounded-2xl bg-brand-900 p-6 text-white shadow-xl">
+      <header className="motion-rise motion-stagger rounded-2xl bg-brand-900 p-6 text-white shadow-xl" style={{ "--motion-index": 0 }}>
         <h1 className="font-serif text-2xl">Guía de Estudio — 100 Conceptos Clave</h1>
         <p className="mt-1 text-sm text-brand-100">
           Historia · Metodología · Teoría Social
@@ -126,7 +126,7 @@ export default function GuiaEstudio() {
       {/* Progress by axis */}
       <div className="grid gap-3 sm:grid-cols-3">
         {byAxis.map(({ axis, total, done }) => (
-          <div key={axis} className="rounded-xl bg-white/90 p-3 shadow ring-1 ring-brand-100">
+          <div key={axis} className="motion-rise motion-stagger rounded-xl bg-white/90 p-3 shadow ring-1 ring-brand-100" style={{ "--motion-index": 1 }}>
             <p className="text-xs font-semibold uppercase tracking-wide text-brand-700">{axis}</p>
             <p className="mt-1 text-xl font-bold text-brand-900">
               {done}
@@ -143,7 +143,7 @@ export default function GuiaEstudio() {
       </div>
 
       {/* Search + filter bar */}
-      <div className="space-y-3 rounded-2xl bg-white/90 p-4 shadow ring-1 ring-brand-100">
+      <div className="motion-rise motion-stagger space-y-3 rounded-2xl bg-white/90 p-4 shadow ring-1 ring-brand-100" style={{ "--motion-index": 2 }}>
         <input
           type="search"
           placeholder="Buscar por concepto, autor, tema, alerta de examen…"
@@ -158,7 +158,7 @@ export default function GuiaEstudio() {
               key={axis}
               type="button"
               onClick={() => setAxisFilter(axis)}
-              className={`rounded-full px-3 py-1 text-xs font-semibold transition ${
+              className={`motion-lift motion-press rounded-full px-3 py-1 text-xs font-semibold transition ${
                 axisFilter === axis
                   ? "bg-brand-700 text-white"
                   : "border border-brand-300 bg-brand-50 text-brand-900 hover:bg-brand-100"
@@ -171,7 +171,7 @@ export default function GuiaEstudio() {
             <button
               type="button"
               onClick={() => { setQuery(""); setAxisFilter("Todos"); }}
-              className="rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 hover:bg-slate-100"
+              className="motion-lift motion-press rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-600 hover:bg-slate-100"
             >
               Limpiar
             </button>
@@ -196,7 +196,7 @@ export default function GuiaEstudio() {
             return (
               <article
                 key={concept.id}
-                className={`rounded-xl border bg-white shadow-sm ${AXIS_BORDER[concept.eje]}`}
+                className={`motion-fade-scale rounded-xl border bg-white shadow-sm ${AXIS_BORDER[concept.eje]}`}
               >
                 {/* Card header — always visible, click to expand */}
                 <div
@@ -274,7 +274,7 @@ export default function GuiaEstudio() {
                           ? `Desmarcar concepto ${concept.id} como revisado`
                           : `Marcar concepto ${concept.id} como revisado`
                       }
-                      className={`w-full rounded-lg border py-2 text-xs font-semibold transition ${
+                      className={`motion-lift motion-press w-full rounded-lg border py-2 text-xs font-semibold transition ${
                         isRevisado
                           ? "border-emerald-400 bg-emerald-50 text-emerald-700 hover:bg-emerald-100"
                           : "border-brand-300 bg-brand-50 text-brand-800 hover:bg-brand-100"

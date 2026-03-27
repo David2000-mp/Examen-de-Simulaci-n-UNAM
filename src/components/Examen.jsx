@@ -31,7 +31,7 @@ export default function Examen({ engine }) {
     .filter(({ q }) => !!state.marked[q.id]);
 
   return (
-    <section className="space-y-4 rounded-2xl bg-white/90 p-4 shadow-lg ring-1 ring-brand-100 sm:p-6">
+    <section className="motion-fade-scale space-y-4 rounded-2xl bg-white/90 p-4 shadow-lg ring-1 ring-brand-100 sm:p-6">
       {/* Confirm finish modal */}
       {showConfirm && (
         <div
@@ -40,7 +40,7 @@ export default function Examen({ engine }) {
           aria-labelledby="confirm-title"
           className="fixed inset-0 z-50 flex items-center justify-center bg-brand-900/60 p-4 backdrop-blur-sm"
         >
-          <div className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-2xl">
+          <div className="motion-rise w-full max-w-sm rounded-2xl bg-white p-6 shadow-2xl">
             <h2 id="confirm-title" className="font-serif text-xl text-brand-900">¿Finalizar examen?</h2>
             {unansweredCount > 0 && (
               <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-800">
@@ -119,7 +119,7 @@ export default function Examen({ engine }) {
         </div>
       </div>
 
-      <h2 className="text-lg font-semibold leading-relaxed text-ink">{currentQuestion.pregunta}</h2>
+      <h2 className="motion-rise text-lg font-semibold leading-relaxed text-ink">{currentQuestion.pregunta}</h2>
 
       <div className="grid gap-2">
         {currentQuestion.opciones.map((opcion, idx) => {
@@ -129,7 +129,7 @@ export default function Examen({ engine }) {
               key={idx}
               type="button"
               onClick={() => setAnswer(currentQuestion.id, idx)}
-              className={`rounded-xl border px-3 py-3 text-left text-sm transition sm:text-base ${
+              className={`motion-lift motion-press rounded-xl border px-3 py-3 text-left text-sm transition sm:text-base ${
                 active ? "border-accent bg-rose-50" : "border-slate-300 bg-white hover:bg-slate-50"
               }`}
               aria-pressed={active}
@@ -141,7 +141,7 @@ export default function Examen({ engine }) {
       </div>
 
       {showFeedback ? (
-        <div className={`rounded-xl p-3 text-sm ${isCorrect ? "bg-emerald-50 text-emerald-800" : "bg-amber-50 text-amber-900"}`}>
+        <div className={`motion-rise rounded-xl p-3 text-sm ${isCorrect ? "bg-emerald-50 text-emerald-800" : "bg-amber-50 text-amber-900"}`}>
           <p className="font-semibold">{isCorrect ? "Respuesta correcta" : "Respuesta incorrecta"}</p>
           <p className="mt-1">{currentQuestion.justificacion}</p>
         </div>
@@ -153,7 +153,7 @@ export default function Examen({ engine }) {
           onClick={() => goTo(state.currentIndex - 1)}
           disabled={state.currentIndex === 0}
           aria-label="Ir a la pregunta anterior"
-          className="rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold disabled:opacity-40"
+          className="motion-lift motion-press rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold disabled:opacity-40"
         >
           Anterior
         </button>
@@ -162,7 +162,7 @@ export default function Examen({ engine }) {
           onClick={() => goTo(state.currentIndex + 1)}
           disabled={state.currentIndex >= state.questions.length - 1}
           aria-label="Ir a la pregunta siguiente"
-          className="rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold disabled:opacity-40"
+          className="motion-lift motion-press rounded-lg border border-slate-300 px-3 py-2 text-sm font-semibold disabled:opacity-40"
         >
           Siguiente
         </button>
@@ -170,7 +170,7 @@ export default function Examen({ engine }) {
           type="button"
           onClick={() => toggleMark(currentQuestion.id)}
           aria-label={state.marked[currentQuestion.id] ? "Quitar estado pendiente para repaso" : "Marcar como pendiente para repaso"}
-          className="rounded-lg border border-brand-400 px-3 py-2 text-sm font-semibold text-brand-800"
+          className="motion-lift motion-press rounded-lg border border-brand-400 px-3 py-2 text-sm font-semibold text-brand-800"
         >
           {state.marked[currentQuestion.id] ? "Quitar pendiente" : "Pendiente para repaso"}
         </button>
@@ -178,7 +178,7 @@ export default function Examen({ engine }) {
           type="button"
           onClick={handleFinishClick}
           aria-label="Finalizar examen y ver resultados"
-          className="ml-auto rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white"
+          className="motion-lift motion-press ml-auto rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white"
         >
           Finalizar
         </button>
