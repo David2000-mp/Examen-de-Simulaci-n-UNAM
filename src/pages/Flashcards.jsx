@@ -7,7 +7,7 @@ const AXES = ["Todos", "Historia", "Metodología", "Teoría", "Teoría Social"];
 const ACTIVE_RECALL_STORAGE_KEY = "flashcards:active-recall:mastered:v1";
 const MODES = [
   { id: "active-recall", label: "Active Recall" },
-  { id: "personalizadas", label: "Errores guía" },
+  { id: "personalizadas", label: "Aprendizaje en equipo" },
   { id: "conceptos", label: "Conceptos" }
 ];
 
@@ -224,7 +224,7 @@ export default function Flashcards() {
     <main className="container-shell space-y-5">
       <header className="motion-rise motion-stagger rounded-2xl bg-brand-900 p-6 text-white shadow-xl" style={{ "--motion-index": 0 }}>
         <h1 className="font-serif text-2xl">
-          Flashcards — {studyMode === "active-recall" ? "Active Recall" : studyMode === "personalizadas" ? "Errores personalizados" : "100 Conceptos"}
+          Flashcards — {studyMode === "active-recall" ? "Active Recall" : studyMode === "personalizadas" ? "Aprendizaje en equipo" : "100 Conceptos"}
         </h1>
         <p className="mt-1 text-sm text-brand-100">
           {studyMode === "active-recall"
