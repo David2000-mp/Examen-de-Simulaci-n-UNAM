@@ -23,6 +23,41 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
         <p className="mt-1 text-sm text-slate-600">Porcentaje global de aciertos: <strong>{stats.overall}%</strong></p>
       </header>
 
+      {/* Sticky action bar — always visible while scrolling */}
+      <div className="sticky top-10 z-40 -mx-4 flex flex-wrap items-center justify-between gap-2 border-y border-brand-200 bg-white/95 px-4 py-3 backdrop-blur sm:-mx-6 sm:px-6">
+        <span className="text-sm font-bold text-brand-900">
+          {stats.overall >= 70 ? "🌟" : stats.overall >= 40 ? "⚠️" : "📚"}
+          {" "}{stats.overall}% global
+        </span>
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={onRetryErrors}
+            disabled={!stats.trainingAvailable}
+            aria-label="Reintentar solamente las preguntas incorrectas"
+            className="rounded-lg bg-brand-700 px-3 py-1.5 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            Reintentar errores
+          </button>
+          <button
+            type="button"
+            onClick={onDownloadGuide}
+            disabled={!orderedErrors.length}
+            aria-label="Descargar guia de estudio personalizada en formato Markdown"
+            className="rounded-lg bg-accent px-3 py-1.5 text-xs font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
+          >
+            Descargar Guía (.md)
+          </button>
+          <button
+            type="button"
+            onClick={onRestart}
+            className="rounded-lg border border-brand-300 bg-white px-3 py-1.5 text-xs font-semibold text-brand-800 hover:bg-brand-50"
+          >
+            Reiniciar simulador
+          </button>
+        </div>
+      </div>
+
       <div className="grid gap-3 sm:grid-cols-3">
         {Object.entries(stats.axisScores).map(([axis, score]) => (
           <article key={axis} className="rounded-xl bg-brand-50 p-3 ring-1 ring-brand-100">
@@ -42,26 +77,6 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
         <p className="text-sm text-slate-700">
           Refuerza primero el eje con menor puntaje y enfocate en los errores con mayor impacto.
         </p>
-        <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={onRetryErrors}
-            disabled={!stats.trainingAvailable}
-            aria-label="Reintentar solamente las preguntas incorrectas"
-            className="rounded-lg bg-brand-700 px-4 py-2 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            Reintentar solo errores
-          </button>
-          <button
-            type="button"
-            onClick={onDownloadGuide}
-            disabled={!orderedErrors.length}
-            aria-label="Descargar guia de estudio personalizada en formato Markdown"
-            className="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            Descargar Guia de Estudio (.md)
-          </button>
-        </div>
       </div>
 
       {stats.progress?.totalSessions > 0 && (
@@ -170,13 +185,6 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
         )}
       </div>
 
-      <button
-        type="button"
-        onClick={onRestart}
-        className="rounded-lg bg-brand-700 px-4 py-2 text-sm font-semibold text-white"
-      >
-        Reiniciar simulador
-      </button>
     </section>
   );
 }
