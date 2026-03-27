@@ -1448,6 +1448,506 @@ const flashcardsPersonalizadas = [
     "prompt": "Al analizar la fenomenología de Jean-Luc Marion, se habla del acontecimiento como un fenómeno que no puede ser previsto por la teoría. ¿Cuál es el desafío de esta postura para la programación social rígida?",
     "answer": "Que existen fenómenos (como la crisis o el trauma) que saturan la conciencia y desbordan cualquier categoría técnica previa, exigiendo una escucha que no intente encasillar el hecho.",
     "note": "Justificación: El fenómeno saturado desborda el concepto. Esto obliga al profesional a reconocer los límites de sus manuales ante la radicalidad de la experiencia humana (pág. 350-351).\nLectura sugerida: Los principios de la fenomenología / Hernán Inverso"
+  },
+  {
+    "id": "GP-156",
+    "eje": "Historia",
+    "sourceId": 156,
+    "kind": "error-review",
+    "titulo": "Dialéctica y Crítica Historiográfica",
+    "prompt": "¿Cuál es la crítica fundamental de Ander-Egg a las historias del Trabajo Social que se centran en la biografía de los precursores?",
+    "answer": "Que presentan la profesión como una evolución autónoma de la bondad humana, ignorando que es un producto de las contradicciones de clase y la reproducción del capital.",
+    "note": "ID original: H-001\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Que omiten fechas exactas de la asistencia medieval.\n2. Que presentan la profesión como una evolución autónoma de la bondad humana, ignorando que es un producto de las contradicciones de clase y la reproducción del capital.\n3. Que no mencionan la influencia del psicoanálisis en el diagnóstico.\n4. Que se enfocan demasiado en la política estatal y poco en la técnica.\n\nJustificación: Ander-Egg sostiene que el TS nace de necesidades estructurales del sistema social y no de la simple 'buena voluntad' aislada (pág. 19-21)."
+  },
+  {
+    "id": "GP-157",
+    "eje": "Historia",
+    "sourceId": 157,
+    "kind": "error-review",
+    "titulo": "Leyes de Pobres e Industrialización",
+    "prompt": "En el marco de la 'Poor Law' de 1601, ¿qué objetivo económico cumplía la clasificación de los pobres en 'válidos' e 'incapaces'?",
+    "answer": "Garantizar una reserva de mano de obra barata y disciplinada mediante la criminalización de la vagancia para quienes podían trabajar.",
+    "note": "ID original: H-002\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Fomentar la educación universitaria para los más pobres.\n2. Garantizar una reserva de mano de obra barata y disciplinada mediante la criminalización de la vagancia para quienes podían trabajar.\n3. Eliminar el cobro de impuestos parroquiales.\n4. Promover la migración voluntaria a las colonias americanas.\n\nJustificación: La ley buscaba controlar la movilidad de la fuerza de trabajo en el naciente capitalismo mercantil (pág. 95)."
+  },
+  {
+    "id": "GP-158",
+    "eje": "Historia",
+    "sourceId": 158,
+    "kind": "error-review",
+    "titulo": "Mary Richmond y la Epistemología del Diagnóstico",
+    "prompt": "Para Mary Richmond, ¿cuál es la diferencia nodal entre la 'ayuda intuitiva' y el 'Diagnóstico Social'?",
+    "answer": "El Diagnóstico Social sustituye la intuición por un proceso de inferencia crítica basado en la comparación de múltiples fuentes de evidencia social.",
+    "note": "ID original: H-003\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El Diagnóstico Social requiere el uso de uniformes institucionales.\n2. El Diagnóstico Social sustituye la intuición por un proceso de inferencia crítica basado en la comparación de múltiples fuentes de evidencia social.\n3. La ayuda intuitiva es más efectiva en casos de extrema pobreza.\n4. El diagnóstico solo puede ser realizado por médicos y abogados.\n\nJustificación: Richmond sistematiza la intervención al definir que la personalidad social es un producto de la relación entre el individuo y su entorno (pág. 170)."
+  },
+  {
+    "id": "GP-159",
+    "eje": "Historia",
+    "sourceId": 159,
+    "kind": "error-review",
+    "titulo": "Reconceptuación y Autonomía Teórica",
+    "prompt": "¿Cuál fue la mayor ruptura metodológica del Movimiento de Reconceptuación en América Latina?",
+    "answer": "El rechazo al funcionalismo adaptativo norteamericano para proponer una metodología dialéctica vinculada a la transformación social.",
+    "note": "ID original: H-004\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La sustitución de la entrevista individual por la asamblea popular.\n2. El rechazo al funcionalismo adaptativo norteamericano para proponer una metodología dialéctica vinculada a la transformación social.\n3. La prohibición de leer autores europeos como Mary Richmond.\n4. La eliminación de los registros de campo en las instituciones públicas.\n\nJustificación: Se buscó que el TS dejara de ser una técnica de ajuste individual para convertirse en praxis política transformadora (pág. 210)."
+  },
+  {
+    "id": "GP-160",
+    "eje": "Historia",
+    "sourceId": 160,
+    "kind": "error-review",
+    "titulo": "Especificidad y Objeto en México",
+    "prompt": "Según Aída Valero, ¿por qué el 'Objeto de Intervención' no es una entidad dada en la realidad?",
+    "answer": "Porque es una construcción teórica que el profesional realiza al delimitar una problemática bajo un marco conceptual y una intencionalidad específica.",
+    "note": "ID original: H-005\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Porque los problemas sociales son invisibles a simple vista.\n2. Porque es una construcción teórica que el profesional realiza al delimitar una problemática bajo un marco conceptual y una intencionalidad específica.\n3. Porque el objeto cambia cada vez que el Estado cambia de gobierno.\n4. Porque solo el usuario puede definir cuál es su objeto de necesidad.\n\nJustificación: La especificidad profesional se construye en la medida en que el TS conceptualiza la realidad para poder intervenir en ella (pág. 13)."
+  },
+  {
+    "id": "GP-161",
+    "eje": "Historia",
+    "sourceId": 161,
+    "kind": "error-review",
+    "titulo": "Génesis del TS en México: Las Misiones Culturales",
+    "prompt": "¿Qué función política cumplía el Trabajo Social dentro de las Misiones Culturales post-revolucionarias?",
+    "answer": "La integración de las comunidades rurales al proyecto de nación mediante la alfabetización, la higiene y la organización social.",
+    "note": "ID original: H-006\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La vigilancia policial de los campesinos rebeldes.\n2. La integración de las comunidades rurales al proyecto de nación mediante la alfabetización, la higiene y la organización social.\n3. La recaudación de fondos para la reconstrucción de iglesias.\n4. La selección de candidatos para puestos de elección popular.\n\nJustificación: El TS en México nace ligado a la reconstrucción social y la educación popular rural (pág. 42)."
+  },
+  {
+    "id": "GP-162",
+    "eje": "Historia",
+    "sourceId": 162,
+    "kind": "error-review",
+    "titulo": "Identidad y Globalización",
+    "prompt": "¿Cuál es el impacto de la lógica neoliberal en la identidad del Trabajador Social contemporáneo?",
+    "answer": "La reducción del profesional a un 'gestor de carencias' tecnocrático, cuya función es eficientar recursos limitados sin cuestionar la estructura social.",
+    "note": "ID original: H-007\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Un aumento en la autonomía profesional gracias a la tecnología.\n2. La reducción del profesional a un 'gestor de carencias' tecnocrático, cuya función es eficientar recursos limitados sin cuestionar la estructura social.\n3. La desaparición del Trabajo Social de Casos en favor de las redes sociales.\n4. El incremento de salarios debido a la especialización técnica.\n\nJustificación: La globalización impone una visión administrativa que choca con la dimensión ético-política de la disciplina (pág. 165)."
+  },
+  {
+    "id": "GP-163",
+    "eje": "Historia",
+    "sourceId": 163,
+    "kind": "error-review",
+    "titulo": "Sujeto de Derechos vs Beneficencia",
+    "prompt": "¿Qué implica para el método de intervención pasar de un paradigma de 'asistencia' a uno de 'derechos'?",
+    "answer": "Que la intervención no se basa en la 'falta' del sujeto, sino en la exigibilidad de derechos ante el Estado y el empoderamiento del ciudadano.",
+    "note": "ID original: H-008\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Que el usuario ahora debe pagar una cuota de recuperación.\n2. Que la intervención no se basa en la 'falta' del sujeto, sino en la exigibilidad de derechos ante el Estado y el empoderamiento del ciudadano.\n3. Que el trabajador social pierde su capacidad de mando ante el usuario.\n4. Que todas las intervenciones deben ser obligatoriamente grupales.\n\nJustificación: El enfoque de derechos transforma la relación profesional hacia una de ciudadanía activa y justicia social (pág. 165)."
+  },
+  {
+    "id": "GP-164",
+    "eje": "Historia",
+    "sourceId": 164,
+    "kind": "error-review",
+    "titulo": "Control Social y Bismarck",
+    "prompt": "Desde la perspectiva histórica, ¿por qué se dice que el Seguro Social de Bismarck en Alemania fue una 'política del caramelo y el garrote'?",
+    "answer": "Porque alternaba beneficios sociales (seguro de vejez, enfermedad) para apaciguar a la clase obrera, mientras mantenía leyes represivas contra el socialismo.",
+    "note": "ID original: H-009\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque regalaban dulces a los hijos de los trabajadores obreros.\n2. Porque alternaba beneficios sociales (seguro de vejez, enfermedad) para apaciguar a la clase obrera, mientras mantenía leyes represivas contra el socialismo.\n3. Porque obligaba a los obreros a comer en las fábricas bajo vigilancia militar.\n4. Porque los beneficios solo se daban a quienes no sabían leer ni escribir.\n\nJustificación: La seguridad social nació como un mecanismo de contención revolucionaria y no por filantropía pura (pág. 120)."
+  },
+  {
+    "id": "GP-165",
+    "eje": "Historia",
+    "sourceId": 165,
+    "kind": "error-review",
+    "titulo": "Institucionalización y Cruz Roja en México",
+    "prompt": "¿Cuál fue la limitación del perfil profesional que promovió la Cruz Roja en las primeras escuelas de TS en México?",
+    "answer": "Su visión paramédica y técnica subordinada, donde el TS era visto como una auxiliaría de la medicina y no como una disciplina social autónoma.",
+    "note": "ID original: H-010\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Su enfoque excesivamente sociológico que ignoraba la salud.\n2. Su visión paramédica y técnica subordinada, donde el TS era visto como una auxiliaría de la medicina y no como una disciplina social autónoma.\n3. Su negativa a contratar hombres dentro de la profesión.\n4. Su interés por la reforma agraria radical.\n\nJustificación: La etapa técnica inicial en México estuvo marcada por el modelo higienista-asistencial (pág. 48)."
+  },
+  {
+    "id": "GP-166",
+    "eje": "Historia",
+    "sourceId": 166,
+    "kind": "error-review",
+    "titulo": "Thomas Chalmers y la Parroquia",
+    "prompt": "¿Cuál fue el principio de Thomas Chalmers que se considera el precursor del Trabajo Social de Casos?",
+    "answer": "La individualización de la ayuda: investigar cada caso a fondo para movilizar los recursos internos de la familia antes de dar socorro externo.",
+    "note": "ID original: H-011\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La caridad indiscriminada a todo el que la solicitara.\n2. La individualización de la ayuda: investigar cada caso a fondo para movilizar los recursos internos de la familia antes de dar socorro externo.\n3. La obligación de los pobres de confesar sus pecados ante el trabajador social.\n4. La centralización de la ayuda en un solo fondo estatal.\n\nJustificación: Chalmers introdujo la idea de que el socorro material es inútil si no va acompañado de un cambio en la conducta del sujeto (pág. 115)."
+  },
+  {
+    "id": "GP-167",
+    "eje": "Historia",
+    "sourceId": 167,
+    "kind": "error-review",
+    "titulo": "Octavia Hill y la Relación Humana",
+    "prompt": "¿Cuál era la innovación de Octavia Hill al intervenir en los barrios bajos de Londres?",
+    "answer": "El uso de la relación personal y el cobro del alquiler como una excusa para la educación social y el mejoramiento de los hábitos de vida de los inquilinos.",
+    "note": "ID original: H-012\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La construcción de viviendas de lujo para obreros.\n2. El uso de la relación personal y el cobro del alquiler como una excusa para la educación social y el mejoramiento de los hábitos de vida de los inquilinos.\n3. La prohibición de que los niños jugaran en las calles.\n4. La entrega de cupones de comida a cambio de trabajo comunitario.\n\nJustificación: Hill enfatizó que lo que el pobre necesitaba no era limosna, sino un 'amigo' (visitador) que le enseñara a vivir mejor (pág. 135)."
+  },
+  {
+    "id": "GP-168",
+    "eje": "Historia",
+    "sourceId": 168,
+    "kind": "error-review",
+    "titulo": "La Reconceptuación y el TS Crítico",
+    "prompt": "Durante la Reconceptuación, ¿qué significó la propuesta de un 'Trabajo Social Liberador'?",
+    "answer": "Convertir la intervención social en un proceso de concientización política para que el pueblo se organizara y cambiara las estructuras de dependencia económica.",
+    "note": "ID original: H-013\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Ayudar a los presos a escapar de las cárceles de alta seguridad.\n2. Convertir la intervención social en un proceso de concientización política para que el pueblo se organizara y cambiara las estructuras de dependencia económica.\n3. Eliminar los expedientes sociales para que el usuario se sintiera libre.\n4. Dejar de cobrar por los servicios profesionales en las instituciones.\n\nJustificación: Fue un giro hacia la teoría marxista y la pedagogía de Paulo Freire en la acción social (pág. 210)."
+  },
+  {
+    "id": "GP-169",
+    "eje": "Historia",
+    "sourceId": 169,
+    "kind": "error-review",
+    "titulo": "Las COS y la sistematización inicial",
+    "prompt": "¿Qué herramienta técnica introdujeron las COS (Charity Organization Societies) para evitar el fraude en la ayuda social?",
+    "answer": "El Registro Central de Casos, donde se compartía información entre instituciones para evitar que una misma persona recibiera doble ayuda.",
+    "note": "ID original: H-014\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El detector de mentiras en las oficinas parroquiales.\n2. El Registro Central de Casos, donde se compartía información entre instituciones para evitar que una misma persona recibiera doble ayuda.\n3. La publicación de los nombres de los mendigos en el periódico local.\n4. La obligación de llevar un tatuaje institucional.\n\nJustificación: Es el origen administrativo del registro y seguimiento técnico en el Trabajo Social (pág. 133)."
+  },
+  {
+    "id": "GP-170",
+    "eje": "Historia",
+    "sourceId": 170,
+    "kind": "error-review",
+    "titulo": "Transdisciplina e Identidad",
+    "prompt": "Frente a los retos actuales, ¿qué diferencia a la 'intervención transdisciplinar' de la 'interdisciplinar'?",
+    "answer": "La transdisciplina busca una síntesis que trasciende las fronteras de cada carrera para construir un conocimiento nuevo sobre el problema social complejo.",
+    "note": "ID original: H-015\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. La transdisciplina implica que un solo profesional hace el trabajo de todos.\n2. La transdisciplina busca una síntesis que trasciende las fronteras de cada carrera para construir un conocimiento nuevo sobre el problema social complejo.\n3. La interdisciplina es solo para casos de salud y la transdisciplina para casos jurídicos.\n4. No existe diferencia, son términos de moda académica.\n\nJustificación: La complejidad de lo social exige superar la fragmentación del conocimiento científico (pág. 165)."
+  },
+  {
+    "id": "GP-171",
+    "eje": "Historia",
+    "sourceId": 171,
+    "kind": "error-review",
+    "titulo": "Asistencia Medieval y Salvación",
+    "prompt": "¿Por qué se dice que en la Edad Media la caridad tenía un fin 'escatológico'?",
+    "answer": "Porque el fin último del donante no era ayudar al pobre, sino asegurar la salvación de su propia alma ante el juicio divino tras la muerte.",
+    "note": "ID original: H-016\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque se centraba en el estudio de los desechos de la ciudad.\n2. Porque el fin último del donante no era ayudar al pobre, sino asegurar la salvación de su propia alma ante el juicio divino tras la muerte.\n3. Porque los pobres eran considerados demonios que debían ser expulsados.\n4. Porque la ayuda solo se daba durante las guerras santas.\n\nJustificación: La pobreza era una 'oportunidad' espiritual para el rico dentro del dogma eclesiástico (pág. 33)."
+  },
+  {
+    "id": "GP-172",
+    "eje": "Historia",
+    "sourceId": 172,
+    "kind": "error-review",
+    "titulo": "Impacto del Positivismo en el TS",
+    "prompt": "¿Cómo influyó el pensamiento de Auguste Comte en la etapa de profesionalización del Trabajo Social?",
+    "answer": "Aportando la idea de que la sociedad puede ser estudiada y 'corregida' científicamente para mantener el orden y el progreso, viendo al TS como una 'ingeniería social'.",
+    "note": "ID original: H-017\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Promoviendo la anarquía en los barrios obreros.\n2. Aportando la idea de que la sociedad puede ser estudiada y 'corregida' científicamente para mantener el orden y el progreso, viendo al TS como una 'ingeniería social'.\n3. Prohibiendo el uso de la observación participante.\n4. Estableciendo que solo la religión podía explicar los problemas sociales.\n\nJustificación: El TS nació bajo el paradigma del orden social y la corrección de 'desviaciones' (pág. 160)."
+  },
+  {
+    "id": "GP-173",
+    "eje": "Historia",
+    "sourceId": 173,
+    "kind": "error-review",
+    "titulo": "El Trabajador Social en el Estado de Bienestar",
+    "prompt": "Durante el auge del Keynesianismo, ¿qué nuevo rol asumió el Trabajador Social?",
+    "answer": "El de administrador de la seguridad social masiva y gestor de los derechos sociales garantizados por el Estado.",
+    "note": "ID original: H-018\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El de caritativo voluntario en iglesias locales.\n2. El de administrador de la seguridad social masiva y gestor de los derechos sociales garantizados por el Estado.\n3. El de opositor radical a la inversión pública.\n4. El de psiquiatra privado para la clase alta.\n\nJustificación: El TS se vuelve un brazo ejecutor de las políticas públicas redistributivas del Estado (pág. 155)."
+  },
+  {
+    "id": "GP-174",
+    "eje": "Historia",
+    "sourceId": 174,
+    "kind": "error-review",
+    "titulo": "Aída Valero: La intencionalidad profesional",
+    "prompt": "Valero Chávez afirma que la 'Intencionalidad' es un eje constitutivo de la especificidad. ¿Qué define esta intencionalidad?",
+    "answer": "El sentido ético-político de la intervención: si el fin es la adaptación, la reforma social o la transformación estructural de la realidad.",
+    "note": "ID original: H-019\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Las ganas que tiene el profesional de ir a trabajar cada día.\n2. El sentido ético-político de la intervención: si el fin es la adaptación, la reforma social o la transformación estructural de la realidad.\n3. El número de casos que se logran cerrar en un mes calendario.\n4. La obligación de seguir los manuales sin cuestionarlos.\n\nJustificación: La técnica no es neutral; siempre responde a un proyecto de sociedad determinado (pág. 11)."
+  },
+  {
+    "id": "GP-175",
+    "eje": "Historia",
+    "sourceId": 175,
+    "kind": "error-review",
+    "titulo": "La formación en la UNAM: El quiebre del 68",
+    "prompt": "Tras el 1968, ¿cuál fue el cambio curricular más importante en la ENTS-UNAM?",
+    "answer": "La transición de un plan centrado en la técnica asistencial a uno centrado en la investigación-acción y el análisis crítico de la estructura económica mexicana.",
+    "note": "ID original: H-020\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La inclusión de clases de música y arte para los alumnos.\n2. La transición de un plan centrado en la técnica asistencial a uno centrado en la investigación-acción y el análisis crítico de la estructura económica mexicana.\n3. La eliminación de la materia de estadística por ser considerada 'capitalista'.\n4. La subordinación de la carrera a la Escuela de Medicina.\n\nJustificación: El movimiento social obligó a la academia a formar profesionales capaces de analizar las causas del malestar nacional (pág. 55)."
+  },
+  {
+    "id": "GP-176",
+    "eje": "Historia",
+    "sourceId": 176,
+    "kind": "error-review",
+    "titulo": "El modelo de 'Settlements' (Jane Addams)",
+    "prompt": "¿Qué práctica distinguía a Hull House (Jane Addams) del modelo asistencial tradicional?",
+    "answer": "La convivencia directa del trabajador social en el barrio, convirtiéndose en vecino para entender los problemas desde dentro y promover reformas comunitarias.",
+    "note": "ID original: H-021\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La entrega de cheques semanales a las familias.\n2. La convivencia directa del trabajador social en el barrio, convirtiéndose en vecino para entender los problemas desde dentro y promover reformas comunitarias.\n3. El cobro de una cuota por el servicio de asesoría jurídica.\n4. El uso exclusivo de voluntarios que no vivían en la zona de conflicto.\n\nJustificación: Los centros sociales (Settlements) fueron el laboratorio de la reforma social y el TS de grupos (pág. 140)."
+  },
+  {
+    "id": "GP-177",
+    "eje": "Historia",
+    "sourceId": 177,
+    "kind": "error-review",
+    "titulo": "Funciones genéricas según Aída Valero",
+    "prompt": "¿Cuál de las siguientes es una 'función genérica' del Trabajo Social presente en todas las áreas de intervención?",
+    "answer": "La educación social y la promoción de la participación organizada de los sujetos.",
+    "note": "ID original: H-022\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La realización de cirugías menores.\n2. La educación social y la promoción de la participación organizada de los sujetos.\n3. El peritaje contable de las empresas en quiebra.\n4. La dirección de cuerpos de seguridad pública.\n\nJustificación: La función educativa y promotora es transversal a la identidad profesional independientemente del campo (pág. 10)."
+  },
+  {
+    "id": "GP-178",
+    "eje": "Historia",
+    "sourceId": 178,
+    "kind": "error-review",
+    "titulo": "Sistematización como empoderamiento",
+    "prompt": "Desde la perspectiva contemporánea, ¿por qué la sistematización 'empodera' al trabajador social?",
+    "answer": "Porque le permite dejar de ser un ejecutor de teorías ajenas para convertirse en un productor de conocimiento propio desde su realidad latinoamericana.",
+    "note": "ID original: H-023\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Porque le da permiso para ganar más dinero.\n2. Porque le permite dejar de ser un ejecutor de teorías ajenas para convertirse en un productor de conocimiento propio desde su realidad latinoamericana.\n3. Porque garantiza que el profesional no tenga que realizar más visitas domiciliarias.\n4. Porque lo equipara legalmente con un juez de distrito.\n\nJustificación: La sistematización es la herramienta de la autonomía epistemológica (pág. 165)."
+  },
+  {
+    "id": "GP-179",
+    "eje": "Historia",
+    "sourceId": 179,
+    "kind": "error-review",
+    "titulo": "Juan Luis Vives y la modernidad",
+    "prompt": "En el siglo XVI, Juan Luis Vives propuso la 'laicización' de la asistencia. ¿Qué implicaba esto?",
+    "answer": "Que el cuidado de los necesitados debía pasar de la Iglesia al municipio/Estado, basándose en la investigación y no solo en la fe.",
+    "note": "ID original: H-024\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Que los curas debían dejar de comer para dar su comida a los pobres.\n2. Que el cuidado de los necesitados debía pasar de la Iglesia al municipio/Estado, basándose en la investigación y no solo en la fe.\n3. La prohibición de cualquier forma de ayuda mutua entre vecinos.\n4. La expulsión de todos los indigentes de los territorios cristianos.\n\nJustificación: Vives es el primer gran sistematizador de la ayuda social racional y estatal (pág. 65)."
+  },
+  {
+    "id": "GP-180",
+    "eje": "Historia",
+    "sourceId": 180,
+    "kind": "error-review",
+    "titulo": "El informe Beveridge y los 'Cinco Gigantes'",
+    "prompt": "El Informe Beveridge (1942) buscaba atacar a los 'cinco gigantes' que impedían el progreso. ¿Cuáles eran tres de ellos?",
+    "answer": "La necesidad (pobreza), la enfermedad y la ignorancia.",
+    "note": "ID original: H-025\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El comunismo, el ateísmo y el alcoholismo.\n2. La necesidad (pobreza), la enfermedad y la ignorancia.\n3. La delincuencia juvenil, el divorcio y la pereza.\n4. El mercado libre, la propiedad privada y el capital.\n\nJustificación: Beveridge definió los riesgos sociales que el Estado moderno debía cubrir universalmente (pág. 150)."
+  },
+  {
+    "id": "GP-181",
+    "eje": "Historia",
+    "sourceId": 181,
+    "kind": "error-review",
+    "titulo": "La caridad isabelina: Las Workhouses",
+    "prompt": "¿Qué función disciplinaria tenían las 'Casas de Trabajo' (Workhouses) en la Inglaterra del siglo XVII?",
+    "answer": "Obligar al trabajo forzado en condiciones de miseria para que el pobre prefiriera cualquier empleo mal pagado antes que entrar en la Workhouse.",
+    "note": "ID original: H-026\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Servir de refugio voluntario y gratuito para las vacaciones de los pobres.\n2. Obligar al trabajo forzado en condiciones de miseria para que el pobre prefiriera cualquier empleo mal pagado antes que entrar en la Workhouse.\n3. Educar a los pobres en artes plásticas y música clásica.\n4. Proveer de alimentos gourmet a las familias de los obreros en huelga.\n\nJustificación: Las Workhouses eran instrumentos de castigo y disciplinamiento del proletariado (pág. 97)."
+  },
+  {
+    "id": "GP-182",
+    "eje": "Historia",
+    "sourceId": 182,
+    "kind": "error-review",
+    "titulo": "El TS en el periodo Cardenista",
+    "prompt": "Durante el Cardenismo (1934-1940), el Trabajo Social en México se consolidó por su participación en:",
+    "answer": "La reforma agraria y los proyectos de salud colectiva orientados al bienestar de obreros y campesinos.",
+    "note": "ID original: H-027\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La banca privada nacional.\n2. La reforma agraria y los proyectos de salud colectiva orientados al bienestar de obreros y campesinos.\n3. La expulsión masiva de refugiados extranjeros.\n4. La privatización de la educación superior en la UNAM.\n\nJustificación: El TS fue un instrumento clave del Estado para implementar políticas de justicia social (pág. 46)."
+  },
+  {
+    "id": "GP-183",
+    "eje": "Historia",
+    "sourceId": 183,
+    "kind": "error-review",
+    "titulo": "Mary Richmond y el Psicoanálisis",
+    "prompt": "A pesar de su rigor, Mary Richmond fue criticada por las corrientes posteriores por 'psicologizar' lo social. ¿A qué se refiere esta crítica?",
+    "answer": "A que su método centraba la causa del problema en la conducta individual o familiar, restando importancia a la estructura macroeconómica del capitalismo.",
+    "note": "ID original: H-028\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. A que ella creía que los trabajadores sociales debían ser psicólogos de profesión.\n2. A que su método centraba la causa del problema en la conducta individual o familiar, restando importancia a la estructura macroeconómica del capitalismo.\n3. A que ella recetaba fármacos durante las visitas domiciliarias.\n4. A que rechazaba el uso de la palabra 'sociedad' en sus escritos.\n\nJustificación: Se le criticó por el enfoque en la 'reforma de la personalidad' por encima de la reforma social (pág. 185)."
+  },
+  {
+    "id": "GP-184",
+    "eje": "Historia",
+    "sourceId": 184,
+    "kind": "error-review",
+    "titulo": "La especificidad profesional: El Sujeto Social",
+    "prompt": "¿Cuál es la diferencia entre ver al usuario como 'cliente' y verlo como 'sujeto social' según Valero Chávez?",
+    "answer": "El cliente es un consumidor pasivo de servicios; el sujeto social es un actor con historia, saberes y capacidad de transformar su propia realidad.",
+    "note": "ID original: H-029\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. El cliente siempre tiene la razón y el sujeto social no.\n2. El cliente es un consumidor pasivo de servicios; el sujeto social es un actor con historia, saberes y capacidad de transformar su propia realidad.\n3. El sujeto social es solo para quienes no tienen dinero.\n4. No existe diferencia, son términos de mercadotecnia social.\n\nJustificación: La noción de sujeto social dignifica la intervención y reconoce la agencia del otro (pág. 5-7)."
+  },
+  {
+    "id": "GP-185",
+    "eje": "Historia",
+    "sourceId": 185,
+    "kind": "error-review",
+    "titulo": "Identidad y Campo de Acción",
+    "prompt": "Para Valero Chávez, el Trabajo Social no se define por un solo campo (ej. salud), sino por su 'especificidad'. ¿Qué le da unidad a la disciplina?",
+    "answer": "La articulación constante entre un marco teórico-metodológico, un objeto construido y un horizonte ético-político de bienestar social.",
+    "note": "ID original: H-030\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. El hecho de que todos los trabajadores sociales usan el mismo tipo de diario de campo.\n2. La articulación constante entre un marco teórico-metodológico, un objeto construido y un horizonte ético-político de bienestar social.\n3. El salario que reciben de las instituciones gubernamentales.\n4. La prohibición de trabajar con otros científicos sociales.\n\nJustificación: La especificidad es lo que permite al TS actuar con rigor en cualquier campo de la vida social (pág. 11)."
+  },
+  {
+    "id": "GP-186",
+    "eje": "Historia",
+    "sourceId": 186,
+    "kind": "error-review",
+    "titulo": "Evolución de los Derechos Humanos en TS",
+    "prompt": "¿Por qué los Derechos Humanos de 'Segunda Generación' son los más vinculados históricamente al TS?",
+    "answer": "Porque son los derechos económicos, sociales y culturales (vivienda, salud, educación) que garantizan condiciones materiales de vida.",
+    "note": "ID original: H-031\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Porque son los derechos de libertad individual y voto.\n2. Porque son los derechos económicos, sociales y culturales (vivienda, salud, educación) que garantizan condiciones materiales de vida.\n3. Porque son los derechos relativos a la tecnología y la comunicación.\n4. Porque fueron creados por trabajadores sociales en la Edad Media.\n\nJustificación: La intervención social se centra tradicionalmente en la garantía de estos derechos fundamentales (pág. 165)."
+  },
+  {
+    "id": "GP-187",
+    "eje": "Historia",
+    "sourceId": 187,
+    "kind": "error-review",
+    "titulo": "Interculturalidad y Poder",
+    "prompt": "Desde el enfoque de interculturalidad crítica, ¿cómo debe abordar el TS la relación entre el saber científico y el saber popular?",
+    "answer": "A través de una ecología de saberes que reconozca que ambos conocimientos tienen validez y deben dialogar horizontalmente para resolver problemas comunitarios.",
+    "note": "ID original: H-032\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Sosteniendo que el saber científico es el único verdadero y el popular es ignorancia.\n2. A través de una ecología de saberes que reconozca que ambos conocimientos tienen validez y deben dialogar horizontalmente para resolver problemas comunitarios.\n3. Obligando a los indígenas a olvidar sus tradiciones para ser ciudadanos modernos.\n4. Ignorando ambos saberes para aplicar solo la ley estatal.\n\nJustificación: La interculturalidad busca romper la hegemonía del saber eurocéntrico en la intervención (pág. 165)."
+  },
+  {
+    "id": "GP-188",
+    "eje": "Historia",
+    "sourceId": 188,
+    "kind": "error-review",
+    "titulo": "Reconceptuación y Metodología Dialéctica",
+    "prompt": "¿Qué significa que la metodología de la Reconceptuación sea 'dialéctica'?",
+    "answer": "Que la investigación y la intervención ocurren simultáneamente, alimentándose mutuamente en un proceso continuo de acción-reflexión-acción.",
+    "note": "ID original: H-033\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Que el trabajador social debe hablar dos idiomas diferentes.\n2. Que la investigación y la intervención ocurren simultáneamente, alimentándose mutuamente en un proceso continuo de acción-reflexión-acción.\n3. Que el proceso solo tiene dos pasos: preguntar y dar dinero.\n4. Que se basa en la lucha de dos trabajadores sociales por un mismo puesto.\n\nJustificación: Rompe la separación positivista entre el investigador que observa y el técnico que aplica (pág. 210)."
+  },
+  {
+    "id": "GP-189",
+    "eje": "Historia",
+    "sourceId": 189,
+    "kind": "error-review",
+    "titulo": "La 'Cuestión Social' y el TS",
+    "prompt": "Ander-Egg define el origen del TS moderno como una respuesta a la 'Cuestión Social'. ¿Qué es la Cuestión Social?",
+    "answer": "El conjunto de problemas políticos, económicos y sociales generados por la Revolución Industrial y el conflicto entre el capital y el trabajo (proletariado).",
+    "note": "ID original: H-034\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Un examen que deben pasar los trabajadores sociales para titularse.\n2. El conjunto de problemas políticos, económicos y sociales generados por la Revolución Industrial y el conflicto entre el capital y el trabajo (proletariado).\n3. La duda sobre si el Trabajo Social debe ser considerado una ciencia.\n4. La pelea entre los precursores europeos por la fama teórica.\n\nJustificación: El TS nace cuando la pobreza se vuelve un problema político inmanejable para la burguesía (pág. 80)."
+  },
+  {
+    "id": "GP-190",
+    "eje": "Historia",
+    "sourceId": 190,
+    "kind": "error-review",
+    "titulo": "Las COS y la Moralización",
+    "prompt": "Las Charity Organization Societies (COS) distinguían entre pobres 'merecedores' y 'no merecedores'. ¿Qué criterio moral usaban?",
+    "answer": "El merecedor era el pobre trabajador e higiénico; el no merecedor era el vagabundo o vicioso que no aceptaba la guía moral de las visitadoras.",
+    "note": "ID original: H-035\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El merecedor era el pobre trabajador e higiénico; el no merecedor era el vagabundo o vicioso que no aceptaba la guía moral de las visitadoras.\n2. El merecedor era el que pagaba impuestos y el no merecedor el que no.\n3. El merecedor era el que sabía leer y el no merecedor el analfabeto.\n4. No usaban criterios morales, solo estadísticos.\n\nJustificación: La ayuda de las COS estaba condicionada a la reforma moral del individuo (pág. 133)."
+  },
+  {
+    "id": "GP-191",
+    "eje": "Historia",
+    "sourceId": 191,
+    "kind": "error-review",
+    "titulo": "Contexto Internacional: TS en la URSS",
+    "prompt": "¿Por qué el Trabajo Social, tal como se conoce en occidente, desapareció oficialmente en la URSS durante gran parte del siglo XX?",
+    "answer": "Porque el Estado soviético consideraba que con la abolición de las clases sociales, los problemas sociales se resolverían solos mediante la planificación económica estatal.",
+    "note": "ID original: H-036\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque no había escuelas de nivel superior en ese país.\n2. Porque el Estado soviético consideraba que con la abolición de las clases sociales, los problemas sociales se resolverían solos mediante la planificación económica estatal.\n3. Porque los trabajadores sociales eran considerados espías norteamericanos.\n4. Porque la pobreza estaba prohibida por decreto ley.\n\nJustificación: Se creyó que la estructura socialista eliminaba la necesidad de una profesión asistencial (pág. 160)."
+  },
+  {
+    "id": "GP-192",
+    "eje": "Historia",
+    "sourceId": 192,
+    "kind": "error-review",
+    "titulo": "Desafíos de la Identidad en México",
+    "prompt": "¿Qué papel juega el 'Gremio Profesional' en la historia del TS mexicano según Valero Chávez?",
+    "answer": "Es el espacio de lucha por el reconocimiento académico, la dignificación salarial y la actualización teórica necesaria para mantener la especificidad.",
+    "note": "ID original: H-037\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Ninguno, las asociaciones de trabajadores sociales no tienen influencia política.\n2. Es el espacio de lucha por el reconocimiento académico, la dignificación salarial y la actualización teórica necesaria para mantener la especificidad.\n3. Es un club social para organizar fiestas institucionales.\n4. Es el organismo que sanciona penalmente a quienes no terminan la tesis.\n\nJustificación: La identidad profesional se fortalece mediante la organización colectiva y la academia (pág. 60)."
+  },
+  {
+    "id": "GP-193",
+    "eje": "Historia",
+    "sourceId": 193,
+    "kind": "error-review",
+    "titulo": "Génesis del TS en el ámbito hospitalario",
+    "prompt": "¿Cómo se justificó históricamente la entrada de las visitadoras sociales en los hospitales mexicanos de los años 40?",
+    "answer": "Para realizar estudios socioeconómicos que determinaran si el paciente era indigente o si podía pagar una cuota, racionalizando el gasto público.",
+    "note": "ID original: H-038\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Para limpiar los quirófanos ante la falta de personal de aseo.\n2. Para realizar estudios socioeconómicos que determinaran si el paciente era indigente o si podía pagar una cuota, racionalizando el gasto público.\n3. Para administrar vacunas en lugar de las enfermeras.\n4. Para convencer a los pacientes de donar sus órganos al Estado.\n\nJustificación: El TS entró al hospital como un filtro administrativo de la beneficencia (pág. 49)."
+  },
+  {
+    "id": "GP-194",
+    "eje": "Historia",
+    "sourceId": 194,
+    "kind": "error-review",
+    "titulo": "El modelo de 'Casas de Vecindad' (Barnett)",
+    "prompt": "Samuel Barnett fundó Toynbee Hall en 1884. ¿Cuál fue el aporte metodológico de este proyecto?",
+    "answer": "La vinculación entre la Universidad y el barrio obrero: estudiantes vivían allí para compartir conocimientos y aprender de la realidad popular (TS comunitario).",
+    "note": "ID original: H-039\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La creación de la primera cárcel privada en Londres.\n2. La vinculación entre la Universidad y el barrio obrero: estudiantes vivían allí para compartir conocimientos y aprender de la realidad popular (TS comunitario).\n3. La venta de boletos de lotería para financiar orfanatos.\n4. La prohibición de la educación para las mujeres de clase obrera.\n\nJustificación: Fue el precursor del compromiso social universitario con las clases bajas (pág. 140)."
+  },
+  {
+    "id": "GP-195",
+    "eje": "Historia",
+    "sourceId": 195,
+    "kind": "error-review",
+    "titulo": "La identidad y el proyecto ético-político",
+    "prompt": "¿Por qué se dice que el Trabajo Social no puede ser una 'técnica pura'?",
+    "answer": "Porque toda intervención social implica una posición frente a la injusticia y una decisión sobre qué tipo de sociedad se quiere promover.",
+    "note": "ID original: H-040\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Porque no usa computadoras avanzadas en todos los casos.\n2. Porque toda intervención social implica una posición frente a la injusticia y una decisión sobre qué tipo de sociedad se quiere promover.\n3. Porque los trabajadores sociales no saben matemáticas.\n4. Porque las leyes prohíben que sea considerada una técnica.\n\nJustificación: La profesión tiene un compromiso intrínseco con la transformación social y la ética (pág. 165)."
+  },
+  {
+    "id": "GP-196",
+    "eje": "Historia",
+    "sourceId": 196,
+    "kind": "error-review",
+    "titulo": "La caridad filantrópica del siglo XVIII",
+    "prompt": "¿Qué diferencia a la filantropía ilustrada de la caridad religiosa?",
+    "answer": "La filantropía buscaba una organización racional y eficiente de la ayuda, basada en la razón y no solo en la fe, para mejorar la sociedad capitalista.",
+    "note": "ID original: H-041\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La filantropía era para las personas que no creían en Dios.\n2. La filantropía buscaba una organización racional y eficiente de la ayuda, basada en la razón y no solo en la fe, para mejorar la sociedad capitalista.\n3. La caridad regalaba dinero y la filantropía lo prestaba con intereses.\n4. No hay diferencia, son palabras que se usan para lo mismo.\n\nJustificación: La filantropía es la expresión burguesa de la asistencia social (pág. 70)."
+  },
+  {
+    "id": "GP-197",
+    "eje": "Historia",
+    "sourceId": 197,
+    "kind": "error-review",
+    "titulo": "TS y la Segunda Guerra Mundial",
+    "prompt": "¿Qué efecto tuvo la Segunda Guerra Mundial en la expansión del TS a nivel global?",
+    "answer": "Impulsó la creación de grandes organismos internacionales (UNRRA, ONU) que utilizaron al TS para la reconstrucción de Europa y la atención a refugiados.",
+    "note": "ID original: H-042\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Hizo que la profesión desapareciera debido a la violencia.\n2. Impulsó la creación de grandes organismos internacionales (UNRRA, ONU) que utilizaron al TS para la reconstrucción de Europa y la atención a refugiados.\n3. Provocó que los trabajadores sociales se dedicaran exclusivamente a fabricar armas.\n4. Hizo que la carrera de Trabajo Social fuera obligatoria para todos los soldados.\n\nJustificación: La posguerra fue el periodo de mayor expansión institucional de la profesión (pág. 145)."
+  },
+  {
+    "id": "GP-198",
+    "eje": "Historia",
+    "sourceId": 198,
+    "kind": "error-review",
+    "titulo": "Aída Valero: La dimensión teórica",
+    "prompt": "¿Por qué el Trabajo Social en México necesitó separarse de la Sociología en su proceso de profesionalización?",
+    "answer": "Para construir una identidad propia basada en la intervención operativa y no solo en la observación abstracta de la realidad.",
+    "note": "ID original: H-043\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Porque los sociólogos ganaban más dinero.\n2. Para construir una identidad propia basada en la intervención operativa y no solo en la observación abstracta de la realidad.\n3. Porque la Sociología estaba prohibida en la UNAM durante los años 50.\n4. Para que las mujeres pudieran tener una carrera exclusiva.\n\nJustificación: La búsqueda de autonomía disciplinar exigió delimitar un objeto de intervención y no solo de estudio (pág. 11)."
+  },
+  {
+    "id": "GP-199",
+    "eje": "Historia",
+    "sourceId": 199,
+    "kind": "error-review",
+    "titulo": "El modelo de 'Ayuda Mutua'",
+    "prompt": "¿En qué consistía la ayuda mutua en las antiguas comunidades (prehistoria de la asistencia)?",
+    "answer": "En la solidaridad orgánica del grupo donde la supervivencia de uno dependía de la colaboración de todos en la caza y recolección.",
+    "note": "ID original: H-044\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. En el intercambio de dinero entre tribus rivales.\n2. En la solidaridad orgánica del grupo donde la supervivencia de uno dependía de la colaboración de todos en la caza y recolección.\n3. En la existencia de un Estado primitivo que daba pensiones.\n4. En la caridad que los jefes daban a sus subordinados para ser adorados.\n\nJustificación: Es la forma primaria de protección social basada en la pertenencia al grupo (pág. 25)."
+  },
+  {
+    "id": "GP-200",
+    "eje": "Historia",
+    "sourceId": 200,
+    "kind": "error-review",
+    "titulo": "TS en el México Contemporáneo",
+    "prompt": "En la actualidad, ¿cuál es el nuevo nicho de intervención del TS en México derivado de la crisis de seguridad?",
+    "answer": "La atención integral a víctimas del delito, peritaje social y procesos de mediación y cultura de paz.",
+    "note": "ID original: H-045\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La vigilancia satelital de los ciudadanos.\n2. La atención integral a víctimas del delito, peritaje social y procesos de mediación y cultura de paz.\n3. La creación de ejércitos privados para las instituciones públicas.\n4. El cobro de multas de tránsito en las grandes ciudades.\n\nJustificación: La profesión se adapta a las nuevas emergencias sociales del país (pág. 15)."
+  },
+  {
+    "id": "GP-201",
+    "eje": "Historia",
+    "sourceId": 201,
+    "kind": "error-review",
+    "titulo": "El TS de Casos y el Funcionalismo",
+    "prompt": "¿Por qué se asocia el TS de Casos clásico con la teoría funcionalista?",
+    "answer": "Porque veía a la sociedad como un sistema en equilibrio y al individuo con problemas como una 'disfunción' que debía ser reparada para que volviera a ser útil al sistema.",
+    "note": "ID original: H-046\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque solo trabajaban con funcionarios públicos.\n2. Porque veía a la sociedad como un sistema en equilibrio y al individuo con problemas como una 'disfunción' que debía ser reparada para que volviera a ser útil al sistema.\n3. Porque era un método muy divertido y funcional para los niños.\n4. Porque prohibía el uso de la razón crítica.\n\nJustificación: La lógica era la adaptación del individuo al orden social establecido (pág. 175)."
+  },
+  {
+    "id": "GP-202",
+    "eje": "Historia",
+    "sourceId": 202,
+    "kind": "error-review",
+    "titulo": "Género e Institucionalización",
+    "prompt": "¿Cómo ha afectado el 'techo de cristal' a la historia del Trabajo Social?",
+    "answer": "Dificultando que las mujeres (mayoría en la profesión) accedan a los puestos de toma de decisiones políticas y directivas de alto nivel en el bienestar social.",
+    "note": "ID original: H-047\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Provocando que las oficinas de los trabajadores sociales se rompan fácilmente.\n2. Dificultando que las mujeres (mayoría en la profesión) accedan a los puestos de toma de decisiones políticas y directivas de alto nivel en el bienestar social.\n3. Haciendo que la carrera sea demasiado cara para las personas de clase baja.\n4. Obligando a los hombres a dejar la profesión por falta de interés.\n\nJustificación: La feminización de la carrera ha ido acompañada de una jerarquización de poder desfavorable (pág. 165)."
+  },
+  {
+    "id": "GP-203",
+    "eje": "Historia",
+    "sourceId": 203,
+    "kind": "error-review",
+    "titulo": "Aída Valero: La dimensión ética",
+    "prompt": "¿Cuál es el valor ético primordial del TS frente a la vulnerabilidad según Valero Chávez?",
+    "answer": "El respeto irrestricto a la dignidad humana y la búsqueda de la justicia social por encima de los intereses administrativos.",
+    "note": "ID original: H-048\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La obediencia absoluta a los superiores jerárquicos.\n2. El respeto irrestricto a la dignidad humana y la búsqueda de la justicia social por encima de los intereses administrativos.\n3. La capacidad de ahorrar recursos a la institución aunque el sujeto sufra.\n4. La neutralidad total ante el dolor ajeno para no sufrir desgaste emocional.\n\nJustificación: La ética es el componente que dota de sentido humano a la técnica profesional (pág. 12)."
+  },
+  {
+    "id": "GP-204",
+    "eje": "Historia",
+    "sourceId": 204,
+    "kind": "error-review",
+    "titulo": "El modelo de 'Asistencia Social' del siglo XIX",
+    "prompt": "En el siglo XIX, la asistencia social era vista como una forma de 'concesión'. ¿Qué significa esto?",
+    "answer": "Que la ayuda no era un derecho, sino una gracia o favor que el Estado o el rico daban voluntariamente y podían quitar en cualquier momento.",
+    "note": "ID original: H-049\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Que el pobre tenía que ganar un concurso para recibir ayuda.\n2. Que la ayuda no era un derecho, sino una gracia o favor que el Estado o el rico daban voluntariamente y podían quitar en cualquier momento.\n3. Que el trabajador social era dueño de la vida del usuario.\n4. Que solo se daba ayuda a los extranjeros concesionarios.\n\nJustificación: No existía la noción de derecho ciudadano en la asistencia decimonónica (pág. 110)."
+  },
+  {
+    "id": "GP-205",
+    "eje": "Historia",
+    "sourceId": 205,
+    "kind": "error-review",
+    "titulo": "La Reconceptuación: El fin de la neutralidad",
+    "prompt": "¿Por qué el movimiento de Reconceptuación declaró que el Trabajador Social es un 'agente político'?",
+    "answer": "Porque entendieron que cada intervención profesional refuerza el orden actual o contribuye a su transformación, por lo que la neutralidad es imposible.",
+    "note": "ID original: H-050\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque todos debían postularse para presidentes de sus países.\n2. Porque entendieron que cada intervención profesional refuerza el orden actual o contribuye a su transformación, por lo que la neutralidad es imposible.\n3. Porque los trabajadores sociales pasaron a formar parte de los ejércitos nacionales.\n4. Porque era la única forma de que les subieran el sueldo.\n\nJustificación: La acción profesional está siempre situada en un conflicto de intereses de clase (pág. 210)."
   }
 ];
 
