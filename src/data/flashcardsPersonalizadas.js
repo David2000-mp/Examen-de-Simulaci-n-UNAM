@@ -75,7 +75,7 @@
     "sourceId": 8,
     "kind": "error-review",
     "titulo": "Coherencia Epistemológica",
-    "prompt": "Si un investigador de posgrado plantea un estudio exploratorio-cualitativo pero incluye una hipótesis estadística de nulidad, ¿cuál es el error de coherencia segºn Tello?",
+    "prompt": "Si un investigador de posgrado plantea un estudio exploratorio-cualitativo pero incluye una hipótesis estadística de nulidad, ¿cuál es el error de coherencia según Tello?",
     "answer": "Una contradicción epistemológica, pues los estudios exploratorios buscan abrir sentidos (pregunta), mientras que la hipótesis estadística busca cerrar y verificar resultados.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: Tello enfatiza que cada 'eje' (pregunta o hipótesis) responde a una lógica distinta. Mezclarlas sin una justificación de diseño mixto coherente debilita el rigor del proyecto.\n\nLectura sugerida: El objeto de estudio en ciencias sociales / César Tello"
   },
@@ -125,7 +125,7 @@
     "sourceId": 13,
     "kind": "error-review",
     "titulo": "Planteamiento del Problema",
-    "prompt": "Al formular el problema de investigación, el autor destaca que un error comºn es la falta de 'delimitación'. ¿Por qué es crítica la delimitación espaciotemporal y semántica en este nivel de posgrado?",
+    "prompt": "Al formular el problema de investigación, el autor destaca que un error común es la falta de 'delimitación'. ¿Por qué es crítica la delimitación espaciotemporal y semántica en este nivel de posgrado?",
     "answer": "Para asegurar la viabilidad del estudio y evitar generalizaciones vagas, permitiendo que el investigador se enfoque en una parcela concreta y manejable de la realidad.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: El planteamiento del problema debe ser preciso. La delimitación permite que el estudio sea factible dentro de los recursos disponibles y garantiza que el análisis sea profundo sobre un objeto de estudio claramente identificado, en lugar de intentar abarcar una realidad inabarcable.\n\nLectura sugerida: El problema de investigación / Espinoza Freire"
   },
@@ -155,7 +155,7 @@
     "sourceId": 16,
     "kind": "error-review",
     "titulo": "Clasificación de estudios cuantitativos",
-    "prompt": "Si un estudio en salud social pretende describir la prevalencia del consumo de sustancias en adolescentes en un momento específico, sin realizar seguimiento en el tiempo ni manipular variables, ¿cómo se clasifica segºn los criterios de tiempo y control del investigador?",
+    "prompt": "Si un estudio en salud social pretende describir la prevalencia del consumo de sustancias en adolescentes en un momento específico, sin realizar seguimiento en el tiempo ni manipular variables, ¿cómo se clasifica según los criterios de tiempo y control del investigador?",
     "answer": "Estudio Transversal y Observacional.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: Müggenburg y Pérez definen los estudios transversales como aquellos que recolectan datos en un solo momento (una 'fotografía' del fenómeno). Es observacional porque el investigador no interviene ni manipula el factor de estudio, solo registra lo que ocurre naturalmente.\n\nLectura sugerida: Tipos de estudio en el enfoque de investigación cuantitativa / Müggenburg y Pérez"
   },
@@ -167,7 +167,7 @@
     "titulo": "Comités de Ética",
     "prompt": "¿Cuál es la función principal de un Comité de Ética en Investigación (CEI)?",
     "answer": "Revisar que el diseño del estudio proteja los derechos, la dignidad y el bienestar de los participantes, minimizando riesgos y maximizando beneficios.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Los CEI actºan como una salvaguarda independiente para evitar abusos o daños a los sujetos de estudio, evaluando el equilibrio ético del proyecto.\n\nLectura sugerida: Ética de la investigación social / Robert T. Hall"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Los CEI actúan como una salvaguarda independiente para evitar abusos o daños a los sujetos de estudio, evaluando el equilibrio ético del proyecto.\n\nLectura sugerida: Ética de la investigación social / Robert T. Hall"
   },
   {
     "id": "GP-018",
@@ -177,7 +177,7 @@
     "titulo": "Diseños Mixtos",
     "prompt": "En un diseño mixto de tipo 'explicativo secuencial', ¿cuál es el orden lógico del proceso?",
     "answer": "Se recolectan y analizan primero datos cuantitativos, y luego se usan datos cualitativos para ayudar a explicar o profundizar en los resultados numéricos obtenidos.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Lo secuencial implica orden. En este tipo de diseño, los nºmeros dan el panorama general y las palabras (cualitativo) explican el 'porqué' de esos nºmeros.\n\nLectura sugerida: Los paradigmas cuantitativos y cualitativos / Coello Valdés et al."
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Lo secuencial implica orden. En este tipo de diseño, los números dan el panorama general y las palabras (cualitativo) explican el 'porqué' de esos números.\n\nLectura sugerida: Los paradigmas cuantitativos y cualitativos / Coello Valdés et al."
   },
   {
     "id": "GP-019",
@@ -196,7 +196,7 @@
     "kind": "error-review",
     "titulo": "Relación Problema-Hipótesis",
     "prompt": "En el proceso de construcción del diseño de investigación, ¿cuál es la función lógica primordial que cumple la hipótesis en relación con el problema planteado?",
-    "answer": "Actuar como una respuesta tentativa y guía que permite orientar la bºsqueda de datos y la organización del estudio para resolver el problema.",
+    "answer": "Actuar como una respuesta tentativa y guía que permite orientar la búsqueda de datos y la organización del estudio para resolver el problema.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: Espinoza Freire define la hipótesis como un eslabón entre la teoría y la investigación empírica. Su función es ofrecer una explicación provisional que orienta el proceso investigativo, permitiendo probar si las suposiciones son apoyadas por los hechos.\n\nLectura sugerida: La hipótesis en la investigación / Espinoza Freire"
   },
   {
@@ -226,8 +226,8 @@
     "kind": "error-review",
     "titulo": "Fases del Estado del Arte",
     "prompt": "Durante la fase 'heurística' de la construcción del estado del arte, ¿qué acción realiza primordialmente el investigador?",
-    "answer": "La bºsqueda, localización y recopilación de las fuentes de información y documentos relevantes.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: La fase heurística es la etapa de bºsqueda y hallazgo de información (del griego *heuriskein*: encontrar), esencial para mapear la producción científica previa.\n\nLectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño"
+    "answer": "La búsqueda, localización y recopilación de las fuentes de información y documentos relevantes.",
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: La fase heurística es la etapa de búsqueda y hallazgo de información (del griego *heuriskein*: encontrar), esencial para mapear la producción científica previa.\n\nLectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño"
   },
   {
     "id": "GP-024",
@@ -267,7 +267,7 @@
     "titulo": "Niveles de Medición en Investigación",
     "prompt": "Un investigador de Trabajo Social utiliza una escala de 'Razón' para medir los ingresos mensuales de un grupo de familias. ¿Cuál es la propiedad del sistema numérico que distingue a esta escala de la de 'Intervalo'?",
     "answer": "La posesión de un 'cero absoluto' que indica la ausencia total de la propiedad medida, permitiendo realizar comparaciones de proporcionalidad.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Según Orlandoni, la escala de razón tiene todas las propiedades de las anteriores (identidad, magnitud y distancia) más el cero absoluto. En el ingreso, $0$ pesos significa ausencia de ingreso, lo que permite decir que alguien gana 'el doble' que otro, algo que no se puede hacer en escalas de intervalo como la temperatura en Â°C.\n\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Según Orlandoni, la escala de razón tiene todas las propiedades de las anteriores (identidad, magnitud y distancia) más el cero absoluto. En el ingreso, $0$ pesos significa ausencia de ingreso, lo que permite decir que alguien gana 'el doble' que otro, algo que no se puede hacer en escalas de intervalo como la temperatura en °C.\n\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
   },
   {
     "id": "GP-028",
@@ -285,8 +285,8 @@
     "sourceId": 29,
     "kind": "error-review",
     "titulo": "Ética en la Etnografía Virtual",
-    "prompt": "Al realizar observación en un foro pºblico de Internet, ¿cuál es un dilema ético clave para el etnógrafo virtual?",
-    "answer": "La difuminación entre lo pºblico y lo privado; el hecho de que algo sea accesible en la red no significa automáticamente que los usuarios den permiso para ser usados en una investigación.",
+    "prompt": "Al realizar observación en un foro público de Internet, ¿cuál es un dilema ético clave para el etnógrafo virtual?",
+    "answer": "La difuminación entre lo público y lo privado; el hecho de que algo sea accesible en la red no significa automáticamente que los usuarios den permiso para ser usados en una investigación.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: La ética en entornos digitales exige respeto a la privacidad. Aunque los datos estén ahí, el investigador debe considerar si se requiere consentimiento o anonimización extrema para proteger a los sujetos.\n\nLectura sugerida: Etnografía virtual, un acercamiento al método / Ruiz Méndez y Aguirre Aguilar"
   },
   {
@@ -315,7 +315,7 @@
     "sourceId": 32,
     "kind": "error-review",
     "titulo": "Saturación Teórica y Muestreo",
-    "prompt": "En un estudio cualitativo que utiliza la Teoría Fundamentada, ¿cuándo debe el investigador dejar de recolectar nueva información segºn el criterio de 'muestreo teórico'?",
+    "prompt": "En un estudio cualitativo que utiliza la Teoría Fundamentada, ¿cuándo debe el investigador dejar de recolectar nueva información según el criterio de 'muestreo teórico'?",
     "answer": "Cuando los nuevos datos recolectados ya no generan propiedades o dimensiones adicionales para las categorías emergentes (saturación).",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: El muestreo teórico es circular y se guía por la teoría emergente. La recolección termina cuando se llega a la saturación teórica, es decir, cuando la información es redundante y las categorías están conceptualmente completas.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
   },
@@ -337,7 +337,7 @@
     "titulo": "Codificación Selectiva",
     "prompt": "En la etapa final de la Teoría Fundamentada, ¿cuál es el propósito de la 'codificación selectiva'?",
     "answer": "Identificar la 'categoría central' que integra y explica todas las demás categorías, permitiendo la construcción de la teoría emergente.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: La codificación selectiva es el proceso de integración. Se busca el nºcleo o corazón de los datos que explica el fenómeno de manera global.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: La codificación selectiva es el proceso de integración. Se busca el núcleo o corazón de los datos que explica el fenómeno de manera global.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
   },
   {
     "id": "GP-035",
@@ -387,7 +387,7 @@
     "titulo": "Dicotomía cualitativo-cuantitativa en Salud",
     "prompt": "Desde la perspectiva ortogonal que proponen los autores, ¿cómo debe entenderse la relación entre los hechos cuantificables y los significados cualitativos en la investigación en salud?",
     "answer": "Como caras de la misma moneda donde los hechos y sus significados son dimensiones necesarias para aproximarse a la singularidad del individuo y su enfermedad.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Los autores concluyen que hecho y significado son dimensiones ortogonales que descifran la realidad. Parafraseando a Ortega y Gasset, afirman que la ºnica perspectiva errónea es la perspectiva ºnica, abogando por la complementariedad para entender la singularidad humana.\n\nLectura sugerida: Investigación cualitativa versus cuantitativa / González López y Ruiz Hernández"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: Los autores concluyen que hecho y significado son dimensiones ortogonales que descifran la realidad. Parafraseando a Ortega y Gasset, afirman que la única perspectiva errónea es la perspectiva única, abogando por la complementariedad para entender la singularidad humana.\n\nLectura sugerida: Investigación cualitativa versus cuantitativa / González López y Ruiz Hernández"
   },
   {
     "id": "GP-040",
@@ -415,7 +415,7 @@
     "sourceId": 42,
     "kind": "error-review",
     "titulo": "Estado del Arte vs. Marco Teórico",
-    "prompt": "¿Cuál es la diferencia fundamental entre el 'Estado del Arte' y el 'Marco Teórico' segºn Guevara Patiño?",
+    "prompt": "¿Cuál es la diferencia fundamental entre el 'Estado del Arte' y el 'Marco Teórico' según Guevara Patiño?",
     "answer": "El estado del arte analiza las investigaciones recientes para saber qué se ha hecho sobre el tema, mientras que el marco teórico define los conceptos y teorías que sustentarán el análisis del investigador.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: El estado del arte ubica al investigador en la frontera del conocimiento (el 'qué se sabe'), mientras que el marco teórico le da las herramientas conceptuales para interpretar su propio objeto (el 'desde dónde miro').\n\nLectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño"
   },
@@ -426,7 +426,7 @@
     "kind": "error-review",
     "titulo": "Observación Participante en Red",
     "prompt": "¿Qué significa ser un 'lurker' en la etnografía virtual y por qué es una limitación para la observación participante?",
-    "answer": "Es un observador que lee pero no interactºa (observador pasivo), lo que impide captar la dinámica de respuesta y la construcción de identidad en la interacción.",
+    "answer": "Es un observador que lee pero no interactúa (observador pasivo), lo que impide captar la dinámica de respuesta y la construcción de identidad en la interacción.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: Para que sea etnografía, debe haber una inmersión. El 'lurking' puede servir para una fase inicial, pero la verdadera comprensión viene de la participación en la socialidad del grupo.\n\nLectura sugerida: Etnografía virtual, un acercamiento al método / Ruiz Méndez y Aguirre Aguilar"
   },
   {
@@ -437,7 +437,7 @@
     "titulo": "Aplicación de la Moda",
     "prompt": "Si en un diagnóstico social se recaban datos sobre la 'Religión' de los habitantes (Católica, Protestante, Judía, Ninguna), ¿cuál es la medida de tendencia central adecuada para resumir este dato?",
     "answer": "La Moda.",
-    "note": "Tu respuesta: Sin respuesta\n\nJustificación: La religión es una variable nominal. No se pueden sumar ni ordenar jerárquicamente. Lo ºnico que se puede reportar es cuál es la categoría que más se repite (la moda).\n\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
+    "note": "Tu respuesta: Sin respuesta\n\nJustificación: La religión es una variable nominal. No se pueden sumar ni ordenar jerárquicamente. Lo único que se puede reportar es cuál es la categoría que más se repite (la moda).\n\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
   },
   {
     "id": "GP-045",
@@ -465,7 +465,7 @@
     "sourceId": 47,
     "kind": "error-review",
     "titulo": "Lógica de la Investigación: Inducción y Deducción",
-    "prompt": "Al realizar una investigación en Trabajo Social donde se pretende generar nuevas categorías teóricas a partir de la observación directa de las vivencias de una comunidad específica, ¿qué tipo de razonamiento predomina y cuál es su limitación lógica segºn Dávila Newman?",
+    "prompt": "Al realizar una investigación en Trabajo Social donde se pretende generar nuevas categorías teóricas a partir de la observación directa de las vivencias de una comunidad específica, ¿qué tipo de razonamiento predomina y cuál es su limitación lógica según Dávila Newman?",
     "answer": "Razonamiento Inductivo; su limitación es que, aunque las premisas sean verdaderas, la conclusión es solo probable y no puede garantizar una validez universal absoluta.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: Dávila Newman explica que el razonamiento inductivo parte de lo particular a lo general. Es fundamental en la investigación social para descubrir patrones, pero lógicamente no permite una generalización totalitaria, ya que un solo caso discordante podría invalidar la conclusión general.\n\nLectura sugerida: El razonamiento inductivo y deductivo / Dávila Newman"
   },
@@ -496,7 +496,7 @@
     "kind": "error-review",
     "titulo": "Circularidad en la TF",
     "prompt": "La Teoría Fundamentada se basa en un diseño circular. ¿Qué implica esto para el proceso de recolección y análisis?",
-    "answer": "Que la recolección de datos y el análisis ocurren simultáneamente; lo que se analiza en una entrevista guía la bºsqueda de información en la siguiente.",
+    "answer": "Que la recolección de datos y el análisis ocurren simultáneamente; lo que se analiza en una entrevista guía la búsqueda de información en la siguiente.",
     "note": "Tu respuesta: Sin respuesta\n\nJustificación: A diferencia del modelo lineal cuantitativo (recolectar todo y luego analizar), en la TF el análisis empieza desde el primer dato y orienta el resto del muestreo.\n\nLectura sugerida: La codificación y categorización en la teoría fundamentada / Vives Varela y Hamui Sutton"
   },
   {
@@ -505,7 +505,7 @@
     "sourceId": 51,
     "kind": "error-review",
     "titulo": "Tarjeta 51",
-    "prompt": "¿Qué es la \"Colonialidad del Poder\" segºn Aníbal Quijano?",
+    "prompt": "¿Qué es la \"Colonialidad del Poder\" según Aníbal Quijano?",
     "answer": "Es una estructura de dominación que persiste tras el fin del colonialismo jurídico, basada en la clasificación racial de la población mundial como eje fundamental del poder capitalista y la subjetividad moderna.",
     "note": ""
   },
@@ -546,7 +546,7 @@
     "kind": "error-review",
     "titulo": "Tarjeta 55",
     "prompt": "¿Qué caracterizó al periodo de la \"Asistencia Social\" en México durante el Cardenismo (1934-1940)?",
-    "answer": "La creación de instituciones estatales sólidas como la Secretaría de Asistencia Pºblica, que buscaba integrar la asistencia como un derecho social vinculado al proyecto de nación y la justicia distributiva.",
+    "answer": "La creación de instituciones estatales sólidas como la Secretaría de Asistencia Pública, que buscaba integrar la asistencia como un derecho social vinculado al proyecto de nación y la justicia distributiva.",
     "note": ""
   },
   {
@@ -596,7 +596,7 @@
     "kind": "error-review",
     "titulo": "Tarjeta 60",
     "prompt": "¿Qué es la \"Acumulación por Desposesión\" de David Harvey?",
-    "answer": "Es el uso de métodos no económicos (privatización de bienes pºblicos, despojo de tierras, patentes sobre la vida) para rescatar el sistema capitalista cuando la acumulación tradicional por explotación laboral se estanca.",
+    "answer": "Es el uso de métodos no económicos (privatización de bienes públicos, despojo de tierras, patentes sobre la vida) para rescatar el sistema capitalista cuando la acumulación tradicional por explotación laboral se estanca.",
     "note": ""
   },
   {
@@ -655,7 +655,7 @@
     "sourceId": 66,
     "kind": "error-review",
     "titulo": "Tarjeta 66",
-    "prompt": "¿Qué define al \"Estado de Excepción\" segºn Giorgio Agamben?",
+    "prompt": "¿Qué define al \"Estado de Excepción\" según Giorgio Agamben?",
     "answer": "Es el espacio legal en el cual se suspende el derecho para proteger al Estado, convirtiendo la excepción en la regla y dejando al individuo en una condición de vulnerabilidad absoluta frente al poder soberano.",
     "note": ""
   },
@@ -766,7 +766,7 @@
     "kind": "error-review",
     "titulo": "Tarjeta 77",
     "prompt": "¿Cuál fue el objetivo central de la creación del Sistema Nacional para el Desarrollo Integral de la Familia (DIF) en 1977?",
-    "answer": "Fusionar organismos previos (IMPI y ANPI) para centralizar la asistencia social pºblica, enfocándose en la protección de la infancia y el fortalecimiento de la unidad familiar como base de la sociedad.",
+    "answer": "Fusionar organismos previos (IMPI y ANPI) para centralizar la asistencia social pública, enfocándose en la protección de la infancia y el fortalecimiento de la unidad familiar como base de la sociedad.",
     "note": ""
   },
   {
@@ -795,7 +795,7 @@
     "sourceId": 80,
     "kind": "error-review",
     "titulo": "Tarjeta 80",
-    "prompt": "¿Qué caracterizó a la Beneficencia Pºblica durante el Porfiriato en México?",
+    "prompt": "¿Qué caracterizó a la Beneficencia Pública durante el Porfiriato en México?",
     "answer": "Una transición de la caridad eclesiástica a una asistencia controlada por el Estado, con un enfoque higienista y de control social para \"modernizar\" la imagen del país ante el exterior.",
     "note": ""
   },
@@ -805,8 +805,8 @@
     "sourceId": 81,
     "kind": "error-review",
     "titulo": "Tarjeta 81",
-    "prompt": "¿Qué define al \"Espacio Pºblico\" segºn Hannah Arendt?",
-    "answer": "Es el ámbito de la libertad y la acción política donde los ciudadanos se muestran ante los demás a través del discurso y la labor comºn, diferenciándose radicalmente del ámbito privado de la necesidad económica.",
+    "prompt": "¿Qué define al \"Espacio Público\" según Hannah Arendt?",
+    "answer": "Es el ámbito de la libertad y la acción política donde los ciudadanos se muestran ante los demás a través del discurso y la labor común, diferenciándose radicalmente del ámbito privado de la necesidad económica.",
     "note": ""
   },
   {
@@ -886,7 +886,7 @@
     "kind": "error-review",
     "titulo": "Tarjeta 89",
     "prompt": "¿Qué significó la \"Crisis de la Deuda\" de 1982 para la política social en México?",
-    "answer": "El fin del modelo de sustitución de importaciones y el inicio del ajuste estructural, lo que llevó al recorte del gasto pºblico y al tránsito hacia políticas sociales focalizadas y compensatorias.",
+    "answer": "El fin del modelo de sustitución de importaciones y el inicio del ajuste estructural, lo que llevó al recorte del gasto público y al tránsito hacia políticas sociales focalizadas y compensatorias.",
     "note": ""
   },
   {
@@ -895,7 +895,7 @@
     "sourceId": 90,
     "kind": "error-review",
     "titulo": "Tarjeta 90",
-    "prompt": "¿Qué es la \"precarización laboral\" segºn Guy Standing?",
+    "prompt": "¿Qué es la \"precarización laboral\" según Guy Standing?",
     "answer": "Es la emergencia del \"precariado\", una clase caracterizada por la falta de seguridad en el empleo, ausencia de identidad profesional y la pérdida de derechos sociales vinculados al trabajo estable.",
     "note": ""
   },
@@ -925,7 +925,7 @@
     "sourceId": 93,
     "kind": "error-review",
     "titulo": "Tarjeta 93",
-    "prompt": "¿En qué consiste el concepto de \"alienación\" en el trabajo moderno segºn la Escuela de Frankfurt?",
+    "prompt": "¿En qué consiste el concepto de \"alienación\" en el trabajo moderno según la Escuela de Frankfurt?",
     "answer": "Es la pérdida de sentido y autonomía del sujeto en la sociedad industrial, donde la tecnología y el consumo se convierten en formas de control que anulan el pensamiento crítico.",
     "note": ""
   },
@@ -1047,7 +1047,7 @@
     "titulo": "Gerencia Social (Neoliberalismo)",
     "prompt": "¿Qué proceso histórico de los años 90 obligó al TS a pasar de un enfoque de bienestar a uno de eficiencia y gestión de recursos?",
     "answer": "Neoliberalismo / Globalización. Transformó al TS en un gestor de recursos limitados bajo criterios de costo-beneficio.",
-    "note": "Referencia: 170\nAlerta: Contexto del surgimiento de la focalización del gasto pºblico."
+    "note": "Referencia: 170\nAlerta: Contexto del surgimiento de la focalización del gasto público."
   },
   {
     "id": "GP-106",
@@ -1115,7 +1115,7 @@
     "sourceId": 112,
     "kind": "error-review",
     "titulo": "Grupo Focal (Focus Group)",
-    "prompt": "¿Qué técnica cualitativa reºne a un grupo pequeño para discutir un tema y observar sus consensos y contradicciones grupales?",
+    "prompt": "¿Qué técnica cualitativa reúne a un grupo pequeño para discutir un tema y observar sus consensos y contradicciones grupales?",
     "answer": "Grupo Focal. Prioriza la interacción grupal sobre la respuesta individual.",
     "note": "Referencia: 102\nAlerta: No es una entrevista colectiva, es un análisis de interacción social."
   },
@@ -1185,7 +1185,7 @@
     "sourceId": 119,
     "kind": "error-review",
     "titulo": "Habitus",
-    "prompt": "¿Cómo define Bourdieu al conjunto de disposiciones internas (modos de actuar y pensar) adquiridos segºn nuestra clase social?",
+    "prompt": "¿Cómo define Bourdieu al conjunto de disposiciones internas (modos de actuar y pensar) adquiridos según nuestra clase social?",
     "answer": "Habitus. Es la estructura social incorporada; lo que nos hace actuar de forma natural en nuestro entorno.",
     "note": "Referencia: 10\nAlerta: Es el puente entre la estructura social y la acción individual."
   },
@@ -1296,7 +1296,7 @@
     "kind": "error-review",
     "titulo": "Bucle Recursivo",
     "prompt": "¿Qué principio de Morin explica que los individuos producen la sociedad, pero la sociedad también produce a los individuos?",
-    "answer": "Principio de Bucle Recursivo. Rompe la causalidad lineal; el efecto retroactºa sobre la causa.",
+    "answer": "Principio de Bucle Recursivo. Rompe la causalidad lineal; el efecto retroactúa sobre la causa.",
     "note": "Referencia: 105\nAlerta: Base del pensamiento complejo para evitar reduccionismos."
   },
   {
@@ -1325,7 +1325,7 @@
     "sourceId": 143,
     "kind": "error-review",
     "titulo": "Eje Epistemológico: Pregunta vs. Hipótesis",
-    "prompt": "Tello argumenta que la presencia simultánea de una pregunta abierta y una hipótesis cerrada en un mismo diseño delata una inconsistencia en el eje epistemológico del investigador. ¿Cuál es el nºcleo de esta crítica?",
+    "prompt": "Tello argumenta que la presencia simultánea de una pregunta abierta y una hipótesis cerrada en un mismo diseño delata una inconsistencia en el eje epistemológico del investigador. ¿Cuál es el núcleo de esta crítica?",
     "answer": "Que la hipótesis presupone una respuesta que clausura la apertura necesaria para el descubrimiento de sentidos que busca la pregunta en enfoques comprensivos.",
     "note": "Justificación: Tello destaca que cada componente responde a lógicas distintas (verificación vs. descubrimiento) y su mezcla sin rigor resta fuerza epistemológica al proyecto (pág. 225-226).\nLectura sugerida: El objeto de estudio en ciencias sociales / César Tello"
   },
@@ -1345,7 +1345,7 @@
     "sourceId": 145,
     "kind": "error-review",
     "titulo": "Saturación Teórica y Muestreo en TF",
-    "prompt": "En el método de la Teoría Fundamentada, la saturación teórica no se define por el nºmero de sujetos, sino por el desarrollo de las categorías. ¿Cuál es la implicación lógica del muestreo teórico en este proceso?",
+    "prompt": "En el método de la Teoría Fundamentada, la saturación teórica no se define por el número de sujetos, sino por el desarrollo de las categorías. ¿Cuál es la implicación lógica del muestreo teórico en este proceso?",
     "answer": "Que los criterios de inclusión de nuevos sujetos son determinados por las necesidades emergentes de la teoría que se está construyendo, no por un diseño previo.",
     "note": "Justificación: El muestreo teórico es circular y busca datos que desafíen o completen las propiedades de las categorías hasta que no surja nada nuevo (pág. 93-95).\nLectura sugerida: La saturación teórica en la teoría fundamentada / Ardila y Rueda"
   },
@@ -1367,7 +1367,7 @@
     "titulo": "Niveles de Medición y Rigor Estadístico",
     "prompt": "Si un trabajador social aplica una escala Likert para medir Actitud ante la violencia (Totalmente en desacuerdo a Totalmente de acuerdo), ¿cuál es el debate técnico sobre el uso de la Media aritmética en este caso?",
     "answer": "Que es metodológicamente cuestionable, ya que la escala es ordinal y la media asume erróneamente que las distancias entre de acuerdo y en desacuerdo son idénticas y cuantificables.",
-    "note": "Justificación: Orlandoni aclara que la escala ordinal solo establece orden. Tratarla como intervalo (usando la media) es una práctica comºn pero lógicamente incorrecta sin una transformación previa (pág. 245-246).\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
+    "note": "Justificación: Orlandoni aclara que la escala ordinal solo establece orden. Tratarla como intervalo (usando la media) es una práctica común pero lógicamente incorrecta sin una transformación previa (pág. 245-246).\nLectura sugerida: Escalas de medición en Estadística / Orlandoni Merli"
   },
   {
     "id": "GP-148",
@@ -1476,8 +1476,8 @@
     "kind": "error-review",
     "titulo": "Mary Richmond y la Epistemología del Diagnóstico",
     "prompt": "Para Mary Richmond, ¿cuál es la diferencia nodal entre la 'ayuda intuitiva' y el 'Diagnóstico Social'?",
-    "answer": "El Diagnóstico Social sustituye la intuición por un proceso de inferencia crítica basado en la comparación de mºltiples fuentes de evidencia social.",
-    "note": "ID original: H-003\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El Diagnóstico Social requiere el uso de uniformes institucionales.\n2. El Diagnóstico Social sustituye la intuición por un proceso de inferencia crítica basado en la comparación de mºltiples fuentes de evidencia social.\n3. La ayuda intuitiva es más efectiva en casos de extrema pobreza.\n4. El diagnóstico solo puede ser realizado por médicos y abogados.\n\nJustificación: Richmond sistematiza la intervención al definir que la personalidad social es un producto de la relación entre el individuo y su entorno (pág. 170)."
+    "answer": "El Diagnóstico Social sustituye la intuición por un proceso de inferencia crítica basado en la comparación de múltiples fuentes de evidencia social.",
+    "note": "ID original: H-003\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El Diagnóstico Social requiere el uso de uniformes institucionales.\n2. El Diagnóstico Social sustituye la intuición por un proceso de inferencia crítica basado en la comparación de múltiples fuentes de evidencia social.\n3. La ayuda intuitiva es más efectiva en casos de extrema pobreza.\n4. El diagnóstico solo puede ser realizado por médicos y abogados.\n\nJustificación: Richmond sistematiza la intervención al definir que la personalidad social es un producto de la relación entre el individuo y su entorno (pág. 170)."
   },
   {
     "id": "GP-159",
@@ -1487,7 +1487,7 @@
     "titulo": "Reconceptuación y Autonomía Teórica",
     "prompt": "¿Cuál fue la mayor ruptura metodológica del Movimiento de Reconceptuación en América Latina?",
     "answer": "El rechazo al funcionalismo adaptativo norteamericano para proponer una metodología dialéctica vinculada a la transformación social.",
-    "note": "ID original: H-004\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La sustitución de la entrevista individual por la asamblea popular.\n2. El rechazo al funcionalismo adaptativo norteamericano para proponer una metodología dialéctica vinculada a la transformación social.\n3. La prohibición de leer autores europeos como Mary Richmond.\n4. La eliminación de los registros de campo en las instituciones pºblicas.\n\nJustificación: Se buscó que el TS dejara de ser una técnica de ajuste individual para convertirse en praxis política transformadora (pág. 210)."
+    "note": "ID original: H-004\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La sustitución de la entrevista individual por la asamblea popular.\n2. El rechazo al funcionalismo adaptativo norteamericano para proponer una metodología dialéctica vinculada a la transformación social.\n3. La prohibición de leer autores europeos como Mary Richmond.\n4. La eliminación de los registros de campo en las instituciones públicas.\n\nJustificación: Se buscó que el TS dejara de ser una técnica de ajuste individual para convertirse en praxis política transformadora (pág. 210)."
   },
   {
     "id": "GP-160",
@@ -1557,7 +1557,7 @@
     "titulo": "Thomas Chalmers y la Parroquia",
     "prompt": "¿Cuál fue el principio de Thomas Chalmers que se considera el precursor del Trabajo Social de Casos?",
     "answer": "La individualización de la ayuda: investigar cada caso a fondo para movilizar los recursos internos de la familia antes de dar socorro externo.",
-    "note": "ID original: H-011\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La caridad indiscriminada a todo el que la solicitara.\n2. La individualización de la ayuda: investigar cada caso a fondo para movilizar los recursos internos de la familia antes de dar socorro externo.\n3. La obligación de los pobres de confesar sus pecados ante el trabajador social.\n4. La centralización de la ayuda en un solo fondo estatal.\n\nJustificación: Chalmers introdujo la idea de que el socorro material es inºtil si no va acompañado de un cambio en la conducta del sujeto (pág. 115)."
+    "note": "ID original: H-011\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. La caridad indiscriminada a todo el que la solicitara.\n2. La individualización de la ayuda: investigar cada caso a fondo para movilizar los recursos internos de la familia antes de dar socorro externo.\n3. La obligación de los pobres de confesar sus pecados ante el trabajador social.\n4. La centralización de la ayuda en un solo fondo estatal.\n\nJustificación: Chalmers introdujo la idea de que el socorro material es inútil si no va acompañado de un cambio en la conducta del sujeto (pág. 115)."
   },
   {
     "id": "GP-167",
@@ -1606,8 +1606,8 @@
     "kind": "error-review",
     "titulo": "Asistencia Medieval y Salvación",
     "prompt": "¿Por qué se dice que en la Edad Media la caridad tenía un fin 'escatológico'?",
-    "answer": "Porque el fin ºltimo del donante no era ayudar al pobre, sino asegurar la salvación de su propia alma ante el juicio divino tras la muerte.",
-    "note": "ID original: H-016\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque se centraba en el estudio de los desechos de la ciudad.\n2. Porque el fin ºltimo del donante no era ayudar al pobre, sino asegurar la salvación de su propia alma ante el juicio divino tras la muerte.\n3. Porque los pobres eran considerados demonios que debían ser expulsados.\n4. Porque la ayuda solo se daba durante las guerras santas.\n\nJustificación: La pobreza era una 'oportunidad' espiritual para el rico dentro del dogma eclesiástico (pág. 33)."
+    "answer": "Porque el fin último del donante no era ayudar al pobre, sino asegurar la salvación de su propia alma ante el juicio divino tras la muerte.",
+    "note": "ID original: H-016\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque se centraba en el estudio de los desechos de la ciudad.\n2. Porque el fin último del donante no era ayudar al pobre, sino asegurar la salvación de su propia alma ante el juicio divino tras la muerte.\n3. Porque los pobres eran considerados demonios que debían ser expulsados.\n4. Porque la ayuda solo se daba durante las guerras santas.\n\nJustificación: La pobreza era una 'oportunidad' espiritual para el rico dentro del dogma eclesiástico (pág. 33)."
   },
   {
     "id": "GP-172",
@@ -1627,7 +1627,7 @@
     "titulo": "El Trabajador Social en el Estado de Bienestar",
     "prompt": "Durante el auge del Keynesianismo, ¿qué nuevo rol asumió el Trabajador Social?",
     "answer": "El de administrador de la seguridad social masiva y gestor de los derechos sociales garantizados por el Estado.",
-    "note": "ID original: H-018\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El de caritativo voluntario en iglesias locales.\n2. El de administrador de la seguridad social masiva y gestor de los derechos sociales garantizados por el Estado.\n3. El de opositor radical a la inversión pºblica.\n4. El de psiquiatra privado para la clase alta.\n\nJustificación: El TS se vuelve un brazo ejecutor de las políticas pºblicas redistributivas del Estado (pág. 155)."
+    "note": "ID original: H-018\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. El de caritativo voluntario en iglesias locales.\n2. El de administrador de la seguridad social masiva y gestor de los derechos sociales garantizados por el Estado.\n3. El de opositor radical a la inversión pública.\n4. El de psiquiatra privado para la clase alta.\n\nJustificación: El TS se vuelve un brazo ejecutor de las políticas públicas redistributivas del Estado (pág. 155)."
   },
   {
     "id": "GP-174",
@@ -1637,7 +1637,7 @@
     "titulo": "Aída Valero: La intencionalidad profesional",
     "prompt": "Valero Chávez afirma que la 'Intencionalidad' es un eje constitutivo de la especificidad. ¿Qué define esta intencionalidad?",
     "answer": "El sentido ético-político de la intervención: si el fin es la adaptación, la reforma social o la transformación estructural de la realidad.",
-    "note": "ID original: H-019\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Las ganas que tiene el profesional de ir a trabajar cada día.\n2. El sentido ético-político de la intervención: si el fin es la adaptación, la reforma social o la transformación estructural de la realidad.\n3. El nºmero de casos que se logran cerrar en un mes calendario.\n4. La obligación de seguir los manuales sin cuestionarlos.\n\nJustificación: La técnica no es neutral; siempre responde a un proyecto de sociedad determinado (pág. 11)."
+    "note": "ID original: H-019\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Las ganas que tiene el profesional de ir a trabajar cada día.\n2. El sentido ético-político de la intervención: si el fin es la adaptación, la reforma social o la transformación estructural de la realidad.\n3. El número de casos que se logran cerrar en un mes calendario.\n4. La obligación de seguir los manuales sin cuestionarlos.\n\nJustificación: La técnica no es neutral; siempre responde a un proyecto de sociedad determinado (pág. 11)."
   },
   {
     "id": "GP-175",
@@ -1647,7 +1647,7 @@
     "titulo": "La formación en la UNAM: El quiebre del 68",
     "prompt": "Tras el 1968, ¿cuál fue el cambio curricular más importante en la ENTS-UNAM?",
     "answer": "La transición de un plan centrado en la técnica asistencial a uno centrado en la investigación-acción y el análisis crítico de la estructura económica mexicana.",
-    "note": "ID original: H-020\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La inclusión de clases de mºsica y arte para los alumnos.\n2. La transición de un plan centrado en la técnica asistencial a uno centrado en la investigación-acción y el análisis crítico de la estructura económica mexicana.\n3. La eliminación de la materia de estadística por ser considerada 'capitalista'.\n4. La subordinación de la carrera a la Escuela de Medicina.\n\nJustificación: El movimiento social obligó a la academia a formar profesionales capaces de analizar las causas del malestar nacional (pág. 55)."
+    "note": "ID original: H-020\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La inclusión de clases de música y arte para los alumnos.\n2. La transición de un plan centrado en la técnica asistencial a uno centrado en la investigación-acción y el análisis crítico de la estructura económica mexicana.\n3. La eliminación de la materia de estadística por ser considerada 'capitalista'.\n4. La subordinación de la carrera a la Escuela de Medicina.\n\nJustificación: El movimiento social obligó a la academia a formar profesionales capaces de analizar las causas del malestar nacional (pág. 55)."
   },
   {
     "id": "GP-176",
@@ -1664,10 +1664,10 @@
     "eje": "Historia",
     "sourceId": 177,
     "kind": "error-review",
-    "titulo": "Funciones genéricas segºn Aída Valero",
+    "titulo": "Funciones genéricas según Aída Valero",
     "prompt": "¿Cuál de las siguientes es una 'función genérica' del Trabajo Social presente en todas las áreas de intervención?",
     "answer": "La educación social y la promoción de la participación organizada de los sujetos.",
-    "note": "ID original: H-022\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La realización de cirugías menores.\n2. La educación social y la promoción de la participación organizada de los sujetos.\n3. El peritaje contable de las empresas en quiebra.\n4. La dirección de cuerpos de seguridad pºblica.\n\nJustificación: La función educativa y promotora es transversal a la identidad profesional independientemente del campo (pág. 10)."
+    "note": "ID original: H-022\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La realización de cirugías menores.\n2. La educación social y la promoción de la participación organizada de los sujetos.\n3. El peritaje contable de las empresas en quiebra.\n4. La dirección de cuerpos de seguridad pública.\n\nJustificación: La función educativa y promotora es transversal a la identidad profesional independientemente del campo (pág. 10)."
   },
   {
     "id": "GP-178",
@@ -1707,7 +1707,7 @@
     "titulo": "La caridad isabelina: Las Workhouses",
     "prompt": "¿Qué función disciplinaria tenían las 'Casas de Trabajo' (Workhouses) en la Inglaterra del siglo XVII?",
     "answer": "Obligar al trabajo forzado en condiciones de miseria para que el pobre prefiriera cualquier empleo mal pagado antes que entrar en la Workhouse.",
-    "note": "ID original: H-026\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Servir de refugio voluntario y gratuito para las vacaciones de los pobres.\n2. Obligar al trabajo forzado en condiciones de miseria para que el pobre prefiriera cualquier empleo mal pagado antes que entrar en la Workhouse.\n3. Educar a los pobres en artes plásticas y mºsica clásica.\n4. Proveer de alimentos gourmet a las familias de los obreros en huelga.\n\nJustificación: Las Workhouses eran instrumentos de castigo y disciplinamiento del proletariado (pág. 97)."
+    "note": "ID original: H-026\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Servir de refugio voluntario y gratuito para las vacaciones de los pobres.\n2. Obligar al trabajo forzado en condiciones de miseria para que el pobre prefiriera cualquier empleo mal pagado antes que entrar en la Workhouse.\n3. Educar a los pobres en artes plásticas y música clásica.\n4. Proveer de alimentos gourmet a las familias de los obreros en huelga.\n\nJustificación: Las Workhouses eran instrumentos de castigo y disciplinamiento del proletariado (pág. 97)."
   },
   {
     "id": "GP-182",
@@ -1735,7 +1735,7 @@
     "sourceId": 184,
     "kind": "error-review",
     "titulo": "La especificidad profesional: El Sujeto Social",
-    "prompt": "¿Cuál es la diferencia entre ver al usuario como 'cliente' y verlo como 'sujeto social' segºn Valero Chávez?",
+    "prompt": "¿Cuál es la diferencia entre ver al usuario como 'cliente' y verlo como 'sujeto social' según Valero Chávez?",
     "answer": "El cliente es un consumidor pasivo de servicios; el sujeto social es un actor con historia, saberes y capacidad de transformar su propia realidad.",
     "note": "ID original: H-029\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. El cliente siempre tiene la razón y el sujeto social no.\n2. El cliente es un consumidor pasivo de servicios; el sujeto social es un actor con historia, saberes y capacidad de transformar su propia realidad.\n3. El sujeto social es solo para quienes no tienen dinero.\n4. No existe diferencia, son términos de mercadotecnia social.\n\nJustificación: La noción de sujeto social dignifica la intervención y reconoce la agencia del otro (pág. 5-7)."
   },
@@ -1767,7 +1767,7 @@
     "titulo": "Interculturalidad y Poder",
     "prompt": "Desde el enfoque de interculturalidad crítica, ¿cómo debe abordar el TS la relación entre el saber científico y el saber popular?",
     "answer": "A través de una ecología de saberes que reconozca que ambos conocimientos tienen validez y deben dialogar horizontalmente para resolver problemas comunitarios.",
-    "note": "ID original: H-032\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Sosteniendo que el saber científico es el ºnico verdadero y el popular es ignorancia.\n2. A través de una ecología de saberes que reconozca que ambos conocimientos tienen validez y deben dialogar horizontalmente para resolver problemas comunitarios.\n3. Obligando a los indígenas a olvidar sus tradiciones para ser ciudadanos modernos.\n4. Ignorando ambos saberes para aplicar solo la ley estatal.\n\nJustificación: La interculturalidad busca romper la hegemonía del saber eurocéntrico en la intervención (pág. 165)."
+    "note": "ID original: H-032\nLectura sugerida: Enfoques, Teorías y Perspectivas / Vilchez Pirela et al.\n\nOpciones:\n1. Sosteniendo que el saber científico es el único verdadero y el popular es ignorancia.\n2. A través de una ecología de saberes que reconozca que ambos conocimientos tienen validez y deben dialogar horizontalmente para resolver problemas comunitarios.\n3. Obligando a los indígenas a olvidar sus tradiciones para ser ciudadanos modernos.\n4. Ignorando ambos saberes para aplicar solo la ley estatal.\n\nJustificación: La interculturalidad busca romper la hegemonía del saber eurocéntrico en la intervención (pág. 165)."
   },
   {
     "id": "GP-188",
@@ -1815,7 +1815,7 @@
     "sourceId": 192,
     "kind": "error-review",
     "titulo": "Desafíos de la Identidad en México",
-    "prompt": "¿Qué papel juega el 'Gremio Profesional' en la historia del TS mexicano segºn Valero Chávez?",
+    "prompt": "¿Qué papel juega el 'Gremio Profesional' en la historia del TS mexicano según Valero Chávez?",
     "answer": "Es el espacio de lucha por el reconocimiento académico, la dignificación salarial y la actualización teórica necesaria para mantener la especificidad.",
     "note": "ID original: H-037\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Ninguno, las asociaciones de trabajadores sociales no tienen influencia política.\n2. Es el espacio de lucha por el reconocimiento académico, la dignificación salarial y la actualización teórica necesaria para mantener la especificidad.\n3. Es un club social para organizar fiestas institucionales.\n4. Es el organismo que sanciona penalmente a quienes no terminan la tesis.\n\nJustificación: La identidad profesional se fortalece mediante la organización colectiva y la academia (pág. 60)."
   },
@@ -1826,8 +1826,8 @@
     "kind": "error-review",
     "titulo": "Génesis del TS en el ámbito hospitalario",
     "prompt": "¿Cómo se justificó históricamente la entrada de las visitadoras sociales en los hospitales mexicanos de los años 40?",
-    "answer": "Para realizar estudios socioeconómicos que determinaran si el paciente era indigente o si podía pagar una cuota, racionalizando el gasto pºblico.",
-    "note": "ID original: H-038\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Para limpiar los quirófanos ante la falta de personal de aseo.\n2. Para realizar estudios socioeconómicos que determinaran si el paciente era indigente o si podía pagar una cuota, racionalizando el gasto pºblico.\n3. Para administrar vacunas en lugar de las enfermeras.\n4. Para convencer a los pacientes de donar sus órganos al Estado.\n\nJustificación: El TS entró al hospital como un filtro administrativo de la beneficencia (pág. 49)."
+    "answer": "Para realizar estudios socioeconómicos que determinaran si el paciente era indigente o si podía pagar una cuota, racionalizando el gasto público.",
+    "note": "ID original: H-038\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Para limpiar los quirófanos ante la falta de personal de aseo.\n2. Para realizar estudios socioeconómicos que determinaran si el paciente era indigente o si podía pagar una cuota, racionalizando el gasto público.\n3. Para administrar vacunas en lugar de las enfermeras.\n4. Para convencer a los pacientes de donar sus órganos al Estado.\n\nJustificación: El TS entró al hospital como un filtro administrativo de la beneficencia (pág. 49)."
   },
   {
     "id": "GP-194",
@@ -1877,7 +1877,7 @@
     "titulo": "Aída Valero: La dimensión teórica",
     "prompt": "¿Por qué el Trabajo Social en México necesitó separarse de la Sociología en su proceso de profesionalización?",
     "answer": "Para construir una identidad propia basada en la intervención operativa y no solo en la observación abstracta de la realidad.",
-    "note": "ID original: H-043\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Porque los sociólogos ganaban más dinero.\n2. Para construir una identidad propia basada en la intervención operativa y no solo en la observación abstracta de la realidad.\n3. Porque la Sociología estaba prohibida en la UNAM durante los años 50.\n4. Para que las mujeres pudieran tener una carrera exclusiva.\n\nJustificación: La bºsqueda de autonomía disciplinar exigió delimitar un objeto de intervención y no solo de estudio (pág. 11)."
+    "note": "ID original: H-043\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. Porque los sociólogos ganaban más dinero.\n2. Para construir una identidad propia basada en la intervención operativa y no solo en la observación abstracta de la realidad.\n3. Porque la Sociología estaba prohibida en la UNAM durante los años 50.\n4. Para que las mujeres pudieran tener una carrera exclusiva.\n\nJustificación: La búsqueda de autonomía disciplinar exigió delimitar un objeto de intervención y no solo de estudio (pág. 11)."
   },
   {
     "id": "GP-199",
@@ -1897,7 +1897,7 @@
     "titulo": "TS en el México Contemporáneo",
     "prompt": "En la actualidad, ¿cuál es el nuevo nicho de intervención del TS en México derivado de la crisis de seguridad?",
     "answer": "La atención integral a víctimas del delito, peritaje social y procesos de mediación y cultura de paz.",
-    "note": "ID original: H-045\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La vigilancia satelital de los ciudadanos.\n2. La atención integral a víctimas del delito, peritaje social y procesos de mediación y cultura de paz.\n3. La creación de ejércitos privados para las instituciones pºblicas.\n4. El cobro de multas de tránsito en las grandes ciudades.\n\nJustificación: La profesión se adapta a las nuevas emergencias sociales del país (pág. 15)."
+    "note": "ID original: H-045\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La vigilancia satelital de los ciudadanos.\n2. La atención integral a víctimas del delito, peritaje social y procesos de mediación y cultura de paz.\n3. La creación de ejércitos privados para las instituciones públicas.\n4. El cobro de multas de tránsito en las grandes ciudades.\n\nJustificación: La profesión se adapta a las nuevas emergencias sociales del país (pág. 15)."
   },
   {
     "id": "GP-201",
@@ -1906,8 +1906,8 @@
     "kind": "error-review",
     "titulo": "El TS de Casos y el Funcionalismo",
     "prompt": "¿Por qué se asocia el TS de Casos clásico con la teoría funcionalista?",
-    "answer": "Porque veía a la sociedad como un sistema en equilibrio y al individuo con problemas como una 'disfunción' que debía ser reparada para que volviera a ser ºtil al sistema.",
-    "note": "ID original: H-046\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque solo trabajaban con funcionarios pºblicos.\n2. Porque veía a la sociedad como un sistema en equilibrio y al individuo con problemas como una 'disfunción' que debía ser reparada para que volviera a ser ºtil al sistema.\n3. Porque era un método muy divertido y funcional para los niños.\n4. Porque prohibía el uso de la razón crítica.\n\nJustificación: La lógica era la adaptación del individuo al orden social establecido (pág. 175)."
+    "answer": "Porque veía a la sociedad como un sistema en equilibrio y al individuo con problemas como una 'disfunción' que debía ser reparada para que volviera a ser útil al sistema.",
+    "note": "ID original: H-046\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque solo trabajaban con funcionarios públicos.\n2. Porque veía a la sociedad como un sistema en equilibrio y al individuo con problemas como una 'disfunción' que debía ser reparada para que volviera a ser útil al sistema.\n3. Porque era un método muy divertido y funcional para los niños.\n4. Porque prohibía el uso de la razón crítica.\n\nJustificación: La lógica era la adaptación del individuo al orden social establecido (pág. 175)."
   },
   {
     "id": "GP-202",
@@ -1925,9 +1925,9 @@
     "sourceId": 203,
     "kind": "error-review",
     "titulo": "Aída Valero: La dimensión ética",
-    "prompt": "¿Cuál es el valor ético primordial del TS frente a la vulnerabilidad segºn Valero Chávez?",
-    "answer": "El respeto irrestricto a la dignidad humana y la bºsqueda de la justicia social por encima de los intereses administrativos.",
-    "note": "ID original: H-048\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La obediencia absoluta a los superiores jerárquicos.\n2. El respeto irrestricto a la dignidad humana y la bºsqueda de la justicia social por encima de los intereses administrativos.\n3. La capacidad de ahorrar recursos a la institución aunque el sujeto sufra.\n4. La neutralidad total ante el dolor ajeno para no sufrir desgaste emocional.\n\nJustificación: La ética es el componente que dota de sentido humano a la técnica profesional (pág. 12)."
+    "prompt": "¿Cuál es el valor ético primordial del TS frente a la vulnerabilidad según Valero Chávez?",
+    "answer": "El respeto irrestricto a la dignidad humana y la búsqueda de la justicia social por encima de los intereses administrativos.",
+    "note": "ID original: H-048\nLectura sugerida: Desarrollo histórico del Trabajo Social / Aída Valero Chávez\n\nOpciones:\n1. La obediencia absoluta a los superiores jerárquicos.\n2. El respeto irrestricto a la dignidad humana y la búsqueda de la justicia social por encima de los intereses administrativos.\n3. La capacidad de ahorrar recursos a la institución aunque el sujeto sufra.\n4. La neutralidad total ante el dolor ajeno para no sufrir desgaste emocional.\n\nJustificación: La ética es el componente que dota de sentido humano a la técnica profesional (pág. 12)."
   },
   {
     "id": "GP-204",
@@ -1947,7 +1947,7 @@
     "titulo": "La Reconceptuación: El fin de la neutralidad",
     "prompt": "¿Por qué el movimiento de Reconceptuación declaró que el Trabajador Social es un 'agente político'?",
     "answer": "Porque entendieron que cada intervención profesional refuerza el orden actual o contribuye a su transformación, por lo que la neutralidad es imposible.",
-    "note": "ID original: H-050\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque todos debían postularse para presidentes de sus países.\n2. Porque entendieron que cada intervención profesional refuerza el orden actual o contribuye a su transformación, por lo que la neutralidad es imposible.\n3. Porque los trabajadores sociales pasaron a formar parte de los ejércitos nacionales.\n4. Porque era la ºnica forma de que les subieran el sueldo.\n\nJustificación: La acción profesional está siempre situada en un conflicto de intereses de clase (pág. 210)."
+    "note": "ID original: H-050\nLectura sugerida: Historia del Trabajo Social / Ezequiel Ander-Egg\n\nOpciones:\n1. Porque todos debían postularse para presidentes de sus países.\n2. Porque entendieron que cada intervención profesional refuerza el orden actual o contribuye a su transformación, por lo que la neutralidad es imposible.\n3. Porque los trabajadores sociales pasaron a formar parte de los ejércitos nacionales.\n4. Porque era la única forma de que les subieran el sueldo.\n\nJustificación: La acción profesional está siempre situada en un conflicto de intereses de clase (pág. 210)."
   },
   {
   "id": "GP-206",
@@ -1957,7 +1957,7 @@
   "titulo": "Lógica del Descubrimiento: Abducción",
   "prompt": "¿Por qué el razonamiento abductivo es considerado la pieza clave de la fase heurística en la investigación social?",
   "answer": "Porque permite formular una hipótesis creativa o 'conjetura' ante un hecho sorprendente que las teorías previas no logran explicar.",
-  "note": "ID original: M-001\n  Lectura sugerida: El razonamiento inductivo y deductivo / Gladys Dávila Newman\n  \n  Opciones:\n  1. Porque garantiza la verificación de leyes universales mediante la estadística.\n  2. Porque permite formular una hipótesis creativa o 'conjetura' ante un hecho sorprendente que las teorías previas no logran explicar.\n  3. Porque elimina la necesidad de realizar un marco teórico previo.\n  4. Porque es el ºnico método que asegura que la conclusión sea necesariamente verdadera.\n  \n  Justificación: A diferencia de la inducción o deducción, la abducción busca la 'mejor explicación' para descubrir nuevos sentidos en la realidad (pág. 180)."
+  "note": "ID original: M-001\n  Lectura sugerida: El razonamiento inductivo y deductivo / Gladys Dávila Newman\n  \n  Opciones:\n  1. Porque garantiza la verificación de leyes universales mediante la estadística.\n  2. Porque permite formular una hipótesis creativa o 'conjetura' ante un hecho sorprendente que las teorías previas no logran explicar.\n  3. Porque elimina la necesidad de realizar un marco teórico previo.\n  4. Porque es el único método que asegura que la conclusión sea necesariamente verdadera.\n  \n  Justificación: A diferencia de la inducción o deducción, la abducción busca la 'mejor explicación' para descubrir nuevos sentidos en la realidad (pág. 180)."
 },
   {
   "id": "GP-207",
@@ -1987,7 +1987,7 @@
   "titulo": "Delimitación del Problema",
   "prompt": "¿Qué dimensión de la delimitación es la que dota de 'viabilidad ética y técnica' a una investigación sobre violencia familiar?",
   "answer": "La delimitación semántica y de población, que precisa qué entenderemos por violencia y en qué sujetos específicos se observará para no hacer un estudio inabarcable.",
-  "note": "ID original: M-004\n  Lectura sugerida: El problema de investigación / Espinoza Freire\n  \n  Opciones:\n  1. La delimitación cronológica de los ºltimos 50 años.\n  2. La delimitación semántica y de población, que precisa qué entenderemos por violencia y en qué sujetos específicos se observará para no hacer un estudio inabarcable.\n  3. La elección de un título llamativo para la publicación.\n  4. La eliminación de todas las fuentes bibliográficas extranjeras.\n  \n  Justificación: Sin una delimitación precisa de conceptos y sujetos, el investigador cae en generalizaciones vagas que impiden resultados aplicables (pág. 103)."
+  "note": "ID original: M-004\n  Lectura sugerida: El problema de investigación / Espinoza Freire\n  \n  Opciones:\n  1. La delimitación cronológica de los últimos 50 años.\n  2. La delimitación semántica y de población, que precisa qué entenderemos por violencia y en qué sujetos específicos se observará para no hacer un estudio inabarcable.\n  3. La elección de un título llamativo para la publicación.\n  4. La eliminación de todas las fuentes bibliográficas extranjeras.\n  \n  Justificación: Sin una delimitación precisa de conceptos y sujetos, el investigador cae en generalizaciones vagas que impiden resultados aplicables (pág. 103)."
 },
   {
   "id": "GP-210",
@@ -2006,8 +2006,8 @@
   "kind": "error-review",
   "titulo": "Fase Heurística vs Hermenéutica",
   "prompt": "En la construcción del Estado del Arte, ¿qué actividad define el paso de la fase Heurística a la Hermenéutica?",
-  "answer": "El tránsito de la bºsqueda y localización sistemática de información a la interpretación crítica y construcción de un panorama coherente de los textos.",
-  "note": "ID original: M-006\n  Lectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño\n  \n  Opciones:\n  1. El incremento en el nºmero de archivos PDF descargados.\n  2. El tránsito de la bºsqueda y localización sistemática de información a la interpretación crítica y construcción de un panorama coherente de los textos.\n  3. La traducción de los textos del inglés al español.\n  4. La impresión de todas las fichas bibliográficas para su archivo.\n  \n  Justificación: La hermenéutica es el momento de otorgar sentido y lectura crítica al material acumulado (pág. 170)."
+  "answer": "El tránsito de la búsqueda y localización sistemática de información a la interpretación crítica y construcción de un panorama coherente de los textos.",
+  "note": "ID original: M-006\n  Lectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño\n  \n  Opciones:\n  1. El incremento en el número de archivos PDF descargados.\n  2. El tránsito de la búsqueda y localización sistemática de información a la interpretación crítica y construcción de un panorama coherente de los textos.\n  3. La traducción de los textos del inglés al español.\n  4. La impresión de todas las fichas bibliográficas para su archivo.\n  \n  Justificación: La hermenéutica es el momento de otorgar sentido y lectura crítica al material acumulado (pág. 170)."
 },
   {
   "id": "GP-212",
@@ -2037,7 +2037,7 @@
   "titulo": "Nivel de Medición Ordinal",
   "prompt": "Si usted mide la variable 'Nivel Socioeconómico' (Bajo, Medio, Alto), ¿por qué es un error técnico reportar la 'Media' (Promedio) de esos datos?",
   "answer": "Porque los datos de nivel ordinal no garantizan que la distancia entre 'bajo' y 'medio' sea la misma que entre 'medio' y 'alto', invalidando la suma aritmética.",
-  "note": "ID original: M-009\n  Lectura sugerida: Escalas de medición en Estadística / Orlandoni Merli\n  \n  Opciones:\n  1. Porque los datos de nivel ordinal no garantizan que la distancia entre 'bajo' y 'medio' sea la misma que entre 'medio' y 'alto', invalidando la suma aritmética.\n  2. Porque el nivel socioeconómico no se puede medir con nºmeros.\n  3. Porque requiere que la muestra sea mayor a 1,000 personas.\n  4. Porque la media solo sirve para variables de género.\n  \n  Justificación: En escalas ordinales solo hay orden, no distancia constante; por ello, la medida correcta es la mediana (pág. 245)."
+  "note": "ID original: M-009\n  Lectura sugerida: Escalas de medición en Estadística / Orlandoni Merli\n  \n  Opciones:\n  1. Porque los datos de nivel ordinal no garantizan que la distancia entre 'bajo' y 'medio' sea la misma que entre 'medio' y 'alto', invalidando la suma aritmética.\n  2. Porque el nivel socioeconómico no se puede medir con números.\n  3. Porque requiere que la muestra sea mayor a 1,000 personas.\n  4. Porque la media solo sirve para variables de género.\n  \n  Justificación: En escalas ordinales solo hay orden, no distancia constante; por ello, la medida correcta es la mediana (pág. 245)."
 },
   {
   "id": "GP-215",
@@ -2057,7 +2057,7 @@
   "titulo": "Estudios Transversales",
   "prompt": "¿Cuál es la principal limitación de un estudio de corte transversal al evaluar una intervención social?",
   "answer": "Que al ser una 'fotografía' de un solo momento, no permite establecer secuencias temporales ni procesos de cambio a largo plazo.",
-  "note": "ID original: M-011\n  Lectura sugerida: Tipos de estudio / Müggenburg y Pérez\n  \n  Opciones:\n  1. Que no permite utilizar entrevistas a profundidad.\n  2. Que al ser una 'fotografía' de un solo momento, no permite establecer secuencias temporales ni procesos de cambio a largo plazo.\n  3. Que es demasiado caro para las instituciones pºblicas.\n  4. Que obliga al investigador a convivir con los sujetos de estudio.\n  \n  Justificación: Lo transversal describe la prevalencia en un punto del tiempo, no la evolución o causalidad temporal (pág. 36)."
+  "note": "ID original: M-011\n  Lectura sugerida: Tipos de estudio / Müggenburg y Pérez\n  \n  Opciones:\n  1. Que no permite utilizar entrevistas a profundidad.\n  2. Que al ser una 'fotografía' de un solo momento, no permite establecer secuencias temporales ni procesos de cambio a largo plazo.\n  3. Que es demasiado caro para las instituciones públicas.\n  4. Que obliga al investigador a convivir con los sujetos de estudio.\n  \n  Justificación: Lo transversal describe la prevalencia en un punto del tiempo, no la evolución o causalidad temporal (pág. 36)."
 },
   {
   "id": "GP-217",
@@ -2077,7 +2077,7 @@
   "titulo": "Saturación Teórica en la TF",
   "prompt": "¿Bajo qué criterio técnico se justifica dejar de entrevistar personas en un diseño de Teoría Fundamentada?",
   "answer": "Cuando la inclusión de nuevos datos ya no aporta propiedades o dimensiones nuevas a las categorías, volviéndose la información redundante.",
-  "note": "ID original: M-013\n  Lectura sugerida: La saturación teórica en la teoría fundamentada / Ardila y Rueda\n  \n  Opciones:\n  1. Al alcanzar el nºmero de la muestra representativa segºn la fórmula estadística.\n  2. Cuando la inclusión de nuevos datos ya no aporta propiedades o dimensiones nuevas a las categorías, volviéndose la información redundante.\n  3. Cuando el investigador se siente cansado del trabajo de campo.\n  4. Al obtener el 50% de las respuestas afirmativas.\n  \n  Justificación: La saturación es el criterio de calidad que indica que la categoría está conceptualmente completa (pág. 93)."
+  "note": "ID original: M-013\n  Lectura sugerida: La saturación teórica en la teoría fundamentada / Ardila y Rueda\n  \n  Opciones:\n  1. Al alcanzar el número de la muestra representativa según la fórmula estadística.\n  2. Cuando la inclusión de nuevos datos ya no aporta propiedades o dimensiones nuevas a las categorías, volviéndose la información redundante.\n  3. Cuando el investigador se siente cansado del trabajo de campo.\n  4. Al obtener el 50% de las respuestas afirmativas.\n  \n  Justificación: La saturación es el criterio de calidad que indica que la categoría está conceptualmente completa (pág. 93)."
 },
   {
   "id": "GP-219",
@@ -2087,7 +2087,7 @@
   "titulo": "Codificación Axial",
   "prompt": "¿Qué diferencia la codificación axial de la codificación abierta en el análisis cualitativo?",
   "answer": "La abierta fragmenta el texto en conceptos iniciales; la axial los reagrupa estableciendo relaciones lógicas (causas, contextos, consecuencias) entre categorías.",
-  "note": "ID original: M-014\n  Lectura sugerida: La codificación y categorización en la TF / Vives Varela\n  \n  Opciones:\n  1. La abierta es para nºmeros y la axial para palabras.\n  2. La abierta fragmenta el texto en conceptos iniciales; la axial los reagrupa estableciendo relaciones lógicas (causas, contextos, consecuencias) entre categorías.\n  3. La axial solo puede hacerse con software especializado y la abierta a mano.\n  4. No hay diferencia, son etapas opcionales del análisis.\n  \n  Justificación: La axial busca el 'eje' de unión que dota de sentido sistémico a los datos fragmentados (pág. 3)."
+  "note": "ID original: M-014\n  Lectura sugerida: La codificación y categorización en la TF / Vives Varela\n  \n  Opciones:\n  1. La abierta es para números y la axial para palabras.\n  2. La abierta fragmenta el texto en conceptos iniciales; la axial los reagrupa estableciendo relaciones lógicas (causas, contextos, consecuencias) entre categorías.\n  3. La axial solo puede hacerse con software especializado y la abierta a mano.\n  4. No hay diferencia, son etapas opcionales del análisis.\n  \n  Justificación: La axial busca el 'eje' de unión que dota de sentido sistémico a los datos fragmentados (pág. 3)."
 },
   {
   "id": "GP-220",
@@ -2117,7 +2117,7 @@
   "titulo": "Ética: Consentimiento Informado",
   "prompt": "¿Por qué el consentimiento informado es un 'proceso' y no un simple documento firmado?",
   "answer": "Porque implica que el sujeto debe ser re-informado si las condiciones del estudio cambian y debe poder retirarse sin consecuencias en cualquier momento.",
-  "note": "ID original: M-017\n  Lectura sugerida: Ética de la investigación social / Robert T. Hall\n  \n  Opciones:\n  1. Porque se requieren muchas firmas de diferentes autoridades.\n  2. Porque implica que el sujeto debe ser re-informado si las condiciones del estudio cambian y debe poder retirarse sin consecuencias en cualquier momento.\n  3. Porque el papel se pierde fácilmente en las instituciones pºblicas.\n  4. Porque es un requisito de los abogados para cobrar sus honorarios.\n  \n  Justificación: La ética protege la autonomía continua de la voluntad del sujeto (pág. 18)."
+  "note": "ID original: M-017\n  Lectura sugerida: Ética de la investigación social / Robert T. Hall\n  \n  Opciones:\n  1. Porque se requieren muchas firmas de diferentes autoridades.\n  2. Porque implica que el sujeto debe ser re-informado si las condiciones del estudio cambian y debe poder retirarse sin consecuencias en cualquier momento.\n  3. Porque el papel se pierde fácilmente en las instituciones públicas.\n  4. Porque es un requisito de los abogados para cobrar sus honorarios.\n  \n  Justificación: La ética protege la autonomía continua de la voluntad del sujeto (pág. 18)."
 },
   {
   "id": "GP-223",
@@ -2125,7 +2125,7 @@
   "sourceId": 223,
   "kind": "error-review",
   "titulo": "Vulnerabilidad en la Investigación",
-  "prompt": "Al investigar con niños o personas con discapacidad mental, ¿qué estándar ético adicional se requiere segºn Hall?",
+  "prompt": "Al investigar con niños o personas con discapacidad mental, ¿qué estándar ético adicional se requiere según Hall?",
   "answer": "Obtener el permiso de los tutores legales y, adicionalmente, buscar el 'asentimiento' del sujeto en la medida de su capacidad de comprensión.",
   "note": "ID original: M-018\n  Lectura sugerida: Ética de la investigación social / Robert T. Hall\n  \n  Opciones:\n  1. Prohibir que participen en cualquier estudio científico.\n  2. Obtener el permiso de los tutores legales y, adicionalmente, buscar el 'asentimiento' del sujeto en la medida de su capacidad de comprensión.\n  3. Obligarlos a participar para que el Estado obtenga los datos necesarios.\n  4. Grabar las entrevistas sin avisar para que no se pongan nerviosos.\n  \n  Justificación: La protección de poblaciones vulnerables exige respetar su voluntad aun si no tienen capacidad jurídica plena (pág. 20)."
 },
@@ -2176,8 +2176,8 @@
   "kind": "error-review",
   "titulo": "Estado del Arte: Evitar la Duplicidad",
   "prompt": "¿Cómo contribuye el Estado del Arte a la ética del investigador?",
-  "answer": "Al evitar la duplicidad de esfuerzos, asegurando que no se gaste dinero pºblico en investigar algo que ya ha sido resuelto conclusivamente por otros.",
-  "note": "ID original: M-023\n  Lectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño\n  \n  Opciones:\n  1. Al evitar el plagio de otros autores.\n  2. Al evitar la duplicidad de esfuerzos, asegurando que no se gaste dinero pºblico en investigar algo que ya ha sido resuelto conclusivamente por otros.\n  3. Al obligar al investigador a leer todos los días.\n  4. Al prohibir el uso de internet en las fases iniciales.\n  \n  Justificación: Conocer la frontera del saber garantiza la originalidad y pertinencia social del estudio (pág. 165)."
+  "answer": "Al evitar la duplicidad de esfuerzos, asegurando que no se gaste dinero público en investigar algo que ya ha sido resuelto conclusivamente por otros.",
+  "note": "ID original: M-023\n  Lectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño\n  \n  Opciones:\n  1. Al evitar el plagio de otros autores.\n  2. Al evitar la duplicidad de esfuerzos, asegurando que no se gaste dinero público en investigar algo que ya ha sido resuelto conclusivamente por otros.\n  3. Al obligar al investigador a leer todos los días.\n  4. Al prohibir el uso de internet en las fases iniciales.\n  \n  Justificación: Conocer la frontera del saber garantiza la originalidad y pertinencia social del estudio (pág. 165)."
 },
   {
   "id": "GP-229",
@@ -2195,7 +2195,7 @@
   "sourceId": 230,
   "kind": "error-review",
   "titulo": "Escala Nominal y Estadística",
-  "prompt": "¿Cuál es la ºnica medida de tendencia central válida para la variable 'Estado Civil' (Casado, Soltero, Viudo, Divorciado)?",
+  "prompt": "¿Cuál es la única medida de tendencia central válida para la variable 'Estado Civil' (Casado, Soltero, Viudo, Divorciado)?",
   "answer": "La Moda (la categoría más frecuente).",
   "note": "ID original: M-025\n  Lectura sugerida: Escalas de medición en Estadística / Orlandoni Merli\n  \n  Opciones:\n  1. La Media aritmética.\n  2. La Mediana.\n  3. La Moda (la categoría más frecuente).\n  4. La Varianza poblacional.\n  \n  Justificación: Al no haber orden ni distancia entre categorías, solo podemos decir cuál se repite más (pág. 245)."
 },
@@ -2267,7 +2267,7 @@
   "titulo": "Etnografía Virtual y 'Lurking'",
   "prompt": "¿Es ético ser un 'Lurker' (observador silencioso) en un foro de víctimas de violencia?",
   "answer": "Es controversial; aunque permite datos espontáneos, la ética recomienda la transparencia del investigador para no vulnerar la privacidad percibida de los sujetos.",
-  "note": "ID original: M-032\n  Lectura sugerida: Etnografía virtual / Ruiz Méndez y Aguirre Aguilar\n  \n  Opciones:\n  1. Sí, porque al ser internet todo es pºblico.\n  2. Es controversial; aunque permite datos espontáneos, la ética recomienda la transparencia del investigador para no vulnerar la privacidad percibida de los sujetos.\n  3. No, está prohibido por las leyes de telecomunicaciones.\n  4. Sí, siempre que el investigador no use su nombre real.\n  \n  Justificación: La frontera entre lo pºblico y lo privado en lo digital exige un manejo ético cuidadoso (pág. 80)."
+  "note": "ID original: M-032\n  Lectura sugerida: Etnografía virtual / Ruiz Méndez y Aguirre Aguilar\n  \n  Opciones:\n  1. Sí, porque al ser internet todo es público.\n  2. Es controversial; aunque permite datos espontáneos, la ética recomienda la transparencia del investigador para no vulnerar la privacidad percibida de los sujetos.\n  3. No, está prohibido por las leyes de telecomunicaciones.\n  4. Sí, siempre que el investigador no use su nombre real.\n  \n  Justificación: La frontera entre lo público y lo privado en lo digital exige un manejo ético cuidadoso (pág. 80)."
 },
   {
   "id": "GP-238",
@@ -2337,7 +2337,7 @@
   "titulo": "Muestreo por Conveniencia",
   "prompt": "¿Cuál es la mayor crítica científica al muestreo no probabilístico por conveniencia?",
   "answer": "Que introduce sesgos del investigador y los resultados no pueden generalizarse estadísticamente a la población general.",
-  "note": "ID original: M-039\n  Lectura sugerida: Investigación cualitativa versus cuantitativa / González López\n  \n  Opciones:\n  1. Que es demasiado caro de realizar.\n  2. Que introduce sesgos del investigador y los resultados no pueden generalizarse estadísticamente a la población general.\n  3. Que no permite hacer entrevistas personales.\n  4. Que obliga a utilizar solo fuentes de información de internet.\n  \n  Justificación: Es ºtil para explorar, pero carece de la fuerza de representatividad probabilística (pág. 15)."
+  "note": "ID original: M-039\n  Lectura sugerida: Investigación cualitativa versus cuantitativa / González López\n  \n  Opciones:\n  1. Que es demasiado caro de realizar.\n  2. Que introduce sesgos del investigador y los resultados no pueden generalizarse estadísticamente a la población general.\n  3. Que no permite hacer entrevistas personales.\n  4. Que obliga a utilizar solo fuentes de información de internet.\n  \n  Justificación: Es útil para explorar, pero carece de la fuerza de representatividad probabilística (pág. 15)."
 },
   {
   "id": "GP-245",
@@ -2356,8 +2356,8 @@
   "kind": "error-review",
   "titulo": "Observación Participante en Red",
   "prompt": "¿Qué significa que el investigador virtual sea un 'avatar social'?",
-  "answer": "Que su identidad en red es el instrumento a través del cual interactºa, construye confianza y capta los significados del grupo digital.",
-  "note": "ID original: M-041\n  Lectura sugerida: Etnografía virtual / Ruiz Méndez y Aguirre Aguilar\n  \n  Opciones:\n  1. Que debe utilizar un personaje de videojuegos para investigar.\n  2. Que su identidad en red es el instrumento a través del cual interactºa, construye confianza y capta los significados del grupo digital.\n  3. Que tiene prohibido revelar su rostro real.\n  4. Que solo puede trabajar de noche cuando hay más usuarios conectados.\n  \n  Justificación: La inmersión en red exige una construcción de presencia para ser considerado parte del grupo (pág. 68)."
+  "answer": "Que su identidad en red es el instrumento a través del cual interactúa, construye confianza y capta los significados del grupo digital.",
+  "note": "ID original: M-041\n  Lectura sugerida: Etnografía virtual / Ruiz Méndez y Aguirre Aguilar\n  \n  Opciones:\n  1. Que debe utilizar un personaje de videojuegos para investigar.\n  2. Que su identidad en red es el instrumento a través del cual interactúa, construye confianza y capta los significados del grupo digital.\n  3. Que tiene prohibido revelar su rostro real.\n  4. Que solo puede trabajar de noche cuando hay más usuarios conectados.\n  \n  Justificación: La inmersión en red exige una construcción de presencia para ser considerado parte del grupo (pág. 68)."
 },
   {
   "id": "GP-247",
@@ -2406,8 +2406,8 @@
   "kind": "error-review",
   "titulo": "Rigor en el Estado del Arte",
   "prompt": "¿Qué significa que el Estado del Arte sea un proceso 'cíclico'?",
-  "answer": "Que a medida que el investigador profundiza en el análisis, a menudo debe volver a la fase de bºsqueda para localizar nuevos textos que clarifiquen hallazgos emergentes.",
-  "note": "ID original: M-046\n  Lectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño\n  \n  Opciones:\n  1. Que el investigador debe leer siempre los mismos libros en círculo.\n  2. Que a medida que el investigador profundiza en el análisis, a menudo debe volver a la fase de bºsqueda para localizar nuevos textos que clarifiquen hallazgos emergentes.\n  3. Que los resultados siempre vuelven al punto de partida sin avanzar.\n  4. Que el reporte final debe leerse de atrás hacia adelante.\n  \n  Justificación: La investigación documental no es lineal; se nutre del descubrimiento constante (pág. 170)."
+  "answer": "Que a medida que el investigador profundiza en el análisis, a menudo debe volver a la fase de búsqueda para localizar nuevos textos que clarifiquen hallazgos emergentes.",
+  "note": "ID original: M-046\n  Lectura sugerida: El estado del arte en la investigación / Ragnhild Guevara Patiño\n  \n  Opciones:\n  1. Que el investigador debe leer siempre los mismos libros en círculo.\n  2. Que a medida que el investigador profundiza en el análisis, a menudo debe volver a la fase de búsqueda para localizar nuevos textos que clarifiquen hallazgos emergentes.\n  3. Que los resultados siempre vuelven al punto de partida sin avanzar.\n  4. Que el reporte final debe leerse de atrás hacia adelante.\n  \n  Justificación: La investigación documental no es lineal; se nutre del descubrimiento constante (pág. 170)."
 },
   {
   "id": "GP-252",
@@ -2447,7 +2447,7 @@
   "titulo": "Ética: Daño Social",
   "prompt": "¿Qué es el 'daño social' colateral en una investigación científica?",
   "answer": "Cuando la publicación de los resultados estigmatiza o pone en riesgo a toda la comunidad o grupo estudiado, más allá de los individuos participantes.",
-  "note": "ID original: M-050\n  Lectura sugerida: Ética de la investigación social / Robert T. Hall\n  \n  Opciones:\n  1. Cuando los participantes se pelean entre ellos durante la entrevista.\n  2. Cuando la publicación de los resultados estigmatiza o pone en riesgo a toda la comunidad o grupo estudiado, más allá de los individuos participantes.\n  3. Cuando el investigador pierde sus notas de campo.\n  4. Cuando la universidad no aprueba el presupuesto del proyecto.\n  \n  Justificación: El investigador tiene responsabilidad sobre el impacto pºblico de su conocimiento (pág. 12)."
+  "note": "ID original: M-050\n  Lectura sugerida: Ética de la investigación social / Robert T. Hall\n  \n  Opciones:\n  1. Cuando los participantes se pelean entre ellos durante la entrevista.\n  2. Cuando la publicación de los resultados estigmatiza o pone en riesgo a toda la comunidad o grupo estudiado, más allá de los individuos participantes.\n  3. Cuando el investigador pierde sus notas de campo.\n  4. Cuando la universidad no aprueba el presupuesto del proyecto.\n  \n  Justificación: El investigador tiene responsabilidad sobre el impacto público de su conocimiento (pág. 12)."
 },
 {
   "id": "GP-256",

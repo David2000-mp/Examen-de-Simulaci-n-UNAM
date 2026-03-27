@@ -36,7 +36,7 @@ export default function Flashcards() {
   const [flipped, setFlipped] = useState(false);
   const [isRandom, setIsRandom] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
-  const [searchId, setSearchId] = useState("");
+  const [selectedCardId, setSelectedCardId] = useState("");
   const isActiveRecall = studyMode === "active-recall";
   const isPersonalized = studyMode === "personalizadas";
   const sourceData =
@@ -72,6 +72,23 @@ export default function Flashcards() {
         ? { concept: flashcardsPersonalizadas[queue[queueIdx]], originalIdx: queue[queueIdx] }
         : null)
     : orderedFiltered[safeIndex];
+
+  const selectableCards = useMemo(() => {
+    if (isPersonalized) {
+      return queue.slice(queueIdx).map((originalIdx, offset) => {
+        const concept = flashcardsPersonalizadas[originalIdx];
+        return {
+          concept,
+          targetIndex: queueIdx + offset,
+        };
+      }).filter(({ concept }) => Boolean(concept));
+    }
+
+    return orderedFiltered.map(({ concept }, position) => ({
+      concept,
+      targetIndex: position,
+    }));
+  }, [flashcardsPersonalizadas, isPersonalized, orderedFiltered, queue, queueIdx]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -255,13 +272,24 @@ export default function Flashcards() {
 
   const handleGoToCard = (cardId) => {
     if (!cardId.trim()) return;
-    const foundIdx = orderedFiltered.findIndex(({ concept }) => concept.id === cardId);
-    if (foundIdx >= 0) {
-      setIndex(foundIdx);
-      setFlipped(false);
-      setShowSearch(false);
-      setSearchId("");
+
+    if (isPersonalized) {
+      const foundIdx = queue.findIndex(
+        (originalIdx, position) => position >= queueIdx && flashcardsPersonalizadas[originalIdx]?.id === cardId
+      );
+      if (foundIdx >= 0) {
+        setQueueIdx(foundIdx);
+      }
+    } else {
+      const foundIdx = orderedFiltered.findIndex(({ concept }) => concept.id === cardId);
+      if (foundIdx >= 0) {
+        setIndex(foundIdx);
+      }
     }
+
+    setFlipped(false);
+    setShowSearch(false);
+    setSelectedCardId("");
   };
 
   const handleAxis = (axis) => {
@@ -269,6 +297,8 @@ export default function Flashcards() {
     setIndex(0);
     setQueueIdx(0);
     setFlipped(false);
+    setShowSearch(false);
+    setSelectedCardId("");
   };
 
   const handleMode = (mode) => {
@@ -285,6 +315,8 @@ export default function Flashcards() {
     setQueueIdx(0);
     setFlipped(false);
     setIsRandom(false);
+    setShowSearch(false);
+    setSelectedCardId("");
   };
 
   const handlePrev = () => { setIndex((i) => Math.max(0, i - 1)); setFlipped(false); };
@@ -301,6 +333,8 @@ export default function Flashcards() {
     setIsRandom(true);
     setIndex(0);
     setFlipped(false);
+    setShowSearch(false);
+    setSelectedCardId("");
   };
 
   const handleSequential = () => {
@@ -308,6 +342,8 @@ export default function Flashcards() {
     setIsRandom(false);
     setIndex(0);
     setFlipped(false);
+    setShowSearch(false);
+    setSelectedCardId("");
   };
 
   const personalizedMasteredCount = Object.keys(masteredPersonalizadasById).filter(
@@ -521,25 +557,33 @@ export default function Flashcards() {
       {showSearch && (
         <div className="motion-rise motion-stagger rounded-2xl border border-brand-300 bg-brand-50 p-4" style={{ "--motion-index": 2 }}>
           <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-brand-700">Ir a una tarjeta específica</p>
-          <div className="flex gap-2">
-            <input
-              type="text"
-              placeholder="Escribe ID (ej: GP-001, AR-050)..."
-              value={searchId}
-              onChange={(e) => setSearchId(e.target.value.toUpperCase())}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") handleGoToCard(searchId);
-              }}
-              className="flex-1 rounded-lg border border-brand-300 bg-white px-3 py-2 text-sm text-brand-900 placeholder:text-brand-400 focus:border-brand-700 focus:outline-none"
-            />
+          <div className="flex flex-col gap-2 sm:flex-row">
+            <select
+              value={selectedCardId}
+              onChange={(e) => setSelectedCardId(e.target.value)}
+              className="flex-1 rounded-lg border border-brand-300 bg-white px-3 py-2 text-sm text-brand-900 focus:border-brand-700 focus:outline-none"
+            >
+              <option value="">Selecciona una tarjeta del mazo actual</option>
+              {selectableCards.map(({ concept, targetIndex }) => (
+                <option key={concept.id} value={concept.id}>
+                  {concept.id} · {targetIndex + 1}. {(concept.titulo || concept.prompt || "Tarjeta").slice(0, 72)}
+                </option>
+              ))}
+            </select>
             <button
               type="button"
-              onClick={() => handleGoToCard(searchId)}
-              className="rounded-lg bg-brand-700 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-800"
+              onClick={() => handleGoToCard(selectedCardId)}
+              disabled={!selectedCardId}
+              className="rounded-lg bg-brand-700 px-4 py-2 text-sm font-semibold text-white hover:bg-brand-800 disabled:cursor-not-allowed disabled:opacity-50"
             >
               Ir
             </button>
           </div>
+          <p className="mt-2 text-xs text-brand-700/80">
+            {isPersonalized
+              ? "Solo muestra las tarjetas que siguen activas en tu mazo actual."
+              : "Muestra las tarjetas visibles según el modo, filtro y orden actual."}
+          </p>
         </div>
       )}
 
