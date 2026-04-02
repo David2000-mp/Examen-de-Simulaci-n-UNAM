@@ -12,7 +12,7 @@
       "Priorizar la historia de las ideas y las normas morales por encima de las acciones de los individuos y los condicionantes económicos."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "Ander-Egg sostiene que los fenómenos sociales no existen aislados. Afirma que las prácticas sociales están condicionadas por situaciones contextuales, pero a su vez pueden influir en ellas para producir cambios o mantener la realidad. Centrarse solo en un aspecto sin su contexto global es una forma de alienación[cite: 192, 193, 201]."
+    "justificacion": "Ander-Egg sostiene que los fenómenos sociales no existen aislados. Afirma que las prácticas sociales están condicionadas por situaciones contextuales, pero a su vez pueden influir en ellas para producir cambios o mantener la realidad. Centrarse solo en un aspecto sin su contexto global es una forma de alienación."
   },
   {
     "id": "002",
@@ -27,7 +27,7 @@
       "La limitación de la intervención social exclusivamente a la reforma de las costumbres y la moral individual del proletariado."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Mary Richmond fue la primera en proclamar que las buenas intenciones y el sentido común no bastan. Su obra 'Social Diagnosis' representa el primer intento de sistematización profesional, estableciendo que el diagnóstico es un proceso investigativo que busca una definición exacta de la situación social y personalidad del cliente[cite: 144, 170, 184]."
+    "justificacion": "Mary Richmond fue la primera en proclamar que las buenas intenciones y el sentido común no bastan. Su obra 'Social Diagnosis' representa el primer intento de sistematización profesional, estableciendo que el diagnóstico es un proceso investigativo que busca una definición exacta de la situación social y personalidad del cliente."
   },
   {
     "id": "003",
@@ -42,7 +42,7 @@
       "El enfoque cualitativo utiliza solo hipótesis estadísticas de nulidad, a diferencia del cuantitativo que emplea supuestos teóricos."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "El texto aclara que, aunque las hipótesis son fundamentales en el diseño, en el enfoque cualitativo estas no se establecen rígidamente al inicio, sino que pueden surgir de la observación, la experiencia y el proceso mismo de recolección de datos para ser refinadas[cite: 1070, 1071, 1073]."
+    "justificacion": "El texto aclara que, aunque las hipótesis son fundamentales en el diseño, en el enfoque cualitativo estas no se establecen rígidamente al inicio, sino que pueden surgir de la observación, la experiencia y el proceso mismo de recolección de datos para ser refinadas."
   },
   {
     "id": "004",
@@ -57,7 +57,7 @@
       "Cuando se logra validar la teoría emergente mediante una encuesta cuantitativa de alcance nacional."
     ],
     "respuesta_correcta": 2,
-    "justificacion": "La saturación teórica se define como el criterio que determina el fin del muestreo teórico. Se alcanza cuando la información nueva ya no contribuye al desarrollo de las propiedades de las categorías de análisis, lo que indica que la categoría está conceptualmente completa[cite: 1621, 1641, 1646]."
+    "justificacion": "La saturación teórica se define como el criterio que determina el fin del muestreo teórico. Se alcanza cuando la información nueva ya no contribuye al desarrollo de las propiedades de las categorías de análisis, lo que indica que la categoría está conceptualmente completa."
   },
   {
     "id": "005",
@@ -72,7 +72,7 @@
       "La eliminación de las barreras de clase gracias a la homogeneización democrática de la cultura de masas."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Horkheimer y Adorno critican que la razón se ha desviado hacia una racionalidad técnica y calculadora. Esto convierte al conocimiento en poder y a la naturaleza y al hombre en simples objetos de control para el aprovechamiento económico, lo que llaman 'barbarie'[cite: 2176, 2181, 2182]."
+    "justificacion": "Horkheimer y Adorno critican que la razón se ha desviado hacia una racionalidad técnica y calculadora. Esto convierte al conocimiento en poder y a la naturaleza y al hombre en simples objetos de control para el aprovechamiento económico, lo que llaman 'barbarie'."
   },
   {
     "id": "006",
@@ -87,7 +87,7 @@
       "El 'Yo' y el 'Mí' se fusionan permanentemente en un estado estático que impide la innovación individual y el cambio social."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Mead define al 'me' como la serie de actitudes organizadas de los otros que adopta el individuo, siendo el cauce de manifestación del 'I'. El 'I' es el elemento activo e innovador, pero su adaptación es mediada por el 'me', que ejerce el control social[cite: 3595, 3596, 3609, 3610]."
+    "justificacion": "Mead define al 'me' como la serie de actitudes organizadas de los otros que adopta el individuo, siendo el cauce de manifestación del 'I'. El 'I' es el elemento activo e innovador, pero su adaptación es mediada por el 'me', que ejerce el control social."
   },
   {
     "id": "007",
@@ -102,7 +102,7 @@
       "El desmantelamiento del Estado centralizado para favorecer el libre mercado absoluto promovido por los manchesterianos."
     ],
     "respuesta_correcta": 1,
-    "justificacion": "Ander-Egg explica que la seguridad social fue promovida por un gobierno conservador como un 'antídoto contrarrevolucionario'. El objetivo de Bismarck no era el cambio estructural, sino el estímulo del bienestar obrero para contener las revueltas y consolidar el orden establecido[cite: 137, 138]."
+    "justificacion": "Ander-Egg explica que la seguridad social fue promovida por un gobierno conservador como un 'antídoto contrarrevolucionario'. El objetivo de Bismarck no era el cambio estructural, sino el estímulo del bienestar obrero para contener las revueltas y consolidar el orden establecido."
   },
   {
     "id": "008",
@@ -283,6 +283,96 @@
     ],
     "respuesta_correcta": 1,
     "justificacion": "Basándose en el texto, la perspectiva EMIC (asociada a menudo a lo cualitativo) prioriza el punto de vista de los participantes, sus significados y cultura, mientras que la ETIC utiliza los marcos conceptuales y teorías del observador externo."
+  },
+  {
+    "id": "020",
+    "eje": "Historia",
+    "tema": "Reconceptualización del Trabajo Social en América Latina",
+    "lectura_origen": "Historia del Trabajo Social / Boris Lima",
+    "pregunta": "¿Cuál fue el planteamiento central del movimiento de Reconceptualización del Trabajo Social latinoamericano en las décadas de 1960 y 1970?",
+    "opciones": [
+      "Adoptar el modelo anglosajón de casework como método único de intervención profesional.",
+      "Cuestionar el carácter asistencialista y acrítico del Trabajo Social tradicional, proponiendo una práctica comprometida con la transformación social y la liberación de los sectores oprimidos.",
+      "Separar definitivamente el Trabajo Social de las ciencias sociales para consolidarlo como disciplina técnica neutral.",
+      "Priorizar la formación académica sobre la intervención directa con comunidades populares."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "La Reconceptualización buscó superar el asistencialismo y el trasplante acrítico de modelos externos, articulando el Trabajo Social con proyectos de transformación social (pág. 45-50)."
+  },
+  {
+    "id": "021",
+    "eje": "Metodología",
+    "tema": "Triangulación en la investigación social",
+    "lectura_origen": "Metodología de la investigación social / Hernández Sampieri",
+    "pregunta": "En el diseño de una investigación mixta sobre exclusión social, una investigadora decide combinar encuestas estadísticas con entrevistas en profundidad y análisis documental. ¿Qué estrategia metodológica describe esta decisión?",
+    "opciones": [
+      "Saturación teórica, porque se busca el punto en que los datos no aportan información nueva.",
+      "Triangulación metodológica, porque se usan múltiples fuentes y métodos para contrastar y validar los hallazgos desde distintas perspectivas.",
+      "Muestreo teórico, porque la selección de informantes sigue criterios conceptuales predefinidos.",
+      "Reducción fenomenológica, porque se suspende el juicio previo del investigador ante las evidencias."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "La triangulación metodológica consiste en combinar diferentes métodos y fuentes para obtener una comprensión más completa y validada del fenómeno estudiado (pág. 557-559)."
+  },
+  {
+    "id": "022",
+    "eje": "Teoría",
+    "tema": "Capital Social y redes de reciprocidad",
+    "lectura_origen": "El Capital Social / Pierre Bourdieu",
+    "pregunta": "Bourdieu define el capital social como el conjunto de recursos vinculados a la posesión de una red durable de relaciones. En el marco del Trabajo Social comunitario, ¿qué implicación tiene este concepto para el análisis de la pobreza urbana?",
+    "opciones": [
+      "La pobreza es exclusivamente resultado de la carencia de capital económico, por lo que el capital social carece de valor explicativo.",
+      "El capital social demuestra que el acceso a recursos no depende solo del ingreso individual, sino también de las redes de pertenencia, lo que explica desigualdades invisibles entre grupos con ingresos similares.",
+      "Las redes comunitarias solo refuerzan el clientelismo político y no constituyen un recurso genuino.",
+      "El capital social es un concepto aplicable únicamente a élites económicas que acceden a mercados internacionales."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Bourdieu muestra que las redes de relaciones constituyen un capital diferenciado que reproduce o mitiga la desigualdad más allá del ingreso monetario (pág. 248-249)."
+  },
+  {
+    "id": "023",
+    "eje": "Historia",
+    "tema": "Trabajo Social y derechos humanos",
+    "lectura_origen": "Trabajo Social y derechos humanos / Nelia Tello Peón",
+    "pregunta": "¿Por qué la perspectiva de derechos humanos representa una ruptura con el enfoque de necesidades en la práctica histórica del Trabajo Social?",
+    "opciones": [
+      "Porque los derechos humanos son exclusivamente competencia del derecho penal y no de las disciplinas sociales.",
+      "Porque el enfoque de necesidades patologiza al sujeto y legitima la intervención tutelar, mientras que el enfoque de derechos reconoce al sujeto como titular activo de garantías exigibles al Estado.",
+      "Porque la perspectiva de derechos elimina la intervención directa del Trabajo Social, relegándola a un rol exclusivamente jurídico.",
+      "Porque ambos enfoques son equivalentes: identificar necesidades es sinónimo de garantizar derechos."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "El enfoque de derechos desplaza la lógica de la caridad y la tutela hacia la ciudadanía plena y la exigibilidad de garantías (pág. 12-15)."
+  },
+  {
+    "id": "024",
+    "eje": "Metodología",
+    "tema": "La Observación Participante como técnica cualitativa",
+    "lectura_origen": "El trabajo de campo etnográfico / Rosana Guber",
+    "pregunta": "En la observación participante, ¿cuál es la tensión metodológica fundamental que enfrenta el investigador y cómo se resuelve en la práctica etnográfica?",
+    "opciones": [
+      "La tensión entre muestreo probabilístico y muestreo intencional, que se resuelve aumentando el tamaño de la muestra.",
+      "La tensión entre participar (implicarse en la vida cotidiana) y observar (mantener distancia analítica), que se gestiona mediante la reflexividad constante y el registro sistemático en el diario de campo.",
+      "La tensión entre usar cuestionarios estructurados y entrevistas abiertas, que se resuelve aplicando primero el cuestionario y luego la entrevista.",
+      "La tensión entre el tiempo asignado y los recursos financieros, que se supera reduciendo el período de trabajo de campo."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "La observación participante exige gestionar la doble posición insider/outsider mediante reflexividad y registro sistemático para mantener el rigor analítico (pág. 53-56)."
+  },
+  {
+    "id": "025",
+    "eje": "Teoría",
+    "tema": "Fenomenología y mundo de la vida",
+    "lectura_origen": "La construcción social de la realidad / Berger y Luckmann",
+    "pregunta": "Berger y Luckmann retoman el concepto husserliano de mundo de la vida (Lebenswelt) para fundamentar su sociología del conocimiento. ¿Cómo Schutz caracteriza este mundo de la vida y qué implicaciones tiene para la investigación en Trabajo Social?",
+    "opciones": [
+      "Es el sistema normativo impuesto por el Estado que regula las interacciones sociales y define el conocimiento legítimo.",
+      "Es la realidad cotidiana dada por sentado, intersubjetivamente compartida, desde la cual los actores le atribuyen significados a sus acciones; su comprensión exige métodos que capturen el sentido subjetivo de los fenómenos sociales.",
+      "Equivale a la infraestructura económica marxista que determina las formas de conciencia colectiva.",
+      "Es irrelevante para la investigación científica porque no puede ser operacionalizado en variables medibles."
+    ],
+    "respuesta_correcta": 1,
+    "justificacion": "Schutz describe el Lebenswelt como la realidad intersubjetiva dada por sentado, fundamento de todo conocimiento social, orientando al Trabajo Social hacia métodos comprensivos/interpretativos (pág. 37-40)."
   },
   {
     "id": "026",
