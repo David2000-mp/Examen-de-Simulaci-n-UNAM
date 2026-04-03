@@ -4,540 +4,855 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 1,
     kind: "direct",
-    prompt: "¿Cómo se denomina el punto de inflexión disciplinario que transforma las ayudas dispersas en una intervención profesional sustentada en teoría, método y práctica integrada?",
-    answer: "Trabajo Social moderno.",
-    note: "Se consolida como disciplina científica en el siglo XX."
-  },
-  {
-    id: "H-001-I",
-    eje: "Historia",
-    sourceId: 1,
-    kind: "inverse",
-    prompt: "¿Qué concepto designa la etapa en que la ayuda intuitiva es reemplazada por una intervención con base teórico-metodológica?",
-    answer: "Trabajo Social moderno.",
-    note: "Marca la salida del asistencialismo intuitivo."
-  },
-  {
-    id: "H-001-A",
-    eje: "Historia",
-    sourceId: 1,
-    kind: "cloze",
-    prompt: "La ruptura decisiva del Trabajo Social moderno no se da entre dos técnicas de ayuda, sino entre _____ y _____.",
-    answer: "caridad tradicional e intervención profesional.",
-    note: "Alerta de examen: no confundir ayuda caritativa con consolidación disciplinaria."
+    prompt: "¿Cómo definía al Trabajo Social la definición del año 1965?",
+    answer: "Lo definía como un auxiliar de profesionales médicos, abogados, maestros, etc.",
+    note: "En esa etapa se le consideraba una profesión dependiente dedicada al estudio, prevención y curación de los 'males sociales'."
   },
   {
     id: "H-002-D",
     eje: "Historia",
     sourceId: 2,
     kind: "direct",
-    prompt: "¿Cómo se denominan las raíces históricas del Trabajo Social ubicadas en la reforma social europea, la filantropía organizada y la beneficencia del siglo XIX?",
-    answer: "Antecedentes históricos del Trabajo Social.",
-    note: "Preceden a la profesionalización formal."
-  },
-  {
-    id: "H-002-I",
-    eje: "Historia",
-    sourceId: 2,
-    kind: "inverse",
-    prompt: "¿Qué término agrupa las iniciativas filantrópicas, la beneficencia organizada y la reforma social europea que preceden a la profesionalización del Trabajo Social?",
-    answer: "Antecedentes históricos del Trabajo Social.",
-    note: "Explican el sustrato histórico de la profesión."
-  },
-  {
-    id: "H-002-A",
-    eje: "Historia",
-    sourceId: 2,
-    kind: "cloze",
-    prompt: "Antes de la profesionalización, la ayuda social pasó por _____ y luego por la reforma social moderna.",
-    answer: "formas caritativas medievales.",
-    note: "Alerta de examen: distinguir caridad medieval de reforma social moderna."
+    prompt: "Según la definición de 1974, ¿cuál es la tarea fundamental del Servicio Social?",
+    answer: "La intervención para modificar o superar los factores que entorpecen el desarrollo humano.",
+    note: "Se entendía como una tecnología interesada en el cambio planificado."
   },
   {
     id: "H-003-D",
     eje: "Historia",
     sourceId: 3,
     kind: "direct",
-    prompt: "¿Cómo se denomina el proceso regional no lineal en el que modelos importados son confrontados con realidades locales hasta producir identidades profesionales propias?",
-    answer: "Evolución de la profesión en América Latina.",
-    note: "Implica adaptación contextual y reinterpretación."
-  },
-  {
-    id: "H-003-I",
-    eje: "Historia",
-    sourceId: 3,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe la adaptación contextual, el diálogo interdisciplinar y la reinterpretación crítica de modelos europeos en contextos latinoamericanos?",
-    answer: "Evolución de la profesión en América Latina.",
-    note: "No fue una copia mecánica."
-  },
-  {
-    id: "H-003-A",
-    eje: "Historia",
-    sourceId: 3,
-    kind: "cloze",
-    prompt: "Leer la evolución de la profesión en América Latina únicamente como trasplante de modelos externos produce un sesgo de _____.",
-    answer: "eurocentrismo.",
-    note: "Alerta de examen: relacionar desarrollos regionales con contextos globales sin borrar la agencia local."
+    prompt: "¿Qué propósito tiene la transformación social según la definición de 1978?",
+    answer: "Lograr el desarrollo integral del ser humano.",
+    note: "Se plantea mediante el conocimiento de problemas, la movilización colectiva y la planificación de acciones."
   },
   {
     id: "H-004-D",
     eje: "Historia",
     sourceId: 4,
     kind: "direct",
-    prompt: "¿Cómo se denomina la base intelectual temprana que articula la teoría sociológica, la psicología social y la filosofía del servicio para justificar una intervención sistemática?",
-    answer: "Fundamentos teóricos iniciales del Trabajo Social.",
-    note: "Organizan el corpus conceptual temprano."
-  },
-  {
-    id: "H-004-I",
-    eje: "Historia",
-    sourceId: 4,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe la convergencia inicial de teoría sociológica, psicología social y filosofía del servicio en un corpus coherente?",
-    answer: "Fundamentos teóricos iniciales del Trabajo Social.",
-    note: "Da sustento a la estructuración disciplinaria."
-  },
-  {
-    id: "H-004-A",
-    eje: "Historia",
-    sourceId: 4,
-    kind: "cloze",
-    prompt: "Entre las influencias tempranas decisivas no figuran solo técnicas asistenciales; también aparecen _____ y _____.",
-    answer: "teoría sociológica y psicología social.",
-    note: "Alerta de examen: conectar influencias científicas con el contexto intelectual del periodo."
+    prompt: "Según la definición de 1980, ¿de dónde provienen los marcos de referencia teóricos y metodológicos del Trabajo Social?",
+    answer: "De las Ciencias Sociales.",
+    note: "Esta definición reconoce al Trabajo Social como una tecnología derivada de dichas ciencias."
   },
   {
     id: "H-005-D",
     eje: "Historia",
     sourceId: 5,
     kind: "direct",
-    prompt: "¿Cómo se denomina la trayectoria histórica por la cual el agente profesional transita de tareas asistenciales a funciones transformadoras y críticas?",
-    answer: "Rol social del trabajador social en contextos históricos.",
-    note: "Cambia según el marco histórico-político."
-  },
-  {
-    id: "H-005-I",
-    eje: "Historia",
-    sourceId: 5,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe la secuencia de funciones que va de la asistencia a la intermediación, la movilización y la lectura crítica de conflictos?",
-    answer: "Rol social del trabajador social en contextos históricos.",
-    note: "No permanece fijo a lo largo del tiempo."
-  },
-  {
-    id: "H-005-A",
-    eje: "Historia",
-    sourceId: 5,
-    kind: "cloze",
-    prompt: "Interpretar el rol social del trabajador social como un único rol permanente produce una visión _____.",
-    answer: "reduccionista.",
-    note: "Alerta de examen: analizar cambios de rol según el contexto histórico-político."
+    prompt: "¿A qué se dedican los trabajadores sociales profesionales según la FITS en 2000?",
+    answer: "A fomentar el bienestar humano y potenciar la realización de las personas.",
+    note: "Buscan satisfacer necesidades individuales y colectivas promoviendo la política social."
   },
   {
     id: "H-006-D",
     eje: "Historia",
     sourceId: 6,
     kind: "direct",
-    prompt: "¿Cómo se denomina el proceso de formalización que crea escuelas, regulaciones, códigos éticos y marcos de actuación para una profesión?",
-    answer: "Institucionalización del Trabajo Social.",
-    note: "Consolida reconocimiento formal y estándares de formación."
-  },
-  {
-    id: "H-006-I",
-    eje: "Historia",
-    sourceId: 6,
-    kind: "inverse",
-    prompt: "¿Qué término define la creación de escuelas profesionales, la regulación estatal, los códigos de ética y los espacios formales de intervención en el Trabajo Social?",
-    answer: "Institucionalización del Trabajo Social.",
-    note: "Da forma estable a la profesión."
-  },
-  {
-    id: "H-006-A",
-    eje: "Historia",
-    sourceId: 6,
-    kind: "cloze",
-    prompt: "La institucionalización se relaciona con la profesionalización, pero no son idénticas: la primera formaliza y la segunda _____.",
-    answer: "consolida competencias y reconocimiento profesional.",
-    note: "Alerta de examen: relacionar institucionalización con profesionalización sin fusionarlas."
+    prompt: "Según la IASSW y la FITS, ¿qué principios son fundamentales para el Trabajo Social?",
+    answer: "Los principios de los derechos humanos y la justicia social.",
+    note: "Estos principios guían la intervención en la relación entre personas y entorno."
   },
   {
     id: "H-007-D",
     eje: "Historia",
     sourceId: 7,
     kind: "direct",
-    prompt: "¿Cómo se denominan las corrientes históricas que organizan el pensamiento profesional del Trabajo Social en torno al caso, el grupo y la comunidad?",
-    answer: "Escuelas históricas del Trabajo Social.",
-    note: "Cada una aporta metodología y nivel de intervención."
-  },
-  {
-    id: "H-007-I",
-    eje: "Historia",
-    sourceId: 7,
-    kind: "inverse",
-    prompt: "¿Qué concepto agrupa el Trabajo Social de Casos, el de Grupo y el Comunitario como corrientes articuladoras de la disciplina?",
-    answer: "Escuelas históricas del Trabajo Social.",
-    note: "Consolidan una estructura multimetodológica."
-  },
-  {
-    id: "H-007-A",
-    eje: "Historia",
-    sourceId: 7,
-    kind: "cloze",
-    prompt: "Describir estas corrientes exige reconocer no solo nombres, sino también _____, marcos conceptuales y niveles de intervención.",
-    answer: "metodologías específicas.",
-    note: "Alerta de examen: caracterizar cada escuela y su evolución."
+    prompt: "Según los delegados del Consejo de Europa en 2002, ¿cuáles son algunas funciones del Trabajo Social?",
+    answer: "Investigación social, planeación social, administración de programas y educación social.",
+    note: "Se orientan a resolver problemas en sociedad, comunidad, grupos e individuos."
   },
   {
     id: "H-008-D",
     eje: "Historia",
     sourceId: 8,
     kind: "direct",
-    prompt: "¿Cómo se denominan los cambios macrosociales que desbordaron la caridad y abrieron la demanda de intervención profesional ante nuevas cuestiones sociales?",
-    answer: "Transformaciones sociales que impulsaron el Trabajo Social.",
-    note: "Industrialización, urbanización y pobreza urbana son piezas centrales."
-  },
-  {
-    id: "H-008-I",
-    eje: "Historia",
-    sourceId: 8,
-    kind: "inverse",
-    prompt: "¿Qué concepto agrupa la industrialización, la urbanización, la migración masiva y la pobreza urbana como detonantes de una respuesta profesional especializada?",
-    answer: "Transformaciones sociales que impulsaron el Trabajo Social.",
-    note: "Explican la emergencia de nuevas demandas."
-  },
-  {
-    id: "H-008-A",
-    eje: "Historia",
-    sourceId: 8,
-    kind: "cloze",
-    prompt: "La génesis disciplinaria no se entiende por filantropía aislada, sino por cambios _____ que produjeron nuevas cuestiones sociales.",
-    answer: "económico-estructurales.",
-    note: "Alerta de examen: conectar cambios macrosociales con emergencia disciplinaria."
+    prompt: "Desde el punto de vista de la división social del trabajo, ¿cómo se conceptualiza el Trabajo Social?",
+    answer: "Como una profesión.",
+    note: "Cuenta con formación académica, saber certificado y reconocimiento estatal."
   },
   {
     id: "H-009-D",
     eje: "Historia",
     sourceId: 9,
     kind: "direct",
-    prompt: "¿Cómo se denominan las lecturas iniciales que conciben lo social como cuestión a intervenir y que luego migran de visiones patológicas a comprensiones estructurales?",
-    answer: "Conceptualizaciones tempranas de lo social.",
-    note: "Muestran el giro histórico en el modo de nombrar lo social."
-  },
-  {
-    id: "H-009-I",
-    eje: "Historia",
-    sourceId: 9,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe el paso histórico desde visiones patológicas hacia comprensiones estructurales y dinámicas de los procesos sociales?",
-    answer: "Conceptualizaciones tempranas de lo social.",
-    note: "Reformula el objeto de intervención."
-  },
-  {
-    id: "H-009-A",
-    eje: "Historia",
-    sourceId: 9,
-    kind: "cloze",
-    prompt: "Reducir lo social a una carencia individual bloquea el giro hacia una comprensión más _____.",
-    answer: "estructural.",
-    note: "Alerta de examen: evitar el reduccionismo asistencialista."
+    prompt: "En México, ¿a través de qué documento se obtiene el reconocimiento del Estado para ejercer la profesión?",
+    answer: "A través de la Cédula Profesional.",
+    note: "Está respaldada por el Artículo 3º Constitucional y la Ley General de Profesiones."
   },
   {
     id: "H-010-D",
     eje: "Historia",
     sourceId: 10,
     kind: "direct",
-    prompt: "¿Cómo se denomina el intercambio sostenido con otras ciencias que permite a la disciplina ganar legitimación académica y sofisticación metodológica?",
-    answer: "Diálogos interdisciplinarios en la construcción histórica.",
-    note: "Evitan el encierro empirista."
-  },
-  {
-    id: "H-010-I",
-    eje: "Historia",
-    sourceId: 10,
-    kind: "inverse",
-    prompt: "¿Qué concepto nombra los vínculos con sociología, psicología, antropología y filosofía que enriquecen conceptos y métodos del Trabajo Social?",
-    answer: "Diálogos interdisciplinarios en la construcción histórica.",
-    note: "Son un rasgo constitutivo de la disciplina."
-  },
-  {
-    id: "H-010-A",
-    eje: "Historia",
-    sourceId: 10,
-    kind: "cloze",
-    prompt: "La interdisciplinariedad histórica no cumple solo una función de préstamo teórico; también aporta _____.",
-    answer: "legitimación académica y sofisticación metodológica.",
-    note: "Alerta de examen: reconocer influencias disciplinarias decisivas."
+    prompt: "¿Qué constituye la vertiente epistemológica del Trabajo Social?",
+    answer: "Su definición como disciplina de las ciencias sociales.",
+    note: "Tiene cuerpo de conocimientos, metodología de intervención y principios éticos propios."
   },
   {
     id: "H-011-D",
     eje: "Historia",
     sourceId: 11,
     kind: "direct",
-    prompt: "¿Cómo se denomina la reorientación histórica que denuncia el adaptacionismo e individualismo, y empuja la intervención hacia una lectura política y transformación estructural?",
-    answer: "Corrientes críticas en la historia del Trabajo Social.",
-    note: "Cuestionan la reproducción de desigualdades."
-  },
-  {
-    id: "H-011-I",
-    eje: "Historia",
-    sourceId: 11,
-    kind: "inverse",
-    prompt: "¿Qué concepto define el énfasis en empoderamiento, la lectura política de los problemas sociales y la transformación estructural por encima del ajuste individual?",
-    answer: "Corrientes críticas en la historia del Trabajo Social.",
-    note: "Se oponen al Trabajo Social tradicional adaptativo."
-  },
-  {
-    id: "H-011-A",
-    eje: "Historia",
-    sourceId: 11,
-    kind: "cloze",
-    prompt: "La oposición central aquí no es entre teoría y práctica, sino entre Trabajo Social tradicional y Trabajo Social _____.",
-    answer: "crítico.",
-    note: "Alerta de examen: comprender el debate entre adaptación y transformación."
+    prompt: "Según el texto, ¿qué es la situación social?",
+    answer: "El conjunto de necesidades homogéneas de los grupos sociales y el influjo de ciertos acontecimientos sobre ellos.",
+    note: "Permite ubicar condiciones compartidas y sus efectos colectivos."
   },
   {
     id: "H-012-D",
     eje: "Historia",
     sourceId: 12,
     kind: "direct",
-    prompt: "¿Cómo se denomina el proceso por el cual una profesión adquiere autonomía, reconocimiento social e inserción especializada a través de formación, ética y producción teórica?",
-    answer: "Consolidación de identidades profesionales.",
-    note: "Fija rasgos de pertenencia disciplinaria."
-  },
-  {
-    id: "H-012-I",
-    eje: "Historia",
-    sourceId: 12,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe la formación sistematizada, la producción teórica, los códigos éticos y los campos de práctica específicos como base de la autonomía profesional?",
-    answer: "Consolidación de identidades profesionales.",
-    note: "Asocia identidad con legitimidad y especialización."
-  },
-  {
-    id: "H-012-A",
-    eje: "Historia",
-    sourceId: 12,
-    kind: "cloze",
-    prompt: "Cuando la profesión gana autonomía y reconocimiento, la identidad profesional se vuelve también una fuente de _____.",
-    answer: "legitimidad disciplinaria.",
-    note: "Alerta de examen: relacionar identidad profesional con legitimidad."
+    prompt: "¿Cómo se pueden definir las necesidades sociales?",
+    answer: "Como actividades sociales permanentes o de largo plazo, como alimentación, salud, empleo, educación y vivienda.",
+    note: "Se entienden como una escasez relativa que requiere desarrollo social para su satisfacción."
   },
   {
     id: "H-013-D",
     eje: "Historia",
     sourceId: 13,
     kind: "direct",
-    prompt: "¿Cómo se denomina el marco histórico en el que la reforma social, los movimientos obreros y la construcción estatal condicionan el surgimiento profesional del Trabajo Social?",
-    answer: "Contextos políticos de surgimiento disciplinario.",
-    note: "La profesión nace en una escena política concreta."
-  },
-  {
-    id: "H-013-I",
-    eje: "Historia",
-    sourceId: 13,
-    kind: "inverse",
-    prompt: "¿Qué concepto agrupa la convergencia de reforma social, demandas democráticas, movimientos obreros y construcción de Estados modernos como condición histórica del Trabajo Social?",
-    answer: "Contextos políticos de surgimiento disciplinario.",
-    note: "Explican las orientaciones y espacios de intervención."
-  },
-  {
-    id: "H-013-A",
-    eje: "Historia",
-    sourceId: 13,
-    kind: "cloze",
-    prompt: "Mirar la disciplina como si hubiera surgido al margen de la política equivale a _____.",
-    answer: "naturalizarla.",
-    note: "Alerta de examen: reconocer las determinaciones políticas del surgimiento profesional."
+    prompt: "¿Cuál es un objetivo general del Trabajo Social frente a la problemática social?",
+    answer: "Investigar la problemática para identificar necesidades y generar políticas preventivas y de atención.",
+    note: "La investigación orienta la intervención pública y profesional."
   },
   {
     id: "H-014-D",
     eje: "Historia",
     sourceId: 14,
     kind: "direct",
-    prompt: "¿Cómo se denomina la transición desde el aprendizaje empírico con mentores hacia currículos estructurados e integración universitaria en el Trabajo Social?",
-    answer: "Formación profesional: evolución histórica.",
-    note: "Refleja la maduración disciplinaria."
-  },
-  {
-    id: "H-014-I",
-    eje: "Historia",
-    sourceId: 14,
-    kind: "inverse",
-    prompt: "¿Qué concepto designa el paso del aprendizaje empírico a programas formales, currículos estructurados y reconocimiento académico en el Trabajo Social?",
-    answer: "Formación profesional: evolución histórica.",
-    note: "Relaciona la forma de enseñar con la consolidación profesional."
-  },
-  {
-    id: "H-014-A",
-    eje: "Historia",
-    sourceId: 14,
-    kind: "cloze",
-    prompt: "La mejora histórica de la formación no es un lujo académico; se asocia con una mayor _____.",
-    answer: "efectividad profesional.",
-    note: "Alerta de examen: conectar calidad formativa con la práctica."
+    prompt: "¿Hacia quiénes va dirigida prioritariamente la atención para el desarrollo humano?",
+    answer: "Hacia grupos en posición de desventaja dentro del sistema social.",
+    note: "Se les reconoce como grupos de atención prioritaria."
   },
   {
     id: "H-015-D",
     eje: "Historia",
     sourceId: 15,
     kind: "direct",
-    prompt: "¿Cómo se denominan las contribuciones fundacionales que convierten la experiencia acumulada en metodología, teoría y modelos de intervención duraderos?",
-    answer: "Aportes de pioneros en la construcción teórica.",
-    note: "Generan teoría desde la práctica."
-  },
-  {
-    id: "H-015-I",
-    eje: "Historia",
-    sourceId: 15,
-    kind: "inverse",
-    prompt: "¿Qué concepto agrupa las metodologías innovadoras, los nuevos marcos conceptuales y los modelos de intervención aportados por las figuras fundacionales del Trabajo Social?",
-    answer: "Aportes de pioneros en la construcción teórica.",
-    note: "Consolidan fundamentos persistentes."
-  },
-  {
-    id: "H-015-A",
-    eje: "Historia",
-    sourceId: 15,
-    kind: "cloze",
-    prompt: "Estudiar a los pioneros exige unir nombres propios con sus _____ concretos.",
-    answer: "aportes.",
-    note: "Alerta de examen: identificar autores y contribuciones específicas."
+    prompt: "¿Qué función genérica se relaciona con los servicios institucionales?",
+    answer: "Administrar programas y servicios de asistencia, seguridad social y desarrollo social.",
+    note: "Vincula la gestión institucional con la atención social."
   },
   {
     id: "H-016-D",
     eje: "Historia",
     sourceId: 16,
     kind: "direct",
-    prompt: "¿Cómo se denomina la dinámica regional en la que modelos externos son importados, criticados selectivamente y reconfigurados hasta producir hibridaciones propias?",
-    answer: "Influencias europeas en el Trabajo Social latinoamericano.",
-    note: "Implica adaptación, no copia pasiva."
-  },
-  {
-    id: "H-016-I",
-    eje: "Historia",
-    sourceId: 16,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe la transferencia de modelos europeos atravesada por rechazo selectivo, síntesis innovadora y reinterpretación local en América Latina?",
-    answer: "Influencias europeas en el Trabajo Social latinoamericano.",
-    note: "La región actúa con agencia creativa."
-  },
-  {
-    id: "H-016-A",
-    eje: "Historia",
-    sourceId: 16,
-    kind: "cloze",
-    prompt: "Leer las influencias europeas en el Trabajo Social latinoamericano como una recepción pasiva borra la _____ de la región en la construcción disciplinaria.",
-    answer: "agencia creativa.",
-    note: "Alerta de examen: evitar el determinismo europeo."
+    prompt: "¿Qué permite al trabajador social la función específica de investigación social?",
+    answer: "Conocer, interpretar y diagnosticar situaciones sociales de los sectores con mayores necesidades.",
+    note: "Se realiza mediante una metodología específica."
   },
   {
     id: "H-017-D",
     eje: "Historia",
     sourceId: 17,
     kind: "direct",
-    prompt: "¿Cómo se denomina la presión histórica ejercida por la vivienda, el desempleo, la marginalidad y la vulnerabilidad, capaz de forzar el desarrollo metodológico y la profesionalización?",
-    answer: "Demandas sociales como motor histórico del Trabajo Social.",
-    note: "Las necesidades concretas impulsan la teorización."
-  },
-  {
-    id: "H-017-I",
-    eje: "Historia",
-    sourceId: 17,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe las problemáticas de vivienda, desempleo, marginalidad urbana y vulnerabilidad como catalizadores de la profesionalización del Trabajo Social?",
-    answer: "Demandas sociales como motor histórico del Trabajo Social.",
-    note: "No hay profesionalización sin presión social concreta."
-  },
-  {
-    id: "H-017-A",
-    eje: "Historia",
-    sourceId: 17,
-    kind: "cloze",
-    prompt: "La lógica histórica aquí no es 'problema social sin respuesta', sino 'problema social como motor de' _____.",
-    answer: "desarrollo metodológico y profesionalización.",
-    note: "Alerta de examen: conectar problemas históricos con soluciones profesionales."
+    prompt: "¿Qué se realiza en la función de orientación y gestoría?",
+    answer: "Se refiere y canaliza a la población hacia recursos institucionales.",
+    note: "Requiere conocer instituciones oficiales, privadas y organizaciones de la sociedad civil."
   },
   {
     id: "H-018-D",
     eje: "Historia",
     sourceId: 18,
     kind: "direct",
-    prompt: "¿Cómo se denomina el proceso conflictivo mediante el cual una profesión gana reconocimiento a través de efectividad, conocimiento, alianzas y validación social?",
-    answer: "Legitimación social del Trabajo Social.",
-    note: "No equivale únicamente al dominio técnico."
-  },
-  {
-    id: "H-018-I",
-    eje: "Historia",
-    sourceId: 18,
-    kind: "inverse",
-    prompt: "¿Qué concepto describe las demostraciones de efectividad, la generación de conocimiento, las alianzas institucionales y el reconocimiento por parte de actores sociales como vías de reconocimiento profesional?",
-    answer: "Legitimación social del Trabajo Social.",
-    note: "Se construye entre apoyos y resistencias."
-  },
-  {
-    id: "H-018-A",
-    eje: "Historia",
-    sourceId: 18,
-    kind: "cloze",
-    prompt: "Confundir dominio técnico con aceptación amplia equivale a mezclar legitimidad técnica con legitimidad _____.",
-    answer: "social.",
-    note: "Alerta de examen: distinguir tipos de legitimidad y reconocer controversias."
+    prompt: "¿En qué consiste la función de administración en Trabajo Social?",
+    answer: "En elaborar, dirigir, ejecutar, evaluar y supervisar programas de bienestar social.",
+    note: "Integra planificación, operación y control de programas."
   },
   {
     id: "H-019-D",
     eje: "Historia",
     sourceId: 19,
     kind: "direct",
-    prompt: "¿Cómo se denomina la serie histórica de marcos de intervención que va desde la ayuda asistencial hasta horizontes reparadores y emancipadores?",
-    answer: "Paradigmas históricos de intervención social.",
-    note: "Cada paradigma redefine objetivos y vínculos con la población."
-  },
-  {
-    id: "H-019-I",
-    eje: "Historia",
-    sourceId: 19,
-    kind: "inverse",
-    prompt: "¿Qué concepto designa la secuencia compuesta por los paradigmas asistencial, reparador y emancipador, cada uno con objetivos y relaciones distintos?",
-    answer: "Paradigmas históricos de intervención social.",
-    note: "Organizan cambios de fondo en la práctica."
-  },
-  {
-    id: "H-019-A",
-    eje: "Historia",
-    sourceId: 19,
-    kind: "cloze",
-    prompt: "Caracterizar bien estos marcos exige conectar cada paradigma con sus objetivos, sus métodos y su _____ con la población intervenida.",
-    answer: "tipo de relación.",
-    note: "Alerta de examen: no memorizar solo el nombre del paradigma."
+    prompt: "¿A qué está dirigida la educación social impartida por el profesional?",
+    answer: "A generar conciencia sobre potencialidades, recursos, derechos y obligaciones para la convivencia social.",
+    note: "Fomenta conductas creativas en ámbitos no formales."
   },
   {
     id: "H-020-D",
     eje: "Historia",
     sourceId: 20,
     kind: "direct",
-    prompt: "¿Cómo se denomina el conjunto de cuestiones históricamente no resueltas que enlazan la memoria disciplinaria con las tareas contemporáneas del Trabajo Social?",
-    answer: "Perspectivas futuras: desafíos históricos pendientes.",
-    note: "Conectan la historia de la profesión con su porvenir."
+    prompt: "¿Qué se pretende alcanzar con la organización y promoción social?",
+    answer: "Una sociedad más democrática, justa y participativa.",
+    note: "Promueve la toma de decisiones poblacional mediante programas de promoción."
   },
   {
-    id: "H-020-I",
+    id: "H-021-D",
     eje: "Historia",
-    sourceId: 20,
-    kind: "inverse",
-    prompt: "¿Qué concepto agrupa la equidad de acceso, la superación de desigualdades, la articulación teoría-práctica, el reconocimiento de saberes populares y la participación genuina como tareas pendientes del Trabajo Social?",
-    answer: "Perspectivas futuras: desafíos históricos pendientes.",
-    note: "Muestran problemas abiertos de la disciplina."
+    sourceId: 21,
+    kind: "direct",
+    prompt: "¿Cómo se estructuran los imperativos sociales en una sociedad?",
+    answer: "A partir de obstáculos y contradicciones estructurales en la producción y reproducción de la vida social.",
+    note: "Se expresan como problemas sociales."
   },
   {
-    id: "H-020-A",
+    id: "H-022-D",
     eje: "Historia",
-    sourceId: 20,
-    kind: "cloze",
-    prompt: "Pensar el presente disciplinario sin memoria histórica impide proyectar sus desafíos _____.",
-    answer: "pendientes.",
-    note: "Alerta de examen: conectar historia con proyección futura."
+    sourceId: 22,
+    kind: "direct",
+    prompt: "¿Qué supone la profesionalización de una práctica?",
+    answer: "Sistematizar representaciones como saber especializado e institucionalizar su transmisión avalada por una instancia reconocida.",
+    note: "Ese proceso produce saber certificado."
+  },
+  {
+    id: "H-023-D",
+    eje: "Historia",
+    sourceId: 23,
+    kind: "direct",
+    prompt: "En el contexto de la especificidad, ¿quiénes son los sujetos sociales?",
+    answer: "Individuos, grupos o instancias involucrados en la intervención por su participación significativa en el problema social.",
+    note: "Su identificación es clave para diseñar la intervención."
+  },
+  {
+    id: "H-024-D",
+    eje: "Historia",
+    sourceId: 24,
+    kind: "direct",
+    prompt: "¿Qué constituye el objeto de intervención?",
+    answer: "El problema social concreto que demanda atención y que se construye intelectualmente como objeto de conocimiento.",
+    note: "No es dato bruto; es construcción analítica y práctica."
+  },
+  {
+    id: "H-025-D",
+    eje: "Historia",
+    sourceId: 25,
+    kind: "direct",
+    prompt: "¿Qué es el marco de referencia en la intervención social?",
+    answer: "El conjunto de representaciones teóricas desde las que se entiende el problema y a los sujetos sociales.",
+    note: "También orienta objetivos y procedimientos."
+  },
+  {
+    id: "H-026-D",
+    eje: "Historia",
+    sourceId: 26,
+    kind: "direct",
+    prompt: "¿Qué indican los objetivos específicos de la intervención?",
+    answer: "Lo que se busca lograr con la intervención y el tipo de redefinición que debe sufrir el objeto.",
+    note: "Funcionan como guía operativa del proceso."
+  },
+  {
+    id: "H-027-D",
+    eje: "Historia",
+    sourceId: 27,
+    kind: "direct",
+    prompt: "Como elemento de especificidad, ¿a qué se refiere la función social?",
+    answer: "Al impacto de la intervención profesional en las relaciones sociales implicadas en el problema.",
+    note: "Evalúa incidencia real, no solo ejecución técnica."
+  },
+  {
+    id: "H-028-D",
+    eje: "Historia",
+    sourceId: 28,
+    kind: "direct",
+    prompt: "¿Qué constituyen los procedimientos metodológicos?",
+    answer: "La dimensión operativa del proceso de intervención: etapas, actividades y técnicas.",
+    note: "Definen qué hacer y cómo hacerlo."
+  },
+  {
+    id: "H-029-D",
+    eje: "Historia",
+    sourceId: 29,
+    kind: "direct",
+    prompt: "¿Qué es el saber especializado como dimensión de la profesión?",
+    answer: "Una construcción intelectual que reelabora la experiencia en un cuerpo teórico-metodológico sustentado en ciencia, política y doctrina.",
+    note: "Da base a la autonomía profesional."
+  },
+  {
+    id: "H-030-D",
+    eje: "Historia",
+    sourceId: 30,
+    kind: "direct",
+    prompt: "¿Qué es el currículum profesional?",
+    answer: "El conjunto de interacciones pedagógicas que desarrollan la formación profesional.",
+    note: "Traduce el saber especializado en procesos de enseñanza-aprendizaje."
+  },
+  {
+    id: "H-031-D",
+    eje: "Historia",
+    sourceId: 31,
+    kind: "direct",
+    prompt: "¿Qué representa el mercado de trabajo para el Trabajo Social?",
+    answer: "El espacio donde la especificidad aparece como oferta y demanda de capacidades.",
+    note: "Allí se objetivan el estatus y el valor social de la profesión."
+  },
+  {
+    id: "H-032-D",
+    eje: "Historia",
+    sourceId: 32,
+    kind: "direct",
+    prompt: "¿Qué función tiene el mercado simbólico?",
+    answer: "Legitimar o deslegitimar prácticas profesionales mediante mecanismos sociales e ideológicos.",
+    note: "Incide en el reconocimiento público de la profesión."
+  },
+  {
+    id: "H-033-D",
+    eje: "Historia",
+    sourceId: 33,
+    kind: "direct",
+    prompt: "¿Qué estructura la identidad profesional?",
+    answer: "Una imagen social con la que la sociedad reconoce a los profesionales y un espejo interno para el gremio.",
+    note: "Articula reconocimiento externo y autopercepción profesional."
+  },
+  {
+    id: "H-034-D",
+    eje: "Historia",
+    sourceId: 34,
+    kind: "direct",
+    prompt: "¿De dónde proviene la principal fuente de atribución del estatus profesional?",
+    answer: "De la demanda social.",
+    note: "Esa demanda define necesidad e importancia de la profesión en la reproducción social."
+  },
+  {
+    id: "H-035-D",
+    eje: "Historia",
+    sourceId: 35,
+    kind: "direct",
+    prompt: "¿Qué papel juega el Trabajo Social como sujeto mediador?",
+    answer: "Vincula a portadores de necesidades y carencias con portadores de recursos y satisfactores.",
+    note: "Opera como intermediación social e institucional."
+  },
+  {
+    id: "H-036-D",
+    eje: "Historia",
+    sourceId: 36,
+    kind: "direct",
+    prompt: "Según Boris Lima, ¿cuáles son las cuatro etapas de génesis del Trabajo Social?",
+    answer: "Pretécnica, técnica, precientífica y científica.",
+    note: "Resume una periodización clásica de la evolución profesional."
+  },
+  {
+    id: "H-037-D",
+    eje: "Historia",
+    sourceId: 37,
+    kind: "direct",
+    prompt: "Según Ezequiel Ander-Egg, ¿cuáles son las principales concepciones históricas?",
+    answer: "Benéfico-asistencial, paramédica/parajurídica, aséptico-tecnocrática y desarrollista.",
+    note: "Estas concepciones permiten leer cambios de enfoque en la profesión."
+  },
+  {
+    id: "H-038-D",
+    eje: "Historia",
+    sourceId: 38,
+    kind: "direct",
+    prompt: "En la antigüedad, ¿cómo se definía el sistema de esclavitud?",
+    answer: "Como dominio del hombre por el hombre, donde el esclavo era tratado como cosa sin personalidad jurídica ni derecho a propiedad.",
+    note: "Describe una forma extrema de desigualdad estructural."
+  },
+  {
+    id: "H-039-D",
+    eje: "Historia",
+    sourceId: 39,
+    kind: "direct",
+    prompt: "¿Qué monarca de Mesopotamia introdujo la preocupación moral y la responsabilidad legal?",
+    answer: "Hammurabi, rey de Babilonia.",
+    note: "Su código establecía reparación obligatoria ante actos de perjuicio."
+  },
+  {
+    id: "H-040-D",
+    eje: "Historia",
+    sourceId: 40,
+    kind: "direct",
+    prompt: "En Egipto, ¿quién fue divinizado tras su muerte por destacar como sacerdote curandero?",
+    answer: "Imhotep.",
+    note: "Fue reconocido como dios egipcio de la salud y la medicina."
+  },
+  {
+    id: "H-041-D",
+    eje: "Historia",
+    sourceId: 41,
+    kind: "direct",
+    prompt: "¿Qué opinaba Confucio sobre la limosna?",
+    answer: "Que la piedad era más necesaria que el agua o el fuego, y que la limosna podía ser fuente de sabiduría.",
+    note: "Plantea una justificación moral de la ayuda."
+  },
+  {
+    id: "H-042-D",
+    eje: "Historia",
+    sourceId: 42,
+    kind: "direct",
+    prompt: "Según la filosofía de Lao Tse, ¿cómo lograba el sabio enriquecerse?",
+    answer: "Dedicándose al prójimo: cuanto más da, más tiene.",
+    note: "Subraya reciprocidad y valor ético del dar."
+  },
+  {
+    id: "H-043-D",
+    eje: "Historia",
+    sourceId: 43,
+    kind: "direct",
+    prompt: "¿Qué enseñaba Buda respecto a la subsistencia humana?",
+    answer: "Que todos debían trabajar duro y nadie depender de la limosna o la caridad ajena.",
+    note: "Enfatiza responsabilidad individual frente a la subsistencia."
+  },
+  {
+    id: "H-044-D",
+    eje: "Historia",
+    sourceId: 44,
+    kind: "direct",
+    prompt: "¿Sobre qué estructura religiosa y social fundamentó Moisés a Israel?",
+    answer: "Sobre un monoteísmo arraigado que configuró una teocracia.",
+    note: "Incluía mandatos de ayuda a huérfanos, viudas y pobres."
+  },
+  {
+    id: "H-045-D",
+    eje: "Historia",
+    sourceId: 45,
+    kind: "direct",
+    prompt: "¿Para qué servía el año del jubileo cada cincuenta años en Israel?",
+    answer: "Para redistribuir riqueza, abolir deudas, liberar esclavos y devolver tierras a sus dueños originales.",
+    note: "Funcionaba como mecanismo periódico de corrección social."
+  },
+  {
+    id: "H-046-D",
+    eje: "Historia",
+    sourceId: 46,
+    kind: "direct",
+    prompt: "¿Qué sostenía Platón sobre la riqueza y la pobreza extrema?",
+    answer: "Que ambas debían combatirse: la riqueza corrompe y la pobreza empuja a la desvergüenza.",
+    note: "Propuso asegurar un mínimo para satisfacer necesidades."
+  },
+  {
+    id: "H-047-D",
+    eje: "Historia",
+    sourceId: 47,
+    kind: "direct",
+    prompt: "En la antigua Grecia, ¿qué distinción moral se hacía respecto a los mendigos?",
+    answer: "Entre pobres merecedores y no merecedores.",
+    note: "La distinción se basaba en si la situación era atribuida a desgracia o a falta de voluntad de trabajo."
+  },
+  {
+    id: "H-048-D",
+    eje: "Historia",
+    sourceId: 48,
+    kind: "direct",
+    prompt: "¿Qué era la evosokía en Grecia?",
+    answer: "Una institución de acogida hospitalaria para peregrinos, forasteros y desvalidos.",
+    note: "Constituye antecedente institucional de ayuda social."
+  },
+  {
+    id: "H-049-D",
+    eje: "Historia",
+    sourceId: 49,
+    kind: "direct",
+    prompt: "¿Cuál fue el objetivo de la política de panem et circenses en el Imperio romano?",
+    answer: "Perpetuar el statu quo manteniendo relativamente satisfechas a las masas de menores recursos.",
+    note: "Combina control político y asistencia mínima."
+  },
+  {
+    id: "H-050-D",
+    eje: "Historia",
+    sourceId: 50,
+    kind: "direct",
+    prompt: "¿Qué religión impulsó de forma considerable la ayuda al necesitado basada en el amor al prójimo?",
+    answer: "El cristianismo.",
+    note: "Colocó la caridad como virtud central."
+  },
+  {
+    id: "H-051-D",
+    eje: "Historia",
+    sourceId: 51,
+    kind: "direct",
+    prompt: "En el cristianismo primitivo, ¿quiénes conformaron el modelo más temprano de intervención social?",
+    answer: "Los diáconos y diaconisas.",
+    note: "Registraban pobres y administraban socorro y limosnas."
+  },
+  {
+    id: "H-052-D",
+    eje: "Historia",
+    sourceId: 52,
+    kind: "direct",
+    prompt: "¿Qué institución fundó Fabiola en Roma y Ostia?",
+    answer: "Hospitales cristianos para enfermos abandonados.",
+    note: "Se fundaron tras el Edicto de Milán."
+  },
+  {
+    id: "H-053-D",
+    eje: "Historia",
+    sourceId: 53,
+    kind: "direct",
+    prompt: "¿Sobre qué régimen descansaba el modo de producción feudal?",
+    answer: "Sobre el régimen de servidumbre.",
+    note: "El señor explotaba la fuerza de trabajo del siervo."
+  },
+  {
+    id: "H-054-D",
+    eje: "Historia",
+    sourceId: 54,
+    kind: "direct",
+    prompt: "Durante el feudalismo, ¿qué compensación social ofrecía el señor feudal a sus siervos?",
+    answer: "Apoyo en emergencias, invalidez o desamparo.",
+    note: "Brindaba cierta estabilidad dentro del orden feudal."
+  },
+  {
+    id: "H-055-D",
+    eje: "Historia",
+    sourceId: 55,
+    kind: "direct",
+    prompt: "¿Qué medida sobre mendicidad decretó Carlomagno en 808?",
+    answer: "Prohibió dar limosna a mendigos aptos para trabajar y obligó a nobles a sostener a sus indigentes.",
+    note: "Introduce una lógica de control y responsabilidad local."
+  },
+  {
+    id: "H-056-D",
+    eje: "Historia",
+    sourceId: 56,
+    kind: "direct",
+    prompt: "¿Qué figura de la Edad Media italiana destacó por su caridad hacia todo ser vivo?",
+    answer: "San Francisco de Asís.",
+    note: "Es referente ético-religioso de ayuda y humildad."
+  },
+  {
+    id: "H-057-D",
+    eje: "Historia",
+    sourceId: 57,
+    kind: "direct",
+    prompt: "¿Qué agrupaciones del siglo XI sentaron bases previas a la seguridad social?",
+    answer: "Cooperaciones, cofradías y gremios de artesanos.",
+    note: "Velaban por bienestar del trabajador ante emergencias."
+  },
+  {
+    id: "H-058-D",
+    eje: "Historia",
+    sourceId: 58,
+    kind: "direct",
+    prompt: "¿Qué provocó históricamente el fin del feudalismo y la posterior Revolución Industrial?",
+    answer: "La separación de la población respecto de la tierra y la pérdida de la seguridad económica feudal.",
+    note: "Los siervos quedaron libres, pero más expuestos socialmente."
+  },
+  {
+    id: "H-059-D",
+    eje: "Historia",
+    sourceId: 59,
+    kind: "direct",
+    prompt: "Durante la Edad Media, ¿qué asumió la Iglesia ante la negación de responsabilidad del poder civil?",
+    answer: "Fundar y sostener escuelas, hospitales, asilos y orfanatos en Europa.",
+    note: "Ejerció de hecho una función asistencial sostenida."
+  },
+  {
+    id: "H-060-D",
+    eje: "Historia",
+    sourceId: 60,
+    kind: "direct",
+    prompt: "En la etapa pretécnica, ¿cuál era el objetivo del ejercicio de la caridad?",
+    answer: "Salvar el alma mediante buenas obras por amor a Dios.",
+    note: "La ayuda material se concretaba en la limosna."
+  },
+  {
+    id: "H-061-D",
+    eje: "Historia",
+    sourceId: 61,
+    kind: "direct",
+    prompt: "A diferencia de la caridad, ¿qué motivaba el ejercicio de la filantropía?",
+    answer: "Un imperativo ético de ayudar al prójimo (amor al hombre).",
+    note: "Niega la limosna como dádiva y promueve ayuda paliativa."
+  },
+  {
+    id: "H-062-D",
+    eje: "Historia",
+    sourceId: 62,
+    kind: "direct",
+    prompt: "¿Qué pionero del Renacimiento sostuvo que el socorro a los pobres es función inexcusable del Estado?",
+    answer: "Juan Luis Vives.",
+    note: "Lo planteó en De subventione pauperum (1526)."
+  },
+  {
+    id: "H-063-D",
+    eje: "Historia",
+    sourceId: 63,
+    kind: "direct",
+    prompt: "¿Cuál fue una propuesta clave de Juan Luis Vives frente a la mendicidad?",
+    answer: "Recoger, registrar y clasificar a los pobres, investigar sus medios y obligar a los aptos a trabajar o aprender oficio.",
+    note: "Introduce criterios de diagnóstico y clasificación social."
+  },
+  {
+    id: "H-064-D",
+    eje: "Historia",
+    sourceId: 64,
+    kind: "direct",
+    prompt: "¿A quién se considera el apóstol de la caridad en Francia durante el siglo XVII?",
+    answer: "A San Vicente de Paúl.",
+    note: "Figura central en la organización de ayuda caritativa."
+  },
+  {
+    id: "H-065-D",
+    eje: "Historia",
+    sourceId: 65,
+    kind: "direct",
+    prompt: "¿En qué consistía el Pequeño Método de San Vicente de Paúl?",
+    answer: "En visitar amistosamente al pobre en su domicilio para conocer problemas físicos y morales antes de otorgar ayuda.",
+    note: "Privilegia diagnóstico cercano antes de intervenir."
+  },
+  {
+    id: "H-066-D",
+    eje: "Historia",
+    sourceId: 66,
+    kind: "direct",
+    prompt: "¿Qué dos congregaciones fundó San Vicente de Paúl para atender a los necesitados?",
+    answer: "Las Damas de la Caridad y las Hijas de la Caridad.",
+    note: "Las segundas se crearon junto con Luisa de Marillac."
+  },
+  {
+    id: "H-067-D",
+    eje: "Historia",
+    sourceId: 67,
+    kind: "direct",
+    prompt: "¿Qué proyecto implantó Benjamín Thompson en Múnich en 1790?",
+    answer: "Una casa de trabajo militar para inculcar hábito laboral en mendigos.",
+    note: "Se confeccionaban uniformes a cambio de comida y salario."
+  },
+  {
+    id: "H-068-D",
+    eje: "Historia",
+    sourceId: 68,
+    kind: "direct",
+    prompt: "En Escocia, ¿qué criticaba Thomas Chalmers de la asistencia pública?",
+    answer: "Su carácter impersonal e ineficaz.",
+    note: "Propuso indagar casos para una ayuda mejor dirigida."
+  },
+  {
+    id: "H-069-D",
+    eje: "Historia",
+    sourceId: 69,
+    kind: "direct",
+    prompt: "¿Qué figura introdujo Thomas Chalmers para mejorar la información sobre necesitados?",
+    answer: "Los visitadores voluntarios.",
+    note: "Investigaban circunstancias personales presentándose como amigos."
+  },
+  {
+    id: "H-070-D",
+    eje: "Historia",
+    sourceId: 70,
+    kind: "direct",
+    prompt: "¿Qué ley inglesa de 1601 fue clave para la asistencia social?",
+    answer: "La Ley de los Pobres (Poor Law).",
+    note: "Reconoció obligación estatal hacia desvalidos y estableció casas de trabajo."
+  },
+  {
+    id: "H-071-D",
+    eje: "Historia",
+    sourceId: 71,
+    kind: "direct",
+    prompt: "En la Ley de los Pobres, ¿qué plantea el principio de responsabilidad de los parientes?",
+    answer: "Que la familia debe atender económicamente a sus deudos necesitados antes que el Estado.",
+    note: "Fija prioridad de cuidado familiar legalmente exigible."
+  },
+  {
+    id: "H-072-D",
+    eje: "Historia",
+    sourceId: 72,
+    kind: "direct",
+    prompt: "¿Qué asociación fundada en Londres en 1869 es preludio del Trabajo Social organizado?",
+    answer: "La Sociedad para la Organización de la Caridad (C.O.S.).",
+    note: "Marcó transición hacia prácticas más sistemáticas de intervención."
+  },
+  {
+    id: "H-073-D",
+    eje: "Historia",
+    sourceId: 73,
+    kind: "direct",
+    prompt: "¿Cuál era la exigencia básica de la C.O.S. antes de otorgar ayuda?",
+    answer: "Realizar una encuesta escrita exhaustiva de cada caso.",
+    note: "Luego una comisión decidía buscando rehabilitación y no solo caridad."
+  },
+  {
+    id: "H-074-D",
+    eje: "Historia",
+    sourceId: 74,
+    kind: "direct",
+    prompt: "A fines del siglo XIX, ¿en qué ámbito institucional nace formalmente el Trabajo Social como profesión?",
+    answer: "En el seno de prácticas y representaciones de las Organizaciones de la Caridad.",
+    note: "La C.O.S. es referencia central de ese proceso."
+  },
+  {
+    id: "H-075-D",
+    eje: "Historia",
+    sourceId: 75,
+    kind: "direct",
+    prompt: "¿Qué aportó el Estado a la profesionalización del Trabajo Social a inicios del siglo XX?",
+    answer: "Un espacio laboral mediante la asistencia pública y legitimación del rol intermediario como trabajo asalariado.",
+    note: "Vinculó ejercicio profesional y estructura estatal."
+  },
+  {
+    id: "H-076-D",
+    eje: "Historia",
+    sourceId: 76,
+    kind: "direct",
+    prompt: "¿Quién fue Octavia Hill y qué lema impulsó en la atención a necesitados?",
+    answer: "Reformadora británica de programas de vivienda; impulsó el lema 'not alms, but a friend'.",
+    note: "Promovía acompañamiento relacional más que limosna puntual."
+  },
+  {
+    id: "H-077-D",
+    eje: "Historia",
+    sourceId: 77,
+    kind: "direct",
+    prompt: "¿Dónde surgieron las primeras escuelas formales de Trabajo Social alrededor de 1900?",
+    answer: "En Ámsterdam, Londres, Berlín y Nueva York.",
+    note: "Aparecieron en centros urbanos industrializados."
+  },
+  {
+    id: "H-078-D",
+    eje: "Historia",
+    sourceId: 78,
+    kind: "direct",
+    prompt: "¿Por qué en Estados Unidos el Trabajo Social se orientó históricamente hacia el individuo y los casos?",
+    answer: "Por el fuerte individualismo social y la idea de que el fracaso económico tenía causas predominantemente individuales.",
+    note: "Esto consolidó el enfoque casework."
+  },
+  {
+    id: "H-079-D",
+    eje: "Historia",
+    sourceId: 79,
+    kind: "direct",
+    prompt: "¿Quién es la figura clave del Trabajo Social de casos en Estados Unidos y autora de Social Diagnosis (1917)?",
+    answer: "Mary Ellen Richmond.",
+    note: "Su obra es fundacional para el diagnóstico social en casework."
+  },
+  {
+    id: "H-080-D",
+    eje: "Historia",
+    sourceId: 80,
+    kind: "direct",
+    prompt: "Según Mary Richmond, ¿qué proceso racional es indispensable para realizar Trabajo Social?",
+    answer: "La investigación social mediante inducción lógica.",
+    note: "Consiste en pasar de hechos particulares a formulaciones generales para el diagnóstico."
+  },
+  {
+    id: "H-081-D",
+    eje: "Historia",
+    sourceId: 81,
+    kind: "direct",
+    prompt: "¿Cuál fue el principal mérito psicológico de la obra de Mary Richmond?",
+    answer: "Comprender el dinamismo de las relaciones interhumanas para modificar la personalidad del asistido.",
+    note: "Destacó la acción de mente a mente en la intervención."
+  },
+  {
+    id: "H-082-D",
+    eje: "Historia",
+    sourceId: 82,
+    kind: "direct",
+    prompt: "Durante la concepción benéfico-asistencial en América Latina, ¿cómo era la ayuda?",
+    answer: "Paternalista y motivada por razones moralistas o religiosas.",
+    note: "Pesaba más la figura del dador que la del receptor."
+  },
+  {
+    id: "H-083-D",
+    eje: "Historia",
+    sourceId: 83,
+    kind: "direct",
+    prompt: "¿En qué año y país se fundó la primera escuela de Trabajo Social en América Latina?",
+    answer: "En 1925, en Santiago de Chile.",
+    note: "Fue fundada por el médico Alejandro del Río."
+  },
+  {
+    id: "H-084-D",
+    eje: "Historia",
+    sourceId: 84,
+    kind: "direct",
+    prompt: "Bajo la concepción paramédica en Chile, ¿qué función se asignaba al trabajador social?",
+    answer: "La de visitadora social auxiliar, sin autonomía profesional plena.",
+    note: "Vigilaba cumplimiento de tratamiento médico e higiene."
+  },
+  {
+    id: "H-085-D",
+    eje: "Historia",
+    sourceId: 85,
+    kind: "direct",
+    prompt: "¿Dónde inició la enseñanza profesional bajo una concepción parajurídica?",
+    answer: "En Argentina, en 1935, dentro de la Facultad de Derecho y Ciencias Sociales.",
+    note: "El rol se enfocó en gestoría y trámite legal de menores infractores."
+  },
+  {
+    id: "H-086-D",
+    eje: "Historia",
+    sourceId: 86,
+    kind: "direct",
+    prompt: "¿Qué postulado regía al Estado benefactor que impulsó la concepción aséptico-tecnocrática?",
+    answer: "Proteger a grupos de bajos ingresos frente a riesgos de la sociedad industrial.",
+    note: "Lo hacía mediante leyes y pensiones, preservando el sistema capitalista."
+  },
+  {
+    id: "H-087-D",
+    eje: "Historia",
+    sourceId: 87,
+    kind: "direct",
+    prompt: "¿Por qué se llamó aséptica a la práctica del trabajador social en la posguerra latinoamericana?",
+    answer: "Porque se volvió descomprometida ideológica y políticamente.",
+    note: "Se aplicaban métodos importados para ajustar disfuncionalidades del sistema."
+  },
+  {
+    id: "H-088-D",
+    eje: "Historia",
+    sourceId: 88,
+    kind: "direct",
+    prompt: "¿Qué organismo internacional promovió la creación de escuelas de Trabajo Social en América Latina tras la Segunda Guerra Mundial?",
+    answer: "La Organización de las Naciones Unidas (ONU).",
+    note: "También impulsó becas de formación hacia Estados Unidos."
+  },
+  {
+    id: "H-089-D",
+    eje: "Historia",
+    sourceId: 89,
+    kind: "direct",
+    prompt: "¿Qué tesis originó la concepción desarrollista del Trabajo Social en los años cincuenta?",
+    answer: "La tesis de modernización económica elaborada por la CEPAL.",
+    note: "Buscó convertir al trabajador social en técnico de apoyo al desarrollo nacional."
+  },
+  {
+    id: "H-090-D",
+    eje: "Historia",
+    sourceId: 90,
+    kind: "direct",
+    prompt: "¿Qué programa de Estados Unidos, derivado del contexto de la Revolución Cubana, impactó proyectos sociales en Latinoamérica en 1961?",
+    answer: "La Alianza para el Progreso.",
+    note: "Fue impulsada por Kennedy para frenar subdesarrollo e influencia socialista."
+  },
+  {
+    id: "H-091-D",
+    eje: "Historia",
+    sourceId: 91,
+    kind: "direct",
+    prompt: "¿En qué década surge de lleno el movimiento de reconceptualización del Trabajo Social en América Latina?",
+    answer: "En la década de los sesenta, especialmente a mediados y finales.",
+    note: "Marca un giro crítico en la profesión regional."
+  },
+  {
+    id: "H-092-D",
+    eje: "Historia",
+    sourceId: 92,
+    kind: "direct",
+    prompt: "Según sectores estudiantiles y profesionales, ¿qué definió al movimiento de reconceptualización?",
+    answer: "La resistencia a lo dado y la adecuación de la profesión a exigencias reales de Latinoamérica.",
+    note: "Incluyó dimensiones políticas, económicas y de dependencia."
+  },
+  {
+    id: "H-093-D",
+    eje: "Historia",
+    sourceId: 93,
+    kind: "direct",
+    prompt: "¿Cuáles fueron aportes metodológicos clave del movimiento de reconceptualización para superar modelos importados?",
+    answer: "El Método Básico, el Método Único y el Método Integrado.",
+    note: "Buscaban mayor pertinencia con la realidad latinoamericana."
+  },
+  {
+    id: "H-094-D",
+    eje: "Historia",
+    sourceId: 94,
+    kind: "direct",
+    prompt: "¿Cuál se considera un saldo positivo de la reconceptualización en el plano teórico?",
+    answer: "La creación de marcos teóricos sustentados en la realidad latinoamericana y la caída del velo ideológico.",
+    note: "Fortaleció producción conceptual situada."
+  },
+  {
+    id: "H-095-D",
+    eje: "Historia",
+    sourceId: 95,
+    kind: "direct",
+    prompt: "Menciona un saldo negativo derivado de los excesos del movimiento de reconceptualización.",
+    answer: "El uso indiscriminado, como moda, de conceptos derivados del marxismo y el alejamiento de instituciones del Estado.",
+    note: "Ejemplos frecuentes: lucha de clases o dialéctica usadas sin rigor analítico."
   },
   {
     id: "M-021-D",
