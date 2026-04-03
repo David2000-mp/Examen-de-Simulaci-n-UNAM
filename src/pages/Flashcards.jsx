@@ -635,7 +635,17 @@ export default function Flashcards() {
             {usesPromptFormat ? (
               <>
                 <p className="mb-2 rounded-full bg-brand-50 px-2 py-1 text-[11px] font-semibold uppercase tracking-wide text-brand-700">
-                  {isPersonalized ? "Error" : concept.kind === "direct" ? "Directa" : concept.kind === "inverse" ? "Inversa" : "Alerta"}
+                  {isPersonalized
+                    ? concept.kind === "error-review"
+                      ? "Error"
+                      : concept.kind === "team-review"
+                        ? "Equipo"
+                        : "Tarjeta"
+                    : concept.kind === "direct"
+                      ? "Directa"
+                      : concept.kind === "inverse"
+                        ? "Inversa"
+                        : "Alerta"}
                 </p>
                 <h2 className="text-center text-xl font-semibold leading-relaxed text-brand-900">{concept.prompt}</h2>
               </>
