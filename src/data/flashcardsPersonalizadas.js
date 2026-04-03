@@ -1,335 +1,5 @@
 const flashcardsPersonalizadas = [
   {
-    "id": "EQ-001",
-    "eje": "Historia",
-    "sourceId": 1,
-    "kind": "team-review",
-    "titulo": "Qué caracteriza a la etapa \"pretécnica\" del Trabajo Social",
-    "prompt": "¿Qué caracteriza a la etapa \"pretécnica\" del Trabajo Social?",
-    "answer": "La ayuda basada en la caridad, la filantropía y el empirismo, sin una base teórica ni metodológica sistematizada.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 1/100"
-  },
-  {
-    "id": "EQ-002",
-    "eje": "Historia",
-    "sourceId": 2,
-    "kind": "team-review",
-    "titulo": "Qué figura histórica es considerada precursora de la asistencia social o",
-    "prompt": "¿Qué figura histórica es considerada precursora de la asistencia social organizada con su obra Del socorro de los pobres?",
-    "answer": "Juan Luis Vives.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 2/100"
-  },
-  {
-    "id": "EQ-003",
-    "eje": "Historia",
-    "sourceId": 3,
-    "kind": "team-review",
-    "titulo": "Cuál fue el aporte principal de Thomas Chalmers a la asistencia social",
-    "prompt": "¿Cuál fue el aporte principal de Thomas Chalmers a la asistencia social?",
-    "answer": "La individualización de la ayuda y la subdivisión de las ciudades en distritos para un abordaje sistemático de la pobreza.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 3/100"
-  },
-  {
-    "id": "EQ-004",
-    "eje": "Historia",
-    "sourceId": 4,
-    "kind": "team-review",
-    "titulo": "Qué significan las siglas COS en el contexto histórico anglosajón",
-    "prompt": "¿Qué significan las siglas COS en el contexto histórico anglosajón?",
-    "answer": "Charity Organization Society (Sociedad para la Organización de la Caridad).",
-    "note": "Banco equipo · Eje Historia · Tarjeta 4/100"
-  },
-  {
-    "id": "EQ-005",
-    "eje": "Historia",
-    "sourceId": 5,
-    "kind": "team-review",
-    "titulo": "Qué pionera del Trabajo Social fundó la Hull House y recibió el Premio N",
-    "prompt": "¿Qué pionera del Trabajo Social fundó la Hull House y recibió el Premio Nobel de la Paz?",
-    "answer": "Jane Addams.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 5/100"
-  },
-  {
-    "id": "EQ-006",
-    "eje": "Historia",
-    "sourceId": 6,
-    "kind": "team-review",
-    "titulo": "En qué año y contexto histórico surge la primera escuela de Trabajo Soci",
-    "prompt": "¿En qué año y contexto histórico surge la primera escuela de Trabajo Social en América Latina?",
-    "answer": "En 1925, en Santiago de Chile, fundada por el Dr. Alejandro del Río.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 6/100"
-  },
-  {
-    "id": "EQ-007",
-    "eje": "Historia",
-    "sourceId": 7,
-    "kind": "team-review",
-    "titulo": "Qué es la \"cuestión social\" en el contexto del surgimiento de la profesi",
-    "prompt": "¿Qué es la \"cuestión social\" en el contexto del surgimiento de la profesión?",
-    "answer": "El conjunto de problemas sociales, laborales y de pobreza generados por la Revolución Industrial y el sistema capitalista.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 7/100"
-  },
-  {
-    "id": "EQ-008",
-    "eje": "Historia",
-    "sourceId": 8,
-    "kind": "team-review",
-    "titulo": "A qué se refiere Boris Lima con la etapa \"técnica\" del Trabajo Social en",
-    "prompt": "¿A qué se refiere Boris Lima con la etapa \"técnica\" del Trabajo Social en América Latina?",
-    "answer": "Al periodo de adopción acrítica de modelos y técnicas estadounidenses (casework, grupo, comunidad) con fines de ajuste social.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 8/100"
-  },
-  {
-    "id": "EQ-009",
-    "eje": "Historia",
-    "sourceId": 9,
-    "kind": "team-review",
-    "titulo": "Cuál fue el principal detonante del movimiento de Reconceptualización",
-    "prompt": "¿Cuál fue el principal detonante del movimiento de Reconceptualización?",
-    "answer": "La crisis del desarrollismo en América Latina y la influencia de la Teoría de la Dependencia y la pedagogía liberadora.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 9/100"
-  },
-  {
-    "id": "EQ-010",
-    "eje": "Historia",
-    "sourceId": 10,
-    "kind": "team-review",
-    "titulo": "Qué propone el enfoque \"decolonial\" emergente en el Trabajo Social latin",
-    "prompt": "¿Qué propone el enfoque \"decolonial\" emergente en el Trabajo Social latinoamericano?",
-    "answer": "Superar el eurocentrismo y construir metodologías desde los saberes y cosmovisiones de los pueblos del sur global.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 10/100"
-  },
-  {
-    "id": "EQ-011",
-    "eje": "Historia",
-    "sourceId": 11,
-    "kind": "team-review",
-    "titulo": "En qué año se fundó la Escuela Nacional de Trabajo Social (ENTS) en la U",
-    "prompt": "¿En qué año se fundó la Escuela Nacional de Trabajo Social (ENTS) en la UNAM?",
-    "answer": "En 1973 (pasando de ser una carrera técnica dependiente de la Facultad de Derecho a Escuela Nacional).",
-    "note": "Banco equipo · Eje Historia · Tarjeta 11/100"
-  },
-  {
-    "id": "EQ-012",
-    "eje": "Historia",
-    "sourceId": 12,
-    "kind": "team-review",
-    "titulo": "Según Aída Valero, ¿qué antecedente institucional de 1933 marcó el inici",
-    "prompt": "Según Aída Valero, ¿qué antecedente institucional de 1933 marcó el inicio de la formación en México?",
-    "answer": "La Escuela de Salubridad y Asistencia Pública.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 12/100"
-  },
-  {
-    "id": "EQ-013",
-    "eje": "Historia",
-    "sourceId": 13,
-    "kind": "team-review",
-    "titulo": "Cuál es la diferencia entre Filantropía y Caridad histórica",
-    "prompt": "¿Cuál es la diferencia entre Filantropía y Caridad histórica?",
-    "answer": "La caridad tiene un móvil religioso (amor a Dios), mientras que la filantropía tiene un móvil laico y humanista (amor al hombre).",
-    "note": "Banco equipo · Eje Historia · Tarjeta 13/100"
-  },
-  {
-    "id": "EQ-014",
-    "eje": "Historia",
-    "sourceId": 14,
-    "kind": "team-review",
-    "titulo": "Qué concepto define Ezequiel Ander-Egg como \"el conjunto de acciones par",
-    "prompt": "¿Qué concepto define Ezequiel Ander-Egg como \"el conjunto de acciones para capacitar a la población para su autodesarrollo\"?",
-    "answer": "Promoción social.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 14/100"
-  },
-  {
-    "id": "EQ-015",
-    "eje": "Historia",
-    "sourceId": 15,
-    "kind": "team-review",
-    "titulo": "A qué se refiere el término \"Asistencialismo\"",
-    "prompt": "¿A qué se refiere el término \"Asistencialismo\"?",
-    "answer": "A la entrega de recursos que resuelve una necesidad inmediata, pero crea dependencia y no transforma las causas del problema.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 15/100"
-  },
-  {
-    "id": "EQ-016",
-    "eje": "Historia",
-    "sourceId": 16,
-    "kind": "team-review",
-    "titulo": "En el Estado de Bienestar, ¿qué diferencia al modelo \"Beveridge\" del mod",
-    "prompt": "En el Estado de Bienestar, ¿qué diferencia al modelo \"Beveridge\" del modelo \"Bismarck\"?",
-    "answer": "El modelo Beveridge es universal y financiado por impuestos; el de Bismarck es ocupacional y financiado por cuotas de trabajadores/patrones.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 16/100"
-  },
-  {
-    "id": "EQ-017",
-    "eje": "Historia",
-    "sourceId": 17,
-    "kind": "team-review",
-    "titulo": "Qué impacto tuvo el Neoliberalismo en la política social y el Trabajo So",
-    "prompt": "¿Qué impacto tuvo el Neoliberalismo en la política social y el Trabajo Social?",
-    "answer": "La privatización de servicios, reducción del gasto público y la focalización de la asistencia solo en pobreza extrema.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 17/100"
-  },
-  {
-    "id": "EQ-018",
-    "eje": "Historia",
-    "sourceId": 18,
-    "kind": "team-review",
-    "titulo": "Cuál es la \"Intencionalidad\" dentro de la especificidad profesional segú",
-    "prompt": "¿Cuál es la \"Intencionalidad\" dentro de la especificidad profesional según Valero Chávez?",
-    "answer": "El \"para qué\" de la profesión; los objetivos ético-políticos de transformación o mantenimiento del orden social.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 18/100"
-  },
-  {
-    "id": "EQ-019",
-    "eje": "Historia",
-    "sourceId": 19,
-    "kind": "team-review",
-    "titulo": "Qué diferencia al Trabajo Social de otras ciencias sociales según la his",
-    "prompt": "¿Qué diferencia al Trabajo Social de otras ciencias sociales según la historia de la disciplina?",
-    "answer": "Su carácter fundamentalmente interventivo y tecnológico, no solo explicativo.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 19/100"
-  },
-  {
-    "id": "EQ-020",
-    "eje": "Historia",
-    "sourceId": 20,
-    "kind": "team-review",
-    "titulo": "Qué significa la \"sistematización de la práctica\" promovida post-Reconce",
-    "prompt": "¿Qué significa la \"sistematización de la práctica\" promovida post-Reconceptualización?",
-    "answer": "El proceso de recuperación y análisis crítico de la experiencia de intervención para generar teoría desde la práctica.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 20/100"
-  },
-  {
-    "id": "EQ-021",
-    "eje": "Historia",
-    "sourceId": 21,
-    "kind": "team-review",
-    "titulo": "Qué es la \"matriz metodológica\" clásica del Trabajo Social norteamerican",
-    "prompt": "¿Qué es la \"matriz metodológica\" clásica del Trabajo Social norteamericano?",
-    "answer": "La división en Caso, Grupo y Comunidad.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 21/100"
-  },
-  {
-    "id": "EQ-022",
-    "eje": "Historia",
-    "sourceId": 22,
-    "kind": "team-review",
-    "titulo": "Qué critica la Reconceptualización al concepto de \"adaptación social\"",
-    "prompt": "¿Qué critica la Reconceptualización al concepto de \"adaptación social\"?",
-    "answer": "Que busca conformar al individuo a un sistema injusto, en lugar de cambiar el sistema.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 22/100"
-  },
-  {
-    "id": "EQ-023",
-    "eje": "Historia",
-    "sourceId": 23,
-    "kind": "team-review",
-    "titulo": "Por qué la Revolución Mexicana fue clave para los antecedentes del Traba",
-    "prompt": "¿Por qué la Revolución Mexicana fue clave para los antecedentes del Trabajo Social en México?",
-    "answer": "Porque generó la Constitución de 1917, que consagró los derechos sociales, creando la necesidad de instituciones estatales de bienestar.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 23/100"
-  },
-  {
-    "id": "EQ-024",
-    "eje": "Historia",
-    "sourceId": 24,
-    "kind": "team-review",
-    "titulo": "Qué es el \"Empowerment\" (Empoderamiento) en la intervención comunitaria",
-    "prompt": "¿Qué es el \"Empowerment\" (Empoderamiento) en la intervención comunitaria?",
-    "answer": "El proceso mediante el cual las personas y comunidades adquieren control sobre sus propias vidas y recursos.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 24/100"
-  },
-  {
-    "id": "EQ-025",
-    "eje": "Historia",
-    "sourceId": 25,
-    "kind": "team-review",
-    "titulo": "Cuál es el núcleo del \"secreto profesional\" en Trabajo Social histórico",
-    "prompt": "¿Cuál es el núcleo del \"secreto profesional\" en Trabajo Social histórico?",
-    "answer": "La obligación ética de proteger la confidencialidad de la información revelada por el usuario, salvo riesgo de daño grave.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 25/100"
-  },
-  {
-    "id": "EQ-026",
-    "eje": "Historia",
-    "sourceId": 26,
-    "kind": "team-review",
-    "titulo": "Qué rol asume el Trabajador Social en el modelo radical o crítico",
-    "prompt": "¿Qué rol asume el Trabajador Social en el modelo radical o crítico?",
-    "answer": "El de facilitador o educador popular que promueve la toma de conciencia de clase.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 26/100"
-  },
-  {
-    "id": "EQ-027",
-    "eje": "Historia",
-    "sourceId": 27,
-    "kind": "team-review",
-    "titulo": "Qué caracteriza a los \"Nuevos Movimientos Sociales\" frente a los tradici",
-    "prompt": "¿Qué caracteriza a los \"Nuevos Movimientos Sociales\" frente a los tradicionales obreros?",
-    "answer": "Reivindican identidades, cultura y derechos específicos (feminismo, ecologismo, LGBT+) más allá de la pura clase económica.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 27/100"
-  },
-  {
-    "id": "EQ-028",
-    "eje": "Historia",
-    "sourceId": 28,
-    "kind": "team-review",
-    "titulo": "Por qué el Trabajo Social se feminizó desde sus orígenes",
-    "prompt": "¿Por qué el Trabajo Social se feminizó desde sus orígenes?",
-    "answer": "Por la extensión del rol tradicional de cuidado y maternidad de la mujer hacia el ámbito público en el siglo XIX.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 28/100"
-  },
-  {
-    "id": "EQ-029",
-    "eje": "Historia",
-    "sourceId": 29,
-    "kind": "team-review",
-    "titulo": "Según Boris Lima, ¿qué etapa busca dotar de rigor científico y metodológ",
-    "prompt": "Según Boris Lima, ¿qué etapa busca dotar de rigor científico y metodológico al quehacer profesional?",
-    "answer": "La etapa científica.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 29/100"
-  },
-  {
-    "id": "EQ-030",
-    "eje": "Historia",
-    "sourceId": 30,
-    "kind": "team-review",
-    "titulo": "Qué elemento define la \"Identidad Profesional\"",
-    "prompt": "¿Qué elemento define la \"Identidad Profesional\"?",
-    "answer": "El conjunto de rasgos, valores y funciones que los trabajadores sociales reconocen como propios y que la sociedad les atribuye.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 30/100"
-  },
-  {
-    "id": "EQ-031",
-    "eje": "Historia",
-    "sourceId": 31,
-    "kind": "team-review",
-    "titulo": "Qué concepto reemplaza a la noción de \"cliente\" en el Trabajo Social con",
-    "prompt": "¿Qué concepto reemplaza a la noción de \"cliente\" en el Trabajo Social contemporáneo?",
-    "answer": "Ciudadano o Sujeto de derechos.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 31/100"
-  },
-  {
-    "id": "EQ-032",
-    "eje": "Historia",
-    "sourceId": 32,
-    "kind": "team-review",
-    "titulo": "Qué modelo de intervención prioriza el Trabajo Social en el ámbito de la",
-    "prompt": "¿Qué modelo de intervención prioriza el Trabajo Social en el ámbito de la salud actualmente?",
-    "answer": "El modelo biopsicosocial.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 32/100"
-  },
-  {
-    "id": "EQ-033",
-    "eje": "Historia",
-    "sourceId": 33,
-    "kind": "team-review",
-    "titulo": "Qué es el \"Colonialismo intelectual\" criticado en América Latina",
-    "prompt": "¿Qué es el \"Colonialismo intelectual\" criticado en América Latina?",
-    "answer": "La importación de marcos teóricos del Norte global que no responden a la realidad y estructura de la región.",
-    "note": "Banco equipo · Eje Historia · Tarjeta 33/100"
-  },
-  {
     "id": "EQ-034",
     "eje": "Teoría Social",
     "sourceId": 34,
@@ -998,6 +668,336 @@ const flashcardsPersonalizadas = [
     "prompt": "¿Por qué es fundamental definir la \"Viabilidad\" del estudio en el proyecto metodológico?",
     "answer": "Para asegurar de antemano que se cuenta con los recursos financieros, temporales, humanos y de acceso al campo necesarios para realizarlo.",
     "note": "Banco equipo · Eje Metodología · Tarjeta 100/100"
+  },
+  {
+    "id": "EQ-001",
+    "eje": "Historia",
+    "sourceId": 1,
+    "kind": "team-review",
+    "titulo": "Qué caracteriza a la etapa \"pretécnica\" del Trabajo Social",
+    "prompt": "¿Qué caracteriza a la etapa \"pretécnica\" del Trabajo Social?",
+    "answer": "La ayuda basada en la caridad, la filantropía y el empirismo, sin una base teórica ni metodológica sistematizada.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 1/100"
+  },
+  {
+    "id": "EQ-002",
+    "eje": "Historia",
+    "sourceId": 2,
+    "kind": "team-review",
+    "titulo": "Qué figura histórica es considerada precursora de la asistencia social o",
+    "prompt": "¿Qué figura histórica es considerada precursora de la asistencia social organizada con su obra Del socorro de los pobres?",
+    "answer": "Juan Luis Vives.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 2/100"
+  },
+  {
+    "id": "EQ-003",
+    "eje": "Historia",
+    "sourceId": 3,
+    "kind": "team-review",
+    "titulo": "Cuál fue el aporte principal de Thomas Chalmers a la asistencia social",
+    "prompt": "¿Cuál fue el aporte principal de Thomas Chalmers a la asistencia social?",
+    "answer": "La individualización de la ayuda y la subdivisión de las ciudades en distritos para un abordaje sistemático de la pobreza.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 3/100"
+  },
+  {
+    "id": "EQ-004",
+    "eje": "Historia",
+    "sourceId": 4,
+    "kind": "team-review",
+    "titulo": "Qué significan las siglas COS en el contexto histórico anglosajón",
+    "prompt": "¿Qué significan las siglas COS en el contexto histórico anglosajón?",
+    "answer": "Charity Organization Society (Sociedad para la Organización de la Caridad).",
+    "note": "Banco equipo · Eje Historia · Tarjeta 4/100"
+  },
+  {
+    "id": "EQ-005",
+    "eje": "Historia",
+    "sourceId": 5,
+    "kind": "team-review",
+    "titulo": "Qué pionera del Trabajo Social fundó la Hull House y recibió el Premio N",
+    "prompt": "¿Qué pionera del Trabajo Social fundó la Hull House y recibió el Premio Nobel de la Paz?",
+    "answer": "Jane Addams.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 5/100"
+  },
+  {
+    "id": "EQ-006",
+    "eje": "Historia",
+    "sourceId": 6,
+    "kind": "team-review",
+    "titulo": "En qué año y contexto histórico surge la primera escuela de Trabajo Soci",
+    "prompt": "¿En qué año y contexto histórico surge la primera escuela de Trabajo Social en América Latina?",
+    "answer": "En 1925, en Santiago de Chile, fundada por el Dr. Alejandro del Río.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 6/100"
+  },
+  {
+    "id": "EQ-007",
+    "eje": "Historia",
+    "sourceId": 7,
+    "kind": "team-review",
+    "titulo": "Qué es la \"cuestión social\" en el contexto del surgimiento de la profesi",
+    "prompt": "¿Qué es la \"cuestión social\" en el contexto del surgimiento de la profesión?",
+    "answer": "El conjunto de problemas sociales, laborales y de pobreza generados por la Revolución Industrial y el sistema capitalista.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 7/100"
+  },
+  {
+    "id": "EQ-008",
+    "eje": "Historia",
+    "sourceId": 8,
+    "kind": "team-review",
+    "titulo": "A qué se refiere Boris Lima con la etapa \"técnica\" del Trabajo Social en",
+    "prompt": "¿A qué se refiere Boris Lima con la etapa \"técnica\" del Trabajo Social en América Latina?",
+    "answer": "Al periodo de adopción acrítica de modelos y técnicas estadounidenses (casework, grupo, comunidad) con fines de ajuste social.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 8/100"
+  },
+  {
+    "id": "EQ-009",
+    "eje": "Historia",
+    "sourceId": 9,
+    "kind": "team-review",
+    "titulo": "Cuál fue el principal detonante del movimiento de Reconceptualización",
+    "prompt": "¿Cuál fue el principal detonante del movimiento de Reconceptualización?",
+    "answer": "La crisis del desarrollismo en América Latina y la influencia de la Teoría de la Dependencia y la pedagogía liberadora.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 9/100"
+  },
+  {
+    "id": "EQ-010",
+    "eje": "Historia",
+    "sourceId": 10,
+    "kind": "team-review",
+    "titulo": "Qué propone el enfoque \"decolonial\" emergente en el Trabajo Social latin",
+    "prompt": "¿Qué propone el enfoque \"decolonial\" emergente en el Trabajo Social latinoamericano?",
+    "answer": "Superar el eurocentrismo y construir metodologías desde los saberes y cosmovisiones de los pueblos del sur global.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 10/100"
+  },
+  {
+    "id": "EQ-011",
+    "eje": "Historia",
+    "sourceId": 11,
+    "kind": "team-review",
+    "titulo": "En qué año se fundó la Escuela Nacional de Trabajo Social (ENTS) en la U",
+    "prompt": "¿En qué año se fundó la Escuela Nacional de Trabajo Social (ENTS) en la UNAM?",
+    "answer": "En 1973 (pasando de ser una carrera técnica dependiente de la Facultad de Derecho a Escuela Nacional).",
+    "note": "Banco equipo · Eje Historia · Tarjeta 11/100"
+  },
+  {
+    "id": "EQ-012",
+    "eje": "Historia",
+    "sourceId": 12,
+    "kind": "team-review",
+    "titulo": "Según Aída Valero, ¿qué antecedente institucional de 1933 marcó el inici",
+    "prompt": "Según Aída Valero, ¿qué antecedente institucional de 1933 marcó el inicio de la formación en México?",
+    "answer": "La Escuela de Salubridad y Asistencia Pública.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 12/100"
+  },
+  {
+    "id": "EQ-013",
+    "eje": "Historia",
+    "sourceId": 13,
+    "kind": "team-review",
+    "titulo": "Cuál es la diferencia entre Filantropía y Caridad histórica",
+    "prompt": "¿Cuál es la diferencia entre Filantropía y Caridad histórica?",
+    "answer": "La caridad tiene un móvil religioso (amor a Dios), mientras que la filantropía tiene un móvil laico y humanista (amor al hombre).",
+    "note": "Banco equipo · Eje Historia · Tarjeta 13/100"
+  },
+  {
+    "id": "EQ-014",
+    "eje": "Historia",
+    "sourceId": 14,
+    "kind": "team-review",
+    "titulo": "Qué concepto define Ezequiel Ander-Egg como \"el conjunto de acciones par",
+    "prompt": "¿Qué concepto define Ezequiel Ander-Egg como \"el conjunto de acciones para capacitar a la población para su autodesarrollo\"?",
+    "answer": "Promoción social.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 14/100"
+  },
+  {
+    "id": "EQ-015",
+    "eje": "Historia",
+    "sourceId": 15,
+    "kind": "team-review",
+    "titulo": "A qué se refiere el término \"Asistencialismo\"",
+    "prompt": "¿A qué se refiere el término \"Asistencialismo\"?",
+    "answer": "A la entrega de recursos que resuelve una necesidad inmediata, pero crea dependencia y no transforma las causas del problema.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 15/100"
+  },
+  {
+    "id": "EQ-016",
+    "eje": "Historia",
+    "sourceId": 16,
+    "kind": "team-review",
+    "titulo": "En el Estado de Bienestar, ¿qué diferencia al modelo \"Beveridge\" del mod",
+    "prompt": "En el Estado de Bienestar, ¿qué diferencia al modelo \"Beveridge\" del modelo \"Bismarck\"?",
+    "answer": "El modelo Beveridge es universal y financiado por impuestos; el de Bismarck es ocupacional y financiado por cuotas de trabajadores/patrones.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 16/100"
+  },
+  {
+    "id": "EQ-017",
+    "eje": "Historia",
+    "sourceId": 17,
+    "kind": "team-review",
+    "titulo": "Qué impacto tuvo el Neoliberalismo en la política social y el Trabajo So",
+    "prompt": "¿Qué impacto tuvo el Neoliberalismo en la política social y el Trabajo Social?",
+    "answer": "La privatización de servicios, reducción del gasto público y la focalización de la asistencia solo en pobreza extrema.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 17/100"
+  },
+  {
+    "id": "EQ-018",
+    "eje": "Historia",
+    "sourceId": 18,
+    "kind": "team-review",
+    "titulo": "Cuál es la \"Intencionalidad\" dentro de la especificidad profesional segú",
+    "prompt": "¿Cuál es la \"Intencionalidad\" dentro de la especificidad profesional según Valero Chávez?",
+    "answer": "El \"para qué\" de la profesión; los objetivos ético-políticos de transformación o mantenimiento del orden social.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 18/100"
+  },
+  {
+    "id": "EQ-019",
+    "eje": "Historia",
+    "sourceId": 19,
+    "kind": "team-review",
+    "titulo": "Qué diferencia al Trabajo Social de otras ciencias sociales según la his",
+    "prompt": "¿Qué diferencia al Trabajo Social de otras ciencias sociales según la historia de la disciplina?",
+    "answer": "Su carácter fundamentalmente interventivo y tecnológico, no solo explicativo.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 19/100"
+  },
+  {
+    "id": "EQ-020",
+    "eje": "Historia",
+    "sourceId": 20,
+    "kind": "team-review",
+    "titulo": "Qué significa la \"sistematización de la práctica\" promovida post-Reconce",
+    "prompt": "¿Qué significa la \"sistematización de la práctica\" promovida post-Reconceptualización?",
+    "answer": "El proceso de recuperación y análisis crítico de la experiencia de intervención para generar teoría desde la práctica.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 20/100"
+  },
+  {
+    "id": "EQ-021",
+    "eje": "Historia",
+    "sourceId": 21,
+    "kind": "team-review",
+    "titulo": "Qué es la \"matriz metodológica\" clásica del Trabajo Social norteamerican",
+    "prompt": "¿Qué es la \"matriz metodológica\" clásica del Trabajo Social norteamericano?",
+    "answer": "La división en Caso, Grupo y Comunidad.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 21/100"
+  },
+  {
+    "id": "EQ-022",
+    "eje": "Historia",
+    "sourceId": 22,
+    "kind": "team-review",
+    "titulo": "Qué critica la Reconceptualización al concepto de \"adaptación social\"",
+    "prompt": "¿Qué critica la Reconceptualización al concepto de \"adaptación social\"?",
+    "answer": "Que busca conformar al individuo a un sistema injusto, en lugar de cambiar el sistema.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 22/100"
+  },
+  {
+    "id": "EQ-023",
+    "eje": "Historia",
+    "sourceId": 23,
+    "kind": "team-review",
+    "titulo": "Por qué la Revolución Mexicana fue clave para los antecedentes del Traba",
+    "prompt": "¿Por qué la Revolución Mexicana fue clave para los antecedentes del Trabajo Social en México?",
+    "answer": "Porque generó la Constitución de 1917, que consagró los derechos sociales, creando la necesidad de instituciones estatales de bienestar.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 23/100"
+  },
+  {
+    "id": "EQ-024",
+    "eje": "Historia",
+    "sourceId": 24,
+    "kind": "team-review",
+    "titulo": "Qué es el \"Empowerment\" (Empoderamiento) en la intervención comunitaria",
+    "prompt": "¿Qué es el \"Empowerment\" (Empoderamiento) en la intervención comunitaria?",
+    "answer": "El proceso mediante el cual las personas y comunidades adquieren control sobre sus propias vidas y recursos.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 24/100"
+  },
+  {
+    "id": "EQ-025",
+    "eje": "Historia",
+    "sourceId": 25,
+    "kind": "team-review",
+    "titulo": "Cuál es el núcleo del \"secreto profesional\" en Trabajo Social histórico",
+    "prompt": "¿Cuál es el núcleo del \"secreto profesional\" en Trabajo Social histórico?",
+    "answer": "La obligación ética de proteger la confidencialidad de la información revelada por el usuario, salvo riesgo de daño grave.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 25/100"
+  },
+  {
+    "id": "EQ-026",
+    "eje": "Historia",
+    "sourceId": 26,
+    "kind": "team-review",
+    "titulo": "Qué rol asume el Trabajador Social en el modelo radical o crítico",
+    "prompt": "¿Qué rol asume el Trabajador Social en el modelo radical o crítico?",
+    "answer": "El de facilitador o educador popular que promueve la toma de conciencia de clase.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 26/100"
+  },
+  {
+    "id": "EQ-027",
+    "eje": "Historia",
+    "sourceId": 27,
+    "kind": "team-review",
+    "titulo": "Qué caracteriza a los \"Nuevos Movimientos Sociales\" frente a los tradici",
+    "prompt": "¿Qué caracteriza a los \"Nuevos Movimientos Sociales\" frente a los tradicionales obreros?",
+    "answer": "Reivindican identidades, cultura y derechos específicos (feminismo, ecologismo, LGBT+) más allá de la pura clase económica.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 27/100"
+  },
+  {
+    "id": "EQ-028",
+    "eje": "Historia",
+    "sourceId": 28,
+    "kind": "team-review",
+    "titulo": "Por qué el Trabajo Social se feminizó desde sus orígenes",
+    "prompt": "¿Por qué el Trabajo Social se feminizó desde sus orígenes?",
+    "answer": "Por la extensión del rol tradicional de cuidado y maternidad de la mujer hacia el ámbito público en el siglo XIX.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 28/100"
+  },
+  {
+    "id": "EQ-029",
+    "eje": "Historia",
+    "sourceId": 29,
+    "kind": "team-review",
+    "titulo": "Según Boris Lima, ¿qué etapa busca dotar de rigor científico y metodológ",
+    "prompt": "Según Boris Lima, ¿qué etapa busca dotar de rigor científico y metodológico al quehacer profesional?",
+    "answer": "La etapa científica.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 29/100"
+  },
+  {
+    "id": "EQ-030",
+    "eje": "Historia",
+    "sourceId": 30,
+    "kind": "team-review",
+    "titulo": "Qué elemento define la \"Identidad Profesional\"",
+    "prompt": "¿Qué elemento define la \"Identidad Profesional\"?",
+    "answer": "El conjunto de rasgos, valores y funciones que los trabajadores sociales reconocen como propios y que la sociedad les atribuye.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 30/100"
+  },
+  {
+    "id": "EQ-031",
+    "eje": "Historia",
+    "sourceId": 31,
+    "kind": "team-review",
+    "titulo": "Qué concepto reemplaza a la noción de \"cliente\" en el Trabajo Social con",
+    "prompt": "¿Qué concepto reemplaza a la noción de \"cliente\" en el Trabajo Social contemporáneo?",
+    "answer": "Ciudadano o Sujeto de derechos.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 31/100"
+  },
+  {
+    "id": "EQ-032",
+    "eje": "Historia",
+    "sourceId": 32,
+    "kind": "team-review",
+    "titulo": "Qué modelo de intervención prioriza el Trabajo Social en el ámbito de la",
+    "prompt": "¿Qué modelo de intervención prioriza el Trabajo Social en el ámbito de la salud actualmente?",
+    "answer": "El modelo biopsicosocial.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 32/100"
+  },
+  {
+    "id": "EQ-033",
+    "eje": "Historia",
+    "sourceId": 33,
+    "kind": "team-review",
+    "titulo": "Qué es el \"Colonialismo intelectual\" criticado en América Latina",
+    "prompt": "¿Qué es el \"Colonialismo intelectual\" criticado en América Latina?",
+    "answer": "La importación de marcos teóricos del Norte global que no responden a la realidad y estructura de la región.",
+    "note": "Banco equipo · Eje Historia · Tarjeta 33/100"
   }
 ];
 
