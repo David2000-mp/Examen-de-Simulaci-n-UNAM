@@ -157,6 +157,22 @@ export function useExamEngine(allQuestions = []) {
   const startExam = useCallback(
     ({ mode, axis = "General" }) => {
       const filtered = filterByAxis(allQuestions, axis);
+      if (!filtered.length) {
+        setState((prev) => ({
+          ...prev,
+          mode: null,
+          axis: "General",
+          status: "idle",
+          questions: [],
+          currentIndex: 0,
+          answers: {},
+          marked: {},
+          endAt: null,
+          finishedAt: null
+        }));
+        return;
+      }
+
       const questions = shuffleQuestions(filtered);
       const sessionId = `session-${Date.now()}`;
 
