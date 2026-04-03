@@ -4,16 +4,16 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 1,
     kind: "direct",
-    prompt: "Punto de inflexion disciplinario que convierte ayudas dispersas en intervencion profesional sustentada en teoria, metodo y practica integrada.",
+    prompt: "¿Cómo se denomina el punto de inflexión disciplinario que transforma las ayudas dispersas en una intervención profesional sustentada en teoría, método y práctica integrada?",
     answer: "Trabajo Social moderno.",
-    note: "Se consolida como disciplina cientifica en el siglo XX."
+    note: "Se consolida como disciplina científica en el siglo XX."
   },
   {
     id: "H-001-I",
     eje: "Historia",
     sourceId: 1,
     kind: "inverse",
-    prompt: "Nombre del punto de llegada disciplinar que sustituye ayuda intuitiva por intervencion con base teorico-metodologica.",
+    prompt: "¿Qué concepto designa la etapa en que la ayuda intuitiva es reemplazada por una intervención con base teórico-metodológica?",
     answer: "Trabajo Social moderno.",
     note: "Marca la salida del asistencialismo intuitivo."
   },
@@ -22,34 +22,34 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 1,
     kind: "cloze",
-    prompt: "La ruptura decisiva de este concepto no es entre dos tecnicas de ayuda, sino entre _____ y _____.",
-    answer: "caridad tradicional e intervencion profesional.",
-    note: "Alerta de examen: no confundir ayuda caritativa con consolidacion disciplinaria."
+    prompt: "La ruptura decisiva del Trabajo Social moderno no se da entre dos técnicas de ayuda, sino entre _____ y _____.",
+    answer: "caridad tradicional e intervención profesional.",
+    note: "Alerta de examen: no confundir ayuda caritativa con consolidación disciplinaria."
   },
   {
     id: "H-002-D",
     eje: "Historia",
     sourceId: 2,
     kind: "direct",
-    prompt: "Raices historicas ubicadas en la reforma social europea, la filantropia organizada y la beneficencia del siglo XIX.",
-    answer: "Antecedentes historicos del Trabajo Social.",
-    note: "Preceden a la profesionalizacion formal."
+    prompt: "¿Cómo se denominan las raíces históricas del Trabajo Social ubicadas en la reforma social europea, la filantropía organizada y la beneficencia del siglo XIX?",
+    answer: "Antecedentes históricos del Trabajo Social.",
+    note: "Preceden a la profesionalización formal."
   },
   {
     id: "H-002-I",
     eje: "Historia",
     sourceId: 2,
     kind: "inverse",
-    prompt: "Conjunto previo a la profesionalizacion formado por iniciativas filantropicas, beneficencia organizada y reforma social europea.",
-    answer: "Antecedentes historicos del Trabajo Social.",
-    note: "Explican el sustrato historico de la profesion."
+    prompt: "¿Qué término agrupa las iniciativas filantrópicas, la beneficencia organizada y la reforma social europea que preceden a la profesionalización del Trabajo Social?",
+    answer: "Antecedentes históricos del Trabajo Social.",
+    note: "Explican el sustrato histórico de la profesión."
   },
   {
     id: "H-002-A",
     eje: "Historia",
     sourceId: 2,
     kind: "cloze",
-    prompt: "Antes de la profesionalizacion, la ayuda social paso por _____ y luego por la reforma social moderna.",
+    prompt: "Antes de la profesionalización, la ayuda social pasó por _____ y luego por la reforma social moderna.",
     answer: "formas caritativas medievales.",
     note: "Alerta de examen: distinguir caridad medieval de reforma social moderna."
   },
@@ -58,35 +58,35 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 3,
     kind: "direct",
-    prompt: "Proceso regional no lineal en el que modelos importados son confrontados con realidades locales hasta producir identidades profesionales propias.",
-    answer: "Evolucion de la profesion en America Latina.",
-    note: "Implica adaptacion contextual y reinterpretacion."
+    prompt: "¿Cómo se denomina el proceso regional no lineal en el que modelos importados son confrontados con realidades locales hasta producir identidades profesionales propias?",
+    answer: "Evolución de la profesión en América Latina.",
+    note: "Implica adaptación contextual y reinterpretación."
   },
   {
     id: "H-003-I",
     eje: "Historia",
     sourceId: 3,
     kind: "inverse",
-    prompt: "Adaptacion contextual, dialogo interdisciplinar y reinterpretacion critica de modelos europeos en contextos latinoamericanos.",
-    answer: "Evolucion de la profesion en America Latina.",
-    note: "No fue copia mecanica."
+    prompt: "¿Qué concepto describe la adaptación contextual, el diálogo interdisciplinar y la reinterpretación crítica de modelos europeos en contextos latinoamericanos?",
+    answer: "Evolución de la profesión en América Latina.",
+    note: "No fue una copia mecánica."
   },
   {
     id: "H-003-A",
     eje: "Historia",
     sourceId: 3,
     kind: "cloze",
-    prompt: "Leer este proceso solo como transplante de modelos externos produce un sesgo de _____.",
+    prompt: "Leer la evolución de la profesión en América Latina únicamente como trasplante de modelos externos produce un sesgo de _____.",
     answer: "eurocentrismo.",
-    note: "Alerta de examen: relacionar desarrollos regionales con contextos globales sin borrar agencia local."
+    note: "Alerta de examen: relacionar desarrollos regionales con contextos globales sin borrar la agencia local."
   },
   {
     id: "H-004-D",
     eje: "Historia",
     sourceId: 4,
     kind: "direct",
-    prompt: "Base intelectual temprana que articula teoria sociologica, psicologia social y filosofia del servicio para justificar intervencion sistematica.",
-    answer: "Fundamentos teoricos iniciales del Trabajo Social.",
+    prompt: "¿Cómo se denomina la base intelectual temprana que articula la teoría sociológica, la psicología social y la filosofía del servicio para justificar una intervención sistemática?",
+    answer: "Fundamentos teóricos iniciales del Trabajo Social.",
     note: "Organizan el corpus conceptual temprano."
   },
   {
@@ -94,35 +94,35 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 4,
     kind: "inverse",
-    prompt: "Convergencia inicial de teoria sociologica, psicologia social y filosofia del servicio en un corpus coherente.",
-    answer: "Fundamentos teoricos iniciales del Trabajo Social.",
-    note: "Da sustento a la estructuracion disciplinaria."
+    prompt: "¿Qué concepto describe la convergencia inicial de teoría sociológica, psicología social y filosofía del servicio en un corpus coherente?",
+    answer: "Fundamentos teóricos iniciales del Trabajo Social.",
+    note: "Da sustento a la estructuración disciplinaria."
   },
   {
     id: "H-004-A",
     eje: "Historia",
     sourceId: 4,
     kind: "cloze",
-    prompt: "Entre las influencias tempranas decisivas no figuran solo tecnicas asistenciales; tambien aparecen _____ y _____.",
-    answer: "teoria sociologica y psicologia social.",
-    note: "Alerta de examen: conectar influencias cientificas con el contexto intelectual del periodo."
+    prompt: "Entre las influencias tempranas decisivas no figuran solo técnicas asistenciales; también aparecen _____ y _____.",
+    answer: "teoría sociológica y psicología social.",
+    note: "Alerta de examen: conectar influencias científicas con el contexto intelectual del periodo."
   },
   {
     id: "H-005-D",
     eje: "Historia",
     sourceId: 5,
     kind: "direct",
-    prompt: "Trayectoria historica por la cual el agente profesional pasa de tareas asistenciales a funciones transformadoras y criticas.",
-    answer: "Rol social del trabajador social en contextos historicos.",
-    note: "Cambia segun el marco historico-politico."
+    prompt: "¿Cómo se denomina la trayectoria histórica por la cual el agente profesional transita de tareas asistenciales a funciones transformadoras y críticas?",
+    answer: "Rol social del trabajador social en contextos históricos.",
+    note: "Cambia según el marco histórico-político."
   },
   {
     id: "H-005-I",
     eje: "Historia",
     sourceId: 5,
     kind: "inverse",
-    prompt: "Secuencia de funciones que va de la asistencia a la intermediacion, la movilizacion y la lectura critica de conflictos.",
-    answer: "Rol social del trabajador social en contextos historicos.",
+    prompt: "¿Qué concepto describe la secuencia de funciones que va de la asistencia a la intermediación, la movilización y la lectura crítica de conflictos?",
+    answer: "Rol social del trabajador social en contextos históricos.",
     note: "No permanece fijo a lo largo del tiempo."
   },
   {
@@ -130,79 +130,79 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 5,
     kind: "cloze",
-    prompt: "Interpretar este itinerario como un unico rol permanente produce una vision _____.",
+    prompt: "Interpretar el rol social del trabajador social como un único rol permanente produce una visión _____.",
     answer: "reduccionista.",
-    note: "Alerta de examen: analizar cambios de rol segun contexto historico-politico."
+    note: "Alerta de examen: analizar cambios de rol según el contexto histórico-político."
   },
   {
     id: "H-006-D",
     eje: "Historia",
     sourceId: 6,
     kind: "direct",
-    prompt: "Proceso de formalizacion que crea escuelas, regulacion, codigos eticos y marcos de actuacion para una profesion.",
-    answer: "Institucionalizacion del Trabajo Social.",
-    note: "Consolida reconocimiento formal y estandares de formacion."
+    prompt: "¿Cómo se denomina el proceso de formalización que crea escuelas, regulaciones, códigos éticos y marcos de actuación para una profesión?",
+    answer: "Institucionalización del Trabajo Social.",
+    note: "Consolida reconocimiento formal y estándares de formación."
   },
   {
     id: "H-006-I",
     eje: "Historia",
     sourceId: 6,
     kind: "inverse",
-    prompt: "Creacion de escuelas profesionales, regulacion estatal, codigos de etica y espacios formales de intervencion.",
-    answer: "Institucionalizacion del Trabajo Social.",
-    note: "Da forma estable a la profesion."
+    prompt: "¿Qué término define la creación de escuelas profesionales, la regulación estatal, los códigos de ética y los espacios formales de intervención en el Trabajo Social?",
+    answer: "Institucionalización del Trabajo Social.",
+    note: "Da forma estable a la profesión."
   },
   {
     id: "H-006-A",
     eje: "Historia",
     sourceId: 6,
     kind: "cloze",
-    prompt: "La institucionalizacion se relaciona con la profesionalizacion, pero no son identicas: la primera formaliza y la segunda _____.",
+    prompt: "La institucionalización se relaciona con la profesionalización, pero no son idénticas: la primera formaliza y la segunda _____.",
     answer: "consolida competencias y reconocimiento profesional.",
-    note: "Alerta de examen: relacionar institucionalizacion con profesionalizacion sin fusionarlas."
+    note: "Alerta de examen: relacionar institucionalización con profesionalización sin fusionarlas."
   },
   {
     id: "H-007-D",
     eje: "Historia",
     sourceId: 7,
     kind: "direct",
-    prompt: "Configuracion historica multimétodo formada por caso, grupo y comunidad como corrientes organizadoras del pensamiento profesional.",
-    answer: "Escuelas historicas del Trabajo Social.",
-    note: "Cada una aporta metodologia y nivel de intervencion."
+    prompt: "¿Cómo se denominan las corrientes históricas que organizan el pensamiento profesional del Trabajo Social en torno al caso, el grupo y la comunidad?",
+    answer: "Escuelas históricas del Trabajo Social.",
+    note: "Cada una aporta metodología y nivel de intervención."
   },
   {
     id: "H-007-I",
     eje: "Historia",
     sourceId: 7,
     kind: "inverse",
-    prompt: "Trabajo Social de Casos, Trabajo Social de Grupo y Trabajo Social Comunitario como corrientes articuladoras de una disciplina.",
-    answer: "Escuelas historicas del Trabajo Social.",
-    note: "Consolidan una estructura multimétodo."
+    prompt: "¿Qué concepto agrupa el Trabajo Social de Casos, el de Grupo y el Comunitario como corrientes articuladoras de la disciplina?",
+    answer: "Escuelas históricas del Trabajo Social.",
+    note: "Consolidan una estructura multimetodológica."
   },
   {
     id: "H-007-A",
     eje: "Historia",
     sourceId: 7,
     kind: "cloze",
-    prompt: "Describir estas corrientes exige reconocer no solo nombres, sino tambien _____, marcos conceptuales y niveles de intervencion.",
-    answer: "metodologias especificas.",
-    note: "Alerta de examen: caracterizar cada escuela y su evolucion."
+    prompt: "Describir estas corrientes exige reconocer no solo nombres, sino también _____, marcos conceptuales y niveles de intervención.",
+    answer: "metodologías específicas.",
+    note: "Alerta de examen: caracterizar cada escuela y su evolución."
   },
   {
     id: "H-008-D",
     eje: "Historia",
     sourceId: 8,
     kind: "direct",
-    prompt: "Conjunto de cambios macrosociales que desbordaron la caridad y abrieron demanda de intervencion profesional sobre nuevas cuestiones sociales.",
+    prompt: "¿Cómo se denominan los cambios macrosociales que desbordaron la caridad y abrieron la demanda de intervención profesional ante nuevas cuestiones sociales?",
     answer: "Transformaciones sociales que impulsaron el Trabajo Social.",
-    note: "Industrializacion, urbanizacion y pobreza urbana son piezas centrales."
+    note: "Industrialización, urbanización y pobreza urbana son piezas centrales."
   },
   {
     id: "H-008-I",
     eje: "Historia",
     sourceId: 8,
     kind: "inverse",
-    prompt: "Industrializacion, urbanizacion, migracion masiva y pobreza urbana como detonantes de respuesta profesional especializada.",
+    prompt: "¿Qué concepto agrupa la industrialización, la urbanización, la migración masiva y la pobreza urbana como detonantes de una respuesta profesional especializada?",
     answer: "Transformaciones sociales que impulsaron el Trabajo Social.",
     note: "Explican la emergencia de nuevas demandas."
   },
@@ -211,8 +211,8 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 8,
     kind: "cloze",
-    prompt: "La genesis disciplinaria no se entiende por filantropia aislada, sino por cambios _____ que produjeron nuevas cuestiones sociales.",
-    answer: "economico-estructurales.",
+    prompt: "La génesis disciplinaria no se entiende por filantropía aislada, sino por cambios _____ que produjeron nuevas cuestiones sociales.",
+    answer: "económico-estructurales.",
     note: "Alerta de examen: conectar cambios macrosociales con emergencia disciplinaria."
   },
   {
@@ -220,35 +220,35 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 9,
     kind: "direct",
-    prompt: "Lectura inicial que concibe lo social como cuestion a intervenir y que luego migra de visiones patologicas a comprensiones mas estructurales.",
+    prompt: "¿Cómo se denominan las lecturas iniciales que conciben lo social como cuestión a intervenir y que luego migran de visiones patológicas a comprensiones estructurales?",
     answer: "Conceptualizaciones tempranas de lo social.",
-    note: "Muestran el giro historico en el modo de nombrar lo social."
+    note: "Muestran el giro histórico en el modo de nombrar lo social."
   },
   {
     id: "H-009-I",
     eje: "Historia",
     sourceId: 9,
     kind: "inverse",
-    prompt: "Paso historico desde visiones patologicas hacia comprensiones estructurales y dinamicas de los procesos sociales.",
+    prompt: "¿Qué concepto describe el paso histórico desde visiones patológicas hacia comprensiones estructurales y dinámicas de los procesos sociales?",
     answer: "Conceptualizaciones tempranas de lo social.",
-    note: "Reformula el objeto de intervencion."
+    note: "Reformula el objeto de intervención."
   },
   {
     id: "H-009-A",
     eje: "Historia",
     sourceId: 9,
     kind: "cloze",
-    prompt: "Reducir lo social a carencia individual bloquea el giro hacia una comprension mas _____.",
+    prompt: "Reducir lo social a una carencia individual bloquea el giro hacia una comprensión más _____.",
     answer: "estructural.",
-    note: "Alerta de examen: evitar reduccionismo asistencialista."
+    note: "Alerta de examen: evitar el reduccionismo asistencialista."
   },
   {
     id: "H-010-D",
     eje: "Historia",
     sourceId: 10,
     kind: "direct",
-    prompt: "Intercambio sostenido con otras ciencias que permite a la disciplina ganar legitimacion academica y sofisticacion metodologica.",
-    answer: "Dialogos interdisciplinarios en construccion historica.",
+    prompt: "¿Cómo se denomina el intercambio sostenido con otras ciencias que permite a la disciplina ganar legitimación académica y sofisticación metodológica?",
+    answer: "Diálogos interdisciplinarios en la construcción histórica.",
     note: "Evitan el encierro empirista."
   },
   {
@@ -256,17 +256,17 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 10,
     kind: "inverse",
-    prompt: "Vinculos con sociologia, psicologia, antropologia y filosofia que enriquecen conceptos y metodos.",
-    answer: "Dialogos interdisciplinarios en construccion historica.",
-    note: "Son rasgo constitutivo de la disciplina."
+    prompt: "¿Qué concepto nombra los vínculos con sociología, psicología, antropología y filosofía que enriquecen conceptos y métodos del Trabajo Social?",
+    answer: "Diálogos interdisciplinarios en la construcción histórica.",
+    note: "Son un rasgo constitutivo de la disciplina."
   },
   {
     id: "H-010-A",
     eje: "Historia",
     sourceId: 10,
     kind: "cloze",
-    prompt: "La interdisciplinariedad historica no cumple solo una funcion de prestamo teorico; tambien aporta _____.",
-    answer: "legitimacion academica y sofisticacion metodologica.",
+    prompt: "La interdisciplinariedad histórica no cumple solo una función de préstamo teórico; también aporta _____.",
+    answer: "legitimación académica y sofisticación metodológica.",
     note: "Alerta de examen: reconocer influencias disciplinarias decisivas."
   },
   {
@@ -274,35 +274,35 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 11,
     kind: "direct",
-    prompt: "Reorientacion historica que denuncia adaptacionismo e individualismo y empuja la intervencion hacia lectura politica y transformacion estructural.",
-    answer: "Corrientes criticas en la historia del Trabajo Social.",
-    note: "Cuestionan la reproduccion de desigualdades."
+    prompt: "¿Cómo se denomina la reorientación histórica que denuncia el adaptacionismo e individualismo, y empuja la intervención hacia una lectura política y transformación estructural?",
+    answer: "Corrientes críticas en la historia del Trabajo Social.",
+    note: "Cuestionan la reproducción de desigualdades."
   },
   {
     id: "H-011-I",
     eje: "Historia",
     sourceId: 11,
     kind: "inverse",
-    prompt: "Enfasis en empoderamiento, lectura politica de problemas sociales y transformacion estructural por encima del ajuste individual.",
-    answer: "Corrientes criticas en la historia del Trabajo Social.",
-    note: "Se oponen al trabajo social tradicional adaptativo."
+    prompt: "¿Qué concepto define el énfasis en empoderamiento, la lectura política de los problemas sociales y la transformación estructural por encima del ajuste individual?",
+    answer: "Corrientes críticas en la historia del Trabajo Social.",
+    note: "Se oponen al Trabajo Social tradicional adaptativo."
   },
   {
     id: "H-011-A",
     eje: "Historia",
     sourceId: 11,
     kind: "cloze",
-    prompt: "La oposicion central aqui no es entre teoria y practica, sino entre Trabajo Social tradicional y Trabajo Social _____.",
-    answer: "critico.",
-    note: "Alerta de examen: comprender el debate entre adaptacion y transformacion."
+    prompt: "La oposición central aquí no es entre teoría y práctica, sino entre Trabajo Social tradicional y Trabajo Social _____.",
+    answer: "crítico.",
+    note: "Alerta de examen: comprender el debate entre adaptación y transformación."
   },
   {
     id: "H-012-D",
     eje: "Historia",
     sourceId: 12,
     kind: "direct",
-    prompt: "Proceso por el que una profesion adquiere autonomia, reconocimiento social e insercion especializada a traves de formacion, etica y produccion teorica.",
-    answer: "Consolidacion de identidades profesionales.",
+    prompt: "¿Cómo se denomina el proceso por el cual una profesión adquiere autonomía, reconocimiento social e inserción especializada a través de formación, ética y producción teórica?",
+    answer: "Consolidación de identidades profesionales.",
     note: "Fija rasgos de pertenencia disciplinaria."
   },
   {
@@ -310,16 +310,16 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 12,
     kind: "inverse",
-    prompt: "Formacion sistematizada, produccion teorica, codigos eticos y campos de practica especificos como base de autonomia profesional.",
-    answer: "Consolidacion de identidades profesionales.",
-    note: "Asocia identidad con legitimidad y especializacion."
+    prompt: "¿Qué concepto describe la formación sistematizada, la producción teórica, los códigos éticos y los campos de práctica específicos como base de la autonomía profesional?",
+    answer: "Consolidación de identidades profesionales.",
+    note: "Asocia identidad con legitimidad y especialización."
   },
   {
     id: "H-012-A",
     eje: "Historia",
     sourceId: 12,
     kind: "cloze",
-    prompt: "Cuando la profesion gana autonomia y reconocimiento, la identidad profesional se vuelve tambien una fuente de _____.",
+    prompt: "Cuando la profesión gana autonomía y reconocimiento, la identidad profesional se vuelve también una fuente de _____.",
     answer: "legitimidad disciplinaria.",
     note: "Alerta de examen: relacionar identidad profesional con legitimidad."
   },
@@ -328,71 +328,71 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 13,
     kind: "direct",
-    prompt: "Marco historico en el que reforma social, movimientos obreros y construccion estatal condicionan el surgimiento profesional.",
-    answer: "Contextos politicos de surgimiento disciplinario.",
-    note: "La profesion nace en una escena politica concreta."
+    prompt: "¿Cómo se denomina el marco histórico en el que la reforma social, los movimientos obreros y la construcción estatal condicionan el surgimiento profesional del Trabajo Social?",
+    answer: "Contextos políticos de surgimiento disciplinario.",
+    note: "La profesión nace en una escena política concreta."
   },
   {
     id: "H-013-I",
     eje: "Historia",
     sourceId: 13,
     kind: "inverse",
-    prompt: "Convergencia de reforma social, demandas democraticas, movimientos obreros y construccion de estados modernos como condicion historica.",
-    answer: "Contextos politicos de surgimiento disciplinario.",
-    note: "Explican orientaciones y espacios de intervencion."
+    prompt: "¿Qué concepto agrupa la convergencia de reforma social, demandas democráticas, movimientos obreros y construcción de Estados modernos como condición histórica del Trabajo Social?",
+    answer: "Contextos políticos de surgimiento disciplinario.",
+    note: "Explican las orientaciones y espacios de intervención."
   },
   {
     id: "H-013-A",
     eje: "Historia",
     sourceId: 13,
     kind: "cloze",
-    prompt: "Mirar la disciplina como si hubiera surgido al margen de la politica equivale a _____.",
+    prompt: "Mirar la disciplina como si hubiera surgido al margen de la política equivale a _____.",
     answer: "naturalizarla.",
-    note: "Alerta de examen: reconocer determinaciones politicas del surgimiento profesional."
+    note: "Alerta de examen: reconocer las determinaciones políticas del surgimiento profesional."
   },
   {
     id: "H-014-D",
     eje: "Historia",
     sourceId: 14,
     kind: "direct",
-    prompt: "Transicion desde aprendizaje empirico con mentores hacia curricula estructurados e integracion universitaria.",
-    answer: "Formacion profesional: evolucion historica.",
-    note: "Refleja maduracion disciplinaria."
+    prompt: "¿Cómo se denomina la transición desde el aprendizaje empírico con mentores hacia currículos estructurados e integración universitaria en el Trabajo Social?",
+    answer: "Formación profesional: evolución histórica.",
+    note: "Refleja la maduración disciplinaria."
   },
   {
     id: "H-014-I",
     eje: "Historia",
     sourceId: 14,
     kind: "inverse",
-    prompt: "Paso del aprendizaje empirico a programas formales, curriculos estructurados y reconocimiento academico.",
-    answer: "Formacion profesional: evolucion historica.",
-    note: "Relaciona forma de enseñar con consolidacion profesional."
+    prompt: "¿Qué concepto designa el paso del aprendizaje empírico a programas formales, currículos estructurados y reconocimiento académico en el Trabajo Social?",
+    answer: "Formación profesional: evolución histórica.",
+    note: "Relaciona la forma de enseñar con la consolidación profesional."
   },
   {
     id: "H-014-A",
     eje: "Historia",
     sourceId: 14,
     kind: "cloze",
-    prompt: "La mejora historica de la formacion no es un lujo academico; se asocia con mayor _____.",
+    prompt: "La mejora histórica de la formación no es un lujo académico; se asocia con una mayor _____.",
     answer: "efectividad profesional.",
-    note: "Alerta de examen: conectar calidad formativa con practica."
+    note: "Alerta de examen: conectar calidad formativa con la práctica."
   },
   {
     id: "H-015-D",
     eje: "Historia",
     sourceId: 15,
     kind: "direct",
-    prompt: "Conjunto de contribuciones fundacionales que convierten experiencia acumulada en metodologia, teoria y modelos de intervencion duraderos.",
-    answer: "Aportes de pioneros en construccion teorica.",
-    note: "Generan teoria desde la practica."
+    prompt: "¿Cómo se denominan las contribuciones fundacionales que convierten la experiencia acumulada en metodología, teoría y modelos de intervención duraderos?",
+    answer: "Aportes de pioneros en la construcción teórica.",
+    note: "Generan teoría desde la práctica."
   },
   {
     id: "H-015-I",
     eje: "Historia",
     sourceId: 15,
     kind: "inverse",
-    prompt: "Metodologias innovadoras, marcos conceptuales nuevos y modelos de intervencion aportados por figuras fundacionales.",
-    answer: "Aportes de pioneros en construccion teorica.",
+    prompt: "¿Qué concepto agrupa las metodologías innovadoras, los nuevos marcos conceptuales y los modelos de intervención aportados por las figuras fundacionales del Trabajo Social?",
+    answer: "Aportes de pioneros en la construcción teórica.",
     note: "Consolidan fundamentos persistentes."
   },
   {
@@ -402,78 +402,78 @@ const flashcardsActiveRecall = [
     kind: "cloze",
     prompt: "Estudiar a los pioneros exige unir nombres propios con sus _____ concretos.",
     answer: "aportes.",
-    note: "Alerta de examen: identificar autores y contribuciones especificas."
+    note: "Alerta de examen: identificar autores y contribuciones específicas."
   },
   {
     id: "H-016-D",
     eje: "Historia",
     sourceId: 16,
     kind: "direct",
-    prompt: "Dinamica regional en la que modelos externos son importados, criticados selectivamente y reconfigurados hasta producir hibridaciones propias.",
-    answer: "Influencias europeas en Trabajo Social latinoamericano.",
-    note: "Implica adaptacion, no copia pasiva."
+    prompt: "¿Cómo se denomina la dinámica regional en la que modelos externos son importados, criticados selectivamente y reconfigurados hasta producir hibridaciones propias?",
+    answer: "Influencias europeas en el Trabajo Social latinoamericano.",
+    note: "Implica adaptación, no copia pasiva."
   },
   {
     id: "H-016-I",
     eje: "Historia",
     sourceId: 16,
     kind: "inverse",
-    prompt: "Transferencia de modelos europeos atravesada por rechazo selectivo, sintesis innovadora y reinterpretacion local.",
-    answer: "Influencias europeas en Trabajo Social latinoamericano.",
-    note: "La region actua con agencia creativa."
+    prompt: "¿Qué concepto describe la transferencia de modelos europeos atravesada por rechazo selectivo, síntesis innovadora y reinterpretación local en América Latina?",
+    answer: "Influencias europeas en el Trabajo Social latinoamericano.",
+    note: "La región actúa con agencia creativa."
   },
   {
     id: "H-016-A",
     eje: "Historia",
     sourceId: 16,
     kind: "cloze",
-    prompt: "Leer este proceso como recepcion pasiva borra la _____ latinoamericana en la construccion disciplinaria.",
+    prompt: "Leer las influencias europeas en el Trabajo Social latinoamericano como una recepción pasiva borra la _____ de la región en la construcción disciplinaria.",
     answer: "agencia creativa.",
-    note: "Alerta de examen: evitar determinismo europeo."
+    note: "Alerta de examen: evitar el determinismo europeo."
   },
   {
     id: "H-017-D",
     eje: "Historia",
     sourceId: 17,
     kind: "direct",
-    prompt: "Presion historica ejercida por vivienda, desempleo, marginalidad y vulnerabilidad, capaz de forzar desarrollo metodologico y profesionalizacion.",
-    answer: "Demandas sociales como motor historico del Trabajo Social.",
-    note: "Las necesidades concretas impulsan la teorizacion."
+    prompt: "¿Cómo se denomina la presión histórica ejercida por la vivienda, el desempleo, la marginalidad y la vulnerabilidad, capaz de forzar el desarrollo metodológico y la profesionalización?",
+    answer: "Demandas sociales como motor histórico del Trabajo Social.",
+    note: "Las necesidades concretas impulsan la teorización."
   },
   {
     id: "H-017-I",
     eje: "Historia",
     sourceId: 17,
     kind: "inverse",
-    prompt: "Problematicas de vivienda, desempleo, marginalidad urbana y vulnerabilidad como catalizadores de profesionalizacion.",
-    answer: "Demandas sociales como motor historico del Trabajo Social.",
-    note: "No hay profesionalizacion sin presion social concreta."
+    prompt: "¿Qué concepto describe las problemáticas de vivienda, desempleo, marginalidad urbana y vulnerabilidad como catalizadores de la profesionalización del Trabajo Social?",
+    answer: "Demandas sociales como motor histórico del Trabajo Social.",
+    note: "No hay profesionalización sin presión social concreta."
   },
   {
     id: "H-017-A",
     eje: "Historia",
     sourceId: 17,
     kind: "cloze",
-    prompt: "La logica historica aqui no es problema social sin respuesta, sino problema social como motor de _____.",
-    answer: "desarrollo metodologico y profesionalizacion.",
-    note: "Alerta de examen: conectar problemas historicos con soluciones profesionales."
+    prompt: "La lógica histórica aquí no es 'problema social sin respuesta', sino 'problema social como motor de' _____.",
+    answer: "desarrollo metodológico y profesionalización.",
+    note: "Alerta de examen: conectar problemas históricos con soluciones profesionales."
   },
   {
     id: "H-018-D",
     eje: "Historia",
     sourceId: 18,
     kind: "direct",
-    prompt: "Proceso conflictivo mediante el cual una profesion gana reconocimiento a traves de efectividad, conocimiento, alianzas y validacion social.",
-    answer: "Legitimacion social del Trabajo Social.",
-    note: "No equivale solo a dominio tecnico."
+    prompt: "¿Cómo se denomina el proceso conflictivo mediante el cual una profesión gana reconocimiento a través de efectividad, conocimiento, alianzas y validación social?",
+    answer: "Legitimación social del Trabajo Social.",
+    note: "No equivale únicamente al dominio técnico."
   },
   {
     id: "H-018-I",
     eje: "Historia",
     sourceId: 18,
     kind: "inverse",
-    prompt: "Demostraciones de efectividad, generacion de conocimiento, alianzas institucionales y reconocimiento de actores sociales.",
-    answer: "Legitimacion social del Trabajo Social.",
+    prompt: "¿Qué concepto describe las demostraciones de efectividad, la generación de conocimiento, las alianzas institucionales y el reconocimiento por parte de actores sociales como vías de reconocimiento profesional?",
+    answer: "Legitimación social del Trabajo Social.",
     note: "Se construye entre apoyos y resistencias."
   },
   {
@@ -481,7 +481,7 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 18,
     kind: "cloze",
-    prompt: "Confundir dominio tecnico con aceptacion amplia equivale a mezclar legitimidad tecnica con legitimidad _____.",
+    prompt: "Confundir dominio técnico con aceptación amplia equivale a mezclar legitimidad técnica con legitimidad _____.",
     answer: "social.",
     note: "Alerta de examen: distinguir tipos de legitimidad y reconocer controversias."
   },
@@ -490,26 +490,26 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 19,
     kind: "direct",
-    prompt: "Serie historica de marcos de intervencion que va desde la ayuda asistencial hasta horizontes reparadores y emancipadores.",
-    answer: "Paradigmas historicos de intervencion social.",
-    note: "Cada paradigma redefine objetivos y vinculos con la poblacion."
+    prompt: "¿Cómo se denomina la serie histórica de marcos de intervención que va desde la ayuda asistencial hasta horizontes reparadores y emancipadores?",
+    answer: "Paradigmas históricos de intervención social.",
+    note: "Cada paradigma redefine objetivos y vínculos con la población."
   },
   {
     id: "H-019-I",
     eje: "Historia",
     sourceId: 19,
     kind: "inverse",
-    prompt: "Secuencia compuesta por paradigma asistencial, reparador y emancipador, cada uno con objetivos y relaciones distintos.",
-    answer: "Paradigmas historicos de intervencion social.",
-    note: "Organizan cambios de fondo en la practica."
+    prompt: "¿Qué concepto designa la secuencia compuesta por los paradigmas asistencial, reparador y emancipador, cada uno con objetivos y relaciones distintos?",
+    answer: "Paradigmas históricos de intervención social.",
+    note: "Organizan cambios de fondo en la práctica."
   },
   {
     id: "H-019-A",
     eje: "Historia",
     sourceId: 19,
     kind: "cloze",
-    prompt: "Caracterizar bien estos marcos exige conectar cada paradigma con sus objetivos, sus metodos y su _____ con la poblacion intervenida.",
-    answer: "tipo de relacion.",
+    prompt: "Caracterizar bien estos marcos exige conectar cada paradigma con sus objetivos, sus métodos y su _____ con la población intervenida.",
+    answer: "tipo de relación.",
     note: "Alerta de examen: no memorizar solo el nombre del paradigma."
   },
   {
@@ -517,17 +517,17 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 20,
     kind: "direct",
-    prompt: "Conjunto de cuestiones historicamente no resueltas que enlazan memoria disciplinaria con tareas contemporaneas.",
-    answer: "Perspectivas futuras: desafios historicos pendientes.",
-    note: "Conectan historia de la profesion con su porvenir."
+    prompt: "¿Cómo se denomina el conjunto de cuestiones históricamente no resueltas que enlazan la memoria disciplinaria con las tareas contemporáneas del Trabajo Social?",
+    answer: "Perspectivas futuras: desafíos históricos pendientes.",
+    note: "Conectan la historia de la profesión con su porvenir."
   },
   {
     id: "H-020-I",
     eje: "Historia",
     sourceId: 20,
     kind: "inverse",
-    prompt: "Equidad de acceso, superacion de desigualdades, articulacion teoria-practica, reconocimiento de saberes populares y participacion genuina.",
-    answer: "Perspectivas futuras: desafios historicos pendientes.",
+    prompt: "¿Qué concepto agrupa la equidad de acceso, la superación de desigualdades, la articulación teoría-práctica, el reconocimiento de saberes populares y la participación genuina como tareas pendientes del Trabajo Social?",
+    answer: "Perspectivas futuras: desafíos históricos pendientes.",
     note: "Muestran problemas abiertos de la disciplina."
   },
   {
@@ -535,26 +535,26 @@ const flashcardsActiveRecall = [
     eje: "Historia",
     sourceId: 20,
     kind: "cloze",
-    prompt: "Pensar el presente disciplinario sin memoria historica impide proyectar sus desafios _____.",
+    prompt: "Pensar el presente disciplinario sin memoria histórica impide proyectar sus desafíos _____.",
     answer: "pendientes.",
-    note: "Alerta de examen: conectar historia con proyeccion futura."
+    note: "Alerta de examen: conectar historia con proyección futura."
   },
   {
     id: "M-021-D",
     eje: "Metodología",
     sourceId: 21,
     kind: "direct",
-    prompt: "Nombre del marco que integra teoria, metodo y tecnicas para intervenir de forma planificada en Trabajo Social.",
-    answer: "Metodologia en Trabajo Social.",
-    note: "Integra diagnostico, intervencion y evaluacion; no equivale a una tecnica aislada."
+    prompt: "Nombre del marco que integra teoría, método y técnicas para intervenir de forma planificada en Trabajo Social.",
+    answer: "Metodología en Trabajo Social.",
+    note: "Integra diagnóstico, intervención y evaluación; no equivale a una técnica aislada."
   },
   {
     id: "M-021-I",
     eje: "Metodología",
     sourceId: 21,
     kind: "inverse",
-    prompt: "Marco integrador que organiza procedimientos y tecnicas con fundamento teorico y orientacion al cambio social.",
-    answer: "Metodologia en Trabajo Social.",
+    prompt: "Marco integrador que organiza procedimientos y técnicas con fundamento teórico y orientación al cambio social.",
+    answer: "Metodología en Trabajo Social.",
     note: "Alcance: individual, grupal, comunitario e institucional."
   },
   {
@@ -562,26 +562,26 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 21,
     kind: "cloze",
-    prompt: "El error clasico aqui es reducir _____ a un conjunto de tecnicas sueltas.",
-    answer: "la metodologia.",
-    note: "Alerta de examen: distinguir metodologia de tecnicas e instrumentos."
+    prompt: "El error clásico aquí es reducir _____ a un conjunto de técnicas sueltas.",
+    answer: "la metodología.",
+    note: "Alerta de examen: distinguir metodología de técnicas e instrumentos."
   },
   {
     id: "M-022-D",
     eje: "Metodología",
     sourceId: 22,
     kind: "direct",
-    prompt: "Proceso ciclico que produce conocimiento sistematico sobre la realidad y, al mismo tiempo, fundamenta y evalua la intervencion.",
-    answer: "Investigacion social como fundamento metodologico.",
-    note: "Intervencion e investigacion se retroalimentan."
+    prompt: "Proceso cíclico que produce conocimiento sistemático sobre la realidad y, al mismo tiempo, fundamenta y evalúa la intervención.",
+    answer: "Investigación social como fundamento metodológico.",
+    note: "Intervención e investigación se retroalimentan."
   },
   {
     id: "M-022-I",
     eje: "Metodología",
     sourceId: 22,
     kind: "inverse",
-    prompt: "Base que informa la intervencion, evalua practicas y convierte experiencia en conocimiento sistematico.",
-    answer: "Investigacion social como fundamento metodologico.",
+    prompt: "Base que informa la intervención, evalúa prácticas y convierte la experiencia en conocimiento sistemático.",
+    answer: "Investigación social como fundamento metodológico.",
     note: "No es una fase separada del trabajo profesional."
   },
   {
@@ -589,44 +589,44 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 22,
     kind: "cloze",
-    prompt: "Separar por completo investigacion e intervencion rompe su relacion _____.",
-    answer: "ciclica.",
-    note: "Alerta de examen: conectar investigacion con sistematizacion y evaluacion."
+    prompt: "Separar por completo la investigación de la intervención rompe su relación _____.",
+    answer: "cíclica.",
+    note: "Alerta de examen: conectar investigación con sistematización y evaluación."
   },
   {
     id: "M-023-D",
     eje: "Metodología",
     sourceId: 23,
     kind: "direct",
-    prompt: "Conjunto de aproximaciones que prioriza significados, experiencias, contexto y complejidad por encima de la sola medicion numerica.",
-    answer: "Metodos cualitativos en intervencion social.",
-    note: "Incluyen observacion, entrevista profunda, grupos focales y analisis narrativo."
+    prompt: "Conjunto de aproximaciones que prioriza significados, experiencias, contexto y complejidad por encima de la mera medición numérica.",
+    answer: "Métodos cualitativos en intervención social.",
+    note: "Incluyen observación, entrevista profunda, grupos focales y análisis narrativo."
   },
   {
     id: "M-023-I",
     eje: "Metodología",
     sourceId: 23,
     kind: "inverse",
-    prompt: "Aproximacion que captura sentidos, interpreta experiencias y profundiza en dimensiones ocultas del fenomeno social.",
-    answer: "Metodos cualitativos en intervencion social.",
-    note: "Su fuerza esta en la comprension densa del contexto."
+    prompt: "Aproximación que captura sentidos, interpreta experiencias y profundiza en las dimensiones ocultas del fenómeno social.",
+    answer: "Métodos cualitativos en intervención social.",
+    note: "Su fuerza radica en la comprensión densa del contexto."
   },
   {
     id: "M-023-A",
     eje: "Metodología",
     sourceId: 23,
     kind: "cloze",
-    prompt: "Estos metodos son pertinentes cuando la pregunta exige comprender _____ antes que medir magnitudes.",
+    prompt: "Estos métodos son pertinentes cuando la pregunta exige comprender _____ antes que medir magnitudes.",
     answer: "significados y experiencias.",
-    note: "Alerta de examen: justificar cuando conviene un enfoque cualitativo."
+    note: "Alerta de examen: justificar cuándo conviene un enfoque cualitativo."
   },
   {
     id: "M-024-D",
     eje: "Metodología",
     sourceId: 24,
     kind: "direct",
-    prompt: "Aproximacion que cuantifica fenomenos, detecta patrones y trabaja con instrumentos estandarizados y analisis numerico.",
-    answer: "Metodos cuantitativos en intervencion social.",
+    prompt: "Aproximación que cuantifica fenómenos, detecta patrones y trabaja con instrumentos estandarizados y análisis numérico.",
+    answer: "Métodos cuantitativos en intervención social.",
     note: "Permiten estimar proporciones, distribuciones y correlaciones."
   },
   {
@@ -634,44 +634,44 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 24,
     kind: "inverse",
-    prompt: "Uso de medicion estandarizada, datos numericos y analisis estadistico para identificar patrones generalizables.",
-    answer: "Metodos cuantitativos en intervencion social.",
-    note: "Aportan alcance comparativo y medicion consistente."
+    prompt: "Uso de medición estandarizada, datos numéricos y análisis estadístico para identificar patrones generalizables.",
+    answer: "Métodos cuantitativos en intervención social.",
+    note: "Aportan alcance comparativo y medición consistente."
   },
   {
     id: "M-024-A",
     eje: "Metodología",
     sourceId: 24,
     kind: "cloze",
-    prompt: "La ventaja principal aqui no es comprender sentidos finos, sino _____, patrones y distribuciones.",
-    answer: "cuantificar fenomenos.",
-    note: "Alerta de examen: reconocer fortalezas sin caer en cientificismo."
+    prompt: "La ventaja principal aquí no es comprender sentidos finos, sino _____, patrones y distribuciones.",
+    answer: "cuantificar fenómenos.",
+    note: "Alerta de examen: reconocer fortalezas sin caer en el cientificismo."
   },
   {
     id: "M-025-D",
     eje: "Metodología",
     sourceId: 25,
     kind: "direct",
-    prompt: "Integracion deliberada de metodos cualitativos y cuantitativos para validar hallazgos y construir una lectura multidimensional.",
-    answer: "Enfoque mixto o triangulacion metodologica.",
-    note: "No es yuxtaposicion superficial; requiere diseno intencional."
+    prompt: "Integración deliberada de métodos cualitativos y cuantitativos para validar hallazgos y construir una lectura multidimensional.",
+    answer: "Enfoque mixto o triangulación metodológica.",
+    note: "No es una yuxtaposición superficial; requiere diseño intencional."
   },
   {
     id: "M-025-I",
     eje: "Metodología",
     sourceId: 25,
     kind: "inverse",
-    prompt: "Diseno que combina fortalezas de distintos metodos para contrastar datos y ampliar la comprension del fenomeno.",
-    answer: "Enfoque mixto o triangulacion metodologica.",
-    note: "Busca validacion cruzada y profundidad."
+    prompt: "Diseño que combina las fortalezas de distintos métodos para contrastar datos y ampliar la comprensión del fenómeno.",
+    answer: "Enfoque mixto o triangulación metodológica.",
+    note: "Busca validación cruzada y profundidad."
   },
   {
     id: "M-025-A",
     eje: "Metodología",
     sourceId: 25,
     kind: "cloze",
-    prompt: "Si solo se yuxtaponen tecnicas sin articulacion epistemica, el resultado es _____.",
-    answer: "yuxtaposicion superficial.",
+    prompt: "Si solo se yuxtaponen técnicas sin articulación epistémica, el resultado es una _____.",
+    answer: "yuxtaposición superficial.",
     note: "Alerta de examen: argumentar la pertinencia del enfoque mixto."
   },
   {
@@ -679,44 +679,44 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 26,
     kind: "direct",
-    prompt: "Proceso analitico previo a la accion que identifica problemas, recursos, fortalezas y contextos para construir comprension fundamentada.",
-    answer: "Diagnostico social.",
-    note: "No es descripcion neutra; organiza la interpretacion de la situacion."
+    prompt: "Proceso analítico previo a la acción que identifica problemas, recursos, fortalezas y contextos para construir una comprensión fundamentada.",
+    answer: "Diagnóstico social.",
+    note: "No es una descripción neutra; organiza la interpretación de la situación."
   },
   {
     id: "M-026-I",
     eje: "Metodología",
     sourceId: 26,
     kind: "inverse",
-    prompt: "Lectura sistematica de actores, recursos, carencias y condiciones macrosociales antes de intervenir.",
-    answer: "Diagnostico social.",
-    note: "Integra miradas de participantes y contexto historico."
+    prompt: "Lectura sistemática de actores, recursos, carencias y condiciones macrosociales antes de intervenir.",
+    answer: "Diagnóstico social.",
+    note: "Integra miradas de participantes y contexto histórico."
   },
   {
     id: "M-026-A",
     eje: "Metodología",
     sourceId: 26,
     kind: "cloze",
-    prompt: "El diagnostico deja de ser tal cuando se reduce a simple _____.",
-    answer: "descripcion.",
-    note: "Alerta de examen: enfatizar su caracter analitico e interpretativo."
+    prompt: "El diagnóstico deja de ser tal cuando se reduce a una simple _____.",
+    answer: "descripción.",
+    note: "Alerta de examen: enfatizar su carácter analítico e interpretativo."
   },
   {
     id: "M-027-D",
     eje: "Metodología",
     sourceId: 27,
     kind: "direct",
-    prompt: "Secuencia que va de exploracion inicial a recoleccion intensiva, analisis, triangulacion y comunicacion de resultados.",
-    answer: "Fases del diagnostico social.",
-    note: "Cada etapa condiciona a las demas."
+    prompt: "Secuencia que va de la exploración inicial a la recolección intensiva, el análisis, la triangulación y la comunicación de resultados.",
+    answer: "Fases del diagnóstico social.",
+    note: "Cada etapa condiciona a las demás."
   },
   {
     id: "M-027-I",
     eje: "Metodología",
     sourceId: 27,
     kind: "inverse",
-    prompt: "Exploracion preliminar, recoleccion de datos, interpretacion, triangulacion y devolucion como estructura secuencial.",
-    answer: "Fases del diagnostico social.",
+    prompt: "Exploración preliminar, recolección de datos, interpretación, triangulación y devolución como estructura secuencial.",
+    answer: "Fases del diagnóstico social.",
     note: "No son compartimentos estancos."
   },
   {
@@ -724,18 +724,18 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 27,
     kind: "cloze",
-    prompt: "Aprender esta secuencia exige reconocer no solo cada etapa, sino tambien sus _____.",
+    prompt: "Aprender esta secuencia exige reconocer no solo cada etapa, sino también sus _____.",
     answer: "interdependencias.",
-    note: "Alerta de examen: describir la logica entre fases y no solo enlistarlas."
+    note: "Alerta de examen: describir la lógica entre fases y no solo enlistarlas."
   },
   {
     id: "M-028-D",
     eje: "Metodología",
     sourceId: 28,
     kind: "direct",
-    prompt: "Herramientas para obtener datos de forma sistematica, seleccionadas segun problema, contexto y finalidad analitica.",
-    answer: "Tecnicas de recoleccion de informacion.",
-    note: "Entrevistas, observacion, grupos focales, encuestas y documentos son algunas de ellas."
+    prompt: "Herramientas para obtener datos de forma sistemática, seleccionadas según el problema, el contexto y la finalidad analítica.",
+    answer: "Técnicas de recolección de información.",
+    note: "Entrevistas, observación, grupos focales, encuestas y documentos son algunas de ellas."
   },
   {
     id: "M-028-I",
@@ -743,35 +743,35 @@ const flashcardsActiveRecall = [
     sourceId: 28,
     kind: "inverse",
     prompt: "Instrumentos concretos que permiten levantar datos y cuya pertinencia depende del problema y del contexto.",
-    answer: "Tecnicas de recoleccion de informacion.",
-    note: "Se eligen estrategicamente, no por costumbre."
+    answer: "Técnicas de recolección de información.",
+    note: "Se eligen estratégicamente, no por costumbre."
   },
   {
     id: "M-028-A",
     eje: "Metodología",
     sourceId: 28,
     kind: "cloze",
-    prompt: "La eleccion correcta aqui depende de la pertinencia contextual y de la _____ metodologica.",
-    answer: "justificacion.",
-    note: "Alerta de examen: seleccionar tecnicas con argumentos, no por preferencia personal."
+    prompt: "La elección correcta aquí depende de la pertinencia contextual y de la _____ metodológica.",
+    answer: "justificación.",
+    note: "Alerta de examen: seleccionar técnicas con argumentos, no por preferencia personal."
   },
   {
     id: "M-029-D",
     eje: "Metodología",
     sourceId: 29,
     kind: "direct",
-    prompt: "Conjunto de criterios que garantiza que el diagnostico mida lo que pretende y lo haga con consistencia.",
-    answer: "Validez y confiabilidad en diagnostico.",
-    note: "Se fortalecen con triangulacion, validacion con participantes y credibilidad analitica."
+    prompt: "Conjunto de criterios que garantiza que el diagnóstico mida lo que pretende medir y lo haga con consistencia.",
+    answer: "Validez y confiabilidad en diagnóstico.",
+    note: "Se fortalecen con triangulación, validación con participantes y credibilidad analítica."
   },
   {
     id: "M-029-I",
     eje: "Metodología",
     sourceId: 29,
     kind: "inverse",
-    prompt: "Calidad de una estrategia diagnostica cuando sus hallazgos son pertinentes y consistentes.",
-    answer: "Validez y confiabilidad en diagnostico.",
-    note: "La primera apunta a pertinencia; la segunda, a estabilidad."
+    prompt: "Calidad de una estrategia diagnóstica cuando sus hallazgos son pertinentes y consistentes.",
+    answer: "Validez y confiabilidad en diagnóstico.",
+    note: "La primera apunta a la pertinencia; la segunda, a la estabilidad."
   },
   {
     id: "M-029-A",
@@ -787,17 +787,17 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 30,
     kind: "direct",
-    prompt: "Operacion analitica que descompone problemas complejos en dimensiones, causas, actores y recursos sin culpabilizar a las victimas.",
-    answer: "Analisis de problemas sociales.",
-    note: "Exige una mirada holistica y estructural."
+    prompt: "Operación analítica que descompone problemas complejos en dimensiones, causas, actores y recursos sin culpabilizar a las víctimas.",
+    answer: "Análisis de problemas sociales.",
+    note: "Exige una mirada holística y estructural."
   },
   {
     id: "M-030-I",
     eje: "Metodología",
     sourceId: 30,
     kind: "inverse",
-    prompt: "Proceso que reconstruye causas, mapea actores, identifica recursos y evita explicaciones superficiales sobre una problematica.",
-    answer: "Analisis de problemas sociales.",
+    prompt: "Proceso que reconstruye causas, mapea actores, identifica recursos y evita explicaciones superficiales sobre una problemática.",
+    answer: "Análisis de problemas sociales.",
     note: "Se opone al reduccionismo causal y al individualismo patologizante."
   },
   {
@@ -805,17 +805,17 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 30,
     kind: "cloze",
-    prompt: "El sesgo que debe evitarse aqui consiste en trasladar la causa principal al individuo y no a la trama _____.",
+    prompt: "El sesgo que debe evitarse aquí consiste en trasladar la causa principal al individuo y no a la trama _____.",
     answer: "estructural.",
-    note: "Alerta de examen: aplicar pensamiento critico frente a explicaciones simplistas."
+    note: "Alerta de examen: aplicar pensamiento crítico frente a explicaciones simplistas."
   },
   {
     id: "M-031-D",
     eje: "Metodología",
     sourceId: 31,
     kind: "direct",
-    prompt: "Proceso de producir, organizar y transferir saber profesional a partir de documentacion y sistematizacion de experiencias.",
-    answer: "Gestion del conocimiento en practica social.",
+    prompt: "Proceso de producir, organizar y transferir el saber profesional a partir de la documentación y sistematización de experiencias.",
+    answer: "Gestión del conocimiento en la práctica social.",
     note: "Convierte experiencia dispersa en aprendizaje transferible."
   },
   {
@@ -823,36 +823,36 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 31,
     kind: "inverse",
-    prompt: "Documentacion, sistematizacion, generacion de aprendizajes y difusion de resultados como base de saber profesional acumulable.",
-    answer: "Gestion del conocimiento en practica social.",
-    note: "Favorece formacion y mejora continua."
+    prompt: "Documentación, sistematización, generación de aprendizajes y difusión de resultados como base del saber profesional acumulable.",
+    answer: "Gestión del conocimiento en la práctica social.",
+    note: "Favorece la formación y la mejora continua."
   },
   {
     id: "M-031-A",
     eje: "Metodología",
     sourceId: 31,
     kind: "cloze",
-    prompt: "Sin sistematizacion, la experiencia queda como vivencia util pero no como _____ transferible.",
+    prompt: "Sin sistematización, la experiencia queda como vivencia útil pero no como _____ transferible.",
     answer: "conocimiento.",
-    note: "Alerta de examen: valorar la sistematizacion como parte del trabajo metodologico."
+    note: "Alerta de examen: valorar la sistematización como parte del trabajo metodológico."
   },
   {
     id: "M-032-D",
     eje: "Metodología",
     sourceId: 32,
     kind: "direct",
-    prompt: "Construccion ordenada de acciones, objetivos, recursos y tiempos con base en diagnostico y apertura a ajustes.",
-    answer: "Planificacion de intervenciones sociales.",
-    note: "Articula diagnostico, accion y evaluacion."
+    prompt: "Construcción ordenada de acciones, objetivos, recursos y tiempos con base en el diagnóstico y apertura a ajustes.",
+    answer: "Planificación de intervenciones sociales.",
+    note: "Articula diagnóstico, acción y evaluación."
   },
   {
     id: "M-032-I",
     eje: "Metodología",
     sourceId: 32,
     kind: "inverse",
-    prompt: "Proceso que organiza objetivos, estrategias, actividades y cronograma sin perder flexibilidad ni participacion.",
-    answer: "Planificacion de intervenciones sociales.",
-    note: "Un buen plan no es rigido."
+    prompt: "Proceso que organiza objetivos, estrategias, actividades y cronograma sin perder flexibilidad ni participación.",
+    answer: "Planificación de intervenciones sociales.",
+    note: "Un buen plan no es rígido."
   },
   {
     id: "M-032-A",
@@ -861,42 +861,42 @@ const flashcardsActiveRecall = [
     kind: "cloze",
     prompt: "La virtud de un plan no es su rigidez, sino su coherencia y su _____ frente al contexto emergente.",
     answer: "flexibilidad.",
-    note: "Alerta de examen: distinguir planificacion rigurosa de planificacion inflexible."
+    note: "Alerta de examen: distinguir planificación rigurosa de planificación inflexible."
   },
   {
     id: "M-033-D",
     eje: "Metodología",
     sourceId: 33,
     kind: "direct",
-    prompt: "Conjunto de enfoques para construir planes segun el problema, el nivel de participacion y el tipo de decision requerido.",
-    answer: "Metodos de planificacion en Trabajo Social.",
-    note: "Incluyen planificacion participativa, estrategica, situacional y desde capacidades locales."
+    prompt: "Conjunto de enfoques para construir planes según el problema, el nivel de participación y el tipo de decisión requerida.",
+    answer: "Métodos de planificación en Trabajo Social.",
+    note: "Incluyen planificación participativa, estratégica, situacional y desde capacidades locales."
   },
   {
     id: "M-033-I",
     eje: "Metodología",
     sourceId: 33,
     kind: "inverse",
-    prompt: "Diferentes enfoques que varian en dimensiones priorizadas, niveles de participacion y modo de decidir una intervencion.",
-    answer: "Metodos de planificacion en Trabajo Social.",
-    note: "La seleccion depende de la pertinencia contextual."
+    prompt: "Diferentes enfoques que varían en dimensiones priorizadas, niveles de participación y modo de decidir sobre una intervención.",
+    answer: "Métodos de planificación en Trabajo Social.",
+    note: "La selección depende de la pertinencia contextual."
   },
   {
     id: "M-033-A",
     eje: "Metodología",
     sourceId: 33,
     kind: "cloze",
-    prompt: "No existe un metodo universal de planificacion; la clave es la _____ contextual.",
+    prompt: "No existe un método universal de planificación; la clave es la _____ contextual.",
     answer: "pertinencia.",
-    note: "Alerta de examen: caracterizar y comparar metodos, no memorizar uno solo."
+    note: "Alerta de examen: caracterizar y comparar métodos, no memorizar uno solo."
   },
   {
     id: "M-034-D",
     eje: "Metodología",
     sourceId: 34,
     kind: "direct",
-    prompt: "Operacion de formular metas especificas, medibles, alcanzables, relevantes y delimitadas en el tiempo.",
-    answer: "Establecimiento de objetivos en intervencion.",
+    prompt: "Operación de formular metas específicas, medibles, alcanzables, relevantes y delimitadas en el tiempo.",
+    answer: "Establecimiento de objetivos en intervención.",
     note: "Distingue objetivos de proceso, producto e impacto."
   },
   {
@@ -904,26 +904,26 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 34,
     kind: "inverse",
-    prompt: "Definicion rigurosa de metas que orientan el proceso, los resultados inmediatos y los cambios duraderos de una intervencion.",
-    answer: "Establecimiento de objetivos en intervencion.",
-    note: "Su coherencia debe derivarse del diagnostico."
+    prompt: "Definición rigurosa de metas que orientan el proceso, los resultados inmediatos y los cambios duraderos de una intervención.",
+    answer: "Establecimiento de objetivos en intervención.",
+    note: "Su coherencia debe derivarse del diagnóstico."
   },
   {
     id: "M-034-A",
     eje: "Metodología",
     sourceId: 34,
     kind: "cloze",
-    prompt: "Un objetivo bien formulado no solo debe ser claro; tambien debe ser temporalmente _____.",
+    prompt: "Un objetivo bien formulado no solo debe ser claro; también debe ser temporalmente _____.",
     answer: "delimitado.",
-    note: "Alerta de examen: formular objetivos con criterio metodologico riguroso."
+    note: "Alerta de examen: formular objetivos con criterio metodológico riguroso."
   },
   {
     id: "M-035-D",
     eje: "Metodología",
     sourceId: 35,
     kind: "direct",
-    prompt: "Administracion estrategica de recursos humanos, economicos y materiales para maximizar efectividad en una intervencion.",
-    answer: "Gestion de recursos en intervencion social.",
+    prompt: "Administración estratégica de recursos humanos, económicos y materiales para maximizar la efectividad en una intervención.",
+    answer: "Gestión de recursos en intervención social.",
     note: "Implica inventariar, asignar, optimizar y rendir cuentas."
   },
   {
@@ -931,17 +931,17 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 35,
     kind: "inverse",
-    prompt: "Proceso que moviliza disponibilidades, optimiza usos y combina creatividad con rendicion de cuentas.",
-    answer: "Gestion de recursos en intervencion social.",
-    note: "Tambien incluye activacion de potencialidades locales y acceso a fondos externos."
+    prompt: "Proceso que moviliza disponibilidades, optimiza usos y combina creatividad con rendición de cuentas.",
+    answer: "Gestión de recursos en intervención social.",
+    note: "También incluye la activación de potencialidades locales y acceso a fondos externos."
   },
   {
     id: "M-035-A",
     eje: "Metodología",
     sourceId: 35,
     kind: "cloze",
-    prompt: "Manejar recursos con calidad no significa gastar mas, sino asignar de forma _____.",
-    answer: "estrategica.",
+    prompt: "Manejar recursos con calidad no significa gastar más, sino asignar de forma _____.",
+    answer: "estratégica.",
     note: "Alerta de examen: evaluar eficiencia y efectividad sin reducir todo a costos."
   },
   {
@@ -949,9 +949,9 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 36,
     kind: "direct",
-    prompt: "Parametros que permiten monitorear actividades y medir cambios producidos por una intervencion.",
+    prompt: "Parámetros que permiten monitorear actividades y medir los cambios producidos por una intervención.",
     answer: "Indicadores de proceso y resultado.",
-    note: "Deben ser relevantes, verificables y utiles."
+    note: "Deben ser relevantes, verificables y útiles."
   },
   {
     id: "M-036-I",
@@ -960,7 +960,7 @@ const flashcardsActiveRecall = [
     kind: "inverse",
     prompt: "Medidas construidas para seguir el desarrollo de acciones y apreciar transformaciones en poblaciones o contextos.",
     answer: "Indicadores de proceso y resultado.",
-    note: "Los primeros observan trayecto; los segundos, efectos inmediatos."
+    note: "Los primeros observan el trayecto; los segundos, los efectos inmediatos."
   },
   {
     id: "M-036-A",
@@ -976,44 +976,44 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 37,
     kind: "direct",
-    prompt: "Proceso critico-reflexivo que determina eficacia, eficiencia e impacto mediante distintas preguntas y momentos de valoracion.",
-    answer: "Evaluacion de intervenciones sociales.",
-    note: "Puede ser diagnostica, de proceso, de resultado o de impacto."
+    prompt: "Proceso crítico-reflexivo que determina la eficacia, eficiencia e impacto mediante distintas preguntas y momentos de valoración.",
+    answer: "Evaluación de intervenciones sociales.",
+    note: "Puede ser diagnóstica, de proceso, de resultado o de impacto."
   },
   {
     id: "M-037-I",
     eje: "Metodología",
     sourceId: 37,
     kind: "inverse",
-    prompt: "Valoracion sistematica de una accion social para saber como se desarrolla, que logra y que cambios deja.",
-    answer: "Evaluacion de intervenciones sociales.",
-    note: "No es una simple medicion final."
+    prompt: "Valoración sistemática de una acción social para saber cómo se desarrolla, qué logra y qué cambios deja.",
+    answer: "Evaluación de intervenciones sociales.",
+    note: "No es una simple medición final."
   },
   {
     id: "M-037-A",
     eje: "Metodología",
     sourceId: 37,
     kind: "cloze",
-    prompt: "Reducir la evaluacion al cierre del proyecto elimina su dimension de _____ y ajuste.",
+    prompt: "Reducir la evaluación al cierre del proyecto elimina su dimensión de _____ y ajuste.",
     answer: "monitoreo.",
-    note: "Alerta de examen: diferenciar tipos y funciones de la evaluacion."
+    note: "Alerta de examen: diferenciar tipos y funciones de la evaluación."
   },
   {
     id: "M-038-D",
     eje: "Metodología",
     sourceId: 38,
     kind: "direct",
-    prompt: "Metodologia que ordena reflexivamente experiencias para convertirlas en conocimiento explicito y comunicable.",
-    answer: "Sistematizacion de experiencias.",
-    note: "Implica ordenamiento, interpretacion y extrapolacion."
+    prompt: "Metodología que ordena reflexivamente las experiencias para convertirlas en conocimiento explícito y comunicable.",
+    answer: "Sistematización de experiencias.",
+    note: "Implica ordenamiento, interpretación y extrapolación."
   },
   {
     id: "M-038-I",
     eje: "Metodología",
     sourceId: 38,
     kind: "inverse",
-    prompt: "Proceso que transforma una practica vivida en saber explicitado, analizado y compartible.",
-    answer: "Sistematizacion de experiencias.",
+    prompt: "Proceso que transforma una práctica vivida en saber explicitado, analizado y compartible.",
+    answer: "Sistematización de experiencias.",
     note: "Produce aprendizaje colectivo y mejora continua."
   },
   {
@@ -1021,17 +1021,17 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 38,
     kind: "cloze",
-    prompt: "La diferencia decisiva aqui no es entre hacer y escribir, sino entre vivir una experiencia y _____.",
+    prompt: "La diferencia decisiva aquí no es entre hacer y escribir, sino entre vivir una experiencia y _____.",
     answer: "sistematizarla.",
-    note: "Alerta de examen: distinguir experiencia de sistematizacion."
+    note: "Alerta de examen: distinguir experiencia de sistematización."
   },
   {
     id: "M-039-D",
     eje: "Metodología",
     sourceId: 39,
     kind: "direct",
-    prompt: "Perspectiva que funda la intervencion en dignidad humana, titularidad de derechos y obligaciones estatales.",
-    answer: "Enfoque de derechos en metodologia.",
+    prompt: "Perspectiva que fundamenta la intervención en la dignidad humana, la titularidad de derechos y las obligaciones estatales.",
+    answer: "Enfoque de derechos en metodología.",
     note: "Reemplaza la tutela asistencialista por reconocimiento y exigibilidad."
   },
   {
@@ -1039,16 +1039,16 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 39,
     kind: "inverse",
-    prompt: "Marco de intervencion que trata a las personas como titulares de derechos y no como receptoras pasivas de ayuda.",
-    answer: "Enfoque de derechos en metodologia.",
-    note: "Transforma la relacion profesional-usuario."
+    prompt: "Marco de intervención que trata a las personas como titulares de derechos y no como receptoras pasivas de ayuda.",
+    answer: "Enfoque de derechos en metodología.",
+    note: "Transforma la relación profesional-usuario."
   },
   {
     id: "M-039-A",
     eje: "Metodología",
     sourceId: 39,
     kind: "cloze",
-    prompt: "El cambio central aqui consiste en pasar del asistencialismo a la _____.",
+    prompt: "El cambio central aquí consiste en pasar del asistencialismo a la _____.",
     answer: "titularidad de derechos.",
     note: "Alerta de examen: aplicar el enfoque de derechos de forma consistente."
   },
@@ -1057,25 +1057,25 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 40,
     kind: "direct",
-    prompt: "Metodologia centrada en acompanamiento personalizado de situaciones particulares sin perder de vista determinantes sociales.",
+    prompt: "Metodología centrada en el acompañamiento personalizado de situaciones particulares sin perder de vista los determinantes sociales.",
     answer: "Trabajo Social de casos individual.",
-    note: "Combina relacion de ayuda, diagnostico contextual y seguimiento."
+    note: "Combina relación de ayuda, diagnóstico contextual y seguimiento."
   },
   {
     id: "M-040-I",
     eje: "Metodología",
     sourceId: 40,
     kind: "inverse",
-    prompt: "Intervencion profesional focalizada en una persona y su situacion especifica, articulada con su contexto.",
+    prompt: "Intervención profesional focalizada en una persona y su situación específica, articulada con su contexto.",
     answer: "Trabajo Social de casos individual.",
-    note: "No debe confundirse con patologizacion individual."
+    note: "No debe confundirse con patologización individual."
   },
   {
     id: "M-040-A",
     eje: "Metodología",
     sourceId: 40,
     kind: "cloze",
-    prompt: "La condicion metodologica clave aqui es no perder la lectura _____ del caso.",
+    prompt: "La condición metodológica clave aquí es no perder la lectura _____ del caso.",
     answer: "contextual.",
     note: "Alerta de examen: evitar reducir el problema a rasgos personales."
   },
@@ -1084,8 +1084,8 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 41,
     kind: "direct",
-    prompt: "Vinculo profesional basado en respeto, confidencialidad, autenticidad y orientacion hacia la autonomia del usuario.",
-    answer: "Relacion de ayuda profesional.",
+    prompt: "Vínculo profesional basado en el respeto, la confidencialidad, la autenticidad y la orientación hacia la autonomía del usuario.",
+    answer: "Relación de ayuda profesional.",
     note: "No es amistad ni horizontalidad despreocupada."
   },
   {
@@ -1093,16 +1093,16 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 41,
     kind: "inverse",
-    prompt: "Interaccion profesional con limites claros, roles definidos y finalidad de empoderamiento.",
-    answer: "Relacion de ayuda profesional.",
-    note: "Exige manejo de limites y de transferencias."
+    prompt: "Interacción profesional con límites claros, roles definidos y finalidad de empoderamiento.",
+    answer: "Relación de ayuda profesional.",
+    note: "Exige el manejo de límites y transferencias."
   },
   {
     id: "M-041-A",
     eje: "Metodología",
     sourceId: 41,
     kind: "cloze",
-    prompt: "Confundir este vinculo con amistad elimina su caracter _____.",
+    prompt: "Confundir este vínculo con una amistad elimina su carácter _____.",
     answer: "profesional.",
     note: "Alerta de examen: distinguirla de otras relaciones interpersonales."
   },
@@ -1111,70 +1111,70 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 42,
     kind: "direct",
-    prompt: "Metodologia que utiliza la interaccion colectiva y el apoyo mutuo para procesos educativos, organizativos y transformadores.",
+    prompt: "Metodología que utiliza la interacción colectiva y el apoyo mutuo para procesos educativos, organizativos y transformadores.",
     answer: "Trabajo Social grupal.",
-    note: "El grupo tiene potencia propia; no es suma de individuos."
+    note: "El grupo tiene potencia propia; no es la suma de individuos."
   },
   {
     id: "M-042-I",
     eje: "Metodología",
     sourceId: 42,
     kind: "inverse",
-    prompt: "Uso del grupo como espacio de aprendizaje, identificacion colectiva y movilizacion sobre problemas comunes.",
+    prompt: "Uso del grupo como espacio de aprendizaje, identificación colectiva y movilización sobre problemas comunes.",
     answer: "Trabajo Social grupal.",
-    note: "Permite procesos que exceden la intervencion individual."
+    note: "Permite procesos que exceden la intervención individual."
   },
   {
     id: "M-042-A",
     eje: "Metodología",
     sourceId: 42,
     kind: "cloze",
-    prompt: "Reducir el grupo a personas aisladas impide comprender su dinamica _____.",
+    prompt: "Reducir el grupo a personas aisladas impide comprender su dinámica _____.",
     answer: "colectiva.",
-    note: "Alerta de examen: reconocer el potencial especifico del trabajo grupal."
+    note: "Alerta de examen: reconocer el potencial específico del trabajo grupal."
   },
   {
     id: "M-043-D",
     eje: "Metodología",
     sourceId: 43,
     kind: "direct",
-    prompt: "Tecnicas que aprovechan la interaccion grupal para generar confianza, aprendizaje y reflexion compartida.",
-    answer: "Dinamicas de grupo como herramienta metodologica.",
-    note: "Incluyen juegos, dramatizaciones, colaboracion y analisis colectivo."
+    prompt: "Técnicas que aprovechan la interacción grupal para generar confianza, aprendizaje y reflexión compartida.",
+    answer: "Dinámicas de grupo como herramienta metodológica.",
+    note: "Incluyen juegos, dramatizaciones, colaboración y análisis colectivo."
   },
   {
     id: "M-043-I",
     eje: "Metodología",
     sourceId: 43,
     kind: "inverse",
-    prompt: "Uso intencional de actividades grupales para profundizar aprendizajes y fortalecer vinculos.",
-    answer: "Dinamicas de grupo como herramienta metodologica.",
-    note: "La tecnica siempre debe estar subordinada al objetivo."
+    prompt: "Uso intencional de actividades grupales para profundizar aprendizajes y fortalecer vínculos.",
+    answer: "Dinámicas de grupo como herramienta metodológica.",
+    note: "La técnica siempre debe estar subordinada al objetivo."
   },
   {
     id: "M-043-A",
     eje: "Metodología",
     sourceId: 43,
     kind: "cloze",
-    prompt: "Una dinamica vale metodologicamente cuando tiene _____, no solo entretenimiento.",
+    prompt: "Una dinámica vale metodológicamente cuando tiene _____, no solo entretenimiento.",
     answer: "intencionalidad.",
-    note: "Alerta de examen: evaluar logros educativos y no solo animacion."
+    note: "Alerta de examen: evaluar logros educativos y no solo animación."
   },
   {
     id: "M-044-D",
     eje: "Metodología",
     sourceId: 44,
     kind: "direct",
-    prompt: "Intervencion a nivel colectivo que promueve organizacion, participacion y movilizacion de recursos para transformar contextos.",
+    prompt: "Intervención a nivel colectivo que promueve la organización, la participación y la movilización de recursos para transformar contextos.",
     answer: "Trabajo Social comunitario.",
-    note: "La comunidad es sujeto colectivo, no receptora pasiva."
+    note: "La comunidad es un sujeto colectivo, no una receptora pasiva."
   },
   {
     id: "M-044-I",
     eje: "Metodología",
     sourceId: 44,
     kind: "inverse",
-    prompt: "Metodo que fortalece organizacion y protagonismo de la comunidad para transformar su propio entorno.",
+    prompt: "Método que fortalece la organización y el protagonismo de la comunidad para transformar su propio entorno.",
     answer: "Trabajo Social comunitario.",
     note: "Se opone al asistencialismo."
   },
@@ -1183,71 +1183,71 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 44,
     kind: "cloze",
-    prompt: "El principio central aqui es reemplazar la pasividad comunitaria por _____.",
+    prompt: "El principio central aquí es reemplazar la pasividad comunitaria por _____.",
     answer: "protagonismo.",
-    note: "Alerta de examen: promover participacion y organizacion genuinas."
+    note: "Alerta de examen: promover participación y organización genuinas."
   },
   {
     id: "M-045-D",
     eje: "Metodología",
     sourceId: 45,
     kind: "direct",
-    prompt: "Enfoque pedagogico dialogico que convierte educacion en conciencia critica y accion transformadora.",
-    answer: "Educacion popular como metodologia.",
-    note: "Rechaza la transmision vertical de saberes."
+    prompt: "Enfoque pedagógico dialógico que convierte a la educación en conciencia crítica y acción transformadora.",
+    answer: "Educación popular como metodología.",
+    note: "Rechaza la transmisión vertical de saberes."
   },
   {
     id: "M-045-I",
     eje: "Metodología",
     sourceId: 45,
     kind: "inverse",
-    prompt: "Metodo que problematiza la realidad, reconoce saberes previos y construye aprendizaje en dialogo.",
-    answer: "Educacion popular como metodologia.",
-    note: "Los participantes son sujetos activos de transformacion."
+    prompt: "Método que problematiza la realidad, reconoce saberes previos y construye el aprendizaje en diálogo.",
+    answer: "Educación popular como metodología.",
+    note: "Los participantes son sujetos activos de transformación."
   },
   {
     id: "M-045-A",
     eje: "Metodología",
     sourceId: 45,
     kind: "cloze",
-    prompt: "Cuando el conocimiento baja verticalmente desde un experto, se niega la logica _____.",
-    answer: "dialogica.",
-    note: "Alerta de examen: evitar manipulacion disfrazada de participacion."
+    prompt: "Cuando el conocimiento baja verticalmente desde un experto, se niega la lógica _____.",
+    answer: "dialógica.",
+    note: "Alerta de examen: evitar manipulación disfrazada de participación."
   },
   {
     id: "M-046-D",
     eje: "Metodología",
     sourceId: 46,
     kind: "direct",
-    prompt: "Involucramiento con poder real de decision en procesos que afectan a las personas y comunidades.",
-    answer: "Participacion social como metodologia.",
-    note: "No equivale a consulta decorativa."
+    prompt: "Involucramiento con poder real de decisión en los procesos que afectan a las personas y comunidades.",
+    answer: "Participación social como metodología.",
+    note: "No equivale a una consulta decorativa."
   },
   {
     id: "M-046-I",
     eje: "Metodología",
     sourceId: 46,
     kind: "inverse",
-    prompt: "Metodo que redistribuye poder, abre informacion y permite influencia efectiva de la poblacion en la intervencion.",
-    answer: "Participacion social como metodologia.",
-    note: "Exige respeto genuino a saberes comunitarios."
+    prompt: "Método que redistribuye poder, abre información y permite una influencia efectiva de la población en la intervención.",
+    answer: "Participación social como metodología.",
+    note: "Exige respeto genuino a los saberes comunitarios."
   },
   {
     id: "M-046-A",
     eje: "Metodología",
     sourceId: 46,
     kind: "cloze",
-    prompt: "Cuando se escucha pero no se cede poder, la participacion se vuelve _____.",
+    prompt: "Cuando se escucha pero no se cede poder, la participación se vuelve _____.",
     answer: "superficial.",
-    note: "Alerta de examen: criticar el participacionismo vacio."
+    note: "Alerta de examen: criticar el participacionismo vacío."
   },
   {
     id: "M-047-D",
     eje: "Metodología",
     sourceId: 47,
     kind: "direct",
-    prompt: "Proceso por el cual personas y comunidades amplian control sobre su vida, acceso a recursos y capacidad de decision.",
-    answer: "Empoderamiento como proceso metodologico.",
+    prompt: "Proceso por el cual personas y comunidades amplían el control sobre su vida, el acceso a recursos y su capacidad de decisión.",
+    answer: "Empoderamiento como proceso metodológico.",
     note: "No se entrega desde arriba; se construye."
   },
   {
@@ -1255,35 +1255,35 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 47,
     kind: "inverse",
-    prompt: "Construccion reflexiva, organizacional y politica de mayor autonomia, poder y protagonismo.",
-    answer: "Empoderamiento como proceso metodologico.",
-    note: "Debe producir cambios reales en capacidad de decidir."
+    prompt: "Construcción reflexiva, organizacional y política de mayor autonomía, poder y protagonismo.",
+    answer: "Empoderamiento como proceso metodológico.",
+    note: "Debe producir cambios reales en la capacidad de decidir."
   },
   {
     id: "M-047-A",
     eje: "Metodología",
     sourceId: 47,
     kind: "cloze",
-    prompt: "Si no cambia la capacidad real de decidir, el llamado empoderamiento queda en pura _____.",
-    answer: "retorica.",
-    note: "Alerta de examen: evaluar si hubo cambios efectivos en poder y autonomia."
+    prompt: "Si no cambia la capacidad real de decidir, el llamado empoderamiento se queda en pura _____.",
+    answer: "retórica.",
+    note: "Alerta de examen: evaluar si hubo cambios efectivos en poder y autonomía."
   },
   {
     id: "M-048-D",
     eje: "Metodología",
     sourceId: 48,
     kind: "direct",
-    prompt: "Coordinacion sostenida entre instituciones y sectores para abordar problemas de forma integral y no fragmentada.",
-    answer: "Trabajo en red e intersectoralidad.",
-    note: "Requiere aliados, roles claros y comunicacion constante."
+    prompt: "Coordinación sostenida entre instituciones y sectores para abordar problemas de forma integral y no fragmentada.",
+    answer: "Trabajo en red e intersectorialidad.",
+    note: "Requiere aliados, roles claros y comunicación constante."
   },
   {
     id: "M-048-I",
     eje: "Metodología",
     sourceId: 48,
     kind: "inverse",
-    prompt: "Articulacion entre salud, educacion, vivienda, empleo y otros campos sin perder autonomia institucional.",
-    answer: "Trabajo en red e intersectoralidad.",
+    prompt: "Articulación entre salud, educación, vivienda, empleo y otros campos sin perder la autonomía institucional.",
+    answer: "Trabajo en red e intersectorialidad.",
     note: "Su objetivo es el abordaje integral."
   },
   {
@@ -1291,17 +1291,17 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 48,
     kind: "cloze",
-    prompt: "El problema que esta metodologia busca evitar es la _____ de las respuestas sociales.",
-    answer: "fragmentacion.",
-    note: "Alerta de examen: evaluar la calidad real de la coordinacion."
+    prompt: "El problema que esta metodología busca evitar es la _____ de las respuestas sociales.",
+    answer: "fragmentación.",
+    note: "Alerta de examen: evaluar la calidad real de la coordinación."
   },
   {
     id: "M-049-D",
     eje: "Metodología",
     sourceId: 49,
     kind: "direct",
-    prompt: "Intervencion de tercera parte que facilita comunicacion y construccion de acuerdos entre actores enfrentados.",
-    answer: "Mediacion y resolucion de conflictos.",
+    prompt: "Intervención de una tercera parte que facilita la comunicación y la construcción de acuerdos entre actores enfrentados.",
+    answer: "Mediación y resolución de conflictos.",
     note: "Busca soluciones mutuamente satisfactorias, no imponerse."
   },
   {
@@ -1309,9 +1309,9 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 49,
     kind: "inverse",
-    prompt: "Metodo para canalizar conflictos con neutralidad vigilante, empatia hacia ambas partes y creatividad en opciones.",
-    answer: "Mediacion y resolucion de conflictos.",
-    note: "Difiere de la imposicion autoritaria de una salida."
+    prompt: "Método para canalizar conflictos con neutralidad vigilante, empatía hacia ambas partes y creatividad en las opciones.",
+    answer: "Mediación y resolución de conflictos.",
+    note: "Difiere de la imposición autoritaria de una salida."
   },
   {
     id: "M-049-A",
@@ -1320,14 +1320,14 @@ const flashcardsActiveRecall = [
     kind: "cloze",
     prompt: "Cuando el tercero decide por las partes, deja de mediar y empieza a _____.",
     answer: "imponer.",
-    note: "Alerta de examen: distinguir mediacion de imposicion de soluciones."
+    note: "Alerta de examen: distinguir mediación de imposición de soluciones."
   },
   {
     id: "M-050-D",
     eje: "Metodología",
     sourceId: 50,
     kind: "direct",
-    prompt: "Marco que entiende la fragilidad y la exposicion al dano como resultados de exclusion, dinamicas economicas y falta de proteccion social.",
+    prompt: "Marco que entiende la fragilidad y la exposición al daño como resultados de exclusión, dinámicas económicas y falta de protección social.",
     answer: "Vulnerabilidad y riesgo social.",
     note: "No son meros atributos individuales."
   },
@@ -1336,16 +1336,16 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 50,
     kind: "inverse",
-    prompt: "Conceptualizacion que une probabilidad de dano con debilidad de capacidades para afrontarlo en contextos estructuralmente desiguales.",
+    prompt: "Conceptualización que une la probabilidad de daño con la debilidad de capacidades para afrontarlo en contextos estructuralmente desiguales.",
     answer: "Vulnerabilidad y riesgo social.",
-    note: "Relaciona exposicion con protecciones disponibles."
+    note: "Relaciona la exposición con las protecciones disponibles."
   },
   {
     id: "M-050-A",
     eje: "Metodología",
     sourceId: 50,
     kind: "cloze",
-    prompt: "El error que debe evitarse es explicar la vulnerabilidad como falla _____ del sujeto.",
+    prompt: "El error que debe evitarse es explicar la vulnerabilidad como una falla _____ del sujeto.",
     answer: "individual.",
     note: "Alerta de examen: conectar vulnerabilidad con determinantes macrosociales."
   },
@@ -1354,16 +1354,16 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 51,
     kind: "direct",
-    prompt: "Intervencion breve y rapida orientada a contencion, estabilizacion inmediata y activacion de recursos ante una ruptura aguda.",
+    prompt: "Intervención breve y rápida orientada a la contención, estabilización inmediata y activación de recursos ante una ruptura aguda.",
     answer: "Abordaje de situaciones de crisis.",
-    note: "No resuelve todo el problema de fondo; abre paso a recuperacion posterior."
+    note: "No resuelve todo el problema de fondo; abre paso a la recuperación posterior."
   },
   {
     id: "M-051-I",
     eje: "Metodología",
     sourceId: 51,
     kind: "inverse",
-    prompt: "Respuesta metodologica que alivia sufrimiento agudo, restaura funcionalidad basica y prepara una recuperacion posterior.",
+    prompt: "Respuesta metodológica que alivia el sufrimiento agudo, restaura la funcionalidad básica y prepara una recuperación posterior.",
     answer: "Abordaje de situaciones de crisis.",
     note: "Su temporalidad es inmediata."
   },
@@ -1372,26 +1372,26 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 51,
     kind: "cloze",
-    prompt: "La diferencia con una terapia de fondo esta en que aqui prima la _____ inmediata.",
-    answer: "estabilizacion.",
-    note: "Alerta de examen: diferenciar intervencion en crisis de otros procesos largos."
+    prompt: "La diferencia con una terapia de fondo radica en que aquí prima la _____ inmediata.",
+    answer: "estabilización.",
+    note: "Alerta de examen: diferenciar intervención en crisis de otros procesos largos."
   },
   {
     id: "M-052-D",
     eje: "Metodología",
     sourceId: 52,
     kind: "direct",
-    prompt: "Intervencion psicosocial que reconoce dano, cuida la seguridad emocional y evita reactivar violentamente la herida.",
-    answer: "Abordaje de trauma social.",
-    note: "Integra recuperacion, recursos comunitarios y busqueda de justicia."
+    prompt: "Intervención psicosocial que reconoce el daño, cuida la seguridad emocional y evita reactivar violentamente la herida.",
+    answer: "Abordaje del trauma social.",
+    note: "Integra recuperación, recursos comunitarios y búsqueda de justicia."
   },
   {
     id: "M-052-I",
     eje: "Metodología",
     sourceId: 52,
     kind: "inverse",
-    prompt: "Metodo que combina reconocimiento del dano, prevencion de retraumatizacion y movilizacion de apoyo social ante violencia.",
-    answer: "Abordaje de trauma social.",
+    prompt: "Método que combina el reconocimiento del daño, la prevención de la retraumatización y la movilización de apoyo social ante la violencia.",
+    answer: "Abordaje del trauma social.",
     note: "La justicia puede ser parte del proceso reparador."
   },
   {
@@ -1399,161 +1399,161 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 52,
     kind: "cloze",
-    prompt: "Una practica correcta aqui debe evitar, por encima de todo, la _____.",
-    answer: "retraumatizacion.",
-    note: "Alerta de examen: integrar dimension psicosocial y de justicia."
+    prompt: "Una práctica correcta aquí debe evitar, por encima de todo, la _____.",
+    answer: "retraumatización.",
+    note: "Alerta de examen: integrar la dimensión psicosocial con la de justicia."
   },
   {
     id: "M-053-D",
     eje: "Metodología",
     sourceId: 53,
     kind: "direct",
-    prompt: "Enfoque investigativo donde las comunidades participan como coinvestigadoras y el conocimiento se vincula con transformacion.",
-    answer: "Metodologia participativa en investigacion social.",
-    note: "Rompe la figura del investigador neutral y aislado."
+    prompt: "Enfoque investigativo donde las comunidades participan como coinvestigadoras y el conocimiento se vincula con la transformación.",
+    answer: "Metodología participativa en investigación social.",
+    note: "Rompe con la figura del investigador neutral y aislado."
   },
   {
     id: "M-053-I",
     eje: "Metodología",
     sourceId: 53,
     kind: "inverse",
-    prompt: "Produccion colectiva de conocimiento que reconoce saberes comunitarios y convierte investigar en accion transformadora.",
-    answer: "Metodologia participativa en investigacion social.",
-    note: "Busca rigor y emancipacion a la vez."
+    prompt: "Producción colectiva de conocimiento que reconoce los saberes comunitarios y convierte el investigar en acción transformadora.",
+    answer: "Metodología participativa en investigación social.",
+    note: "Busca rigor y emancipación a la vez."
   },
   {
     id: "M-053-A",
     eje: "Metodología",
     sourceId: 53,
     kind: "cloze",
-    prompt: "La tension clave en este enfoque no es participacion versus rigor, sino como sostener _____.",
+    prompt: "La tensión clave en este enfoque no es 'participación versus rigor', sino cómo sostener _____.",
     answer: "ambos.",
-    note: "Alerta de examen: evaluar el balance entre transformacion y calidad investigativa."
+    note: "Alerta de examen: evaluar el balance entre transformación y calidad investigativa."
   },
   {
     id: "M-054-D",
     eje: "Metodología",
     sourceId: 54,
     kind: "direct",
-    prompt: "Uso de fotografia, mapeo, cine y otras expresiones visuales para comprender y transformar realidades sociales.",
-    answer: "Metodos visuales en intervencion social.",
-    note: "Amplian la expresion mas alla del lenguaje escrito."
+    prompt: "Uso de la fotografía, el mapeo, el cine y otras expresiones visuales para comprender y transformar realidades sociales.",
+    answer: "Métodos visuales en intervención social.",
+    note: "Amplían la expresión más allá del lenguaje escrito."
   },
   {
     id: "M-054-I",
     eje: "Metodología",
     sourceId: 54,
     kind: "inverse",
-    prompt: "Herramientas que capturan complejidad y facilitan conciencia mediante lenguajes visuales y sensorio-emotivos.",
-    answer: "Metodos visuales en intervencion social.",
-    note: "Son utiles cuando la palabra no basta."
+    prompt: "Herramientas que capturan la complejidad y facilitan la conciencia mediante lenguajes visuales y sensorio-emotivos.",
+    answer: "Métodos visuales en intervención social.",
+    note: "Son útiles cuando la palabra no basta."
   },
   {
     id: "M-054-A",
     eje: "Metodología",
     sourceId: 54,
     kind: "cloze",
-    prompt: "La fortaleza distintiva aqui consiste en valorar formas de expresion _____.",
+    prompt: "La fortaleza distintiva aquí consiste en valorar formas de expresión _____.",
     answer: "no verbales.",
-    note: "Alerta de examen: integrar metodologias creativas con fundamento."
+    note: "Alerta de examen: integrar metodologías creativas con fundamento."
   },
   {
     id: "M-055-D",
     eje: "Metodología",
     sourceId: 55,
     kind: "direct",
-    prompt: "Conjunto de principios que orienta toda intervencion hacia respeto, consentimiento, justicia y responsabilidad profesional.",
-    answer: "Etica en practica metodologica.",
-    note: "Exige deliberacion constante frente a dilemas complejos."
+    prompt: "Conjunto de principios que orienta toda intervención hacia el respeto, el consentimiento, la justicia y la responsabilidad profesional.",
+    answer: "Ética en la práctica metodológica.",
+    note: "Exige deliberación constante frente a dilemas complejos."
   },
   {
     id: "M-055-I",
     eje: "Metodología",
     sourceId: 55,
     kind: "inverse",
-    prompt: "Marco que combina confidencialidad, autonomia, transparencia y justicia distributiva en la accion profesional.",
-    answer: "Etica en practica metodologica.",
-    note: "No ofrece respuestas automaticas; pide juicio responsable."
+    prompt: "Marco que combina confidencialidad, autonomía, transparencia y justicia distributiva en la acción profesional.",
+    answer: "Ética en la práctica metodológica.",
+    note: "No ofrece respuestas automáticas; pide juicio responsable."
   },
   {
     id: "M-055-A",
     eje: "Metodología",
     sourceId: 55,
     kind: "cloze",
-    prompt: "La etica profesional no elimina dilemas; exige _____ sobre ellos.",
-    answer: "deliberacion.",
-    note: "Alerta de examen: argumentar posiciones ante conflictos etico-metodologicos."
+    prompt: "La ética profesional no elimina los dilemas; exige _____ sobre ellos.",
+    answer: "deliberación.",
+    note: "Alerta de examen: argumentar posiciones ante conflictos ético-metodológicos."
   },
   {
     id: "M-056-D",
     eje: "Metodología",
     sourceId: 56,
     kind: "direct",
-    prompt: "Proceso reflexivo de extraer teoria practica a partir de lo vivido, preguntando que ocurrio y por que.",
-    answer: "Sistematizacion de aprendizajes.",
-    note: "Sirve para autoformacion y mejora de practicas."
+    prompt: "Proceso reflexivo de extraer teoría práctica a partir de lo vivido, preguntando qué ocurrió y por qué.",
+    answer: "Sistematización de aprendizajes.",
+    note: "Sirve para autoformación y mejora de prácticas."
   },
   {
     id: "M-056-I",
     eje: "Metodología",
     sourceId: 56,
     kind: "inverse",
-    prompt: "Conversion de experiencias en saber comunicable util para corregir, formar y enriquecer el acervo disciplinario.",
-    answer: "Sistematizacion de aprendizajes.",
-    note: "Es teoria desde la practica."
+    prompt: "Conversión de experiencias en saber comunicable y útil para corregir, formar y enriquecer el acervo disciplinario.",
+    answer: "Sistematización de aprendizajes.",
+    note: "Es teoría desde la práctica."
   },
   {
     id: "M-056-A",
     eje: "Metodología",
     sourceId: 56,
     kind: "cloze",
-    prompt: "El objetivo no es acumular recuerdos de intervencion, sino convertirlos en _____ explicito.",
+    prompt: "El objetivo no es acumular recuerdos de la intervención, sino convertirlos en un _____ explícito.",
     answer: "aprendizaje.",
-    note: "Alerta de examen: valorar la sistematizacion como autoformacion continua."
+    note: "Alerta de examen: valorar la sistematización como autoformación continua."
   },
   {
     id: "M-057-D",
     eje: "Metodología",
     sourceId: 57,
     kind: "direct",
-    prompt: "Seguimiento permanente que recoge informacion, compara con la linea base y permite corregir el curso de una accion.",
+    prompt: "Seguimiento permanente que recoge información, la compara con la línea base y permite corregir el curso de una acción.",
     answer: "Monitoreo continuado de intervenciones.",
-    note: "Su valor esta en la deteccion temprana y el ajuste oportuno."
+    note: "Su valor reside en la detección temprana y el ajuste oportuno."
   },
   {
     id: "M-057-I",
     eje: "Metodología",
     sourceId: 57,
     kind: "inverse",
-    prompt: "Sistema de seguimiento con analisis frecuente y retroalimentacion para mejorar iterativamente una intervencion.",
+    prompt: "Sistema de seguimiento con análisis frecuente y retroalimentación para mejorar iterativamente una intervención.",
     answer: "Monitoreo continuado de intervenciones.",
-    note: "Debe ser funcional y no burocratico."
+    note: "Debe ser funcional y no burocrático."
   },
   {
     id: "M-057-A",
     eje: "Metodología",
     sourceId: 57,
     kind: "cloze",
-    prompt: "Cuando el seguimiento solo produce papeles y no decisiones, el monitoreo cae en _____.",
-    answer: "burocracia esteril.",
-    note: "Alerta de examen: disenar sistemas que realmente orienten ajustes."
+    prompt: "Cuando el seguimiento solo produce papeles y no decisiones, el monitoreo cae en la _____.",
+    answer: "burocracia estéril.",
+    note: "Alerta de examen: diseñar sistemas que realmente orienten los ajustes."
   },
   {
     id: "M-058-D",
     eje: "Metodología",
     sourceId: 58,
     kind: "direct",
-    prompt: "Proceso de consolidar practicas eficaces dentro de estructuras estables, presupuestos y politicas duraderas.",
-    answer: "Institucionalizacion de practicas exitosas.",
-    note: "Busca sostenibilidad mas alla de iniciativas personales."
+    prompt: "Proceso de consolidar prácticas eficaces dentro de estructuras estables, presupuestos y políticas duraderas.",
+    answer: "Institucionalización de prácticas exitosas.",
+    note: "Busca la sostenibilidad más allá de iniciativas personales."
   },
   {
     id: "M-058-I",
     eje: "Metodología",
     sourceId: 58,
     kind: "inverse",
-    prompt: "Documentacion, capacitacion, adecuacion institucional y financiamiento para sostener intervenciones que funcionaron.",
-    answer: "Institucionalizacion de practicas exitosas.",
+    prompt: "Documentación, capacitación, adecuación institucional y financiamiento para sostener intervenciones que funcionaron.",
+    answer: "Institucionalización de prácticas exitosas.",
     note: "Permite ampliar beneficios a mayor escala."
   },
   {
@@ -1561,25 +1561,25 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 58,
     kind: "cloze",
-    prompt: "El riesgo permanente al consolidar una practica es su _____.",
-    answer: "burocratizacion.",
-    note: "Alerta de examen: evaluar factibilidad de institucionalizacion sin perder sentido."
+    prompt: "El riesgo permanente al consolidar una práctica es su _____.",
+    answer: "burocratización.",
+    note: "Alerta de examen: evaluar la factibilidad de la institucionalización sin perder su sentido original."
   },
   {
     id: "M-059-D",
     eje: "Metodología",
     sourceId: 59,
     kind: "direct",
-    prompt: "Proceso colectivo de adaptar, comunicar y hacer util conocimiento nuevo dentro de contextos concretos de intervencion.",
+    prompt: "Proceso colectivo de adaptar, comunicar y hacer útil el conocimiento nuevo dentro de contextos concretos de intervención.",
     answer: "Transferencia de conocimiento en Trabajo Social.",
-    note: "No es transmision vertical ni receta descontextualizada."
+    note: "No es una transmisión vertical ni una receta descontextualizada."
   },
   {
     id: "M-059-I",
     eje: "Metodología",
     sourceId: 59,
     kind: "inverse",
-    prompt: "Circulacion de saber profesional mediante capacitacion, documentacion y redes de aprendizaje con adaptacion local.",
+    prompt: "Circulación del saber profesional mediante capacitación, documentación y redes de aprendizaje con adaptación local.",
     answer: "Transferencia de conocimiento en Trabajo Social.",
     note: "El conocimiento cambia cuando circula."
   },
@@ -1588,17 +1588,17 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 59,
     kind: "cloze",
-    prompt: "El principal error aqui es convertir el conocimiento en una _____ sin contexto.",
+    prompt: "El principal error aquí es convertir el conocimiento en una _____ sin contexto.",
     answer: "receta.",
-    note: "Alerta de examen: promover adaptacion creativa y no copia automatica."
+    note: "Alerta de examen: promover la adaptación creativa y no la copia automática."
   },
   {
     id: "M-060-D",
     eje: "Metodología",
     sourceId: 60,
     kind: "direct",
-    prompt: "Valoracion de una intervencion construida con los beneficiarios como actores centrales del criterio, los datos y las decisiones.",
-    answer: "Evaluacion participativa.",
+    prompt: "Valoración de una intervención construida con los beneficiarios como actores centrales del criterio, los datos y las decisiones.",
+    answer: "Evaluación participativa.",
     note: "Desplaza la figura del experto solitario."
   },
   {
@@ -1606,35 +1606,35 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 60,
     kind: "inverse",
-    prompt: "Proceso evaluativo donde quienes viven la intervencion participan en definir criterios, analizar hallazgos y reorientar acciones.",
-    answer: "Evaluacion participativa.",
-    note: "Aporta perspectivas que ningun observador externo posee por si solo."
+    prompt: "Proceso evaluativo donde quienes viven la intervención participan en definir criterios, analizar hallazgos y reorientar acciones.",
+    answer: "Evaluación participativa.",
+    note: "Aporta perspectivas que ningún observador externo posee por sí solo."
   },
   {
     id: "M-060-A",
     eje: "Metodología",
     sourceId: 60,
     kind: "cloze",
-    prompt: "Si la poblacion solo aparece para validar una decision ya tomada, la participacion es _____.",
+    prompt: "Si la población solo aparece para validar una decisión ya tomada, la participación es _____.",
     answer: "tokenista.",
-    note: "Alerta de examen: evaluar la autenticidad de la participacion."
+    note: "Alerta de examen: evaluar la autenticidad de la participación."
   },
   {
     id: "M-061-D",
     eje: "Metodología",
     sourceId: 61,
     kind: "direct",
-    prompt: "Enfoque que estudia experiencias vividas, sentidos y estructuras de la experiencia desde la perspectiva del sujeto.",
-    answer: "Metodos fenomenologicos en Trabajo Social.",
-    note: "Capturan dimensiones existenciales, simbolicas y emocionales."
+    prompt: "Enfoque que estudia las experiencias vividas, los sentidos y las estructuras de la experiencia desde la perspectiva del sujeto.",
+    answer: "Métodos fenomenológicos en Trabajo Social.",
+    note: "Capturan dimensiones existenciales, simbólicas y emocionales."
   },
   {
     id: "M-061-I",
     eje: "Metodología",
     sourceId: 61,
     kind: "inverse",
-    prompt: "Metodo que privilegia el primer orden de la vivencia y busca comprender como se experimenta un fenomeno.",
-    answer: "Metodos fenomenologicos en Trabajo Social.",
+    prompt: "Método que privilegia el primer orden de la vivencia y busca comprender cómo se experimenta un fenómeno.",
+    answer: "Métodos fenomenológicos en Trabajo Social.",
     note: "No reemplaza el contexto; lo articula con la experiencia."
   },
   {
@@ -1642,9 +1642,9 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 61,
     kind: "cloze",
-    prompt: "Su error opuesto seria convertir la experiencia en un dato puramente _____.",
+    prompt: "El error opuesto sería convertir la experiencia en un dato puramente _____.",
     answer: "externo.",
-    note: "Alerta de examen: comprender la fenomenologia con rigor y no como impresionismo."
+    note: "Alerta de examen: comprender la fenomenología con rigor y no como impresionismo."
   },
   {
     id: "M-062-D",
@@ -1652,16 +1652,16 @@ const flashcardsActiveRecall = [
     sourceId: 62,
     kind: "direct",
     prompt: "Procedimientos para estudiar documentos, discursos y narrativas identificando patrones, significados y relaciones de poder.",
-    answer: "Metodos de analisis textual.",
-    note: "Incluyen analisis tematico, narrativo, del discurso y hermeneutico."
+    answer: "Métodos de análisis textual.",
+    note: "Incluyen análisis temático, narrativo, del discurso y hermenéutico."
   },
   {
     id: "M-062-I",
     eje: "Metodología",
     sourceId: 62,
     kind: "inverse",
-    prompt: "Estrategias que leen textos y relatos para decodificar sentidos implicitos y reconstruir realidades desde el lenguaje.",
-    answer: "Metodos de analisis textual.",
+    prompt: "Estrategias que leen textos y relatos para decodificar sentidos implícitos y reconstruir realidades desde el lenguaje.",
+    answer: "Métodos de análisis textual.",
     note: "Requieren rigor interpretativo."
   },
   {
@@ -1669,71 +1669,71 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 62,
     kind: "cloze",
-    prompt: "El riesgo de este enfoque es quedarse en una lectura _____ sin trabajo analitico.",
+    prompt: "El riesgo de este enfoque es quedarse en una lectura _____ sin trabajo analítico.",
     answer: "superficial.",
-    note: "Alerta de examen: sostener profundidad metodologica en la interpretacion textual."
+    note: "Alerta de examen: sostener profundidad metodológica en la interpretación textual."
   },
   {
     id: "M-063-D",
     eje: "Metodología",
     sourceId: 63,
     kind: "direct",
-    prompt: "Aproximacion que reconstruye trayectorias vitales para leer en ellas procesos historicos y estructuras sociales.",
-    answer: "Metodos de historias de vida.",
-    note: "Conectan singularidad biografica con condicion social."
+    prompt: "Aproximación que reconstruye trayectorias vitales para leer en ellas los procesos históricos y las estructuras sociales.",
+    answer: "Métodos de historias de vida.",
+    note: "Conectan la singularidad biográfica con la condición social."
   },
   {
     id: "M-063-I",
     eje: "Metodología",
     sourceId: 63,
     kind: "inverse",
-    prompt: "Uso de narrativas longitudinales y memoria reflexiva para entender como lo personal expresa lo historico y lo politico.",
-    answer: "Metodos de historias de vida.",
-    note: "No deben caer en psicologismo."
+    prompt: "Uso de narrativas longitudinales y memoria reflexiva para entender cómo lo personal expresa lo histórico y lo político.",
+    answer: "Métodos de historias de vida.",
+    note: "No deben caer en el psicologismo."
   },
   {
     id: "M-063-A",
     eje: "Metodología",
     sourceId: 63,
     kind: "cloze",
-    prompt: "La consigna analitica clave aqui es unir lo singular con lo _____.",
+    prompt: "La consigna analítica clave aquí es unir lo singular con lo _____.",
     answer: "estructural.",
-    note: "Alerta de examen: evitar leer una biografia como hecho aislado."
+    note: "Alerta de examen: evitar leer una biografía como un hecho aislado."
   },
   {
     id: "M-064-D",
     eje: "Metodología",
     sourceId: 64,
     kind: "direct",
-    prompt: "Perspectiva que entiende situaciones como resultado de interacciones reciprocas entre personas y multiples contextos.",
-    answer: "Enfoque ecosistemico en intervencion.",
-    note: "Rechaza la separacion individuo-ambiente."
+    prompt: "Perspectiva que entiende las situaciones como resultado de interacciones recíprocas entre personas y múltiples contextos.",
+    answer: "Enfoque ecosistémico en intervención.",
+    note: "Rechaza la separación individuo-ambiente."
   },
   {
     id: "M-064-I",
     eje: "Metodología",
     sourceId: 64,
     kind: "inverse",
-    prompt: "Lectura multinivel de influencias reciprocas entre sujeto, familia, comunidad, instituciones y estructura.",
-    answer: "Enfoque ecosistemico en intervencion.",
-    note: "Busca integracion y efectividad."
+    prompt: "Lectura multinivel de influencias recíprocas entre sujeto, familia, comunidad, instituciones y estructura.",
+    answer: "Enfoque ecosistémico en intervención.",
+    note: "Busca integración y efectividad."
   },
   {
     id: "M-064-A",
     eje: "Metodología",
     sourceId: 64,
     kind: "cloze",
-    prompt: "La clave teorica aqui es romper la dicotomia entre individuo y _____.",
+    prompt: "La clave teórica aquí es romper la dicotomía entre el individuo y su _____.",
     answer: "ambiente.",
-    note: "Alerta de examen: evaluar siempre multiples niveles de influencia."
+    note: "Alerta de examen: evaluar siempre los múltiples niveles de influencia."
   },
   {
     id: "M-065-D",
     eje: "Metodología",
     sourceId: 65,
     kind: "direct",
-    prompt: "Practica reflexiva mediante la cual el profesional revisa fortalezas, limites y errores para mejorar continuamente.",
-    answer: "Autoevaluacion de practicas profesionales.",
+    prompt: "Práctica reflexiva mediante la cual el profesional revisa fortalezas, límites y errores para mejorar continuamente.",
+    answer: "Autoevaluación de prácticas profesionales.",
     note: "Requiere honestidad, apertura y compromiso con el cambio."
   },
   {
@@ -1741,8 +1741,8 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 65,
     kind: "inverse",
-    prompt: "Herramienta de desarrollo profesional basada en reflexion critica sobre la propia accion.",
-    answer: "Autoevaluacion de practicas profesionales.",
+    prompt: "Herramienta de desarrollo profesional basada en la reflexión crítica sobre la propia acción.",
+    answer: "Autoevaluación de prácticas profesionales.",
     note: "Debe fortalecer, no paralizar."
   },
   {
@@ -1750,107 +1750,107 @@ const flashcardsActiveRecall = [
     eje: "Metodología",
     sourceId: 65,
     kind: "cloze",
-    prompt: "El equilibrio correcto aqui evita tanto la complacencia como la _____.",
-    answer: "autoflagelacion.",
-    note: "Alerta de examen: promover reflexion critica productiva."
+    prompt: "El equilibrio correcto aquí evita tanto la complacencia como la _____.",
+    answer: "autoflagelación.",
+    note: "Alerta de examen: promover la reflexión crítica productiva."
   },
   {
     id: "T-066-D",
     eje: "Teoría Social",
     sourceId: 66,
     kind: "direct",
-    prompt: "Concepto general que organiza explicaciones sobre estructura, accion y cambio social.",
-    answer: "Teoria social.",
-    note: "No es mera descripcion; busca explicar y guiar."
+    prompt: "Concepto general que organiza explicaciones sobre estructura, acción y cambio social.",
+    answer: "Teoría social.",
+    note: "No es una mera descripción; busca explicar y guiar."
   },
   {
     id: "T-066-I",
     eje: "Teoría Social",
     sourceId: 66,
     kind: "inverse",
-    prompt: "Marco conceptual capaz de explicar fenomenos sociales, ofrecer interpretacion fundamentada y orientar la practica.",
-    answer: "Teoria social.",
-    note: "Teoria y practica se alimentan mutuamente."
+    prompt: "Marco conceptual capaz de explicar fenómenos sociales, ofrecer interpretación fundamentada y orientar la práctica.",
+    answer: "Teoría social.",
+    note: "Teoría y práctica se alimentan mutuamente."
   },
   {
     id: "T-066-A",
     eje: "Teoría Social",
     sourceId: 66,
     kind: "cloze",
-    prompt: "La diferencia decisiva aqui es entre simple descripcion y _____.",
-    answer: "explicacion fundamentada.",
-    note: "Alerta de examen: comprender la teoria como herramienta y no como ornamento."
+    prompt: "La diferencia decisiva aquí se da entre una simple descripción y una _____.",
+    answer: "explicación fundamentada.",
+    note: "Alerta de examen: comprender la teoría como herramienta y no como ornamento."
   },
   {
     id: "T-067-D",
     eje: "Teoría Social",
     sourceId: 67,
     kind: "direct",
-    prompt: "Conjunto de aportes que incluye explicar, predecir, identificar patrones, guiar la accion y criticar injusticias.",
-    answer: "Funciones de la teoria social.",
-    note: "Su poder es hermeneutico y tambien transformador."
+    prompt: "Conjunto de aportes que incluye explicar, predecir, identificar patrones, guiar la acción y criticar injusticias.",
+    answer: "Funciones de la teoría social.",
+    note: "Su poder es hermenéutico y también transformador."
   },
   {
     id: "T-067-I",
     eje: "Teoría Social",
     sourceId: 67,
     kind: "inverse",
-    prompt: "Capacidades analiticas y practicas que permiten comprender fenomenos y orientar intervenciones sobre ellos.",
-    answer: "Funciones de la teoria social.",
-    note: "No se limita a la abstraccion academica."
+    prompt: "Capacidades analíticas y prácticas que permiten comprender fenómenos y orientar intervenciones sobre ellos.",
+    answer: "Funciones de la teoría social.",
+    note: "No se limita a la abstracción académica."
   },
   {
     id: "T-067-A",
     eje: "Teoría Social",
     sourceId: 67,
     kind: "cloze",
-    prompt: "Cuando la teoria se desconecta de la accion, pierde parte de su potencia _____.",
+    prompt: "Cuando la teoría se desconecta de la acción, pierde parte de su potencia _____.",
     answer: "transformadora.",
-    note: "Alerta de examen: conectar teoria con aplicabilidad concreta."
+    note: "Alerta de examen: conectar la teoría con su aplicabilidad concreta."
   },
   {
     id: "T-068-D",
     eje: "Teoría Social",
     sourceId: 68,
     kind: "direct",
-    prompt: "Categorias generales como estructura, agencia, poder, legitimidad, cambio y desigualdad que permiten analizar lo social.",
-    answer: "Conceptos fundamentales en teoria social.",
-    note: "Funcionan como andamiaje comun para distintas corrientes."
+    prompt: "Categorías generales como estructura, agencia, poder, legitimidad, cambio y desigualdad que permiten analizar lo social.",
+    answer: "Conceptos fundamentales en teoría social.",
+    note: "Funcionan como andamiaje común para distintas corrientes."
   },
   {
     id: "T-068-I",
     eje: "Teoría Social",
     sourceId: 68,
     kind: "inverse",
-    prompt: "Nucleo de categorias que organiza reflexiones coherentes sobre patrones, capacidades de accion, jerarquias y transformaciones.",
-    answer: "Conceptos fundamentales en teoria social.",
-    note: "Su valor esta tambien en sus interrelaciones."
+    prompt: "Núcleo de categorías que organiza reflexiones coherentes sobre patrones, capacidades de acción, jerarquías y transformaciones.",
+    answer: "Conceptos fundamentales en teoría social.",
+    note: "Su valor reside también en sus interrelaciones."
   },
   {
     id: "T-068-A",
     eje: "Teoría Social",
     sourceId: 68,
     kind: "cloze",
-    prompt: "Aprender estas categorias exige no solo definirlas, sino articular sus _____.",
+    prompt: "Aprender estas categorías exige no solo definirlas, sino articular sus _____.",
     answer: "interrelaciones.",
-    note: "Alerta de examen: aplicarlas en analisis concretos."
+    note: "Alerta de examen: aplicarlas en análisis concretos."
   },
   {
     id: "T-069-D",
     eje: "Teoría Social",
     sourceId: 69,
     kind: "direct",
-    prompt: "Tension teorica entre perspectivas que destacan estabilidad e integracion y otras que subrayan conflicto y transformacion.",
-    answer: "Equilibrio vs. cambio en teoria social.",
-    note: "La vida social combina reproduccion y movimiento."
+    prompt: "Tensión teórica entre las perspectivas que destacan la estabilidad e integración y aquellas que subrayan el conflicto y la transformación.",
+    answer: "Equilibrio vs. cambio en teoría social.",
+    note: "La vida social combina reproducción y movimiento."
   },
   {
     id: "T-069-I",
     eje: "Teoría Social",
     sourceId: 69,
     kind: "inverse",
-    prompt: "Debate sobre si las sociedades se orientan principalmente a la estabilidad o si el conflicto impulsa su transformacion.",
-    answer: "Equilibrio vs. cambio en teoria social.",
+    prompt: "Debate sobre si las sociedades se orientan principalmente a la estabilidad o si el conflicto impulsa su transformación.",
+    answer: "Equilibrio vs. cambio en teoría social.",
     note: "Una mirada sofisticada reconoce ambos polos."
   },
   {
@@ -1858,17 +1858,17 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 69,
     kind: "cloze",
-    prompt: "El error comun consiste en caer en un unico polo: determinismo del orden o voluntarismo del _____.",
+    prompt: "El error común consiste en caer en un único polo: determinismo del orden o voluntarismo del _____.",
     answer: "cambio.",
-    note: "Alerta de examen: evitar reducciones a un solo principio dinamico."
+    note: "Alerta de examen: evitar reducciones a un solo principio dinámico."
   },
   {
     id: "T-070-D",
     eje: "Teoría Social",
     sourceId: 70,
     kind: "direct",
-    prompt: "Problema teorico referido al grado en que las estructuras constrinen o habilitan la libertad humana.",
-    answer: "Determinismo estructural y libertad de accion.",
+    prompt: "Problema teórico referido al grado en que las estructuras constriñen o habilitan la libertad humana.",
+    answer: "Determinismo estructural y libertad de acción.",
     note: "Las posturas refinadas sostienen que ambas dimensiones coexisten."
   },
   {
@@ -1876,16 +1876,16 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 70,
     kind: "inverse",
-    prompt: "Dilema entre ver a los sujetos como automatas estructurales o como agentes totalmente libres.",
-    answer: "Determinismo estructural y libertad de accion.",
-    note: "La respuesta madura piensa marcos de posibilidad."
+    prompt: "Dilema entre ver a los sujetos como autómatas estructurales o como agentes totalmente libres.",
+    answer: "Determinismo estructural y libertad de acción.",
+    note: "La respuesta madura piensa en marcos de posibilidad."
   },
   {
     id: "T-070-A",
     eje: "Teoría Social",
     sourceId: 70,
     kind: "cloze",
-    prompt: "La salida teorica mas solida aqui consiste en pensar estructuras que constrinen y tambien _____.",
+    prompt: "La salida teórica más sólida aquí consiste en pensar en estructuras que constriñen y también _____.",
     answer: "habilitan.",
     note: "Alerta de examen: evitar los dos reduccionismos opuestos."
   },
@@ -1894,17 +1894,17 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 71,
     kind: "direct",
-    prompt: "Conjunto de mecanismos por los cuales una sociedad mantiene estructuras, privilegios y desigualdades a traves del tiempo.",
-    answer: "Reproduccion social.",
-    note: "Opera mediante socializacion, instituciones y hegemonia cultural."
+    prompt: "Conjunto de mecanismos por los cuales una sociedad mantiene estructuras, privilegios y desigualdades a través del tiempo.",
+    answer: "Reproducción social.",
+    note: "Opera mediante socialización, instituciones y hegemonía cultural."
   },
   {
     id: "T-071-I",
     eje: "Teoría Social",
     sourceId: 71,
     kind: "inverse",
-    prompt: "Proceso que normaliza lo existente, transmite privilegios y hace que ciertos ordenes parezcan naturales.",
-    answer: "Reproduccion social.",
+    prompt: "Proceso que normaliza lo existente, transmite privilegios y hace que ciertos órdenes parezcan naturales.",
+    answer: "Reproducción social.",
     note: "Comprenderla permite detectar puntos de ruptura."
   },
   {
@@ -1912,26 +1912,26 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 71,
     kind: "cloze",
-    prompt: "La clave critica aqui es mostrar que la desigualdad no se mantiene sola: requiere trabajo de _____.",
-    answer: "reproduccion.",
-    note: "Alerta de examen: identificar mecanismos que perpetuan el orden social."
+    prompt: "La clave crítica aquí es mostrar que la desigualdad no se mantiene sola: requiere un trabajo de _____.",
+    answer: "reproducción.",
+    note: "Alerta de examen: identificar los mecanismos que perpetúan el orden social."
   },
   {
     id: "T-072-D",
     eje: "Teoría Social",
     sourceId: 72,
     kind: "direct",
-    prompt: "Proceso por el cual cambian estructuras, practicas e instituciones, de forma gradual, abrupta o combinada.",
-    answer: "Transformacion social.",
-    note: "Exige actores colectivos, crisis y construccion de alternativas."
+    prompt: "Proceso por el cual cambian las estructuras, prácticas e instituciones, ya sea de forma gradual, abrupta o combinada.",
+    answer: "Transformación social.",
+    note: "Exige actores colectivos, crisis y construcción de alternativas."
   },
   {
     id: "T-072-I",
     eje: "Teoría Social",
     sourceId: 72,
     kind: "inverse",
-    prompt: "Cambio de ordenamientos sociales impulsado por sujetos colectivos, conflictos de legitimidad y capacidad de instituir alternativas.",
-    answer: "Transformacion social.",
+    prompt: "Cambio de ordenamientos sociales impulsado por sujetos colectivos, conflictos de legitimidad y la capacidad de instituir alternativas.",
+    answer: "Transformación social.",
     note: "Puede ser incremental o abrupta."
   },
   {
@@ -1939,7 +1939,7 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 72,
     kind: "cloze",
-    prompt: "No hay transformacion sostenida sin sujetos colectivos y crisis de _____.",
+    prompt: "No hay transformación sostenida sin sujetos colectivos y crisis de _____.",
     answer: "legitimidad.",
     note: "Alerta de examen: identificar mecanismos y actores del cambio social."
   },
@@ -1948,35 +1948,35 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 73,
     kind: "direct",
-    prompt: "Conjunto de formas de orientacion de la accion que incluye calculo instrumental, valores, tradicion y afectos.",
+    prompt: "Conjunto de formas de orientación de la acción que incluye el cálculo instrumental, los valores, la tradición y los afectos.",
     answer: "Racionalidad social.",
-    note: "No se reduce al calculo utilitario."
+    note: "No se reduce al cálculo utilitario."
   },
   {
     id: "T-073-I",
     eje: "Teoría Social",
     sourceId: 73,
     kind: "inverse",
-    prompt: "Modo en que las personas deciden y actuan segun fines, valores, costumbres o emociones dentro de un contexto social.",
+    prompt: "Modo en que las personas deciden y actúan según fines, valores, costumbres o emociones dentro de un contexto social.",
     answer: "Racionalidad social.",
-    note: "Ampliar su concepto evita llamar irracional a lo que solo sigue otra logica."
+    note: "Ampliar su concepto evita llamar irracional a lo que solo sigue otra lógica."
   },
   {
     id: "T-073-A",
     eje: "Teoría Social",
     sourceId: 73,
     kind: "cloze",
-    prompt: "Error clasico: reducir toda racionalidad al calculo _____.",
+    prompt: "Error clásico: reducir toda racionalidad al cálculo _____.",
     answer: "instrumental.",
-    note: "Alerta de examen: valorar formas multiples de orientacion de la accion."
+    note: "Alerta de examen: valorar formas múltiples de orientación de la acción."
   },
   {
     id: "T-074-D",
     eje: "Teoría Social",
     sourceId: 74,
     kind: "direct",
-    prompt: "Aceptacion de un orden social o politico porque se le considera valido por tradicion, carisma, legalidad, desempeno o valores compartidos.",
-    answer: "Legitimidad politica y social.",
+    prompt: "Aceptación de un orden social o político porque se le considera válido por tradición, carisma, legalidad, desempeño o valores compartidos.",
+    answer: "Legitimidad política y social.",
     note: "Su quiebre suele anticipar cambios profundos."
   },
   {
@@ -1984,8 +1984,8 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 74,
     kind: "inverse",
-    prompt: "Fundamento de aceptacion de un sistema que evita depender solo de la represion abierta.",
-    answer: "Legitimidad politica y social.",
+    prompt: "Fundamento de aceptación de un sistema que evita depender únicamente de la represión abierta.",
+    answer: "Legitimidad política y social.",
     note: "Puede basarse en fuentes diferentes."
   },
   {
@@ -1993,8 +1993,8 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 74,
     kind: "cloze",
-    prompt: "Cuando un orden pierde aceptacion, empieza a sostenerse cada vez mas por _____.",
-    answer: "represion.",
+    prompt: "Cuando un orden pierde aceptación, empieza a sostenerse cada vez más por la _____.",
+    answer: "represión.",
     note: "Alerta de examen: identificar crisis legitimatorias."
   },
   {
@@ -2002,17 +2002,17 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 75,
     kind: "direct",
-    prompt: "Distincion entre imposicion sin consentimiento y obediencia aceptada porque se la considera valida.",
-    answer: "Poder como dominacion y autoridad.",
-    note: "La primera recurre mas al miedo; la segunda, a la legitimidad."
+    prompt: "Distinción entre la imposición sin consentimiento y la obediencia aceptada porque se la considera válida.",
+    answer: "Poder como dominación y autoridad.",
+    note: "La primera recurre más al miedo; la segunda, a la legitimidad."
   },
   {
     id: "T-075-I",
     eje: "Teoría Social",
     sourceId: 75,
     kind: "inverse",
-    prompt: "Diferencia entre poder impuesto coercitivamente y poder obedecido por reconocimiento de su validez.",
-    answer: "Poder como dominacion y autoridad.",
+    prompt: "Diferencia entre el poder impuesto coercitivamente y el poder obedecido por el reconocimiento de su validez.",
+    answer: "Poder como dominación y autoridad.",
     note: "Ambas formas pueden ser estables o injustas."
   },
   {
@@ -2020,44 +2020,44 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 75,
     kind: "cloze",
-    prompt: "La autoridad se distingue de la dominacion porque incorpora _____.",
+    prompt: "La autoridad se distingue de la dominación porque incorpora la _____.",
     answer: "legitimidad.",
-    note: "Alerta de examen: analizar tipos de poder en contextos concretos."
+    note: "Alerta de examen: analizar los tipos de poder en contextos concretos."
   },
   {
     id: "T-076-D",
     eje: "Teoría Social",
     sourceId: 76,
     kind: "direct",
-    prompt: "Problema teorico que busca explicar por que existen jerarquias persistentes y como se producen historicamente.",
-    answer: "Desigualdad social: naturaleza y origenes.",
-    note: "Las respuestas van de la funcionalidad a la explotacion y combinan dimensiones multiples."
+    prompt: "Problema teórico que busca explicar por qué existen jerarquías persistentes y cómo se producen históricamente.",
+    answer: "Desigualdad social: naturaleza y orígenes.",
+    note: "Las respuestas van de la funcionalidad a la explotación y combinan múltiples dimensiones."
   },
   {
     id: "T-076-I",
     eje: "Teoría Social",
     sourceId: 76,
     kind: "inverse",
-    prompt: "Explicaciones sobre desigualdades que las leen como motivacion necesaria o como resultado de dominacion historica.",
-    answer: "Desigualdad social: naturaleza y origenes.",
-    note: "Ninguna desigualdad es natural por si misma."
+    prompt: "Explicaciones sobre las desigualdades que las leen como una motivación necesaria o como resultado de la dominación histórica.",
+    answer: "Desigualdad social: naturaleza y orígenes.",
+    note: "Ninguna desigualdad es natural por sí misma."
   },
   {
     id: "T-076-A",
     eje: "Teoría Social",
     sourceId: 76,
     kind: "cloze",
-    prompt: "El punto critico aqui es no _____ la desigualdad.",
+    prompt: "El punto crítico aquí es no _____ la desigualdad.",
     answer: "naturalizar.",
-    note: "Alerta de examen: reconocer su caracter historico y construido."
+    note: "Alerta de examen: reconocer su carácter histórico y construido."
   },
   {
     id: "T-077-D",
     eje: "Teoría Social",
     sourceId: 77,
     kind: "direct",
-    prompt: "Estructuras jerarquicas que distribuyen posiciones, oportunidades y experiencias de vida de manera desigual.",
-    answer: "Sistemas de estratificacion social.",
+    prompt: "Estructuras jerárquicas que distribuyen posiciones, oportunidades y experiencias de vida de manera desigual.",
+    answer: "Sistemas de estratificación social.",
     note: "Pueden organizarse por clase, estatus, poder o combinaciones."
   },
   {
@@ -2065,8 +2065,8 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 77,
     kind: "inverse",
-    prompt: "Ordenamiento social que ubica a poblaciones en lugares diferenciados segun recursos, prestigio o capacidad de decision.",
-    answer: "Sistemas de estratificacion social.",
+    prompt: "Ordenamiento social que ubica a poblaciones en lugares diferenciados según sus recursos, prestigio o capacidad de decisión.",
+    answer: "Sistemas de estratificación social.",
     note: "Moldean oportunidades e identidades."
   },
   {
@@ -2074,63 +2074,63 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 77,
     kind: "cloze",
-    prompt: "El analisis correcto aqui debe reconocer tambien sus dimensiones _____.",
+    prompt: "El análisis correcto aquí debe reconocer también sus dimensiones _____.",
     answer: "interseccionales.",
-    note: "Alerta de examen: ver como clase, estatus y poder se combinan."
+    note: "Alerta de examen: ver cómo clase, estatus y poder se combinan."
   },
   {
     id: "T-078-D",
     eje: "Teoría Social",
     sourceId: 78,
     kind: "direct",
-    prompt: "Agrupamientos definidos por posicion semejante en relacion con la economia, los recursos y las oportunidades.",
+    prompt: "Agrupamientos definidos por una posición semejante en relación con la economía, los recursos y las oportunidades.",
     answer: "Clases sociales.",
-    note: "Pueden leerse desde relacion con medios de produccion o desde chances de vida."
+    note: "Pueden leerse desde la relación con los medios de producción o desde las opciones de vida."
   },
   {
     id: "T-078-I",
     eje: "Teoría Social",
     sourceId: 78,
     kind: "inverse",
-    prompt: "Categorias sociales que no son solo estadisticas, sino potenciales actores politicos con intereses compartidos.",
+    prompt: "Categorías sociales que no son solo estadísticas, sino potenciales actores políticos con intereses compartidos.",
     answer: "Clases sociales.",
-    note: "Son clave para leer oportunidades y limites estructurales."
+    note: "Son clave para leer oportunidades y límites estructurales."
   },
   {
     id: "T-078-A",
     eje: "Teoría Social",
     sourceId: 78,
     kind: "cloze",
-    prompt: "El error comun es convertir la clase en una variable fija y olvidar su dimension _____.",
-    answer: "politica.",
-    note: "Alerta de examen: evitar determinismo de clase sin borrar su fuerza explicativa."
+    prompt: "El error común es convertir la clase en una variable fija y olvidar su dimensión _____.",
+    answer: "política.",
+    note: "Alerta de examen: evitar el determinismo de clase sin borrar su fuerza explicativa."
   },
   {
     id: "T-079-D",
     eje: "Teoría Social",
     sourceId: 79,
     kind: "direct",
-    prompt: "Red de confianza, reciprocidad y participacion que facilita cooperacion y acceso a recursos.",
+    prompt: "Red de confianza, reciprocidad y participación que facilita la cooperación y el acceso a recursos.",
     answer: "Capital social.",
-    note: "Puede fortalecer la accion colectiva, aunque no siempre de forma inclusiva."
+    note: "Puede fortalecer la acción colectiva, aunque no siempre de forma inclusiva."
   },
   {
     id: "T-079-I",
     eje: "Teoría Social",
     sourceId: 79,
     kind: "inverse",
-    prompt: "Conjunto de relaciones y normas civicas que permite resolver problemas colectivos y mediar acceso a bienes.",
+    prompt: "Conjunto de relaciones y normas cívicas que permite resolver problemas colectivos y mediar el acceso a bienes.",
     answer: "Capital social.",
-    note: "No es solo recurso individual; depende de pertenencias sociales."
+    note: "No es solo un recurso individual; depende de pertenencias sociales."
   },
   {
     id: "T-079-A",
     eje: "Teoría Social",
     sourceId: 79,
     kind: "cloze",
-    prompt: "Debe valorarse sin _____, porque algunas redes tambien excluyen y cierran oportunidades.",
+    prompt: "Debe valorarse sin _____, porque algunas redes también excluyen y cierran oportunidades.",
     answer: "romantizarlo.",
-    note: "Alerta de examen: reconocer tanto su potencia como sus limites."
+    note: "Alerta de examen: reconocer tanto su potencia como sus límites."
   },
   {
     id: "T-080-D",
@@ -2138,7 +2138,7 @@ const flashcardsActiveRecall = [
     sourceId: 80,
     kind: "direct",
     prompt: "Proceso continuo por el que se aprenden normas, valores, roles y comportamientos dentro de una cultura.",
-    answer: "Socializacion.",
+    answer: "Socialización.",
     note: "No termina en la infancia; atraviesa toda la vida."
   },
   {
@@ -2147,42 +2147,42 @@ const flashcardsActiveRecall = [
     sourceId: 80,
     kind: "inverse",
     prompt: "Aprendizaje permanente de pautas culturales en familia, escuela, pares, medios y trabajo.",
-    answer: "Socializacion.",
-    note: "Tambien abre la pregunta por la resocializacion."
+    answer: "Socialización.",
+    note: "También abre la pregunta por la resocialización."
   },
   {
     id: "T-080-A",
     eje: "Teoría Social",
     sourceId: 80,
     kind: "cloze",
-    prompt: "El rasgo decisivo aqui es su caracter _____, no exclusivamente infantil.",
+    prompt: "El rasgo decisivo aquí es su carácter _____, no exclusivamente infantil.",
     answer: "continuo.",
-    note: "Alerta de examen: pensarla como proceso permanente."
+    note: "Alerta de examen: pensarla como un proceso permanente."
   },
   {
     id: "T-081-D",
     eje: "Teoría Social",
     sourceId: 81,
     kind: "direct",
-    prompt: "Sistema de simbolos, codigos y practicas que da sentido compartido a la vida social.",
-    answer: "Cultura como sistema simbolico.",
-    note: "No es homogenea; contiene conflicto y creatividad."
+    prompt: "Sistema de símbolos, códigos y prácticas que da sentido compartido a la vida social.",
+    answer: "Cultura como sistema simbólico.",
+    note: "No es homogénea; contiene conflicto y creatividad."
   },
   {
     id: "T-081-I",
     eje: "Teoría Social",
     sourceId: 81,
     kind: "inverse",
-    prompt: "Trama de significados que posibilita comunicacion, interpretacion compartida y transmision intergeneracional.",
-    answer: "Cultura como sistema simbolico.",
-    note: "Debe entenderse junto con poder y condiciones materiales."
+    prompt: "Trama de significados que posibilita la comunicación, interpretación compartida y transmisión intergeneracional.",
+    answer: "Cultura como sistema simbólico.",
+    note: "Debe entenderse junto con el poder y las condiciones materiales."
   },
   {
     id: "T-081-A",
     eje: "Teoría Social",
     sourceId: 81,
     kind: "cloze",
-    prompt: "El sesgo a evitar aqui es el _____ cultural, que olvida recursos y poder.",
+    prompt: "El sesgo a evitar aquí es el _____ cultural, que olvida los recursos y el poder.",
     answer: "reduccionismo.",
     note: "Alerta de examen: no esencializar la cultura."
   },
@@ -2191,18 +2191,18 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 82,
     kind: "direct",
-    prompt: "Construccion relacional y cambiante del sentido de si, formada por pertenencias, reconocimientos y diferencias.",
+    prompt: "Construcción relacional y cambiante del sentido de sí, conformada por pertenencias, reconocimientos y diferencias.",
     answer: "Identidad social.",
-    note: "No es esencia fija; es proceso."
+    note: "No es una esencia fija; es un proceso."
   },
   {
     id: "T-082-I",
     eje: "Teoría Social",
     sourceId: 82,
     kind: "inverse",
-    prompt: "Proceso social por el cual una persona se reconoce y es reconocida desde multiples pertenencias activadas contextualmente.",
+    prompt: "Proceso social por el cual una persona se reconoce y es reconocida desde múltiples pertenencias activadas contextualmente.",
     answer: "Identidad social.",
-    note: "Puede ser emancipadora o volverse encierro."
+    note: "Puede ser emancipadora o volverse un encierro."
   },
   {
     id: "T-082-A",
@@ -2218,17 +2218,17 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 83,
     kind: "direct",
-    prompt: "Sistema social que organiza diferencias, jerarquias y relaciones de poder alrededor del sexo.",
-    answer: "Genero como categoria social.",
-    note: "No es biologia; es construccion historico-social."
+    prompt: "Sistema social que organiza diferencias, jerarquías y relaciones de poder alrededor del sexo.",
+    answer: "Género como categoría social.",
+    note: "No es biología; es una construcción histórico-social."
   },
   {
     id: "T-083-I",
     eje: "Teoría Social",
     sourceId: 83,
     kind: "inverse",
-    prompt: "Marco de analisis que explica divisiones del trabajo, acceso desigual al poder y violencias especificas como producto social.",
-    answer: "Genero como categoria social.",
+    prompt: "Marco de análisis que explica las divisiones del trabajo, acceso desigual al poder y violencias específicas como un producto social.",
+    answer: "Género como categoría social.",
     note: "Es imprescindible para leer opresiones persistentes."
   },
   {
@@ -2236,36 +2236,36 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 83,
     kind: "cloze",
-    prompt: "El error a combatir es la _____ de las desigualdades de genero.",
-    answer: "naturalizacion.",
-    note: "Alerta de examen: aplicar el analisis de genero sin reducirlo a biologia."
+    prompt: "El error a combatir es la _____ de las desigualdades de género.",
+    answer: "naturalización.",
+    note: "Alerta de examen: aplicar el análisis de género sin reducirlo a biología."
   },
   {
     id: "T-084-D",
     eje: "Teoría Social",
     sourceId: 84,
     kind: "direct",
-    prompt: "Proceso por el cual diferencias culturales son convertidas en marcas supuestamente naturales que justifican jerarquias.",
-    answer: "Etnicidad y procesos de racializacion.",
-    note: "La etnicidad puede ser pertenencia; la racializacion, dominacion."
+    prompt: "Proceso por el cual las diferencias culturales son convertidas en marcas supuestamente naturales que justifican jerarquías.",
+    answer: "Etnicidad y procesos de racialización.",
+    note: "La etnicidad puede ser pertenencia; la racialización, dominación."
   },
   {
     id: "T-084-I",
     eje: "Teoría Social",
     sourceId: 84,
     kind: "inverse",
-    prompt: "Analisis de pertenencias culturales y de la fabricacion social de razas para explotar, excluir o jerarquizar.",
-    answer: "Etnicidad y procesos de racializacion.",
-    note: "Permite pensar fortaleza identitaria y racismo estructural a la vez."
+    prompt: "Análisis de pertenencias culturales y de la fabricación social de razas para explotar, excluir o jerarquizar.",
+    answer: "Etnicidad y procesos de racialización.",
+    note: "Permite pensar la fortaleza identitaria y el racismo estructural a la vez."
   },
   {
     id: "T-084-A",
     eje: "Teoría Social",
     sourceId: 84,
     kind: "cloze",
-    prompt: "La tesis clave es que la raza no posee base biologica suficiente; es una _____ social.",
-    answer: "construccion.",
-    note: "Alerta de examen: historicizar la racializacion y sus efectos."
+    prompt: "La tesis clave es que la raza no posee una base biológica suficiente; es una _____ social.",
+    answer: "construcción.",
+    note: "Alerta de examen: historicizar la racialización y sus efectos."
   },
   {
     id: "T-085-D",
@@ -2281,16 +2281,16 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 85,
     kind: "inverse",
-    prompt: "Enfoque teorico que pide tolerar incertidumbre y pensar interacciones multiples en lugar de causalidad simple.",
+    prompt: "Enfoque teórico que pide tolerar la incertidumbre y pensar interacciones múltiples en lugar de causalidad simple.",
     answer: "Complejidad y pensamiento complejo.",
-    note: "No equivale a vaguedad; exige mas rigor, no menos."
+    note: "No equivale a vaguedad; exige más rigor, no menos."
   },
   {
     id: "T-085-A",
     eje: "Teoría Social",
     sourceId: 85,
     kind: "cloze",
-    prompt: "La consigna metodologica central aqui es evitar el _____.",
+    prompt: "La consigna metodológica central aquí es evitar el _____.",
     answer: "reduccionismo.",
     note: "Alerta de examen: no simplificar en exceso lo social."
   },
@@ -2299,44 +2299,44 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 86,
     kind: "direct",
-    prompt: "Dialogo entre saberes que produce comprensiones nuevas y no una mera suma de enfoques aislados.",
-    answer: "Interdisciplinariedad teorica.",
-    note: "Es rasgo constitutivo del Trabajo Social."
+    prompt: "Diálogo entre saberes que produce comprensiones nuevas y no una mera suma de enfoques aislados.",
+    answer: "Interdisciplinariedad teórica.",
+    note: "Es un rasgo constitutivo del Trabajo Social."
   },
   {
     id: "T-086-I",
     eje: "Teoría Social",
     sourceId: 86,
     kind: "inverse",
-    prompt: "Sintesis creativa entre sociologia, psicologia, antropologia, politica y economia para entender lo social.",
-    answer: "Interdisciplinariedad teorica.",
-    note: "Su desafio es integrar sin fragmentar."
+    prompt: "Síntesis creativa entre sociología, psicología, antropología, política y economía para entender lo social.",
+    answer: "Interdisciplinariedad teórica.",
+    note: "Su desafío es integrar sin fragmentar."
   },
   {
     id: "T-086-A",
     eje: "Teoría Social",
     sourceId: 86,
     kind: "cloze",
-    prompt: "El problema aqui no es la mezcla de disciplinas, sino la _____.",
-    answer: "fragmentacion.",
-    note: "Alerta de examen: integrar perspectivas multiples sin perder coherencia."
+    prompt: "El problema aquí no es la mezcla de disciplinas, sino la _____.",
+    answer: "fragmentación.",
+    note: "Alerta de examen: integrar perspectivas múltiples sin perder coherencia."
   },
   {
     id: "T-087-D",
     eje: "Teoría Social",
     sourceId: 87,
     kind: "direct",
-    prompt: "Enfoque que estudia como la realidad social se constituye desde experiencias vividas y significados compartidos.",
-    answer: "Fenomenologia social.",
-    note: "No niega estructuras; muestra como son vividas y reproducidas."
+    prompt: "Enfoque que estudia cómo la realidad social se constituye desde experiencias vividas y significados compartidos.",
+    answer: "Fenomenología social.",
+    note: "No niega las estructuras; muestra cómo son vividas y reproducidas."
   },
   {
     id: "T-087-I",
     eje: "Teoría Social",
     sourceId: 87,
     kind: "inverse",
-    prompt: "Perspectiva que pregunta por el sentido de la experiencia y por como los actores constituyen su mundo cotidiano.",
-    answer: "Fenomenologia social.",
+    prompt: "Perspectiva que pregunta por el sentido de la experiencia y por cómo los actores constituyen su mundo cotidiano.",
+    answer: "Fenomenología social.",
     note: "Aporta herramientas para comprender vivencias concretas."
   },
   {
@@ -2344,26 +2344,26 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 87,
     kind: "cloze",
-    prompt: "La tarea teorica consiste en vincular experiencia vivida con _____.",
+    prompt: "La tarea teórica consiste en vincular la experiencia vivida con las _____.",
     answer: "estructuras sociales.",
-    note: "Alerta de examen: evitar tanto individualismo como estructuralismo ciego."
+    note: "Alerta de examen: evitar tanto el individualismo como el estructuralismo ciego."
   },
   {
     id: "T-088-D",
     eje: "Teoría Social",
     sourceId: 88,
     kind: "direct",
-    prompt: "Nombre de la objecion que cuestiona estudiar lo social como naturaleza regida por leyes mecanicas.",
-    answer: "Critica del positivismo en teoria social.",
-    note: "Resalta significado, reflexividad y contexto."
+    prompt: "Nombre de la objeción que cuestiona estudiar lo social como naturaleza regida por leyes mecánicas.",
+    answer: "Crítica del positivismo en teoría social.",
+    note: "Resalta el significado, la reflexividad y el contexto."
   },
   {
     id: "T-088-I",
     eje: "Teoría Social",
     sourceId: 88,
     kind: "inverse",
-    prompt: "Argumento que pide complementar explicacion causal con comprension hermeneutica dada la especificidad del objeto social.",
-    answer: "Critica del positivismo en teoria social.",
+    prompt: "Argumento que pide complementar la explicación causal con la comprensión hermenéutica dada la especificidad del objeto social.",
+    answer: "Crítica del positivismo en teoría social.",
     note: "No implica renunciar al rigor."
   },
   {
@@ -2371,62 +2371,62 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 88,
     kind: "cloze",
-    prompt: "La critica no pide abandonar la ciencia, sino reconocer que lo social requiere tambien interpretacion _____.",
-    answer: "hermeneutica.",
-    note: "Alerta de examen: evitar caricaturizar la critica al positivismo."
+    prompt: "La crítica no pide abandonar la ciencia, sino reconocer que lo social requiere también interpretación _____.",
+    answer: "hermenéutica.",
+    note: "Alerta de examen: evitar caricaturizar la crítica al positivismo."
   },
   {
     id: "T-089-D",
     eje: "Teoría Social",
     sourceId: 89,
     kind: "direct",
-    prompt: "Revision de los supuestos de progreso lineal, eurocentrismo y dominio que estructuran la modernidad occidental.",
-    answer: "Critica de la razon moderna.",
-    note: "Senala que la modernidad emancipa y domina al mismo tiempo."
+    prompt: "Revisión de los supuestos de progreso lineal, eurocentrismo y dominio que estructuran la modernidad occidental.",
+    answer: "Crítica de la razón moderna.",
+    note: "Señala que la modernidad emancipa y domina al mismo tiempo."
   },
   {
     id: "T-089-I",
     eje: "Teoría Social",
     sourceId: 89,
     kind: "inverse",
-    prompt: "Perspectiva que cuestiona la fe ciega en el progreso y en la separacion sujeto-objeto como bases incontestables.",
-    answer: "Critica de la razon moderna.",
-    note: "No equivale a rechazo ingenuo de toda modernidad."
+    prompt: "Perspectiva que cuestiona la fe ciega en el progreso y en la separación sujeto-objeto como bases incontestables.",
+    answer: "Crítica de la razón moderna.",
+    note: "No equivale a un rechazo ingenuo de toda modernidad."
   },
   {
     id: "T-089-A",
     eje: "Teoría Social",
     sourceId: 89,
     kind: "cloze",
-    prompt: "La lectura equilibrada aqui evita tanto la idealizacion como el _____ ingenuo de la modernidad.",
+    prompt: "La lectura equilibrada aquí evita tanto la idealización como el _____ ingenuo de la modernidad.",
     answer: "rechazo.",
-    note: "Alerta de examen: aplicar la critica con reflexividad."
+    note: "Alerta de examen: aplicar la crítica con reflexividad."
   },
   {
     id: "T-090-D",
     eje: "Teoría Social",
     sourceId: 90,
     kind: "direct",
-    prompt: "Debate sobre si el eje normativo central debe ser la autonomia individual o la interdependencia comunitaria.",
+    prompt: "Debate sobre si el eje normativo central debe ser la autonomía individual o la interdependencia comunitaria.",
     answer: "Comunitarismo vs. individualismo.",
-    note: "Trabajo Social necesita una sintesis practicable entre ambos."
+    note: "Trabajo Social necesita una síntesis practicable entre ambos."
   },
   {
     id: "T-090-I",
     eje: "Teoría Social",
     sourceId: 90,
     kind: "inverse",
-    prompt: "Discusion teorica entre primacia de derechos individuales y prioridad de bienes comunes y responsabilidades colectivas.",
+    prompt: "Discusión teórica entre la primacía de derechos individuales y la prioridad de los bienes comunes y responsabilidades colectivas.",
     answer: "Comunitarismo vs. individualismo.",
-    note: "Ningun extremo alcanza por si solo."
+    note: "Ningún extremo alcanza por sí solo."
   },
   {
     id: "T-090-A",
     eje: "Teoría Social",
     sourceId: 90,
     kind: "cloze",
-    prompt: "La clave aqui no es elegir un extremo, sino construir una _____.",
-    answer: "sintesis.",
+    prompt: "La clave aquí no es elegir un extremo, sino construir una _____.",
+    answer: "síntesis.",
     note: "Alerta de examen: evitar reducciones individualistas o comunitaristas puras."
   },
   {
@@ -2434,8 +2434,8 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 91,
     kind: "direct",
-    prompt: "Enfoque que une critica de estructuras injustas con busqueda activa de emancipacion.",
-    answer: "Teoria critica y emancipacion.",
+    prompt: "Enfoque que une la crítica de estructuras injustas con la búsqueda activa de emancipación.",
+    answer: "Teoría crítica y emancipación.",
     note: "No se conforma con describir; busca transformar."
   },
   {
@@ -2443,26 +2443,26 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 91,
     kind: "inverse",
-    prompt: "Perspectiva que expone contradicciones del orden social y senala posibilidades de cambio liberador.",
-    answer: "Teoria critica y emancipacion.",
-    note: "Su desafio es no imponer emancipacion desde fuera."
+    prompt: "Perspectiva que expone contradicciones del orden social y señala posibilidades de cambio liberador.",
+    answer: "Teoría crítica y emancipación.",
+    note: "Su desafío es no imponer emancipación desde fuera."
   },
   {
     id: "T-091-A",
     eje: "Teoría Social",
     sourceId: 91,
     kind: "cloze",
-    prompt: "La apuesta distintiva aqui es pasar de la critica a la _____.",
-    answer: "emancipacion.",
-    note: "Alerta de examen: aplicar la critica respetando la autonomia de los afectados."
+    prompt: "La apuesta distintiva aquí es pasar de la crítica a la _____.",
+    answer: "emancipación.",
+    note: "Alerta de examen: aplicar la crítica respetando la autonomía de los afectados."
   },
   {
     id: "T-092-D",
     eje: "Teoría Social",
     sourceId: 92,
     kind: "direct",
-    prompt: "Idea de organizacion politica que exige mas que elecciones: requiere incidencia real, informacion y respeto a minorias.",
-    answer: "Democracia y participacion politica.",
+    prompt: "Idea de organización política que exige más que elecciones: requiere incidencia real, información y respeto a minorías.",
+    answer: "Democracia y participación política.",
     note: "Apunta a una democracia sustantiva."
   },
   {
@@ -2470,9 +2470,9 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 92,
     kind: "inverse",
-    prompt: "Modelo politico en el que la ciudadania participa activamente y no solo delega periodicamente el poder.",
-    answer: "Democracia y participacion politica.",
-    note: "Trabajo Social puede fortalecer poder ciudadano."
+    prompt: "Modelo político en el que la ciudadanía participa activamente y no solo delega periódicamente el poder.",
+    answer: "Democracia y participación política.",
+    note: "Trabajo Social puede fortalecer el poder ciudadano."
   },
   {
     id: "T-092-A",
@@ -2490,14 +2490,14 @@ const flashcardsActiveRecall = [
     kind: "direct",
     prompt: "Desacuerdo inherente a la vida social que puede degradar la convivencia o impulsar reconocimiento y cambio.",
     answer: "Conflicto social.",
-    note: "No es patologia en si mismo."
+    note: "No es una patología en sí mismo."
   },
   {
     id: "T-093-I",
     eje: "Teoría Social",
     sourceId: 93,
     kind: "inverse",
-    prompt: "Enfrentamiento entre intereses o posiciones cuya gestion puede ser destructiva o transformadora.",
+    prompt: "Enfrentamiento entre intereses o posiciones cuya gestión puede ser destructiva o transformadora.",
     answer: "Conflicto social.",
     note: "La tarea no es negarlo, sino canalizarlo."
   },
@@ -2506,8 +2506,8 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 93,
     kind: "cloze",
-    prompt: "La mirada critica correcta no romantiza el conflicto, pero tampoco lo trata como pura _____.",
-    answer: "patologia.",
+    prompt: "La mirada crítica correcta no romantiza el conflicto, pero tampoco lo trata como pura _____.",
+    answer: "patología.",
     note: "Alerta de examen: reconocer sus potenciales transformadores y sus riesgos."
   },
   {
@@ -2515,61 +2515,61 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 94,
     kind: "direct",
-    prompt: "Condicion de pertenencia politica que incorpora derechos civiles, politicos y sociales conquistados historicamente.",
-    answer: "Ciudadania y derechos sociales.",
-    note: "No son regalo benigno, sino resultado de luchas."
+    prompt: "Condición de pertenencia política que incorpora derechos civiles, políticos y sociales conquistados históricamente.",
+    answer: "Ciudadanía y derechos sociales.",
+    note: "No son un regalo benigno, sino resultado de luchas."
   },
   {
     id: "T-094-I",
     eje: "Teoría Social",
     sourceId: 94,
     kind: "inverse",
-    prompt: "Estatus que combina libertades, participacion y garantias materiales para una pertenencia plena a la comunidad politica.",
-    answer: "Ciudadania y derechos sociales.",
-    note: "La ciudadania activa requiere exigibilidad y acceso real."
+    prompt: "Estatus que combina libertades, participación y garantías materiales para una pertenencia plena a la comunidad política.",
+    answer: "Ciudadanía y derechos sociales.",
+    note: "La ciudadanía activa requiere exigibilidad y acceso real."
   },
   {
     id: "T-094-A",
     eje: "Teoría Social",
     sourceId: 94,
     kind: "cloze",
-    prompt: "La distincion clave aqui es entre ciudadania formal y ciudadania _____.",
+    prompt: "La distinción clave aquí se da entre ciudadanía formal y ciudadanía _____.",
     answer: "sustantiva.",
-    note: "Alerta de examen: evaluar el acceso real a derechos y no solo su declaracion."
+    note: "Alerta de examen: evaluar el acceso real a derechos y no solo su declaración."
   },
   {
     id: "T-095-D",
     eje: "Teoría Social",
     sourceId: 95,
     kind: "direct",
-    prompt: "Pregunta normativa por la distribucion justa de bienes, cargas y oportunidades en la sociedad.",
+    prompt: "Pregunta normativa por la distribución justa de bienes, cargas y oportunidades en la sociedad.",
     answer: "Justicia social.",
-    note: "Puede pensarse desde igualdad, libertad o capacidades."
+    note: "Puede pensarse desde la igualdad, la libertad o las capacidades."
   },
   {
     id: "T-095-I",
     eje: "Teoría Social",
     sourceId: 95,
     kind: "inverse",
-    prompt: "Principio que orienta la reduccion de desigualdades y el reconocimiento de la dignidad mediante acceso equitativo a bienes sociales.",
+    prompt: "Principio que orienta la reducción de desigualdades y el reconocimiento de la dignidad mediante el acceso equitativo a bienes sociales.",
     answer: "Justicia social.",
-    note: "Es compromiso constitutivo del Trabajo Social."
+    note: "Es un compromiso constitutivo del Trabajo Social."
   },
   {
     id: "T-095-A",
     eje: "Teoría Social",
     sourceId: 95,
     kind: "cloze",
-    prompt: "Toda intervencion que invoque este principio debe traducirlo en implicaciones _____.",
-    answer: "practicas.",
-    note: "Alerta de examen: articular una nocion de justicia con accion concreta."
+    prompt: "Toda intervención que invoque este principio debe traducirlo en implicaciones _____.",
+    answer: "prácticas.",
+    note: "Alerta de examen: articular una noción de justicia con una acción concreta."
   },
   {
     id: "T-096-D",
     eje: "Teoría Social",
     sourceId: 96,
     kind: "direct",
-    prompt: "Diferencia entre dar a todos lo mismo y ajustar recursos segun necesidades para alcanzar resultados justos.",
+    prompt: "Diferencia entre dar a todos lo mismo y ajustar recursos según necesidades para alcanzar resultados justos.",
     answer: "Equidad vs. igualdad.",
     note: "La igualdad formal puede reproducir desigualdades de partida."
   },
@@ -2578,7 +2578,7 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 96,
     kind: "inverse",
-    prompt: "Distincion normativa donde el trato igual no basta si las condiciones iniciales son profundamente desiguales.",
+    prompt: "Distinción normativa donde el trato igual no basta si las condiciones iniciales son profundamente desiguales.",
     answer: "Equidad vs. igualdad.",
     note: "Justifica medidas diferenciadas para poblaciones en desventaja."
   },
@@ -2589,43 +2589,43 @@ const flashcardsActiveRecall = [
     kind: "cloze",
     prompt: "La tesis principal es que el trato igual puede ser injusto sin criterios de _____.",
     answer: "equidad.",
-    note: "Alerta de examen: argumentar medidas diferenciadas con base teorica."
+    note: "Alerta de examen: argumentar medidas diferenciadas con base teórica."
   },
   {
     id: "T-097-D",
     eje: "Teoría Social",
     sourceId: 97,
     kind: "direct",
-    prompt: "Planteamiento segun el cual la justicia requiere tanto distribucion material justa como respeto a la dignidad y a la diferencia.",
-    answer: "Reconocimiento y redistribucion.",
-    note: "Una dimension sin la otra deja formas activas de injusticia."
+    prompt: "Planteamiento según el cual la justicia requiere tanto una distribución material justa como el respeto a la dignidad y a la diferencia.",
+    answer: "Reconocimiento y redistribución.",
+    note: "Una dimensión sin la otra deja formas activas de injusticia."
   },
   {
     id: "T-097-I",
     eje: "Teoría Social",
     sourceId: 97,
     kind: "inverse",
-    prompt: "Doble criterio de justicia que une acceso equitativo a recursos y superacion del estigma o desprecio social.",
-    answer: "Reconocimiento y redistribucion.",
-    note: "Su integracion es indispensable."
+    prompt: "Doble criterio de justicia que une el acceso equitativo a recursos y la superación del estigma o desprecio social.",
+    answer: "Reconocimiento y redistribución.",
+    note: "Su integración es indispensable."
   },
   {
     id: "T-097-A",
     eje: "Teoría Social",
     sourceId: 97,
     kind: "cloze",
-    prompt: "Ninguna politica de justicia se completa si distribuye recursos pero niega _____.",
+    prompt: "Ninguna política de justicia se completa si distribuye recursos pero niega el _____.",
     answer: "reconocimiento.",
-    note: "Alerta de examen: evaluar politicas con ambos criterios simultaneamente."
+    note: "Alerta de examen: evaluar políticas con ambos criterios simultáneamente."
   },
   {
     id: "T-098-D",
     eje: "Teoría Social",
     sourceId: 98,
     kind: "direct",
-    prompt: "Idea de que la fragilidad no es anomalia individual, sino condicion humana y social distribuida de modo desigual.",
-    answer: "Vulnerabilidad como condicion teorica.",
-    note: "Algunas poblaciones cargan vulnerabilidades amplificadas por exclusion estructural."
+    prompt: "Idea de que la fragilidad no es una anomalía individual, sino una condición humana y social distribuida de modo desigual.",
+    answer: "Vulnerabilidad como condición teórica.",
+    note: "Algunas poblaciones cargan vulnerabilidades amplificadas por exclusión estructural."
   },
   {
     id: "T-098-I",
@@ -2633,33 +2633,33 @@ const flashcardsActiveRecall = [
     sourceId: 98,
     kind: "inverse",
     prompt: "Marco que desplaza la mirada desde sujetos defectuosos hacia ordenamientos sociales que intensifican o protegen fragilidades.",
-    answer: "Vulnerabilidad como condicion teorica.",
-    note: "Cambia el foco de ayuda individual a reorganizacion protectora."
+    answer: "Vulnerabilidad como condición teórica.",
+    note: "Cambia el foco de ayuda individual a reorganización protectora."
   },
   {
     id: "T-098-A",
     eje: "Teoría Social",
     sourceId: 98,
     kind: "cloze",
-    prompt: "La advertencia decisiva es no tratar la vulnerabilidad como _____.",
+    prompt: "La advertencia decisiva es no tratar a la vulnerabilidad como un _____.",
     answer: "estigma.",
-    note: "Alerta de examen: pensarla criticamente como condicion y no como defecto."
+    note: "Alerta de examen: pensarla críticamente como condición y no como defecto."
   },
   {
     id: "T-099-D",
     eje: "Teoría Social",
     sourceId: 99,
     kind: "direct",
-    prompt: "Conjunto de procesos para reconocer danos, reparar victimas, exigir cuentas y evitar la repeticion tras periodos de violencia.",
+    prompt: "Conjunto de procesos para reconocer daños, reparar víctimas, exigir cuentas y evitar la repetición tras periodos de violencia.",
     answer: "Justicia transicional.",
-    note: "Combina memoria, reparacion, responsabilidad y garantias de no repeticion."
+    note: "Combina memoria, reparación, responsabilidad y garantías de no repetición."
   },
   {
     id: "T-099-I",
     eje: "Teoría Social",
     sourceId: 99,
     kind: "inverse",
-    prompt: "Marco que busca reconstruir convivencia despues del conflicto mediante verdad, reparacion y rendicion de cuentas.",
+    prompt: "Marco que busca reconstruir la convivencia después del conflicto mediante la verdad, la reparación y la rendición de cuentas.",
     answer: "Justicia transicional.",
     note: "No busca borrar el conflicto, sino procesarlo."
   },
@@ -2668,36 +2668,36 @@ const flashcardsActiveRecall = [
     eje: "Teoría Social",
     sourceId: 99,
     kind: "cloze",
-    prompt: "La pieza preventiva central aqui son las garantias de no _____.",
-    answer: "repeticion.",
-    note: "Alerta de examen: comprender su caracter multidimensional."
+    prompt: "La pieza preventiva central aquí son las garantías de no _____.",
+    answer: "repetición.",
+    note: "Alerta de examen: comprender su carácter multidimensional."
   },
   {
     id: "T-100-D",
     eje: "Teoría Social",
     sourceId: 100,
     kind: "direct",
-    prompt: "Principio que define al Trabajo Social como profesion no neutral comprometida con justicia y transformacion.",
+    prompt: "Principio que define al Trabajo Social como una profesión no neutral, comprometida con la justicia y la transformación.",
     answer: "Responsabilidad social profesional.",
-    note: "Excede el deber tecnico y exige rendicion de cuentas a las comunidades."
+    note: "Excede el deber técnico y exige rendición de cuentas a las comunidades."
   },
   {
     id: "T-100-I",
     eje: "Teoría Social",
     sourceId: 100,
     kind: "inverse",
-    prompt: "Deber constitutivo de una profesion no neutral orientada al bienestar de poblaciones vulneradas y a la transformacion social.",
+    prompt: "Deber constitutivo de una profesión no neutral orientada al bienestar de poblaciones vulneradas y a la transformación social.",
     answer: "Responsabilidad social profesional.",
-    note: "Es oportunidad y desafio permanente."
+    note: "Es oportunidad y desafío permanente."
   },
   {
     id: "T-100-A",
     eje: "Teoría Social",
     sourceId: 100,
     kind: "cloze",
-    prompt: "La idea central es que el Trabajo Social no es tecnicamente neutro, sino socialmente _____.",
+    prompt: "La idea central es que el Trabajo Social no es técnicamente neutro, sino socialmente _____.",
     answer: "responsable.",
-    note: "Alerta de examen: reflexionar sobre el compromiso etico-politico profesional."
+    note: "Alerta de examen: reflexionar sobre el compromiso ético-político profesional."
   }
 ];
 
