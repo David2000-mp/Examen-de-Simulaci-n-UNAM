@@ -72,11 +72,15 @@ export default function Flashcards() {
   }, [filtered, isRandom, order]);
 
   const safeIndex = Math.min(index, orderedFiltered.length - 1);
-  const current = isPersonalized
-    ? (queue.length > 0 && queueIdx < queue.length
+  const current = useMemo(() => {
+    if (isPersonalized) {
+      return queue.length > 0 && queueIdx < queue.length
         ? { concept: flashcardsPersonalizadas[queue[queueIdx]], originalIdx: queue[queueIdx] }
-        : null)
-    : orderedFiltered[safeIndex];
+        : null;
+    }
+
+    return orderedFiltered[safeIndex];
+  }, [isPersonalized, queue, queueIdx, orderedFiltered, safeIndex]);
 
   const selectableCards = useMemo(() => {
     if (isPersonalized) {
@@ -93,7 +97,7 @@ export default function Flashcards() {
       concept,
       targetIndex: position,
     }));
-  }, [flashcardsPersonalizadas, isPersonalized, orderedFiltered, queue, queueIdx]);
+  }, [isPersonalized, orderedFiltered, queue, queueIdx]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -154,7 +158,6 @@ export default function Flashcards() {
     setQueue(newQueue);
     setQueueIdx(0);
     setFlipped(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPersonalized, orderedFiltered]);
 
   useEffect(() => {
