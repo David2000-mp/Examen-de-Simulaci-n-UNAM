@@ -56,7 +56,12 @@ export default function Flashcards() {
     const baseRows = sourceData.map((item, i) => ({ concept: item, originalIdx: i }));
     const base = axisFilter === "Todos"
       ? baseRows
-      : baseRows.filter(({ concept }) => concept.eje === axisFilter);
+      : baseRows.filter(({ concept }) => {
+          if (axisFilter === "Teoría" || axisFilter === "Teoría Social") {
+            return concept.eje === "Teoría" || concept.eje === "Teoría Social";
+          }
+          return concept.eje === axisFilter;
+        });
     return base;
   }, [axisFilter, sourceData]);
 
