@@ -7,6 +7,10 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
+      injectRegister: "auto",
+      devOptions: {
+        enabled: false
+      },
       includeAssets: ["offline.svg"],
       manifest: {
         name: "Simulador de examen de maestria de gatisifu",
@@ -26,6 +30,8 @@ export default defineConfig({
         ]
       },
       workbox: {
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
         globPatterns: ["**/*.{js,css,html,svg,png,json}"],
         navigateFallback: "/index.html",
         runtimeCaching: [

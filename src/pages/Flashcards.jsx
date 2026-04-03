@@ -403,7 +403,7 @@ export default function Flashcards() {
         </h1>
         <p className="mt-1 text-sm text-brand-100">
           {isTeamMode
-            ? "Reúne Active Recall y trabajo en equipo en un solo mazo con repetición por dificultad, búsqueda y seguimiento de dominio."
+            ? "Reúne todas las tarjetas de estudio en un solo mazo con repetición por dificultad, búsqueda y seguimiento de dominio."
             : "Voltea cada tarjeta para ver la síntesis, referencia y alerta de examen."}
         </p>
         {isTeamMode && (
