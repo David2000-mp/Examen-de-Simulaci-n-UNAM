@@ -6,8 +6,9 @@ import guiaData from "../data/guia.json";
 const AXES = ["Todos", "Historia", "Metodología", "Teoría", "Teoría Social"];
 const ACTIVE_RECALL_STORAGE_KEY = "flashcards:active-recall:mastered:v1";
 const PERSONALIZADAS_STORAGE_KEY = "flashcards:personalizadas:mastered:v1";
+const COMBINED_TEAM_STORAGE_KEY = "flashcards:team-study:mastered:v1";
+const TEAM_STUDY_DECK = [...flashcardsActiveRecall, ...flashcardsPersonalizadas];
 const MODES = [
-  { id: "active-recall", label: "Active Recall" },
   { id: "personalizadas", label: "Aprendizaje en equipo" },
   { id: "conceptos", label: "Conceptos" }
 ];
@@ -29,28 +30,21 @@ function renderBold(text) {
 }
 
 export default function Flashcards() {
-  const [studyMode, setStudyMode] = useState("active-recall");
-  const [masteredById, setMasteredById] = useState({});
+  const [studyMode, setStudyMode] = useState("personalizadas");
+  const [masteredTeamById, setMasteredTeamById] = useState({});
   const [axisFilter, setAxisFilter] = useState("Todos");
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [isRandom, setIsRandom] = useState(false);
   const [showSearch, setShowSearch] = useState(false);
   const [selectedCardId, setSelectedCardId] = useState("");
-  const isActiveRecall = studyMode === "active-recall";
-  const isPersonalized = studyMode === "personalizadas";
-  const sourceData =
-    studyMode === "active-recall"
-      ? flashcardsActiveRecall
-      : studyMode === "personalizadas"
-        ? flashcardsPersonalizadas
-        : guiaData;
+  const isTeamMode = studyMode === "personalizadas";
+  const sourceData = isTeamMode ? TEAM_STUDY_DECK : guiaData;
   const [order, setOrder] = useState(() => sourceData.map((_, i) => i));
-  const [masteredPersonalizadasById, setMasteredPersonalizadasById] = useState({});
   const [queue, setQueue] = useState([]);
   const [queueIdx, setQueueIdx] = useState(0);
-  const masteredPersonalizadasRef = useRef({});
-  masteredPersonalizadasRef.current = masteredPersonalizadasById;
+  const masteredTeamRef = useRef({});
+  masteredTeamRef.current = masteredTeamById;
 
   const filtered = useMemo(() => {
     const baseRows = sourceData.map((item, i) => ({ concept: item, originalIdx: i }));
@@ -73,19 +67,19 @@ export default function Flashcards() {
 
   const safeIndex = Math.min(index, orderedFiltered.length - 1);
   const current = useMemo(() => {
-    if (isPersonalized) {
+    if (isTeamMode) {
       return queue.length > 0 && queueIdx < queue.length
-        ? { concept: flashcardsPersonalizadas[queue[queueIdx]], originalIdx: queue[queueIdx] }
+        ? { concept: sourceData[queue[queueIdx]], originalIdx: queue[queueIdx] }
         : null;
     }
 
     return orderedFiltered[safeIndex];
-  }, [isPersonalized, queue, queueIdx, orderedFiltered, safeIndex]);
+  }, [isTeamMode, orderedFiltered, queue, queueIdx, safeIndex, sourceData]);
 
   const selectableCards = useMemo(() => {
-    if (isPersonalized) {
+    if (isTeamMode) {
       return queue.slice(queueIdx).map((originalIdx, offset) => {
-        const concept = flashcardsPersonalizadas[originalIdx];
+        const concept = sourceData[originalIdx];
         return {
           concept,
           targetIndex: queueIdx + offset,
@@ -97,12 +91,15 @@ export default function Flashcards() {
       concept,
       targetIndex: position,
     }));
-  }, [isPersonalized, orderedFiltered, queue, queueIdx]);
+  }, [isTeamMode, orderedFiltered, queue, queueIdx, sourceData]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     try {
-      const raw = window.localStorage.getItem(ACTIVE_RECALL_STORAGE_KEY);
+      const storedCombined = window.localStorage.getItem(COMBINED_TEAM_STORAGE_KEY);
+      const raw = storedCombined
+        ?? window.localStorage.getItem(PERSONALIZADAS_STORAGE_KEY)
+        ?? window.localStorage.getItem(ACTIVE_RECALL_STORAGE_KEY);
       if (!raw) return;
       const ids = JSON.parse(raw);
       if (!Array.isArray(ids)) return;
@@ -112,45 +109,39 @@ export default function Flashcards() {
         return acc;
       }, {});
 
-      setMasteredById(mapped);
+      if (!storedCombined) {
+        const previousTeamIds = (() => {
+          try {
+            const teamRaw = window.localStorage.getItem(PERSONALIZADAS_STORAGE_KEY);
+            const activeRaw = window.localStorage.getItem(ACTIVE_RECALL_STORAGE_KEY);
+            const teamIds = teamRaw ? JSON.parse(teamRaw) : [];
+            const activeIds = activeRaw ? JSON.parse(activeRaw) : [];
+            return [...teamIds, ...activeIds];
+          } catch {
+            return ids;
+          }
+        })();
+
+        const mergedIds = Array.from(new Set(previousTeamIds.filter((id) => typeof id === "string")));
+        window.localStorage.setItem(COMBINED_TEAM_STORAGE_KEY, JSON.stringify(mergedIds));
+      }
+
+      setMasteredTeamById(mapped);
     } catch {
-      setMasteredById({});
+      setMasteredTeamById({});
     }
   }, []);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const ids = Object.keys(masteredById).filter((id) => masteredById[id]);
-    window.localStorage.setItem(ACTIVE_RECALL_STORAGE_KEY, JSON.stringify(ids));
-  }, [masteredById]);
+    const ids = Object.keys(masteredTeamById).filter((id) => masteredTeamById[id]);
+    window.localStorage.setItem(COMBINED_TEAM_STORAGE_KEY, JSON.stringify(ids));
+  }, [masteredTeamById]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    try {
-      const raw = window.localStorage.getItem(PERSONALIZADAS_STORAGE_KEY);
-      if (!raw) return;
-      const ids = JSON.parse(raw);
-      if (!Array.isArray(ids)) return;
-      const mapped = ids.reduce((acc, id) => {
-        if (typeof id === "string") acc[id] = true;
-        return acc;
-      }, {});
-      setMasteredPersonalizadasById(mapped);
-    } catch {
-      setMasteredPersonalizadasById({});
-    }
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const ids = Object.keys(masteredPersonalizadasById).filter((id) => masteredPersonalizadasById[id]);
-    window.localStorage.setItem(PERSONALIZADAS_STORAGE_KEY, JSON.stringify(ids));
-  }, [masteredPersonalizadasById]);
-
-  useEffect(() => {
-    if (!isPersonalized) return;
+    if (!isTeamMode) return;
     const masteredSet = new Set(
-      Object.keys(masteredPersonalizadasRef.current).filter((id) => masteredPersonalizadasRef.current[id])
+      Object.keys(masteredTeamRef.current).filter((id) => masteredTeamRef.current[id])
     );
     const newQueue = orderedFiltered
       .filter(({ concept }) => !masteredSet.has(concept.id))
@@ -158,7 +149,7 @@ export default function Flashcards() {
     setQueue(newQueue);
     setQueueIdx(0);
     setFlipped(false);
-  }, [isPersonalized, orderedFiltered]);
+  }, [isTeamMode, orderedFiltered]);
 
   useEffect(() => {
     const handler = (e) => {
@@ -172,32 +163,32 @@ export default function Flashcards() {
       }
 
       if (e.key === "ArrowRight") {
-        if (isPersonalized) {
+        if (isTeamMode) {
           setQueueIdx((i) => i + 1);
         } else {
           setIndex((i) => Math.min(orderedFiltered.length - 1, i + 1));
         }
         setFlipped(false);
       } else if (e.key === "ArrowLeft") {
-        if (!isPersonalized) {
+        if (!isTeamMode) {
           setIndex((i) => Math.max(0, i - 1));
           setFlipped(false);
         }
       } else if (e.key === " " || e.key === "Enter") {
         e.preventDefault();
         setFlipped((f) => !f);
-      } else if (isActiveRecall && (e.key === "m" || e.key === "M")) {
+      } else if (isTeamMode && (e.key === "m" || e.key === "M")) {
         const currentId = current?.concept?.id;
         if (!currentId) return;
-        setMasteredById((prev) => ({ ...prev, [currentId]: !prev[currentId] }));
+        setMasteredTeamById((prev) => ({ ...prev, [currentId]: !prev[currentId] }));
       }
     };
 
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [orderedFiltered.length, isActiveRecall, isPersonalized, current]);
+  }, [orderedFiltered.length, isTeamMode, current]);
 
-  const activeRecallMetrics = useMemo(() => {
+  const teamMetrics = useMemo(() => {
     const byAxis = {
       Historia: { total: 0, mastered: 0 },
       "Metodología": { total: 0, mastered: 0 },
@@ -207,19 +198,19 @@ export default function Flashcards() {
     let total = 0;
     let mastered = 0;
 
-    flashcardsActiveRecall.forEach((card) => {
+    TEAM_STUDY_DECK.forEach((card) => {
       total += 1;
       if (byAxis[card.eje]) byAxis[card.eje].total += 1;
 
-      if (masteredById[card.id]) {
+      if (masteredTeamById[card.id]) {
         mastered += 1;
         if (byAxis[card.eje]) byAxis[card.eje].mastered += 1;
       }
     });
 
     const filteredTotal = orderedFiltered.length;
-    const filteredMastered = isActiveRecall
-      ? orderedFiltered.reduce((acc, row) => acc + (masteredById[row.concept.id] ? 1 : 0), 0)
+    const filteredMastered = isTeamMode
+      ? orderedFiltered.reduce((acc, row) => acc + (masteredTeamById[row.concept.id] ? 1 : 0), 0)
       : 0;
 
     return {
@@ -231,16 +222,10 @@ export default function Flashcards() {
       filteredPct: filteredTotal ? Math.round((filteredMastered / filteredTotal) * 100) : 0,
       byAxis,
     };
-  }, [masteredById, orderedFiltered, isActiveRecall]);
-
-  const toggleCurrentMastered = () => {
-    if (!isActiveRecall || !current?.concept?.id) return;
-    const currentId = current.concept.id;
-    setMasteredById((prev) => ({ ...prev, [currentId]: !prev[currentId] }));
-  };
+  }, [masteredTeamById, orderedFiltered, isTeamMode]);
 
   const resetMastery = () => {
-    setMasteredById({});
+    setMasteredTeamById({});
   };
 
   const handleDifficult = () => {
@@ -258,20 +243,20 @@ export default function Flashcards() {
     setFlipped(false);
   };
 
-  const handleMasteredPersonalizadas = () => {
+  const handleMasteredCurrent = () => {
     if (queueIdx >= queue.length) return;
     const cardIdx = queue[queueIdx];
-    const cardId = flashcardsPersonalizadas[cardIdx]?.id;
+    const cardId = sourceData[cardIdx]?.id;
     if (!cardId) return;
-    setMasteredPersonalizadasById((prev) => ({ ...prev, [cardId]: true }));
+    setMasteredTeamById((prev) => ({ ...prev, [cardId]: true }));
     const newQueue = [...queue];
     newQueue.splice(queueIdx, 1);
     setQueue(newQueue);
     setFlipped(false);
   };
 
-  const resetPersonalizadasMastery = () => {
-    setMasteredPersonalizadasById({});
+  const resetTeamMastery = () => {
+    setMasteredTeamById({});
     const newQueue = orderedFiltered.map(({ originalIdx }) => originalIdx);
     setQueue(newQueue);
     setQueueIdx(0);
@@ -281,9 +266,9 @@ export default function Flashcards() {
   const handleGoToCard = (cardId) => {
     if (!cardId.trim()) return;
 
-    if (isPersonalized) {
+    if (isTeamMode) {
       const foundIdx = queue.findIndex(
-        (originalIdx, position) => position >= queueIdx && flashcardsPersonalizadas[originalIdx]?.id === cardId
+        (originalIdx, position) => position >= queueIdx && sourceData[originalIdx]?.id === cardId
       );
       if (foundIdx >= 0) {
         setQueueIdx(foundIdx);
@@ -311,12 +296,7 @@ export default function Flashcards() {
 
   const handleMode = (mode) => {
     setStudyMode(mode);
-    const nextSource =
-      mode === "active-recall"
-        ? flashcardsActiveRecall
-        : mode === "personalizadas"
-          ? flashcardsPersonalizadas
-          : guiaData;
+    const nextSource = mode === "personalizadas" ? TEAM_STUDY_DECK : guiaData;
     setOrder(nextSource.map((_, i) => i));
     setAxisFilter("Todos");
     setIndex(0);
@@ -354,12 +334,12 @@ export default function Flashcards() {
     setSelectedCardId("");
   };
 
-  const personalizedMasteredCount = Object.keys(masteredPersonalizadasById).filter(
-    (id) => masteredPersonalizadasById[id]
+  const teamMasteredCount = Object.keys(masteredTeamById).filter(
+    (id) => masteredTeamById[id]
   ).length;
 
   if (!current) {
-    if (isPersonalized) {
+    if (isTeamMode) {
       const deckEmpty = orderedFiltered.length === 0;
       return (
         <main className="container-shell space-y-5">
@@ -370,13 +350,13 @@ export default function Flashcards() {
               <>
                 <p className="text-2xl font-bold text-emerald-800">¡Mazo completado!</p>
                 <p className="mt-2 text-sm text-emerald-600">
-                  {personalizedMasteredCount > 0
-                    ? `Dominaste ${personalizedMasteredCount} tarjeta${personalizedMasteredCount !== 1 ? "s" : ""}.`
+                  {teamMasteredCount > 0
+                    ? `Dominaste ${teamMasteredCount} tarjeta${teamMasteredCount !== 1 ? "s" : ""}.`
                     : "Revisaste todas las tarjetas del mazo."}
                 </p>
                 <button
                   type="button"
-                  onClick={resetPersonalizadasMastery}
+                  onClick={resetTeamMastery}
                   className="mt-5 rounded-xl bg-brand-700 px-6 py-2.5 text-sm font-semibold text-white"
                 >
                   Reiniciar y repetir
@@ -411,38 +391,36 @@ export default function Flashcards() {
   }
 
   const { concept } = current;
-  const isCurrentMastered = isActiveRecall ? Boolean(masteredById[concept.id]) : false;
-  const usesPromptFormat = isActiveRecall || isPersonalized;
+  const isCurrentMastered = isTeamMode ? Boolean(masteredTeamById[concept.id]) : false;
+  const usesPromptFormat = isTeamMode;
   const axisColors = AXIS_COLOR[concept.eje] || { bg: "bg-brand-700", text: "text-white" };
 
   return (
     <main className="container-shell space-y-5">
       <header className="motion-rise motion-stagger rounded-2xl bg-brand-900 p-6 text-white shadow-xl" style={{ "--motion-index": 0 }}>
         <h1 className="font-serif text-2xl">
-          Flashcards — {studyMode === "active-recall" ? "Active Recall" : studyMode === "personalizadas" ? "Aprendizaje en equipo" : "100 Conceptos"}
+          Flashcards — {isTeamMode ? "Aprendizaje en equipo" : "100 Conceptos"}
         </h1>
         <p className="mt-1 text-sm text-brand-100">
-          {studyMode === "active-recall"
-            ? "Las tres areas ya estan reescritas como evocacion directa, inversion y tarjetas derivadas de alertas de examen."
-            : studyMode === "personalizadas"
-              ? "Repasa tus errores recientes en formato de flashcards con respuesta correcta y justificación."
-              : "Voltea cada tarjeta para ver la síntesis, referencia y alerta de examen."}
+          {isTeamMode
+            ? "Reúne Active Recall y trabajo en equipo en un solo mazo con repetición por dificultad, búsqueda y seguimiento de dominio."
+            : "Voltea cada tarjeta para ver la síntesis, referencia y alerta de examen."}
         </p>
-        {studyMode === "active-recall" && (
+        {isTeamMode && (
           <p className="mt-2 text-xs text-brand-200">
-            Cobertura completa: Historia, Metodología y Teoría Social.
+            Cobertura combinada: evocación directa, inversión, alertas y banco del equipo.
           </p>
         )}
       </header>
 
-      {isActiveRecall && (
+      {isTeamMode && (
         <section className="motion-rise motion-stagger space-y-3 rounded-2xl border border-brand-200 bg-white p-4 shadow-sm" style={{ "--motion-index": 1 }}>
           <div className="flex flex-wrap items-center gap-3">
             <p className="text-sm font-semibold text-brand-900">
-              Dominadas: {activeRecallMetrics.mastered}/{activeRecallMetrics.total} ({activeRecallMetrics.pct}%)
+              Dominadas: {teamMetrics.mastered}/{teamMetrics.total} ({teamMetrics.pct}%)
             </p>
             <p className="text-xs text-slate-500">
-              Filtro actual: {activeRecallMetrics.filteredMastered}/{activeRecallMetrics.filteredTotal} ({activeRecallMetrics.filteredPct}%)
+              Filtro actual: {teamMetrics.filteredMastered}/{teamMetrics.filteredTotal} ({teamMetrics.filteredPct}%)
             </p>
             <button
               type="button"
@@ -456,12 +434,12 @@ export default function Flashcards() {
           <div className="h-2 w-full overflow-hidden rounded-full bg-brand-100">
             <div
               className="h-full rounded-full bg-brand-700 transition-all"
-              style={{ width: `${activeRecallMetrics.pct}%` }}
+              style={{ width: `${teamMetrics.pct}%` }}
             />
           </div>
 
           <div className="grid gap-2 sm:grid-cols-3">
-            {Object.entries(activeRecallMetrics.byAxis).map(([axis, stats]) => {
+            {Object.entries(teamMetrics.byAxis).map(([axis, stats]) => {
               const pct = stats.total ? Math.round((stats.mastered / stats.total) * 100) : 0;
               return (
                 <div key={axis} className="rounded-xl border border-slate-200 bg-slate-50 p-3">
@@ -475,32 +453,6 @@ export default function Flashcards() {
                 </div>
               );
             })}
-          </div>
-        </section>
-      )}
-
-      {isPersonalized && (
-        <section className="motion-rise motion-stagger space-y-3 rounded-2xl border border-brand-200 bg-white p-4 shadow-sm" style={{ "--motion-index": 1 }}>
-          <div className="flex flex-wrap items-center gap-3">
-            <p className="text-sm font-semibold text-brand-900">
-              Dominadas: {personalizedMasteredCount}
-            </p>
-            <p className="text-xs text-slate-500">
-              En mazo: {Math.max(0, queue.length - queueIdx)} restantes
-            </p>
-            <button
-              type="button"
-              onClick={resetPersonalizadasMastery}
-              className="motion-lift motion-press ml-auto rounded-full border border-slate-300 px-3 py-1 text-xs font-semibold text-slate-700 hover:bg-slate-50"
-            >
-              Reiniciar dominadas
-            </button>
-          </div>
-          <div className="h-2 w-full overflow-hidden rounded-full bg-brand-100">
-            <div
-              className="h-full rounded-full bg-emerald-500 transition-all"
-              style={{ width: `${orderedFiltered.length ? Math.round((personalizedMasteredCount / orderedFiltered.length) * 100) : 0}%` }}
-            />
           </div>
         </section>
       )}
@@ -588,7 +540,7 @@ export default function Flashcards() {
             </button>
           </div>
           <p className="mt-2 text-xs text-brand-700/80">
-            {isPersonalized
+            {isTeamMode
               ? "Solo muestra las tarjetas que siguen activas en tu mazo actual."
               : "Muestra las tarjetas visibles según el modo, filtro y orden actual."}
           </p>
@@ -597,7 +549,7 @@ export default function Flashcards() {
 
       {/* Counter */}
       <p className="text-center text-sm text-slate-500">
-        {isPersonalized ? (
+        {isTeamMode ? (
           <>
             Tarjeta{" "}
             <strong className="text-brand-900">{Math.min(queueIdx + 1, queue.length || 1)}</strong>{" "}
@@ -610,7 +562,7 @@ export default function Flashcards() {
           </>
         )}
         {axisFilter !== "Todos" && <span className="ml-1 text-slate-400">· {axisFilter}</span>}
-        {isActiveRecall && (
+        {isTeamMode && (
           <span className="ml-1 text-slate-400">· {isCurrentMastered ? "Dominada" : "Pendiente"}</span>
         )}
       </p>
@@ -643,12 +595,18 @@ export default function Flashcards() {
             {usesPromptFormat ? (
               <>
                 <p className="mb-2 rounded-full bg-brand-50 px-2 py-1 text-[11px] font-semibold uppercase tracking-wide text-brand-700">
-                  {isPersonalized
-                    ? concept.kind === "error-review"
-                      ? "Error"
-                      : concept.kind === "team-review"
-                        ? "Equipo"
-                        : "Tarjeta"
+                  {isTeamMode
+                    ? concept.kind === "direct"
+                      ? "Directa"
+                      : concept.kind === "inverse"
+                        ? "Inversa"
+                        : concept.kind === "cloze"
+                          ? "Alerta"
+                          : concept.kind === "error-review"
+                            ? "Error"
+                            : concept.kind === "team-review"
+                              ? "Equipo"
+                              : "Tarjeta"
                     : concept.kind === "direct"
                       ? "Directa"
                       : concept.kind === "inverse"
@@ -677,12 +635,12 @@ export default function Flashcards() {
                 {concept.note ? (
                   <div className="mb-3 rounded-lg bg-brand-800 p-3">
                     <p className="text-xs font-bold uppercase tracking-wide text-brand-300">
-                      {isPersonalized ? "Detalle" : "Precisión"}
+                      {isTeamMode ? "Detalle" : "Precisión"}
                     </p>
                     <p className="mt-1 whitespace-pre-line text-sm leading-relaxed text-brand-100">{concept.note}</p>
                   </div>
                 ) : null}
-                {isPersonalized && (
+                {isTeamMode && (
                   <div
                     className="mt-4 flex justify-center gap-2"
                     onClick={(e) => e.stopPropagation()}
@@ -703,7 +661,7 @@ export default function Flashcards() {
                     </button>
                     <button
                       type="button"
-                      onClick={(e) => { e.stopPropagation(); handleMasteredPersonalizadas(); }}
+                      onClick={(e) => { e.stopPropagation(); handleMasteredCurrent(); }}
                       className="rounded-xl bg-emerald-600 px-4 py-2 text-sm font-semibold text-white hover:bg-emerald-700"
                     >
                       Ya me la sé ✓
@@ -739,7 +697,7 @@ export default function Flashcards() {
             )}
 
             <p className="mt-auto text-center text-xs text-brand-400">
-              {isPersonalized ? "Pulsa una opción" : "Pulsa para voltear"}
+              {isTeamMode ? "Pulsa una opción" : "Pulsa para voltear"}
             </p>
           </div>
         </div>
@@ -747,7 +705,7 @@ export default function Flashcards() {
 
       {/* Navigation */}
       <div className="flex items-center justify-center gap-3">
-        {!isPersonalized && (
+        {!isTeamMode && (
           <button
             type="button"
             onClick={handlePrev}
@@ -766,19 +724,7 @@ export default function Flashcards() {
         >
           Voltear
         </button>
-        {isActiveRecall && (
-          <button
-            type="button"
-            onClick={toggleCurrentMastered}
-            className={`rounded-xl px-5 py-2.5 text-sm font-semibold text-white ${
-              isCurrentMastered ? "bg-emerald-600" : "bg-slate-700"
-            }`}
-            aria-label={isCurrentMastered ? "Marcar como pendiente" : "Marcar como dominada"}
-          >
-            {isCurrentMastered ? "Dominada ✓" : "Marcar dominada"}
-          </button>
-        )}
-        {!isPersonalized && (
+        {!isTeamMode && (
           <button
             type="button"
             onClick={handleNext}
