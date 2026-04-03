@@ -854,1221 +854,277 @@ const flashcardsActiveRecall = [
     answer: "El uso indiscriminado, como moda, de conceptos derivados del marxismo y el alejamiento de instituciones del Estado.",
     note: "Ejemplos frecuentes: lucha de clases o dialéctica usadas sin rigor analítico."
   },
-  {
+    {
     id: "M-021-D",
     eje: "Metodología",
     sourceId: 21,
     kind: "direct",
-    prompt: "Nombre del marco que integra teoría, método y técnicas para intervenir de forma planificada en Trabajo Social.",
-    answer: "Metodología en Trabajo Social.",
-    note: "Integra diagnóstico, intervención y evaluación; no equivale a una técnica aislada."
-  },
-  {
-    id: "M-021-I",
-    eje: "Metodología",
-    sourceId: 21,
-    kind: "inverse",
-    prompt: "Marco integrador que organiza procedimientos y técnicas con fundamento teórico y orientación al cambio social.",
-    answer: "Metodología en Trabajo Social.",
-    note: "Alcance: individual, grupal, comunitario e institucional."
-  },
-  {
-    id: "M-021-A",
-    eje: "Metodología",
-    sourceId: 21,
-    kind: "cloze",
-    prompt: "El error clásico aquí es reducir _____ a un conjunto de técnicas sueltas.",
-    answer: "la metodología.",
-    note: "Alerta de examen: distinguir metodología de técnicas e instrumentos."
+    prompt: "¿Qué constituyen los procedimientos metodológicos dentro de la especificidad profesional del Trabajo Social?",
+    answer: "La dimensión operativa del proceso de intervención profesional.",
+    note: "Son etapas, actividades y técnicas ordenadas en secuencia para orientar la intervención y modificar el objeto."
   },
   {
     id: "M-022-D",
     eje: "Metodología",
     sourceId: 22,
     kind: "direct",
-    prompt: "Proceso cíclico que produce conocimiento sistemático sobre la realidad y, al mismo tiempo, fundamenta y evalúa la intervención.",
-    answer: "Investigación social como fundamento metodológico.",
-    note: "Intervención e investigación se retroalimentan."
-  },
-  {
-    id: "M-022-I",
-    eje: "Metodología",
-    sourceId: 22,
-    kind: "inverse",
-    prompt: "Base que informa la intervención, evalúa prácticas y convierte la experiencia en conocimiento sistemático.",
-    answer: "Investigación social como fundamento metodológico.",
-    note: "No es una fase separada del trabajo profesional."
-  },
-  {
-    id: "M-022-A",
-    eje: "Metodología",
-    sourceId: 22,
-    kind: "cloze",
-    prompt: "Separar por completo la investigación de la intervención rompe su relación _____.",
-    answer: "cíclica.",
-    note: "Alerta de examen: conectar investigación con sistematización y evaluación."
+    prompt: "En la dimensión de la especificidad profesional, ¿cómo interviene la metodología en el saber especializado?",
+    answer: "El saber especializado reelabora y sintetiza la experiencia profesional en un cuerpo teórico y metodológico.",
+    note: "La metodología estructura y hace transferible ese saber."
   },
   {
     id: "M-023-D",
     eje: "Metodología",
     sourceId: 23,
     kind: "direct",
-    prompt: "Conjunto de aproximaciones que prioriza significados, experiencias, contexto y complejidad por encima de la mera medición numérica.",
-    answer: "Métodos cualitativos en intervención social.",
-    note: "Incluyen observación, entrevista profunda, grupos focales y análisis narrativo."
-  },
-  {
-    id: "M-023-I",
-    eje: "Metodología",
-    sourceId: 23,
-    kind: "inverse",
-    prompt: "Aproximación que captura sentidos, interpreta experiencias y profundiza en las dimensiones ocultas del fenómeno social.",
-    answer: "Métodos cualitativos en intervención social.",
-    note: "Su fuerza radica en la comprensión densa del contexto."
-  },
-  {
-    id: "M-023-A",
-    eje: "Metodología",
-    sourceId: 23,
-    kind: "cloze",
-    prompt: "Estos métodos son pertinentes cuando la pregunta exige comprender _____ antes que medir magnitudes.",
-    answer: "significados y experiencias.",
-    note: "Alerta de examen: justificar cuándo conviene un enfoque cualitativo."
+    prompt: "¿Qué innovación metodológica de recopilación de datos propuso Juan Luis Vives en el siglo XVI?",
+    answer: "Investigar medios y verdaderas necesidades de los pobres, con registro riguroso de habitantes y clasificación.",
+    note: "Incorpora levantamiento sistemático de información social."
   },
   {
     id: "M-024-D",
     eje: "Metodología",
     sourceId: 24,
     kind: "direct",
-    prompt: "Aproximación que cuantifica fenómenos, detecta patrones y trabaja con instrumentos estandarizados y análisis numérico.",
-    answer: "Métodos cuantitativos en intervención social.",
-    note: "Permiten estimar proporciones, distribuciones y correlaciones."
-  },
-  {
-    id: "M-024-I",
-    eje: "Metodología",
-    sourceId: 24,
-    kind: "inverse",
-    prompt: "Uso de medición estandarizada, datos numéricos y análisis estadístico para identificar patrones generalizables.",
-    answer: "Métodos cuantitativos en intervención social.",
-    note: "Aportan alcance comparativo y medición consistente."
-  },
-  {
-    id: "M-024-A",
-    eje: "Metodología",
-    sourceId: 24,
-    kind: "cloze",
-    prompt: "La ventaja principal aquí no es comprender sentidos finos, sino _____, patrones y distribuciones.",
-    answer: "cuantificar fenómenos.",
-    note: "Alerta de examen: reconocer fortalezas sin caer en el cientificismo."
+    prompt: "Según Juan Luis Vives, ¿qué acción previa a la ayuda es necesaria para llegar a un diagnóstico preciso?",
+    answer: "Visitar a los desvalidos en sus casas y registrar sus circunstancias particulares.",
+    note: "La ayuda eficaz se apoya en conocimiento directo del caso."
   },
   {
     id: "M-025-D",
     eje: "Metodología",
     sourceId: 25,
     kind: "direct",
-    prompt: "Integración deliberada de métodos cualitativos y cuantitativos para validar hallazgos y construir una lectura multidimensional.",
-    answer: "Enfoque mixto o triangulación metodológica.",
-    note: "No es una yuxtaposición superficial; requiere diseño intencional."
-  },
-  {
-    id: "M-025-I",
-    eje: "Metodología",
-    sourceId: 25,
-    kind: "inverse",
-    prompt: "Diseño que combina las fortalezas de distintos métodos para contrastar datos y ampliar la comprensión del fenómeno.",
-    answer: "Enfoque mixto o triangulación metodológica.",
-    note: "Busca validación cruzada y profundidad."
-  },
-  {
-    id: "M-025-A",
-    eje: "Metodología",
-    sourceId: 25,
-    kind: "cloze",
-    prompt: "Si solo se yuxtaponen técnicas sin articulación epistémica, el resultado es una _____.",
-    answer: "yuxtaposición superficial.",
-    note: "Alerta de examen: argumentar la pertinencia del enfoque mixto."
+    prompt: "¿En qué consistía metodológicamente el Pequeño Método de San Vicente de Paúl?",
+    answer: "En visitar al pobre de forma amistosa para identificar problemas físicos y morales antes de definir la ayuda.",
+    note: "Deriva intervención pertinente desde diagnóstico relacional."
   },
   {
     id: "M-026-D",
     eje: "Metodología",
     sourceId: 26,
     kind: "direct",
-    prompt: "Proceso analítico previo a la acción que identifica problemas, recursos, fortalezas y contextos para construir una comprensión fundamentada.",
-    answer: "Diagnóstico social.",
-    note: "No es una descripción neutra; organiza la interpretación de la situación."
-  },
-  {
-    id: "M-026-I",
-    eje: "Metodología",
-    sourceId: 26,
-    kind: "inverse",
-    prompt: "Lectura sistemática de actores, recursos, carencias y condiciones macrosociales antes de intervenir.",
-    answer: "Diagnóstico social.",
-    note: "Integra miradas de participantes y contexto histórico."
-  },
-  {
-    id: "M-026-A",
-    eje: "Metodología",
-    sourceId: 26,
-    kind: "cloze",
-    prompt: "El diagnóstico deja de ser tal cuando se reduce a una simple _____.",
-    answer: "descripción.",
-    note: "Alerta de examen: enfatizar su carácter analítico e interpretativo."
+    prompt: "¿Qué postulado metodológico defendía San Vicente de Paúl respecto a la relación con el usuario?",
+    answer: "Que no es posible ayudar con eficacia sin establecer una buena relación con la persona.",
+    note: "La relación profesional es condición metodológica de efectividad."
   },
   {
     id: "M-027-D",
     eje: "Metodología",
     sourceId: 27,
     kind: "direct",
-    prompt: "Secuencia que va de la exploración inicial a la recolección intensiva, el análisis, la triangulación y la comunicación de resultados.",
-    answer: "Fases del diagnóstico social.",
-    note: "Cada etapa condiciona a las demás."
-  },
-  {
-    id: "M-027-I",
-    eje: "Metodología",
-    sourceId: 27,
-    kind: "inverse",
-    prompt: "Exploración preliminar, recolección de datos, interpretación, triangulación y devolución como estructura secuencial.",
-    answer: "Fases del diagnóstico social.",
-    note: "No son compartimentos estancos."
-  },
-  {
-    id: "M-027-A",
-    eje: "Metodología",
-    sourceId: 27,
-    kind: "cloze",
-    prompt: "Aprender esta secuencia exige reconocer no solo cada etapa, sino también sus _____.",
-    answer: "interdependencias.",
-    note: "Alerta de examen: describir la lógica entre fases y no solo enlistarlas."
+    prompt: "¿Qué enfoque metodológico introdujo Benjamín Thompson frente a la mendicidad?",
+    answer: "Tratamiento individual orientado a la rehabilitación en casas de trabajo.",
+    note: "Sustituyó castigo por medidas positivas con trabajo, insumos y salario."
   },
   {
     id: "M-028-D",
     eje: "Metodología",
     sourceId: 28,
     kind: "direct",
-    prompt: "Herramientas para obtener datos de forma sistemática, seleccionadas según el problema, el contexto y la finalidad analítica.",
-    answer: "Técnicas de recolección de información.",
-    note: "Entrevistas, observación, grupos focales, encuestas y documentos son algunas de ellas."
-  },
-  {
-    id: "M-028-I",
-    eje: "Metodología",
-    sourceId: 28,
-    kind: "inverse",
-    prompt: "Instrumentos concretos que permiten levantar datos y cuya pertinencia depende del problema y del contexto.",
-    answer: "Técnicas de recolección de información.",
-    note: "Se eligen estratégicamente, no por costumbre."
-  },
-  {
-    id: "M-028-A",
-    eje: "Metodología",
-    sourceId: 28,
-    kind: "cloze",
-    prompt: "La elección correcta aquí depende de la pertinencia contextual y de la _____ metodológica.",
-    answer: "justificación.",
-    note: "Alerta de examen: seleccionar técnicas con argumentos, no por preferencia personal."
+    prompt: "¿Qué doble principio metodológico observó Thomas Chalmers al enfrentar un caso de pobreza?",
+    answer: "Indagación completa de cada caso y resolución de la causa originaria de la necesidad.",
+    note: "Combina diagnóstico individual y enfoque causal."
   },
   {
     id: "M-029-D",
     eje: "Metodología",
     sourceId: 29,
     kind: "direct",
-    prompt: "Conjunto de criterios que garantiza que el diagnóstico mida lo que pretende medir y lo haga con consistencia.",
-    answer: "Validez y confiabilidad en diagnóstico.",
-    note: "Se fortalecen con triangulación, validación con participantes y credibilidad analítica."
-  },
-  {
-    id: "M-029-I",
-    eje: "Metodología",
-    sourceId: 29,
-    kind: "inverse",
-    prompt: "Calidad de una estrategia diagnóstica cuando sus hallazgos son pertinentes y consistentes.",
-    answer: "Validez y confiabilidad en diagnóstico.",
-    note: "La primera apunta a la pertinencia; la segunda, a la estabilidad."
-  },
-  {
-    id: "M-029-A",
-    eje: "Metodología",
-    sourceId: 29,
-    kind: "cloze",
-    prompt: "Medir consistentemente algo equivocado mejora la confiabilidad, pero no la _____.",
-    answer: "validez.",
-    note: "Alerta de examen: diferenciar ambos criterios sin confundirlos."
+    prompt: "Según Thomas Chalmers, ¿cuál era la secuencia para resolver una necesidad?",
+    answer: "Primero automantenimiento; luego parientes y vecinos; después ciudadanos ricos; y al final, fieles de la iglesia.",
+    note: "Establece escalafón progresivo de apoyo."
   },
   {
     id: "M-030-D",
     eje: "Metodología",
     sourceId: 30,
     kind: "direct",
-    prompt: "Operación analítica que descompone problemas complejos en dimensiones, causas, actores y recursos sin culpabilizar a las víctimas.",
-    answer: "Análisis de problemas sociales.",
-    note: "Exige una mirada holística y estructural."
-  },
-  {
-    id: "M-030-I",
-    eje: "Metodología",
-    sourceId: 30,
-    kind: "inverse",
-    prompt: "Proceso que reconstruye causas, mapea actores, identifica recursos y evita explicaciones superficiales sobre una problemática.",
-    answer: "Análisis de problemas sociales.",
-    note: "Se opone al reduccionismo causal y al individualismo patologizante."
-  },
-  {
-    id: "M-030-A",
-    eje: "Metodología",
-    sourceId: 30,
-    kind: "cloze",
-    prompt: "El sesgo que debe evitarse aquí consiste en trasladar la causa principal al individuo y no a la trama _____.",
-    answer: "estructural.",
-    note: "Alerta de examen: aplicar pensamiento crítico frente a explicaciones simplistas."
+    prompt: "¿Cuál era la herramienta fundamental de Thomas Chalmers para recopilar información y diagnosticar?",
+    answer: "Los visitadores voluntarios.",
+    note: "Levantaban datos de familia, profesión y condiciones de vida del solicitante."
   },
   {
     id: "M-031-D",
     eje: "Metodología",
     sourceId: 31,
     kind: "direct",
-    prompt: "Proceso de producir, organizar y transferir el saber profesional a partir de la documentación y sistematización de experiencias.",
-    answer: "Gestión del conocimiento en la práctica social.",
-    note: "Convierte experiencia dispersa en aprendizaje transferible."
-  },
-  {
-    id: "M-031-I",
-    eje: "Metodología",
-    sourceId: 31,
-    kind: "inverse",
-    prompt: "Documentación, sistematización, generación de aprendizajes y difusión de resultados como base del saber profesional acumulable.",
-    answer: "Gestión del conocimiento en la práctica social.",
-    note: "Favorece la formación y la mejora continua."
-  },
-  {
-    id: "M-031-A",
-    eje: "Metodología",
-    sourceId: 31,
-    kind: "cloze",
-    prompt: "Sin sistematización, la experiencia queda como vivencia útil pero no como _____ transferible.",
-    answer: "conocimiento.",
-    note: "Alerta de examen: valorar la sistematización como parte del trabajo metodológico."
+    prompt: "En la C.O.S., ¿cuál era el primer paso metodológico obligatorio?",
+    answer: "Realizar una encuesta escrita de cada caso por un funcionario profesional competente.",
+    note: "La intervención iniciaba con registro formal del caso."
   },
   {
     id: "M-032-D",
     eje: "Metodología",
     sourceId: 32,
     kind: "direct",
-    prompt: "Construcción ordenada de acciones, objetivos, recursos y tiempos con base en el diagnóstico y apertura a ajustes.",
-    answer: "Planificación de intervenciones sociales.",
-    note: "Articula diagnóstico, acción y evaluación."
-  },
-  {
-    id: "M-032-I",
-    eje: "Metodología",
-    sourceId: 32,
-    kind: "inverse",
-    prompt: "Proceso que organiza objetivos, estrategias, actividades y cronograma sin perder flexibilidad ni participación.",
-    answer: "Planificación de intervenciones sociales.",
-    note: "Un buen plan no es rígido."
-  },
-  {
-    id: "M-032-A",
-    eje: "Metodología",
-    sourceId: 32,
-    kind: "cloze",
-    prompt: "La virtud de un plan no es su rigidez, sino su coherencia y su _____ frente al contexto emergente.",
-    answer: "flexibilidad.",
-    note: "Alerta de examen: distinguir planificación rigurosa de planificación inflexible."
+    prompt: "¿Cómo decidía la C.O.S. las medidas de intervención tras la encuesta?",
+    answer: "La comisión del Comité de Distrito revisaba el caso y definía medidas metódicas.",
+    note: "La decisión era colegiada y protocolizada."
   },
   {
     id: "M-033-D",
     eje: "Metodología",
     sourceId: 33,
     kind: "direct",
-    prompt: "Conjunto de enfoques para construir planes según el problema, el nivel de participación y el tipo de decisión requerida.",
-    answer: "Métodos de planificación en Trabajo Social.",
-    note: "Incluyen planificación participativa, estratégica, situacional y desde capacidades locales."
-  },
-  {
-    id: "M-033-I",
-    eje: "Metodología",
-    sourceId: 33,
-    kind: "inverse",
-    prompt: "Diferentes enfoques que varían en dimensiones priorizadas, niveles de participación y modo de decidir sobre una intervención.",
-    answer: "Métodos de planificación en Trabajo Social.",
-    note: "La selección depende de la pertinencia contextual."
-  },
-  {
-    id: "M-033-A",
-    eje: "Metodología",
-    sourceId: 33,
-    kind: "cloze",
-    prompt: "No existe un método universal de planificación; la clave es la _____ contextual.",
-    answer: "pertinencia.",
-    note: "Alerta de examen: caracterizar y comparar métodos, no memorizar uno solo."
+    prompt: "Según la metodología de la C.O.S., ¿qué papel juega el asistido en su tratamiento?",
+    answer: "Ser agente de su propia readaptación con apoyo de su red cercana.",
+    note: "Participan parientes, vecinos y amigos."
   },
   {
     id: "M-034-D",
     eje: "Metodología",
     sourceId: 34,
     kind: "direct",
-    prompt: "Operación de formular metas específicas, medibles, alcanzables, relevantes y delimitadas en el tiempo.",
-    answer: "Establecimiento de objetivos en intervención.",
-    note: "Distingue objetivos de proceso, producto e impacto."
-  },
-  {
-    id: "M-034-I",
-    eje: "Metodología",
-    sourceId: 34,
-    kind: "inverse",
-    prompt: "Definición rigurosa de metas que orientan el proceso, los resultados inmediatos y los cambios duraderos de una intervención.",
-    answer: "Establecimiento de objetivos en intervención.",
-    note: "Su coherencia debe derivarse del diagnóstico."
-  },
-  {
-    id: "M-034-A",
-    eje: "Metodología",
-    sourceId: 34,
-    kind: "cloze",
-    prompt: "Un objetivo bien formulado no solo debe ser claro; también debe ser temporalmente _____.",
-    answer: "delimitado.",
-    note: "Alerta de examen: formular objetivos con criterio metodológico riguroso."
+    prompt: "¿Qué instrumento administrativo-metodológico creó la C.O.S. para evitar abusos y duplicidades diagnósticas?",
+    answer: "Un fichero central de control y un directorio de instituciones.",
+    note: "Permitía trazabilidad de asistidos entre obras de beneficencia."
   },
   {
     id: "M-035-D",
     eje: "Metodología",
     sourceId: 35,
     kind: "direct",
-    prompt: "Administración estratégica de recursos humanos, económicos y materiales para maximizar la efectividad en una intervención.",
-    answer: "Gestión de recursos en intervención social.",
-    note: "Implica inventariar, asignar, optimizar y rendir cuentas."
-  },
-  {
-    id: "M-035-I",
-    eje: "Metodología",
-    sourceId: 35,
-    kind: "inverse",
-    prompt: "Proceso que moviliza disponibilidades, optimiza usos y combina creatividad con rendición de cuentas.",
-    answer: "Gestión de recursos en intervención social.",
-    note: "También incluye la activación de potencialidades locales y acceso a fondos externos."
-  },
-  {
-    id: "M-035-A",
-    eje: "Metodología",
-    sourceId: 35,
-    kind: "cloze",
-    prompt: "Manejar recursos con calidad no significa gastar más, sino asignar de forma _____.",
-    answer: "estratégica.",
-    note: "Alerta de examen: evaluar eficiencia y efectividad sin reducir todo a costos."
+    prompt: "Durante la institucionalización de la beneficencia privada, ¿qué estructura metodológica previa se consolidó?",
+    answer: "El estudio, el diagnóstico y la planificación como pasos previos al tratamiento.",
+    note: "Se consolidó una secuencia metodológica base."
   },
   {
     id: "M-036-D",
     eje: "Metodología",
     sourceId: 36,
     kind: "direct",
-    prompt: "Parámetros que permiten monitorear actividades y medir los cambios producidos por una intervención.",
-    answer: "Indicadores de proceso y resultado.",
-    note: "Deben ser relevantes, verificables y útiles."
-  },
-  {
-    id: "M-036-I",
-    eje: "Metodología",
-    sourceId: 36,
-    kind: "inverse",
-    prompt: "Medidas construidas para seguir el desarrollo de acciones y apreciar transformaciones en poblaciones o contextos.",
-    answer: "Indicadores de proceso y resultado.",
-    note: "Los primeros observan el trayecto; los segundos, los efectos inmediatos."
-  },
-  {
-    id: "M-036-A",
-    eje: "Metodología",
-    sourceId: 36,
-    kind: "cloze",
-    prompt: "Confundir actividades con cambios reales lleva a mezclar indicadores de proceso con indicadores de _____.",
-    answer: "resultado.",
-    note: "Alerta de examen: formular indicadores rigurosos y no superficiales."
+    prompt: "¿Qué aspecto intentó difundir Octavia Hill como núcleo de su abordaje metodológico?",
+    answer: "La individualización y la relación persona a persona.",
+    note: "Síntesis: limosna no, pero sí un amigo."
   },
   {
     id: "M-037-D",
     eje: "Metodología",
     sourceId: 37,
     kind: "direct",
-    prompt: "Proceso crítico-reflexivo que determina la eficacia, eficiencia e impacto mediante distintas preguntas y momentos de valoración.",
-    answer: "Evaluación de intervenciones sociales.",
-    note: "Puede ser diagnóstica, de proceso, de resultado o de impacto."
-  },
-  {
-    id: "M-037-I",
-    eje: "Metodología",
-    sourceId: 37,
-    kind: "inverse",
-    prompt: "Valoración sistemática de una acción social para saber cómo se desarrolla, qué logra y qué cambios deja.",
-    answer: "Evaluación de intervenciones sociales.",
-    note: "No es una simple medición final."
-  },
-  {
-    id: "M-037-A",
-    eje: "Metodología",
-    sourceId: 37,
-    kind: "cloze",
-    prompt: "Reducir la evaluación al cierre del proyecto elimina su dimensión de _____ y ajuste.",
-    answer: "monitoreo.",
-    note: "Alerta de examen: diferenciar tipos y funciones de la evaluación."
+    prompt: "¿Qué procedimiento lógico utiliza siempre Mary Ellen Richmond en su metodología?",
+    answer: "La inducción.",
+    note: "Permite pasar de casos particulares a formulaciones generales e inferir hechos nuevos."
   },
   {
     id: "M-038-D",
     eje: "Metodología",
     sourceId: 38,
     kind: "direct",
-    prompt: "Metodología que ordena reflexivamente las experiencias para convertirlas en conocimiento explícito y comunicable.",
-    answer: "Sistematización de experiencias.",
-    note: "Implica ordenamiento, interpretación y extrapolación."
-  },
-  {
-    id: "M-038-I",
-    eje: "Metodología",
-    sourceId: 38,
-    kind: "inverse",
-    prompt: "Proceso que transforma una práctica vivida en saber explicitado, analizado y compartible.",
-    answer: "Sistematización de experiencias.",
-    note: "Produce aprendizaje colectivo y mejora continua."
-  },
-  {
-    id: "M-038-A",
-    eje: "Metodología",
-    sourceId: 38,
-    kind: "cloze",
-    prompt: "La diferencia decisiva aquí no es entre hacer y escribir, sino entre vivir una experiencia y _____.",
-    answer: "sistematizarla.",
-    note: "Alerta de examen: distinguir experiencia de sistematización."
+    prompt: "¿Qué paso consideraba Mary Richmond indispensable antes de realizar Trabajo Social?",
+    answer: "La investigación social.",
+    note: "Sin investigación social no hay base para intervenir."
   },
   {
     id: "M-039-D",
     eje: "Metodología",
     sourceId: 39,
     kind: "direct",
-    prompt: "Perspectiva que fundamenta la intervención en la dignidad humana, la titularidad de derechos y las obligaciones estatales.",
-    answer: "Enfoque de derechos en metodología.",
-    note: "Reemplaza la tutela asistencialista por reconocimiento y exigibilidad."
-  },
-  {
-    id: "M-039-I",
-    eje: "Metodología",
-    sourceId: 39,
-    kind: "inverse",
-    prompt: "Marco de intervención que trata a las personas como titulares de derechos y no como receptoras pasivas de ayuda.",
-    answer: "Enfoque de derechos en metodología.",
-    note: "Transforma la relación profesional-usuario."
-  },
-  {
-    id: "M-039-A",
-    eje: "Metodología",
-    sourceId: 39,
-    kind: "cloze",
-    prompt: "El cambio central aquí consiste en pasar del asistencialismo a la _____.",
-    answer: "titularidad de derechos.",
-    note: "Alerta de examen: aplicar el enfoque de derechos de forma consistente."
+    prompt: "¿Qué obra publicó Mary Richmond en 1917 que sistematizó el método de caso?",
+    answer: "Social Diagnosis.",
+    note: "Fue producto de 17 años de investigación y experiencia directa."
   },
   {
     id: "M-040-D",
     eje: "Metodología",
     sourceId: 40,
     kind: "direct",
-    prompt: "Metodología centrada en el acompañamiento personalizado de situaciones particulares sin perder de vista los determinantes sociales.",
-    answer: "Trabajo Social de casos individual.",
-    note: "Combina relación de ayuda, diagnóstico contextual y seguimiento."
-  },
-  {
-    id: "M-040-I",
-    eje: "Metodología",
-    sourceId: 40,
-    kind: "inverse",
-    prompt: "Intervención profesional focalizada en una persona y su situación específica, articulada con su contexto.",
-    answer: "Trabajo Social de casos individual.",
-    note: "No debe confundirse con patologización individual."
-  },
-  {
-    id: "M-040-A",
-    eje: "Metodología",
-    sourceId: 40,
-    kind: "cloze",
-    prompt: "La condición metodológica clave aquí es no perder la lectura _____ del caso.",
-    answer: "contextual.",
-    note: "Alerta de examen: evitar reducir el problema a rasgos personales."
+    prompt: "¿Cuáles son las cuatro acciones que Mary Richmond señala para realizar el tratamiento?",
+    answer: "Comprensión individual; comprensión de recursos y medio social; acción directa mente a mente; acción indirecta en el medio social.",
+    note: "Integra intervención personal y contextual."
   },
   {
     id: "M-041-D",
     eje: "Metodología",
     sourceId: 41,
     kind: "direct",
-    prompt: "Vínculo profesional basado en el respeto, la confidencialidad, la autenticidad y la orientación hacia la autonomía del usuario.",
-    answer: "Relación de ayuda profesional.",
-    note: "No es amistad ni horizontalidad despreocupada."
-  },
-  {
-    id: "M-041-I",
-    eje: "Metodología",
-    sourceId: 41,
-    kind: "inverse",
-    prompt: "Interacción profesional con límites claros, roles definidos y finalidad de empoderamiento.",
-    answer: "Relación de ayuda profesional.",
-    note: "Exige el manejo de límites y transferencias."
-  },
-  {
-    id: "M-041-A",
-    eje: "Metodología",
-    sourceId: 41,
-    kind: "cloze",
-    prompt: "Confundir este vínculo con una amistad elimina su carácter _____.",
-    answer: "profesional.",
-    note: "Alerta de examen: distinguirla de otras relaciones interpersonales."
+    prompt: "¿A qué se refiere Mary Richmond con la acción directa (mind on mind) en el tratamiento?",
+    answer: "A la relación persona a persona y su influjo psicológico para modificar una personalidad concreta.",
+    note: "Es núcleo relacional del tratamiento individual."
   },
   {
     id: "M-042-D",
     eje: "Metodología",
     sourceId: 42,
     kind: "direct",
-    prompt: "Metodología que utiliza la interacción colectiva y el apoyo mutuo para procesos educativos, organizativos y transformadores.",
-    answer: "Trabajo Social grupal.",
-    note: "El grupo tiene potencia propia; no es la suma de individuos."
-  },
-  {
-    id: "M-042-I",
-    eje: "Metodología",
-    sourceId: 42,
-    kind: "inverse",
-    prompt: "Uso del grupo como espacio de aprendizaje, identificación colectiva y movilización sobre problemas comunes.",
-    answer: "Trabajo Social grupal.",
-    note: "Permite procesos que exceden la intervención individual."
-  },
-  {
-    id: "M-042-A",
-    eje: "Metodología",
-    sourceId: 42,
-    kind: "cloze",
-    prompt: "Reducir el grupo a personas aisladas impide comprender su dinámica _____.",
-    answer: "colectiva.",
-    note: "Alerta de examen: reconocer el potencial específico del trabajo grupal."
+    prompt: "¿Qué grupo social considera Mary Richmond como básico durante diagnóstico y tratamiento?",
+    answer: "La familia.",
+    note: "Implica involucrar miembros y reconocer posibilidades de la dinámica familiar."
   },
   {
     id: "M-043-D",
     eje: "Metodología",
     sourceId: 43,
     kind: "direct",
-    prompt: "Técnicas que aprovechan la interacción grupal para generar confianza, aprendizaje y reflexión compartida.",
-    answer: "Dinámicas de grupo como herramienta metodológica.",
-    note: "Incluyen juegos, dramatizaciones, colaboración y análisis colectivo."
-  },
-  {
-    id: "M-043-I",
-    eje: "Metodología",
-    sourceId: 43,
-    kind: "inverse",
-    prompt: "Uso intencional de actividades grupales para profundizar aprendizajes y fortalecer vínculos.",
-    answer: "Dinámicas de grupo como herramienta metodológica.",
-    note: "La técnica siempre debe estar subordinada al objetivo."
-  },
-  {
-    id: "M-043-A",
-    eje: "Metodología",
-    sourceId: 43,
-    kind: "cloze",
-    prompt: "Una dinámica vale metodológicamente cuando tiene _____, no solo entretenimiento.",
-    answer: "intencionalidad.",
-    note: "Alerta de examen: evaluar logros educativos y no solo animación."
+    prompt: "¿Cuáles son las tres fases sucesivas del método de Mary Richmond que siguen vigentes?",
+    answer: "Estudio del caso, diagnóstico y tratamiento.",
+    note: "Secuencia clásica del método de caso."
   },
   {
     id: "M-044-D",
     eje: "Metodología",
     sourceId: 44,
     kind: "direct",
-    prompt: "Intervención a nivel colectivo que promueve la organización, la participación y la movilización de recursos para transformar contextos.",
-    answer: "Trabajo Social comunitario.",
-    note: "La comunidad es un sujeto colectivo, no una receptora pasiva."
-  },
-  {
-    id: "M-044-I",
-    eje: "Metodología",
-    sourceId: 44,
-    kind: "inverse",
-    prompt: "Método que fortalece la organización y el protagonismo de la comunidad para transformar su propio entorno.",
-    answer: "Trabajo Social comunitario.",
-    note: "Se opone al asistencialismo."
-  },
-  {
-    id: "M-044-A",
-    eje: "Metodología",
-    sourceId: 44,
-    kind: "cloze",
-    prompt: "El principio central aquí es reemplazar la pasividad comunitaria por _____.",
-    answer: "protagonismo.",
-    note: "Alerta de examen: promover participación y organización genuinas."
+    prompt: "¿Cómo operaba metodológicamente el trabajador social bajo la Concepción Paramédica?",
+    answer: "Como auxiliar técnico (visitadora social), sin función profesional autónoma.",
+    note: "Su tarea principal era vigilar el cumplimiento del tratamiento médico."
   },
   {
     id: "M-045-D",
     eje: "Metodología",
     sourceId: 45,
     kind: "direct",
-    prompt: "Enfoque pedagógico dialógico que convierte a la educación en conciencia crítica y acción transformadora.",
-    answer: "Educación popular como metodología.",
-    note: "Rechaza la transmisión vertical de saberes."
-  },
-  {
-    id: "M-045-I",
-    eje: "Metodología",
-    sourceId: 45,
-    kind: "inverse",
-    prompt: "Método que problematiza la realidad, reconoce saberes previos y construye el aprendizaje en diálogo.",
-    answer: "Educación popular como metodología.",
-    note: "Los participantes son sujetos activos de transformación."
-  },
-  {
-    id: "M-045-A",
-    eje: "Metodología",
-    sourceId: 45,
-    kind: "cloze",
-    prompt: "Cuando el conocimiento baja verticalmente desde un experto, se niega la lógica _____.",
-    answer: "dialógica.",
-    note: "Alerta de examen: evitar manipulación disfrazada de participación."
+    prompt: "En la Concepción Aséptico-Tecnocrática, ¿qué crítica se hace al uso de la metodología?",
+    answer: "Que se volvió un hacer aséptico y descomprometido, copiando métodos externos sin adecuación local.",
+    note: "Buscaba ajustar individuos sin alterar el equilibrio social."
   },
   {
     id: "M-046-D",
     eje: "Metodología",
     sourceId: 46,
     kind: "direct",
-    prompt: "Involucramiento con poder real de decisión en los procesos que afectan a las personas y comunidades.",
-    answer: "Participación social como metodología.",
-    note: "No equivale a una consulta decorativa."
-  },
-  {
-    id: "M-046-I",
-    eje: "Metodología",
-    sourceId: 46,
-    kind: "inverse",
-    prompt: "Método que redistribuye poder, abre información y permite una influencia efectiva de la población en la intervención.",
-    answer: "Participación social como metodología.",
-    note: "Exige respeto genuino a los saberes comunitarios."
-  },
-  {
-    id: "M-046-A",
-    eje: "Metodología",
-    sourceId: 46,
-    kind: "cloze",
-    prompt: "Cuando se escucha pero no se cede poder, la participación se vuelve _____.",
-    answer: "superficial.",
-    note: "Alerta de examen: criticar el participacionismo vacío."
+    prompt: "Metodológicamente, ¿cómo concibe al Trabajo Social el Movimiento de Reconceptualización?",
+    answer: "Como praxis dialéctica donde teoría y práctica se retroalimentan.",
+    note: "Su horizonte declarado fue la liberación humana."
   },
   {
     id: "M-047-D",
     eje: "Metodología",
     sourceId: 47,
     kind: "direct",
-    prompt: "Proceso por el cual personas y comunidades amplían el control sobre su vida, el acceso a recursos y su capacidad de decisión.",
-    answer: "Empoderamiento como proceso metodológico.",
-    note: "No se entrega desde arriba; se construye."
-  },
-  {
-    id: "M-047-I",
-    eje: "Metodología",
-    sourceId: 47,
-    kind: "inverse",
-    prompt: "Construcción reflexiva, organizacional y política de mayor autonomía, poder y protagonismo.",
-    answer: "Empoderamiento como proceso metodológico.",
-    note: "Debe producir cambios reales en la capacidad de decidir."
-  },
-  {
-    id: "M-047-A",
-    eje: "Metodología",
-    sourceId: 47,
-    kind: "cloze",
-    prompt: "Si no cambia la capacidad real de decidir, el llamado empoderamiento se queda en pura _____.",
-    answer: "retórica.",
-    note: "Alerta de examen: evaluar si hubo cambios efectivos en poder y autonomía."
+    prompt: "¿Qué necesidad de revisión planteó la Reconceptualización respecto al marco de referencia?",
+    answer: "Revisión crítica de bases científicas y formulación de metodología propia latinoamericana.",
+    note: "Cuestionó marcos referenciales importados de realidades distintas."
   },
   {
     id: "M-048-D",
     eje: "Metodología",
     sourceId: 48,
     kind: "direct",
-    prompt: "Coordinación sostenida entre instituciones y sectores para abordar problemas de forma integral y no fragmentada.",
-    answer: "Trabajo en red e intersectorialidad.",
-    note: "Requiere aliados, roles claros y comunicación constante."
-  },
-  {
-    id: "M-048-I",
-    eje: "Metodología",
-    sourceId: 48,
-    kind: "inverse",
-    prompt: "Articulación entre salud, educación, vivienda, empleo y otros campos sin perder la autonomía institucional.",
-    answer: "Trabajo en red e intersectorialidad.",
-    note: "Su objetivo es el abordaje integral."
-  },
-  {
-    id: "M-048-A",
-    eje: "Metodología",
-    sourceId: 48,
-    kind: "cloze",
-    prompt: "El problema que esta metodología busca evitar es la _____ de las respuestas sociales.",
-    answer: "fragmentación.",
-    note: "Alerta de examen: evaluar la calidad real de la coordinación."
+    prompt: "¿Cuáles fueron los tres enfoques teóricos consolidados como nuevas contribuciones metodológicas durante la Reconceptualización?",
+    answer: "Método Básico, Método Único y Método Integrado.",
+    note: "Constituyen aportes centrales del periodo."
   },
   {
     id: "M-049-D",
     eje: "Metodología",
     sourceId: 49,
     kind: "direct",
-    prompt: "Intervención de una tercera parte que facilita la comunicación y la construcción de acuerdos entre actores enfrentados.",
-    answer: "Mediación y resolución de conflictos.",
-    note: "Busca soluciones mutuamente satisfactorias, no imponerse."
-  },
-  {
-    id: "M-049-I",
-    eje: "Metodología",
-    sourceId: 49,
-    kind: "inverse",
-    prompt: "Método para canalizar conflictos con neutralidad vigilante, empatía hacia ambas partes y creatividad en las opciones.",
-    answer: "Mediación y resolución de conflictos.",
-    note: "Difiere de la imposición autoritaria de una salida."
-  },
-  {
-    id: "M-049-A",
-    eje: "Metodología",
-    sourceId: 49,
-    kind: "cloze",
-    prompt: "Cuando el tercero decide por las partes, deja de mediar y empieza a _____.",
-    answer: "imponer.",
-    note: "Alerta de examen: distinguir mediación de imposición de soluciones."
+    prompt: "¿Cuál fue uno de los principales saldos positivos de la Reconceptualización en materia de intervención?",
+    answer: "Incorporación de nuevas estrategias metodológicas sustentadas en marcos teóricos propios de Latinoamérica.",
+    note: "Aumentó pertinencia contextual de la intervención."
   },
   {
     id: "M-050-D",
     eje: "Metodología",
     sourceId: 50,
     kind: "direct",
-    prompt: "Marco que entiende la fragilidad y la exposición al daño como resultados de exclusión, dinámicas económicas y falta de protección social.",
-    answer: "Vulnerabilidad y riesgo social.",
-    note: "No son meros atributos individuales."
+    prompt: "¿Qué exigencia planteó Thomas Chalmers sobre la recolección de datos, anticipando el Trabajo Social de casos?",
+    answer: "Obtener información debida de cada caso como paso previo para su mejor resolución.",
+    note: "Se opuso a una caridad indiscriminada, intuitiva y desorganizada."
   },
-  {
-    id: "M-050-I",
-    eje: "Metodología",
-    sourceId: 50,
-    kind: "inverse",
-    prompt: "Conceptualización que une la probabilidad de daño con la debilidad de capacidades para afrontarlo en contextos estructuralmente desiguales.",
-    answer: "Vulnerabilidad y riesgo social.",
-    note: "Relaciona la exposición con las protecciones disponibles."
-  },
-  {
-    id: "M-050-A",
-    eje: "Metodología",
-    sourceId: 50,
-    kind: "cloze",
-    prompt: "El error que debe evitarse es explicar la vulnerabilidad como una falla _____ del sujeto.",
-    answer: "individual.",
-    note: "Alerta de examen: conectar vulnerabilidad con determinantes macrosociales."
-  },
-  {
-    id: "M-051-D",
-    eje: "Metodología",
-    sourceId: 51,
-    kind: "direct",
-    prompt: "Intervención breve y rápida orientada a la contención, estabilización inmediata y activación de recursos ante una ruptura aguda.",
-    answer: "Abordaje de situaciones de crisis.",
-    note: "No resuelve todo el problema de fondo; abre paso a la recuperación posterior."
-  },
-  {
-    id: "M-051-I",
-    eje: "Metodología",
-    sourceId: 51,
-    kind: "inverse",
-    prompt: "Respuesta metodológica que alivia el sufrimiento agudo, restaura la funcionalidad básica y prepara una recuperación posterior.",
-    answer: "Abordaje de situaciones de crisis.",
-    note: "Su temporalidad es inmediata."
-  },
-  {
-    id: "M-051-A",
-    eje: "Metodología",
-    sourceId: 51,
-    kind: "cloze",
-    prompt: "La diferencia con una terapia de fondo radica en que aquí prima la _____ inmediata.",
-    answer: "estabilización.",
-    note: "Alerta de examen: diferenciar intervención en crisis de otros procesos largos."
-  },
-  {
-    id: "M-052-D",
-    eje: "Metodología",
-    sourceId: 52,
-    kind: "direct",
-    prompt: "Intervención psicosocial que reconoce el daño, cuida la seguridad emocional y evita reactivar violentamente la herida.",
-    answer: "Abordaje del trauma social.",
-    note: "Integra recuperación, recursos comunitarios y búsqueda de justicia."
-  },
-  {
-    id: "M-052-I",
-    eje: "Metodología",
-    sourceId: 52,
-    kind: "inverse",
-    prompt: "Método que combina el reconocimiento del daño, la prevención de la retraumatización y la movilización de apoyo social ante la violencia.",
-    answer: "Abordaje del trauma social.",
-    note: "La justicia puede ser parte del proceso reparador."
-  },
-  {
-    id: "M-052-A",
-    eje: "Metodología",
-    sourceId: 52,
-    kind: "cloze",
-    prompt: "Una práctica correcta aquí debe evitar, por encima de todo, la _____.",
-    answer: "retraumatización.",
-    note: "Alerta de examen: integrar la dimensión psicosocial con la de justicia."
-  },
-  {
-    id: "M-053-D",
-    eje: "Metodología",
-    sourceId: 53,
-    kind: "direct",
-    prompt: "Enfoque investigativo donde las comunidades participan como coinvestigadoras y el conocimiento se vincula con la transformación.",
-    answer: "Metodología participativa en investigación social.",
-    note: "Rompe con la figura del investigador neutral y aislado."
-  },
-  {
-    id: "M-053-I",
-    eje: "Metodología",
-    sourceId: 53,
-    kind: "inverse",
-    prompt: "Producción colectiva de conocimiento que reconoce los saberes comunitarios y convierte el investigar en acción transformadora.",
-    answer: "Metodología participativa en investigación social.",
-    note: "Busca rigor y emancipación a la vez."
-  },
-  {
-    id: "M-053-A",
-    eje: "Metodología",
-    sourceId: 53,
-    kind: "cloze",
-    prompt: "La tensión clave en este enfoque no es 'participación versus rigor', sino cómo sostener _____.",
-    answer: "ambos.",
-    note: "Alerta de examen: evaluar el balance entre transformación y calidad investigativa."
-  },
-  {
-    id: "M-054-D",
-    eje: "Metodología",
-    sourceId: 54,
-    kind: "direct",
-    prompt: "Uso de la fotografía, el mapeo, el cine y otras expresiones visuales para comprender y transformar realidades sociales.",
-    answer: "Métodos visuales en intervención social.",
-    note: "Amplían la expresión más allá del lenguaje escrito."
-  },
-  {
-    id: "M-054-I",
-    eje: "Metodología",
-    sourceId: 54,
-    kind: "inverse",
-    prompt: "Herramientas que capturan la complejidad y facilitan la conciencia mediante lenguajes visuales y sensorio-emotivos.",
-    answer: "Métodos visuales en intervención social.",
-    note: "Son útiles cuando la palabra no basta."
-  },
-  {
-    id: "M-054-A",
-    eje: "Metodología",
-    sourceId: 54,
-    kind: "cloze",
-    prompt: "La fortaleza distintiva aquí consiste en valorar formas de expresión _____.",
-    answer: "no verbales.",
-    note: "Alerta de examen: integrar metodologías creativas con fundamento."
-  },
-  {
-    id: "M-055-D",
-    eje: "Metodología",
-    sourceId: 55,
-    kind: "direct",
-    prompt: "Conjunto de principios que orienta toda intervención hacia el respeto, el consentimiento, la justicia y la responsabilidad profesional.",
-    answer: "Ética en la práctica metodológica.",
-    note: "Exige deliberación constante frente a dilemas complejos."
-  },
-  {
-    id: "M-055-I",
-    eje: "Metodología",
-    sourceId: 55,
-    kind: "inverse",
-    prompt: "Marco que combina confidencialidad, autonomía, transparencia y justicia distributiva en la acción profesional.",
-    answer: "Ética en la práctica metodológica.",
-    note: "No ofrece respuestas automáticas; pide juicio responsable."
-  },
-  {
-    id: "M-055-A",
-    eje: "Metodología",
-    sourceId: 55,
-    kind: "cloze",
-    prompt: "La ética profesional no elimina los dilemas; exige _____ sobre ellos.",
-    answer: "deliberación.",
-    note: "Alerta de examen: argumentar posiciones ante conflictos ético-metodológicos."
-  },
-  {
-    id: "M-056-D",
-    eje: "Metodología",
-    sourceId: 56,
-    kind: "direct",
-    prompt: "Proceso reflexivo de extraer teoría práctica a partir de lo vivido, preguntando qué ocurrió y por qué.",
-    answer: "Sistematización de aprendizajes.",
-    note: "Sirve para autoformación y mejora de prácticas."
-  },
-  {
-    id: "M-056-I",
-    eje: "Metodología",
-    sourceId: 56,
-    kind: "inverse",
-    prompt: "Conversión de experiencias en saber comunicable y útil para corregir, formar y enriquecer el acervo disciplinario.",
-    answer: "Sistematización de aprendizajes.",
-    note: "Es teoría desde la práctica."
-  },
-  {
-    id: "M-056-A",
-    eje: "Metodología",
-    sourceId: 56,
-    kind: "cloze",
-    prompt: "El objetivo no es acumular recuerdos de la intervención, sino convertirlos en un _____ explícito.",
-    answer: "aprendizaje.",
-    note: "Alerta de examen: valorar la sistematización como autoformación continua."
-  },
-  {
-    id: "M-057-D",
-    eje: "Metodología",
-    sourceId: 57,
-    kind: "direct",
-    prompt: "Seguimiento permanente que recoge información, la compara con la línea base y permite corregir el curso de una acción.",
-    answer: "Monitoreo continuado de intervenciones.",
-    note: "Su valor reside en la detección temprana y el ajuste oportuno."
-  },
-  {
-    id: "M-057-I",
-    eje: "Metodología",
-    sourceId: 57,
-    kind: "inverse",
-    prompt: "Sistema de seguimiento con análisis frecuente y retroalimentación para mejorar iterativamente una intervención.",
-    answer: "Monitoreo continuado de intervenciones.",
-    note: "Debe ser funcional y no burocrático."
-  },
-  {
-    id: "M-057-A",
-    eje: "Metodología",
-    sourceId: 57,
-    kind: "cloze",
-    prompt: "Cuando el seguimiento solo produce papeles y no decisiones, el monitoreo cae en la _____.",
-    answer: "burocracia estéril.",
-    note: "Alerta de examen: diseñar sistemas que realmente orienten los ajustes."
-  },
-  {
-    id: "M-058-D",
-    eje: "Metodología",
-    sourceId: 58,
-    kind: "direct",
-    prompt: "Proceso de consolidar prácticas eficaces dentro de estructuras estables, presupuestos y políticas duraderas.",
-    answer: "Institucionalización de prácticas exitosas.",
-    note: "Busca la sostenibilidad más allá de iniciativas personales."
-  },
-  {
-    id: "M-058-I",
-    eje: "Metodología",
-    sourceId: 58,
-    kind: "inverse",
-    prompt: "Documentación, capacitación, adecuación institucional y financiamiento para sostener intervenciones que funcionaron.",
-    answer: "Institucionalización de prácticas exitosas.",
-    note: "Permite ampliar beneficios a mayor escala."
-  },
-  {
-    id: "M-058-A",
-    eje: "Metodología",
-    sourceId: 58,
-    kind: "cloze",
-    prompt: "El riesgo permanente al consolidar una práctica es su _____.",
-    answer: "burocratización.",
-    note: "Alerta de examen: evaluar la factibilidad de la institucionalización sin perder su sentido original."
-  },
-  {
-    id: "M-059-D",
-    eje: "Metodología",
-    sourceId: 59,
-    kind: "direct",
-    prompt: "Proceso colectivo de adaptar, comunicar y hacer útil el conocimiento nuevo dentro de contextos concretos de intervención.",
-    answer: "Transferencia de conocimiento en Trabajo Social.",
-    note: "No es una transmisión vertical ni una receta descontextualizada."
-  },
-  {
-    id: "M-059-I",
-    eje: "Metodología",
-    sourceId: 59,
-    kind: "inverse",
-    prompt: "Circulación del saber profesional mediante capacitación, documentación y redes de aprendizaje con adaptación local.",
-    answer: "Transferencia de conocimiento en Trabajo Social.",
-    note: "El conocimiento cambia cuando circula."
-  },
-  {
-    id: "M-059-A",
-    eje: "Metodología",
-    sourceId: 59,
-    kind: "cloze",
-    prompt: "El principal error aquí es convertir el conocimiento en una _____ sin contexto.",
-    answer: "receta.",
-    note: "Alerta de examen: promover la adaptación creativa y no la copia automática."
-  },
-  {
-    id: "M-060-D",
-    eje: "Metodología",
-    sourceId: 60,
-    kind: "direct",
-    prompt: "Valoración de una intervención construida con los beneficiarios como actores centrales del criterio, los datos y las decisiones.",
-    answer: "Evaluación participativa.",
-    note: "Desplaza la figura del experto solitario."
-  },
-  {
-    id: "M-060-I",
-    eje: "Metodología",
-    sourceId: 60,
-    kind: "inverse",
-    prompt: "Proceso evaluativo donde quienes viven la intervención participan en definir criterios, analizar hallazgos y reorientar acciones.",
-    answer: "Evaluación participativa.",
-    note: "Aporta perspectivas que ningún observador externo posee por sí solo."
-  },
-  {
-    id: "M-060-A",
-    eje: "Metodología",
-    sourceId: 60,
-    kind: "cloze",
-    prompt: "Si la población solo aparece para validar una decisión ya tomada, la participación es _____.",
-    answer: "tokenista.",
-    note: "Alerta de examen: evaluar la autenticidad de la participación."
-  },
-  {
-    id: "M-061-D",
-    eje: "Metodología",
-    sourceId: 61,
-    kind: "direct",
-    prompt: "Enfoque que estudia las experiencias vividas, los sentidos y las estructuras de la experiencia desde la perspectiva del sujeto.",
-    answer: "Métodos fenomenológicos en Trabajo Social.",
-    note: "Capturan dimensiones existenciales, simbólicas y emocionales."
-  },
-  {
-    id: "M-061-I",
-    eje: "Metodología",
-    sourceId: 61,
-    kind: "inverse",
-    prompt: "Método que privilegia el primer orden de la vivencia y busca comprender cómo se experimenta un fenómeno.",
-    answer: "Métodos fenomenológicos en Trabajo Social.",
-    note: "No reemplaza el contexto; lo articula con la experiencia."
-  },
-  {
-    id: "M-061-A",
-    eje: "Metodología",
-    sourceId: 61,
-    kind: "cloze",
-    prompt: "El error opuesto sería convertir la experiencia en un dato puramente _____.",
-    answer: "externo.",
-    note: "Alerta de examen: comprender la fenomenología con rigor y no como impresionismo."
-  },
-  {
-    id: "M-062-D",
-    eje: "Metodología",
-    sourceId: 62,
-    kind: "direct",
-    prompt: "Procedimientos para estudiar documentos, discursos y narrativas identificando patrones, significados y relaciones de poder.",
-    answer: "Métodos de análisis textual.",
-    note: "Incluyen análisis temático, narrativo, del discurso y hermenéutico."
-  },
-  {
-    id: "M-062-I",
-    eje: "Metodología",
-    sourceId: 62,
-    kind: "inverse",
-    prompt: "Estrategias que leen textos y relatos para decodificar sentidos implícitos y reconstruir realidades desde el lenguaje.",
-    answer: "Métodos de análisis textual.",
-    note: "Requieren rigor interpretativo."
-  },
-  {
-    id: "M-062-A",
-    eje: "Metodología",
-    sourceId: 62,
-    kind: "cloze",
-    prompt: "El riesgo de este enfoque es quedarse en una lectura _____ sin trabajo analítico.",
-    answer: "superficial.",
-    note: "Alerta de examen: sostener profundidad metodológica en la interpretación textual."
-  },
-  {
-    id: "M-063-D",
-    eje: "Metodología",
-    sourceId: 63,
-    kind: "direct",
-    prompt: "Aproximación que reconstruye trayectorias vitales para leer en ellas los procesos históricos y las estructuras sociales.",
-    answer: "Métodos de historias de vida.",
-    note: "Conectan la singularidad biográfica con la condición social."
-  },
-  {
-    id: "M-063-I",
-    eje: "Metodología",
-    sourceId: 63,
-    kind: "inverse",
-    prompt: "Uso de narrativas longitudinales y memoria reflexiva para entender cómo lo personal expresa lo histórico y lo político.",
-    answer: "Métodos de historias de vida.",
-    note: "No deben caer en el psicologismo."
-  },
-  {
-    id: "M-063-A",
-    eje: "Metodología",
-    sourceId: 63,
-    kind: "cloze",
-    prompt: "La consigna analítica clave aquí es unir lo singular con lo _____.",
-    answer: "estructural.",
-    note: "Alerta de examen: evitar leer una biografía como un hecho aislado."
-  },
-  {
-    id: "M-064-D",
-    eje: "Metodología",
-    sourceId: 64,
-    kind: "direct",
-    prompt: "Perspectiva que entiende las situaciones como resultado de interacciones recíprocas entre personas y múltiples contextos.",
-    answer: "Enfoque ecosistémico en intervención.",
-    note: "Rechaza la separación individuo-ambiente."
-  },
-  {
-    id: "M-064-I",
-    eje: "Metodología",
-    sourceId: 64,
-    kind: "inverse",
-    prompt: "Lectura multinivel de influencias recíprocas entre sujeto, familia, comunidad, instituciones y estructura.",
-    answer: "Enfoque ecosistémico en intervención.",
-    note: "Busca integración y efectividad."
-  },
-  {
-    id: "M-064-A",
-    eje: "Metodología",
-    sourceId: 64,
-    kind: "cloze",
-    prompt: "La clave teórica aquí es romper la dicotomía entre el individuo y su _____.",
-    answer: "ambiente.",
-    note: "Alerta de examen: evaluar siempre los múltiples niveles de influencia."
-  },
-  {
-    id: "M-065-D",
-    eje: "Metodología",
-    sourceId: 65,
-    kind: "direct",
-    prompt: "Práctica reflexiva mediante la cual el profesional revisa fortalezas, límites y errores para mejorar continuamente.",
-    answer: "Autoevaluación de prácticas profesionales.",
-    note: "Requiere honestidad, apertura y compromiso con el cambio."
-  },
-  {
-    id: "M-065-I",
-    eje: "Metodología",
-    sourceId: 65,
-    kind: "inverse",
-    prompt: "Herramienta de desarrollo profesional basada en la reflexión crítica sobre la propia acción.",
-    answer: "Autoevaluación de prácticas profesionales.",
-    note: "Debe fortalecer, no paralizar."
-  },
-  {
-    id: "M-065-A",
-    eje: "Metodología",
-    sourceId: 65,
-    kind: "cloze",
-    prompt: "El equilibrio correcto aquí evita tanto la complacencia como la _____.",
-    answer: "autoflagelación.",
-    note: "Alerta de examen: promover la reflexión crítica productiva."
-  },
+
   {
     id: "T-066-D",
     eje: "Teoría Social",
