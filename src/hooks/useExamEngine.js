@@ -14,6 +14,56 @@ const STORAGE_KEY = "exam:v2";
 const LEGACY_KEY = "exam:v1";
 const EXAM_SECONDS = 120 * 60;
 
+function migrateAxisScores(scores = {}) {
+  return {
+    Historia: scores.Historia ?? 0,
+    "Metodología": scores["Metodología"] ?? 0,
+    "Teoría Social": scores["Teoría Social"] ?? scores["Teoría"] ?? 0,
+    overall: scores.overall ?? 0
+  };
+}
+
+function normalizeAxisLabel(axis) {
+  return axis === "Teoría" ? "Teoría Social" : axis;
+}
+
+function migrateStoredState(parsed = {}) {
+  const erroresDetallados = parsed.erroresDetallados ?? {};
+  const progress = parsed.progress ?? {};
+
+  return {
+    ...parsed,
+    axis: normalizeAxisLabel(parsed.axis ?? "General"),
+    questions: Array.isArray(parsed.questions)
+      ? parsed.questions.map((question) => ({ ...question, eje: normalizeAxisLabel(question.eje) }))
+      : [],
+    erroresDetallados: {
+      items: Array.isArray(erroresDetallados.items)
+        ? erroresDetallados.items.map((item) => ({ ...item, eje: normalizeAxisLabel(item.eje) }))
+        : [],
+      byAxis: {
+        Historia: erroresDetallados.byAxis?.Historia ?? 0,
+        "Metodología": erroresDetallados.byAxis?.["Metodología"] ?? 0,
+        "Teoría Social": erroresDetallados.byAxis?.["Teoría Social"] ?? erroresDetallados.byAxis?.["Teoría"] ?? 0
+      },
+      generatedAt: erroresDetallados.generatedAt ?? null
+    },
+    progress: {
+      sessions: Array.isArray(progress.sessions)
+        ? progress.sessions.map((session) => ({
+            ...session,
+            axis: normalizeAxisLabel(session.axis),
+            axisScores: migrateAxisScores(session.axisScores)
+          }))
+        : [],
+      bestScores: migrateAxisScores(progress.bestScores),
+      totalSessions: progress.totalSessions ?? 0,
+      firstSessionDate: progress.firstSessionDate ?? null,
+      lastSessionDate: progress.lastSessionDate ?? null
+    }
+  };
+}
+
 const initialState = {
   sessionId: null,
   lastCompletedSessionId: null,
@@ -29,7 +79,7 @@ const initialState = {
     byAxis: {
       Historia: 0,
       "Metodología": 0,
-      "Teoría": 0
+      "Teoría Social": 0
     },
     generatedAt: null
   },
@@ -45,7 +95,7 @@ const initialState = {
     bestScores: {
       Historia: 0,
       "Metodología": 0,
-      "Teoría": 0,
+      "Teoría Social": 0,
       overall: 0
     },
     totalSessions: 0,
@@ -79,7 +129,8 @@ export function useExamEngine(allQuestions = []) {
 
     try {
       const parsed = JSON.parse(raw);
-      setState({ ...initialState, ...parsed, loadedFromStorage: true });
+      const migrated = migrateStoredState(parsed);
+      setState({ ...initialState, ...migrated, loadedFromStorage: true });
       if (migratedFromLegacy) {
         localStorage.removeItem(LEGACY_KEY);
       }
@@ -122,7 +173,7 @@ export function useExamEngine(allQuestions = []) {
     const updatedBestScores = {
       Historia: Math.max(prevBest.Historia ?? 0, baseStats.axisScores.Historia),
       "Metodología": Math.max(prevBest["Metodología"] ?? 0, baseStats.axisScores["Metodología"]),
-      "Teoría": Math.max(prevBest["Teoría"] ?? 0, baseStats.axisScores["Teoría"]),
+      "Teoría Social": Math.max(prevBest["Teoría Social"] ?? prevBest["Teoría"] ?? 0, baseStats.axisScores["Teoría Social"]),
       overall: Math.max(prevBest.overall ?? 0, baseStats.overall)
     };
 
@@ -191,7 +242,7 @@ export function useExamEngine(allQuestions = []) {
           byAxis: {
             Historia: 0,
             "Metodología": 0,
-            "Teoría": 0
+            "Teoría Social": 0
           },
           generatedAt: null
         },
@@ -327,7 +378,7 @@ export function useExamEngine(allQuestions = []) {
     const axisScores = stats?.axisScores || {
       Historia: 0,
       "Metodología": 0,
-      "Teoría": 0
+      "Teoría Social": 0
     };
 
     const guideText = buildStudyGuideText(state.erroresDetallados, axisScores);

@@ -102,7 +102,7 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
 
   const handleShare = () => {
     const { overall, axisScores } = stats;
-    const text = `Obtuve ${overall}% en el Simulacro UNAM Trabajo Social 🎓\nHistoria: ${axisScores.Historia}% · Metodología: ${axisScores["Metodología"]}% · Teoría Social: ${axisScores["Teoría"]}%`;
+    const text = `Obtuve ${overall}% en el Simulacro UNAM Trabajo Social 🎓\nHistoria: ${axisScores.Historia}% · Metodología: ${axisScores["Metodología"]}% · Teoría Social: ${axisScores["Teoría Social"]}%`;
     if (window.navigator.share) {
       window.navigator.share({ title: "Mi resultado UNAM-TS", text }).catch(() => {});
     } else {
@@ -217,7 +217,7 @@ export default function Dashboard({ stats, onRestart, onRetryErrors, onDownloadG
           <div>
             <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-brand-700">Mejores puntajes por eje</p>
             <div className="grid gap-2 sm:grid-cols-3">
-              {["Historia", "Metodología", "Teoría"].map((axis) => (
+              {["Historia", "Metodología", "Teoría Social"].map((axis) => (
                 <div key={axis} className="rounded-lg bg-white p-2 ring-1 ring-brand-100 text-center">
                   <p className="text-xs text-slate-600">{axis}</p>
                   <p className="text-lg font-bold text-brand-800">{stats.progress.bestScores[axis]}%</p>

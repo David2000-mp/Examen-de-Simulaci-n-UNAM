@@ -1,4 +1,8 @@
-const AXES = ["Historia", "Metodología", "Teoría"];
+const AXES = ["Historia", "Metodología", "Teoría Social"];
+
+function normalizeAxis(axis) {
+  return axis === "Teoría" ? "Teoría Social" : axis;
+}
 
 function normalizeQuestion(raw, index) {
   const lectura = raw.lectura_origen || raw.lectura_origien || "Lectura no especificada";
@@ -25,7 +29,7 @@ function normalizeQuestion(raw, index) {
       ...raw,
       lectura_origen: lectura,
       respuesta_correcta: respuesta,
-      eje: AXES.includes(raw.eje) ? raw.eje : "Teoría"
+      eje: AXES.includes(normalizeAxis(raw.eje)) ? normalizeAxis(raw.eje) : "Teoría Social"
     }
   };
 }
@@ -60,7 +64,8 @@ export function filterByAxis(questions, axis) {
   if (!axis || axis === "General") {
     return questions;
   }
-  return questions.filter((q) => q.eje === axis);
+  const normalizedAxis = normalizeAxis(axis);
+  return questions.filter((q) => normalizeAxis(q.eje) === normalizedAxis);
 }
 
 export function shuffleQuestions(list) {
@@ -76,7 +81,7 @@ export function computeStats(questions, answers) {
   const totals = {
     Historia: { total: 0, aciertos: 0 },
     Metodología: { total: 0, aciertos: 0 },
-    Teoría: { total: 0, aciertos: 0 }
+    "Teoría Social": { total: 0, aciertos: 0 }
   };
 
   const errors = [];
@@ -84,11 +89,12 @@ export function computeStats(questions, answers) {
   questions.forEach((q) => {
     const userAnswer = answers[q.id];
     const hit = userAnswer === q.respuesta_correcta;
-    totals[q.eje].total += 1;
+    const axis = normalizeAxis(q.eje);
+    totals[axis].total += 1;
     if (hit) {
-      totals[q.eje].aciertos += 1;
+      totals[axis].aciertos += 1;
     } else {
-      errors.push(q);
+      errors.push({ ...q, eje: axis });
     }
   });
 
@@ -111,7 +117,7 @@ export function buildDetailedErrors(questions, answers) {
   const byAxis = {
     Historia: 0,
     Metodología: 0,
-    Teoría: 0
+    "Teoría Social": 0
   };
 
   questions.forEach((q) => {
@@ -126,7 +132,8 @@ export function buildDetailedErrors(questions, answers) {
     const safeUserIndex = Number.isInteger(userIndex) ? userIndex : null;
     const safeCorrectIndex = Number.isInteger(correctIndex) ? correctIndex : null;
 
-    byAxis[q.eje] = (byAxis[q.eje] || 0) + 1;
+    const axis = normalizeAxis(q.eje);
+    byAxis[axis] = (byAxis[axis] || 0) + 1;
 
     items.push({
       questionId: q.id,
@@ -140,7 +147,7 @@ export function buildDetailedErrors(questions, answers) {
         texto: safeCorrectIndex === null ? "No disponible" : q.opciones[safeCorrectIndex]
       },
       justificacion_autor: q.justificacion || "Sin justificación disponible.",
-      eje: q.eje,
+      eje: axis,
       tema: q.tema,
       lectura_origen: q.lectura_origen || "Lectura no especificada"
     });
@@ -165,7 +172,7 @@ export function buildTrainingSubset(allQuestions, detailedErrors) {
 export function buildStudyGuideText(detailedErrors, axisScores = {}) {
   const safeErrors = Array.isArray(detailedErrors?.items) ? detailedErrors.items : [];
 
-  const axes = ["Historia", "Metodología", "Teoría"];
+  const axes = AXES;
   const sections = axes
     .map((axis) => {
       const score = axisScores[axis] ?? 0;

@@ -68,7 +68,7 @@ export default function Home() {
               Mejor global:{" "}
               <strong className="text-emerald-700">{engine.progress.bestScores.overall}%</strong>
             </span>
-            {["Historia", "Metodología", "Teoría"].map((axis) => (
+            {["Historia", "Metodología", "Teoría Social"].map((axis) => (
               <span key={axis}>
                 {axis}:{" "}
                 <strong className="text-brand-800">{engine.progress.bestScores[axis]}%</strong>

@@ -3,7 +3,7 @@ import flashcardsActiveRecall from "../data/flashcardsActiveRecall";
 import flashcardsPersonalizadas from "../data/flashcardsPersonalizadas";
 import guiaData from "../data/guia.json";
 
-const AXES = ["Todos", "Historia", "Metodología", "Teoría", "Teoría Social"];
+const AXES = ["Todos", "Historia", "Metodología", "Teoría Social"];
 const ACTIVE_RECALL_STORAGE_KEY = "flashcards:active-recall:mastered:v1";
 const PERSONALIZADAS_STORAGE_KEY = "flashcards:personalizadas:mastered:v1";
 const COMBINED_TEAM_STORAGE_KEY = "flashcards:team-study:mastered:v1";
@@ -51,7 +51,7 @@ export default function Flashcards() {
     const base = axisFilter === "Todos"
       ? baseRows
       : baseRows.filter(({ concept }) => {
-          if (axisFilter === "Teoría" || axisFilter === "Teoría Social") {
+          if (axisFilter === "Teoría Social") {
             return concept.eje === "Teoría" || concept.eje === "Teoría Social";
           }
           return concept.eje === axisFilter;
